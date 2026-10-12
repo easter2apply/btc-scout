@@ -402,6 +402,8 @@ def evaluate(m, fair, category, label, note, alt_fairs=None, books=None):
             "volume": volume(m),
             "note": note, "tp": tp, "sl": sl,
             "robust_edge": robust_edge, "books": books, "spread": spread, "event": m.get("event_ticker"),
+            "stype": (m.get("strike_type") or "").lower(), "lo": m.get("floor_strike"), "hi": m.get("cap_strike"),
+            "row": m.get("yes_sub_title") or m.get("subtitle") or "",
         })
     return rows
 
@@ -689,17 +691,56 @@ def vote_lines(votes):
     return "\n".join(f"{icon[ok]} {name}: {why}" for name, (ok, why) in votes.items())
 
 
+def _money(x):
+    return f"${x:,.0f}" if abs(x - round(x)) < 0.005 else f"${x:,.2f}"
+
+
+def _when(ts):
+    t = dt.datetime.fromtimestamp(ts, LOCAL_TZ)
+    today = dt.datetime.now(LOCAL_TZ).date()
+    day = "today" if t.date() == today else "tomorrow" if (t.date() - today).days == 1 else t.strftime("%a %b %-d")
+    return f"{t.strftime('%-I:%M %p')} ET {day}"
+
+
+def plain_bet(x, close_ts=None):
+    """'Bitcoin is ABOVE $63,000 at 8:00 PM ET today': what the trade is actually betting on."""
+    st_, lo, hi, side = x.get("stype", ""), x.get("lo"), x.get("hi"), x.get("side")
+    lo = round(lo) if lo is not None else None                 # 62999.99 → $63,000
+    hi = round(hi) if hi is not None else None
+    at = f" at {_when(close_ts)}" if close_ts else ""
+    if st_.startswith("greater") and lo is not None:
+        return (f"Bitcoin is ABOVE {_money(lo)}{at}" if side == "YES" else f"Bitcoin is UNDER {_money(lo)}{at}")
+    if st_.startswith("less") and hi is not None:
+        return (f"Bitcoin is UNDER {_money(hi)}{at}" if side == "YES" else f"Bitcoin is ABOVE {_money(hi)}{at}")
+    if st_ == "between" and lo is not None and hi is not None:
+        rng = f"{_money(lo)} and {_money(hi)}"
+        return (f"Bitcoin is BETWEEN {rng}{at}" if side == "YES" else f"Bitcoin is NOT between {rng}{at}")
+    return f"{side} on {x.get('label', '')}"
+
+
 def buy_message(r, votes):
     yes, no = tally(votes)
-    return (f"🟢 BUY {r['side']}\n{r['label']}\n\n"
-            f"Price: {c(r['ask'])}  ·  Fair: {c(r['fair'])}  ·  Edge: {c(r['edge'])}\n"
-            f"Size: {r['contracts']} contracts (~${r['stake']:.2f})\n"
-            f"🎯 Take profit: sell at {c(r['tp'])} or higher\n"
-            f"🛑 Stop loss: sell at {c(r['sl'])} or lower\n"
-            f"Closes in {fmt_hours(r['hours'])}\n\n"
-            f"👉 On Kalshi: find \"{r['label'].split(' — ')[-1]}\", tap {r['side'].title()}, choose a limit order at "
-            f"{round(r['ask'] * 100)}¢ or less, quantity {r['contracts']}. Skip it if the price is already above {round(r['ask'] * 100) + 2}¢.\n\n"
-            f"Council: {yes}–{no} YES\n{vote_lines(votes)}\n\n{r['url']}")
+    close_ts = time.time() + (r.get("hours") or 0) * 3600
+    qty = max(1, r["contracts"])
+    cost = qty * (r["ask"] + r["fee"])
+    payout = qty * 1.0
+    row = r.get("row") or r["label"].split(" — ")[-1]
+    reasons = [why for ok, why in votes.values() if ok][:2]
+    return (f"🟢 NEW TRADE\n\n"
+            f"THE BET: {plain_bet(r, close_ts)}\n"
+            f"(On Kalshi this is {r['side']} on \"{row}\")\n\n"
+            f"WHAT TO DO\n"
+            f"1. Tap the link at the bottom\n"
+            f"2. Find the row \"{row}\"\n"
+            f"3. Tap {r['side'].upper()}\n"
+            f"4. Choose Limit order · price {round(r['ask'] * 100)}¢ · quantity {qty}\n"
+            f"5. Submit (costs about {_money(cost)})\n\n"
+            f"✅ If right: you get {_money(payout)} back (+{_money(payout - cost)})\n"
+            f"❌ If wrong: you lose {_money(cost)}\n"
+            f"📊 Bot says {round(r['fair'] * 100)}% likely · Kalshi says {round(r['ask'] * 100)}%\n\n"
+            f"⏳ Skip it if the price is already above {round(r['ask'] * 100) + 2}¢.\n"
+            f"📲 I'll text you if it's time to sell early. Otherwise just let it ride.\n\n"
+            f"Council voted {yes}–{no}" + (f": {'; '.join(reasons)}" if reasons else "") + f"\n{r['url']}")
 
 
 def score(st, sig, won):
@@ -737,6 +778,36 @@ def score(st, sig, won):
     return note
 
 
+def sell_message(sig, bid, profit):
+    qty = sig.get("contracts") or 1
+    per = bid - sig["entry"]
+    head = "🔴 SELL NOW: take your profit 🎯" if profit else "🔴 SELL NOW: cut the loss 🛑"
+    why = ("The price hit the target, so lock in the win now." if profit else
+           "The bet is going the wrong way. Selling now keeps a small loss from becoming a big one.")
+    return (f"{head}\n\n"
+            f"Your bet: {sig.get('bet') or sig['label']}\n{why}\n\n"
+            f"WHAT TO DO\n"
+            f"1. Open Kalshi → Portfolio\n"
+            f"2. Tap your {sig['side']} on \"{sig.get('row') or sig['label']}\"\n"
+            f"3. Tap Sell → Limit order · price {round(bid * 100)}¢ · all {qty} contracts\n"
+            f"4. Submit\n\n"
+            f"Result: {'+' if per >= 0 else '−'}{abs(round(per * 100))}¢ each ≈ {'+' if per >= 0 else '−'}{_money(abs(per) * qty)}\n\n"
+            f"Didn't buy this one? Ignore this message.\n{sig['url']}")
+
+
+def settled_message(sig, won):
+    qty = sig.get("contracts") or 1
+    bet = sig.get("bet") or sig["label"]
+    if sig.get("exit_px") is not None:
+        return (f"⚪ FINAL RESULT\n\nBet: {bet}\nIt {'came true' if won else 'did not come true'}, "
+                f"but you were told to sell earlier at {c(sig['exit_px'])}. Nothing more to do.")
+    if won:
+        return (f"⚪ FINAL RESULT: ✅ WON\n\nBet: {bet}\nIt came true. If you held it, Kalshi pays $1 per contract "
+                f"automatically (≈ +{_money((1 - sig['entry'] - sig.get('fee', 0)) * qty)} profit). Nothing to do.")
+    return (f"⚪ FINAL RESULT: ❌ LOST\n\nBet: {bet}\nIt didn't come true, so the contracts expired at $0 "
+            f"(≈ −{_money((sig['entry'] + sig.get('fee', 0)) * qty)}). Nothing to do. Losses happen; the paper P&L shows the big picture.")
+
+
 def manage_signals(results, log, st=None):
     """Council votes on candidates, tracks BUY signals, sends SELL/close alerts, keeps the scoreboard."""
     st = st if st is not None else load_state()
@@ -759,9 +830,7 @@ def manage_signals(results, log, st=None):
             if note:
                 msgs.append(note)
             if not sig.get("shadow"):
-                tag = "✅ WON" if won else "❌ LOST"
-                msgs.append(f"⚪ SETTLED: {sig['side']} — {sig['label']}\n{tag}. Entry was {c(sig['entry'])}."
-                            + (" (You were told to sell earlier.)" if sig.get("exit_px") is not None else ""))
+                msgs.append(settled_message(sig, won))
             st["recent"][sig["key"]] = now
             return False
         if now - sig["opened"] > 10 * 86400:
@@ -774,14 +843,11 @@ def manage_signals(results, log, st=None):
         if bid is not None and bid >= sig["tp"]:
             sig["exit_px"] = bid; sig["exit_t"] = now; sig["exit_reason"] = "take profit"
             day_stats(st)["tp"] += 1
-            msgs.append(f"🔴 SELL {sig['side']} — TAKE PROFIT\n{sig['label']}\n\n"
-                        f"Sell price now: {c(bid)} (entry {c(sig['entry'])}) → +{round((bid - sig['entry']) * 100)}¢ per contract\n{sig['url']}")
+            msgs.append(sell_message(sig, bid, True))
         elif bid is not None and bid <= sig["sl"]:
             sig["exit_px"] = bid; sig["exit_t"] = now; sig["exit_reason"] = "stop loss"
             day_stats(st)["sl"] += 1
-            msgs.append(f"🔴 SELL {sig['side']} — STOP LOSS\n{sig['label']}\n\n"
-                        f"Sell price now: {c(bid)} (entry {c(sig['entry'])}) → {round((bid - sig['entry']) * 100)}¢ per contract\n"
-                        f"Cutting it here limits the loss.\n{sig['url']}")
+            msgs.append(sell_message(sig, bid, False))
         return True
 
     st["open"] = [s for s in st["open"] if follow(s)]
@@ -819,7 +885,8 @@ def manage_signals(results, log, st=None):
                "fair": r["fair"], "contracts": r["contracts"], "opened": now, "last_bid": None,
                "cat": r["category"], "event": r.get("event"), "votes": {n: ok for n, (ok, _) in votes.items()},
                "edge": r["edge"], "stake": r["stake"], "fee": r["fee"], "close_ts": now + (r.get("hours") or 0) * 3600,
-               "reasons": [why for ok, why in votes.values() if ok][:3]}
+               "reasons": [why for ok, why in votes.values() if ok][:3],
+               "bet": plain_bet(r, now + (r.get("hours") or 0) * 3600), "row": r.get("row") or r["label"].split(" — ")[-1]}
         if r["approved"]:
             if new >= min(MAX_NEW_SIGNALS, slots):
                 continue                        # only the best 4 at a time
@@ -858,15 +925,18 @@ def manage_signals(results, log, st=None):
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     if token and not st.get("welcomed"):
         if telegram_chat_id(token, st):
-            msgs.insert(0, "✅ Bitcoin Scout is connected.\n\nI only watch Kalshi's Bitcoin markets. You'll get a 🟢 BUY alert when a trade clears your edge, "
-                           "a 🔴 SELL alert when it hits take profit or stop loss, and a ⚪ note when the market closes.\n\n"
-                           "Every alert is also tracked as a paper trade, so the dashboard shows whether following them would have made money. Try it on paper for a couple of weeks before using real money.\n\nNo messages = no edges right now. Scans run every 5 minutes.")
+            msgs.insert(0, "✅ Bitcoin Scout is connected.\n\nI only watch Kalshi's Bitcoin markets. What my texts mean:\n"
+                           "🟢 NEW TRADE = a bet worth placing (step-by-step included)\n"
+                           "🔴 SELL NOW = sell a bet you placed, before it closes\n"
+                           "⚪ FINAL RESULT = the market closed, nothing to do\n\n"
+                           "Every alert is also tracked as a paper trade, so the dashboard shows whether following them "
+                           "would have made money. Try it on paper for a couple of weeks before using real money.\n\n"
+                           "No messages = no good bets right now. Scans run every 5 minutes.")
             st["welcomed"] = True
     if token and not st.get("council_intro"):
-        msgs.insert(0, "🏛 The council is in session.\n\nEvery trade now gets 5 votes before you hear about it: "
-                       "The Quant (return), Risk (spread + volume), Momentum (price direction), Time (closing window) "
-                       f"and Doubt (does the edge survive a second opinion). A BUY needs {COUNCIL_MIN_YES}+ YES votes.\n\n"
-                       "Rejected trades are tracked quietly. The dashboard's \"Who called it?\" board shows which voters are actually right.")
+        msgs.insert(0, "🏛 How I pick trades: 5 judges look at every possible bet (is the payoff big enough, is the market busy enough, "
+                       "is Bitcoin moving the right way, is the timing right, and does the edge hold up if I'm a little wrong). "
+                       f"You only hear about a bet when {COUNCIL_MIN_YES} or more say yes.")
         st["council_intro"] = True
     if token and msgs:
         cid = telegram_chat_id(token, st)
@@ -1702,7 +1772,8 @@ def action_center(state, flagged_count, results=()):
         entry, tp, sl = g["entry"], g["tp"], g["sl"]
         bid = g.get("last_bid")
         closes = g.get("close_ts")
-        close_txt = f"Closes in {fmt_hours((closes - now) / 3600)}" if closes and closes > now else "Closing / settling"
+        close_txt = (f"Closes in <span class='cd' data-t='{int(closes)}'>{fmt_hours((closes - now) / 3600)}</span>"
+                     if closes and closes > now else "Closing / settling")
         why = g.get("reasons") or []
         edge = g.get("edge")
         if g.get("exit_px") is not None:
@@ -1770,7 +1841,7 @@ def action_center(state, flagged_count, results=()):
         cards.append(f"""<article class="act watch"><div class="ah"><span class="rank">#{shown + 1}</span><span class="badge watch">WATCHING</span>
           <b>{r['side']} on {html.escape(strike)} at {c(r['ask'])}</b></div><p class="mk">{html.escape(r['label'])}</p>
           <p class="big">Not a buy yet. {html.escape(why_not)}</p>
-          <p class="muted">Fair value {c(r['fair'])} · {r['category']} · {('closes in ' + fmt_hours(r['hours'])) if r.get('hours') else ''}</p>
+          <p class="muted">Fair value {c(r['fair'])} · {r['category']} · {("closes in <span class='cd' data-t='" + str(int(now + r['hours'] * 3600)) + "'>" + fmt_hours(r['hours']) + "</span>") if r.get('hours') else ''}</p>
           <a class="go" href="{html.escape(r['url'])}" target="_blank" rel="noopener">Look on Kalshi ↗</a></article>""")
         shown += 1
     summary = " · ".join(x for x in (f"🟢 {counts['buy']} to buy" if counts["buy"] else "",
@@ -1805,6 +1876,39 @@ def btc_strip(state):
       <b>${b['spot']:,.0f}</b><em class="{'up' if mv >= 0 else 'dn'}">{mv:+.2%} in {MOMENTUM_LOOKBACK_MIN} min</em></div></div>
       <div class="bs">{spark}</div>
       <div class="bv"><small>Volatility</small><b>{b['vol']:.0%}</b><em>6h {b.get('short') or 0:.0%} · 12d {b.get('long') or 0:.0%}</em></div></section>"""
+
+
+SCAN_EVERY_MIN = 5          # how often cron-job.org starts a scan
+SCAN_LAG_SEC = 75           # GitHub start-up + page deploy time before a new scan shows up
+
+
+def scan_timer():
+    now = time.time()
+    step = SCAN_EVERY_MIN * 60
+    nxt = (int(now // step) + 1) * step + SCAN_LAG_SEC
+    return f"""<section class="timer" id="timer" data-last="{int(now)}" data-next="{int(nxt)}" data-step="{step}">
+      <div><small>Next scan</small><b id="tNext">--:--</b></div>
+      <div class="tbar"><i id="tBar"></i></div>
+      <div class="tr"><small>Last scan</small><b id="tLast">just now</b></div></section>"""
+
+
+TIMER_JS = """<script>(function(){
+var T=document.getElementById('timer');if(!T)return;
+var last=+T.dataset.last,next=+T.dataset.next,step=+T.dataset.step,reloadAt=0;
+function mmss(s){s=Math.max(0,Math.round(s));var h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;
+ return (h?h+'h '+String(m).padStart(2,'0')+'m':m+':'+String(x).padStart(2,'0'));}
+function ago(s){s=Math.round(s);return s<60?'just now':s<3600?Math.floor(s/60)+' min ago':Math.floor(s/3600)+'h '+Math.floor(s%3600/60)+'m ago';}
+function tick(){var now=Date.now()/1000,left=next-now;
+ var n=document.getElementById('tNext'),b=document.getElementById('tBar'),l=document.getElementById('tLast');
+ l.textContent=ago(now-last);
+ if(now-last>3*step+120){T.classList.add('stale');l.textContent+=' · scans may be paused';}
+ if(left>0){n.textContent=mmss(left);b.style.width=Math.min(100,100*(1-left/step))+'%';}
+ else{n.textContent='scanning…';b.style.width='100%';
+  if(!reloadAt)reloadAt=now+40;
+  if(now>=reloadAt){reloadAt=now+60;location.replace(location.pathname+'?t='+Math.floor(now));}}
+ document.querySelectorAll('.cd').forEach(function(e){var s=+e.dataset.t-now;
+  e.textContent=s>0?(s<3600?mmss(s):Math.floor(s/3600)+'h '+String(Math.floor(s%3600/60)).padStart(2,'0')+'m'):'closed';});}
+tick();setInterval(tick,1000);})();</script>"""
 
 
 def build_html(results, log, refresh_min, state=None):
@@ -1943,6 +2047,14 @@ details {{ color:var(--muted) }} details li {{ margin:2px 0 }}
 .btc em {{ font-style:normal; font-size:12px; color:#e9c99a }} .btc em.up {{ color:#7fe0a8 }} .btc em.dn {{ color:#ff9c8e }}
 .btc .bs {{ min-width:0 }} .btc svg {{ width:100%; height:56px; display:block }} .btc .bs small {{ text-transform:none; letter-spacing:0 }}
 .btc .bv {{ text-align:right }}
+.timer {{ display:grid; grid-template-columns:auto 1fr auto; gap:14px; align-items:center; background:var(--panel);
+  border:1px solid var(--line); border-radius:12px; padding:10px 14px }}
+.timer small {{ display:block; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em }}
+.timer b {{ font:700 20px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace; font-variant-numeric:tabular-nums }}
+.timer .tr {{ text-align:right }} .timer .tr b {{ font:600 14px/1.4 ui-sans-serif,-apple-system,sans-serif }}
+.tbar {{ height:6px; border-radius:99px; background:var(--line); overflow:hidden }}
+.tbar i {{ display:block; height:100%; width:0; background:#f7931a; transition:width 1s linear }}
+.timer.stale {{ border-color:var(--no) }} .timer.stale .tr b {{ color:var(--no) }}
 @media (max-width:720px) {{ .btc {{ grid-template-columns:1fr auto }} .btc .bs {{ grid-column:1/-1; grid-row:2 }} }}
 details.more {{ background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:4px 12px; color:var(--fg) }}
 details.more > summary {{ cursor:pointer; padding:10px 0; font-weight:650; list-style-position:inside }}
@@ -2026,6 +2138,7 @@ table.board {{ min-width:0 }}
 </style></head><body><div class="wrap">
 <header><h1>Bitcoin Scout</h1><p>Scanned {now}{f" · refreshes every {refresh_min} min" if refresh_min else ""}</p></header>
 {btc_strip(state)}
+{scan_timer()}
 {action_center(state, len(flagged), results)}
 <div class="stats">
   <div class="stat"><span>Record</span><b>{rec['wins']}W–{rec['losses']}L</b></div>
@@ -2053,6 +2166,7 @@ The council: five rule-based voters check each candidate, and a BUY alert needs 
 Take profit = sell once the price reaches fair value. Stop loss = sell if the price drops 1.5× the edge below entry ({STOP_LOSS_MIN*100:.0f}–{STOP_LOSS_MAX*100:.0f}¢).
 Kalshi has no automatic stop orders here, so sell manually when alerted. Stake is {KELLY_FRACTION:g}× Kelly, capped at {MAX_BET_PCT:.0%} of bankroll. Check each market's rules on Kalshi before trading.
 This tool does not place orders and is not financial advice.</p>
+{TIMER_JS}
 <script>document.querySelectorAll('details.more').forEach(function(d){{d.addEventListener('toggle',function(){{window.dispatchEvent(new Event('resize'));}});}});</script>
 </div></body></html>"""
 
