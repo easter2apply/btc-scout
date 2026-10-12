@@ -1,16 +1,16 @@
 {
  "btc": {
-  "long": 0.3205812528868709,
-  "move": -0.0025098771674726406,
+  "long": 0.3205825078846743,
+  "move": -0.0019508766666584965,
   "quotes": {
-   "Bitstamp": 82456.84,
-   "Coinbase": 82467.695,
-   "Kraken": 82457.8
+   "Bitstamp": 82407.4,
+   "Coinbase": 82411.005,
+   "Kraken": 82412.9
   },
-  "short": 0.2655715936133373,
-  "spot": 82457.8,
-  "t": 1791844514.2643874,
-  "vol": 0.2943642395373829
+  "short": 0.26614207239424353,
+  "spot": 82411.005,
+  "t": 1791844812.5467968,
+  "vol": 0.29462242536841116
  },
  "btc_hist": [
   [
@@ -60,6 +60,10 @@
   [
    1791844514,
    82457.8
+  ],
+  [
+   1791844813,
+   82411.01
   ]
  ],
  "chat_id": "7590441188",
@@ -75,7 +79,7 @@
    "news": 0,
    "rejected": 0,
    "sl": 1,
-   "tp": 3
+   "tp": 5
   }
  },
  "errors": [
@@ -134,24 +138,21 @@
   }
  ],
  "last_px": {
-  "KXBTC-26OCT1219-B82450:YES": 0.24,
-  "KXBTC15M-26OCT121845-45:NO": 0.51,
-  "KXBTCD-26OCT1219-T82299.99:YES": 0.84,
-  "KXBTCD-26OCT1219-T82499.99:NO": 0.57,
-  "KXBTCD-26OCT1219-T82599.99:NO": 0.78,
-  "KXBTCD-26OCT1219-T82699.99:NO": 0.91,
+  "KXBTCD-26OCT1219-T82499.99:NO": 0.72,
   "KXBTCD-26OCT1317-T82999.99:NO": 0.66,
-  "KXBTCD-26OCT1317-T83249.99:NO": 0.73,
+  "KXBTCD-26OCT1317-T83249.99:NO": 0.74,
+  "KXBTCD-26OCT1317-T83499.99:NO": 0.83,
+  "KXBTCD-26OCT1317-T83749.99:NO": 0.87,
   "KXBTCD-26OCT1317-T83999.99:NO": 0.89
  },
- "last_run": 1791844515.8560553,
+ "last_run": 1791844815.5310593,
  "last_vote": {
   "approved": true,
-  "ask": 0.51,
-  "edge": 0.07945417697351022,
-  "label": "BTC price up in next 15 mins? \u2014 Target Price: $82,479.70",
+  "ask": 0.66,
+  "edge": 0.055246173200020246,
+  "label": "Bitcoin price on Oct 13, 2026? \u2014 $83,000 or above",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-82-479-70-target/kxbtc15m-26oct121845",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-13-2026-at-5pm-edt/kxbtcd-26oct1317",
   "votes": {
    "Doubt": [
     true,
@@ -159,22 +160,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.25% in 30 min, not fighting this bet"
+    "Bitcoin -0.20% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 185,184"
+    "spread 1\u00a2, volume 14,303"
    ],
    "The Quant": [
     false,
-    "15% expected return on cost"
+    "8% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 22h"
    ]
   },
-  "when": 1791844515.6884518
+  "when": 1791844814.6406617
  },
  "learn": {
   "window": {
@@ -299,11 +300,14 @@
    "edge": 0.07945417697351022,
    "entry": 0.51,
    "event": "KXBTC15M-26OCT121845",
+   "exit_px": 0.85,
+   "exit_reason": "take profit",
+   "exit_t": 1791844814.6406617,
    "fair": 0.6094541769735102,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT121845-45:NO",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $82,479.70",
-   "last_bid": null,
+   "last_bid": 0.85,
    "opened": 1791844515.6884518,
    "reasons": [
     "spread 1\u00a2, volume 185,184",
@@ -333,11 +337,14 @@
    "edge": 0.05313549532405605,
    "entry": 0.78,
    "event": "KXBTCD-26OCT1219",
+   "exit_px": 0.88,
+   "exit_reason": "take profit",
+   "exit_t": 1791844814.6406617,
    "fair": 0.8531354953240561,
    "fee": 0.02,
    "key": "KXBTCD-26OCT1219-T82599.99:NO",
    "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,600 or above",
-   "last_bid": null,
+   "last_bid": 0.88,
    "opened": 1791844515.6884518,
    "reasons": [
     "spread 1\u00a2, volume 105,132",
@@ -371,7 +378,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT1219-B82450:YES",
    "label": "Bitcoin price range on Oct 12, 2026? \u2014 $82,400 to 82,499.99",
-   "last_bid": null,
+   "last_bid": 0.26,
    "opened": 1791844515.6884518,
    "reasons": [
     "18% expected return on cost",
@@ -405,7 +412,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1317-T83249.99:NO",
    "label": "Bitcoin price on Oct 13, 2026? \u2014 $83,250 or above",
-   "last_bid": null,
+   "last_bid": 0.73,
    "opened": 1791844515.6884518,
    "reasons": [
     "spread 1\u00a2, volume 7,821",
