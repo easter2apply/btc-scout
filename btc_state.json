@@ -1,16 +1,16 @@
 {
  "btc": {
-  "long": 0.32059264689623906,
-  "move": -0.0034259649871811737,
+  "long": 0.32078452590971257,
+  "move": 0.0001616948525242634,
   "quotes": {
-   "Bitstamp": 82528.23,
-   "Coinbase": 82514.205,
-   "Kraken": 82513.9
+   "Bitstamp": 82642.35,
+   "Coinbase": 82657.825,
+   "Kraken": 82637.4
   },
-  "short": 0.26349391624105256,
-  "spot": 82514.205,
-  "t": 1791842713.7444665,
-  "vol": 0.2934354180564979
+  "short": 0.26985461644988,
+  "spot": 82642.35,
+  "t": 1791843014.5595367,
+  "vol": 0.2964154399507817
  },
  "btc_hist": [
   [
@@ -32,6 +32,10 @@
   [
    1791842714,
    82514.21
+  ],
+  [
+   1791843015,
+   82642.35
   ]
  ],
  "chat_id": "7590441188",
@@ -46,7 +50,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 0,
+   "sl": 1,
    "tp": 3
   }
  },
@@ -70,6 +74,10 @@
   {
    "t": 1791842716.2729974,
    "text": "KXBTC: 245 markets priced, 23 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1791843017.3247027,
+   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -102,13 +110,9 @@
   }
  ],
  "last_px": {
-  "KXBTCD-26OCT1219-T82599.99:NO": 0.62,
-  "KXBTCD-26OCT1219-T82699.99:NO": 0.76,
-  "KXBTCD-26OCT1219-T82799.99:NO": 0.86,
-  "KXBTCD-26OCT1317-T80999.99:YES": 0.89,
-  "KXBTCD-26OCT1317-T83249.99:NO": 0.73
+  "KXBTC-26OCT1219-B82450:NO": 0.85
  },
- "last_run": 1791842715.162051,
+ "last_run": 1791843016.2987864,
  "last_vote": {
   "approved": true,
   "ask": 0.86,
@@ -227,11 +231,14 @@
    "edge": 0.04126210239015261,
    "entry": 0.86,
    "event": "KXBTCD-26OCT1219",
+   "exit_px": 0.76,
+   "exit_reason": "stop loss",
+   "exit_t": 1791843016.1309514,
    "fair": 0.9112621023901526,
    "fee": 0.01,
    "key": "KXBTCD-26OCT1219-T82799.99:NO",
    "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,800 or above",
-   "last_bid": null,
+   "last_bid": 0.76,
    "opened": 1791842715.161689,
    "reasons": [
     "spread 1\u00a2, volume 1,121",
