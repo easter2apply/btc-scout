@@ -1,0 +1,40 @@
+name: Bitcoin Scout
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scan Kalshi Bitcoin markets
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python btc_scout.py --no-open --out site/index.html
+      - name: Save bot memory
+        run: |
+          git config user.name "bitcoin-scout"
+          git config user.email "bitcoin-scout@users.noreply.github.com"
+          git add btc_state.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Update state" && git pull --rebase && git push)
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
