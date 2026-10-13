@@ -1,16 +1,16 @@
 {
  "btc": {
-  "long": 0.3280680939502961,
-  "move": 0.0008921332934732629,
+  "long": 0.3283573145396092,
+  "move": -6.032070305661552e-05,
   "quotes": {
-   "Bitstamp": 82728.9,
-   "Coinbase": 82722.225,
-   "Kraken": 82720.8
+   "Bitstamp": 82824.72,
+   "Coinbase": 82824.315,
+   "Kraken": 82831.1
   },
-  "short": 0.4009657134127694,
-  "spot": 82722.225,
-  "t": 1791859812.921885,
-  "vol": 0.3663346677566781
+  "short": 0.40064060299150867,
+  "spot": 82824.72,
+  "t": 1791860113.2533774,
+  "vol": 0.3662863761983672
  },
  "btc_hist": [
   [
@@ -260,6 +260,10 @@
   [
    1791859813,
    82722.23
+  ],
+  [
+   1791860113,
+   82824.72
   ]
  ],
  "chat_id": "7590441188",
@@ -275,7 +279,7 @@
    "news": 0,
    "rejected": 0,
    "sl": 8,
-   "tp": 28
+   "tp": 30
   }
  },
  "errors": [
@@ -633,13 +637,8 @@
   }
  ],
  "last_daily": "2026-10-12",
- "last_px": {
-  "KXBTC15M-26OCT122300-00:YES": 0.26,
-  "KXBTCD-26OCT1223-T82699.99:YES": 0.53,
-  "KXBTCD-26OCT1223-T82799.99:YES": 0.12,
-  "KXBTCD-26OCT1317-T83999.99:NO": 0.84
- },
- "last_run": 1791859815.7028844,
+ "last_px": {},
+ "last_run": 1791860117.1148932,
  "last_vote": {
   "approved": true,
   "ask": 0.12,
@@ -1056,11 +1055,14 @@
    "edge": 0.09353275512299498,
    "entry": 0.12,
    "event": "KXBTCD-26OCT1223",
+   "exit_px": 0.62,
+   "exit_reason": "take profit",
+   "exit_t": 1791860115.2688777,
    "fair": 0.22353275512299497,
    "fee": 0.01,
    "key": "KXBTCD-26OCT1223-T82799.99:YES",
    "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,800 or above",
-   "last_bid": null,
+   "last_bid": 0.62,
    "opened": 1791859814.385993,
    "reasons": [
     "72% expected return on cost",
@@ -1090,11 +1092,14 @@
    "edge": 0.05060902236609234,
    "entry": 0.26,
    "event": "KXBTC15M-26OCT122300",
+   "exit_px": 0.85,
+   "exit_reason": "take profit",
+   "exit_t": 1791860115.2688777,
    "fair": 0.33060902236609235,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT122300-00:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $82,765.77",
-   "last_bid": null,
+   "last_bid": 0.85,
    "opened": 1791859814.385993,
    "reasons": [
     "18% expected return on cost",
