@@ -1,16 +1,16 @@
 {
  "btc": {
-  "long": 0.325932157789487,
-  "move": 0.0016933243281407329,
+  "long": 0.32595863013279347,
+  "move": 0.0005558677594428296,
   "quotes": {
-   "Bitstamp": 83685.37,
-   "Coinbase": 83674.995,
-   "Kraken": 83675.6
+   "Bitstamp": 83674.48,
+   "Coinbase": 83672.675,
+   "Kraken": 83670.9
   },
-  "short": 0.3753715373429937,
-  "spot": 83675.6,
-  "t": 1791874214.5652337,
-  "vol": 0.3515220921425519
+  "short": 0.3760248314995327,
+  "spot": 83672.675,
+  "t": 1791874512.366233,
+  "vol": 0.3518832920602364
  },
  "btc_hist": [
   [
@@ -452,6 +452,10 @@
   [
    1791874215,
    83675.6
+  ],
+  [
+   1791874512,
+   83672.68
   ]
  ],
  "chat_id": "7590441188",
@@ -474,7 +478,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 1,
-   "sl": 4,
+   "sl": 5,
    "tp": 7
   }
  },
@@ -1035,10 +1039,6 @@
  ],
  "last_daily": "2026-10-12",
  "last_px": {
-  "KXBTC-26OCT1303-B83550:YES": 0.13,
-  "KXBTC-26OCT1303-B83650:NO": 0.5,
-  "KXBTCD-26OCT1303-T83599.99:NO": 0.13,
-  "KXBTCD-26OCT1303-T83799.99:YES": 0.06,
   "KXBTCD-26OCT1317-T81999.99:YES": 0.91,
   "KXBTCD-26OCT1317-T82249.99:YES": 0.88,
   "KXBTCD-26OCT1317-T82499.99:YES": 0.84,
@@ -1047,7 +1047,7 @@
   "KXBTCD-26OCT1317-T84999.99:NO": 0.87,
   "KXBTCD-26OCT1317-T85249.99:NO": 0.9
  },
- "last_run": 1791874217.3202274,
+ "last_run": 1791874516.7757535,
  "last_vote": {
   "approved": true,
   "ask": 0.5,
@@ -1538,11 +1538,14 @@
    "edge": 0.10222485032621444,
    "entry": 0.5,
    "event": "KXBTC-26OCT1303",
+   "exit_px": 0.23,
+   "exit_reason": "stop loss",
+   "exit_t": 1791874514.2052782,
    "fair": 0.6222248503262144,
    "fee": 0.02,
    "key": "KXBTC-26OCT1303-B83650:NO",
    "label": "Bitcoin price range on Oct 13, 2026? \u2014 $83,600 to 83,699.99",
-   "last_bid": null,
+   "last_bid": 0.23,
    "opened": 1791874216.0390687,
    "reasons": [
     "20% expected return on cost",
@@ -1576,7 +1579,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26OCT1303-T83599.99:NO",
    "label": "Bitcoin price on Oct 13, 2026? \u2014 $83,600 or above",
-   "last_bid": null,
+   "last_bid": 0.03,
    "opened": 1791874216.0390687,
    "reasons": [
     "59% expected return on cost",
