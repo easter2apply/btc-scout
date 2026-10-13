@@ -1,16 +1,16 @@
 {
  "btc": {
-  "long": 0.32793332646354695,
-  "move": 0.00525726884400779,
+  "long": 0.32686589078179334,
+  "move": 0.004764212032622117,
   "quotes": {
-   "Bitstamp": 83180.88,
-   "Coinbase": 83154.025,
-   "Kraken": 83181.4
+   "Bitstamp": 83113.81,
+   "Coinbase": 83113.965,
+   "Kraken": 83109.8
   },
-  "short": 0.45107256659332984,
-  "spot": 83180.88,
-  "t": 1791862814.026991,
-  "vol": 0.394339147776721
+  "short": 0.4556017927788192,
+  "spot": 83113.81,
+  "t": 1791863113.9571285,
+  "vol": 0.39649357128448465
  },
  "btc_hist": [
   [
@@ -300,6 +300,10 @@
   [
    1791862814,
    83180.88
+  ],
+  [
+   1791863114,
+   83113.81
   ]
  ],
  "chat_id": "7590441188",
@@ -314,7 +318,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 10,
+   "sl": 11,
    "tp": 31
   }
  },
@@ -722,13 +726,8 @@
   }
  ],
  "last_daily": "2026-10-12",
- "last_px": {
-  "KXBTCD-26OCT1300-T82799.99:YES": 0.94,
-  "KXBTCD-26OCT1300-T82899.99:YES": 0.89,
-  "KXBTCD-26OCT1300-T82999.99:YES": 0.8,
-  "KXBTCD-26OCT1300-T83099.99:YES": 0.62
- },
- "last_run": 1791862822.448759,
+ "last_px": {},
+ "last_run": 1791863116.964651,
  "last_vote": {
   "approved": true,
   "ask": 0.62,
@@ -1154,7 +1153,7 @@
    "fee": 0.01,
    "key": "KXBTC-26OCT1300-B83350:YES",
    "label": "Bitcoin price range on Oct 13, 2026? \u2014 $83,300 to 83,399.99",
-   "last_bid": 0.14,
+   "last_bid": 0.06,
    "opened": 1791862517.269876,
    "reasons": [
     "52% expected return on cost",
@@ -1184,11 +1183,14 @@
    "edge": 0.059992456077749515,
    "entry": 0.62,
    "event": "KXBTCD-26OCT1300",
+   "exit_px": 0.53,
+   "exit_reason": "stop loss",
+   "exit_t": 1791863115.1407278,
    "fair": 0.6999924560777495,
    "fee": 0.02,
    "key": "KXBTCD-26OCT1300-T83099.99:YES",
    "label": "Bitcoin price on Oct 13, 2026? \u2014 $83,100 or above",
-   "last_bid": null,
+   "last_bid": 0.53,
    "opened": 1791862820.5224097,
    "reasons": [
     "spread 1\u00a2, volume 36,943",
