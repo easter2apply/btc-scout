@@ -1,16 +1,16 @@
 {
  "btc": {
-  "long": 0.3270284395388781,
-  "move": 0.0031738246152144267,
+  "long": 0.3270394402963387,
+  "move": 0.0037787056773923577,
   "quotes": {
-   "Bitstamp": 82387.21,
-   "Coinbase": 82392.155,
-   "Kraken": 82393.9
+   "Bitstamp": 82388.94,
+   "Coinbase": 82392.715,
+   "Kraken": 82389.1
   },
-  "short": 0.3816170163486736,
-  "spot": 82392.155,
-  "t": 1791857110.9751964,
-  "vol": 0.3553724436658655
+  "short": 0.3830723798294029,
+  "spot": 82389.1,
+  "t": 1791857412.3844254,
+  "vol": 0.3561595454971724
  },
  "btc_hist": [
   [
@@ -224,6 +224,10 @@
   [
    1791857111,
    82392.15
+  ],
+  [
+   1791857412,
+   82389.1
   ]
  ],
  "chat_id": "7590441188",
@@ -239,7 +243,7 @@
    "news": 0,
    "rejected": 0,
    "sl": 7,
-   "tp": 24
+   "tp": 25
   }
  },
  "errors": [
@@ -589,14 +593,9 @@
  ],
  "last_daily": "2026-10-12",
  "last_px": {
-  "KXBTC-26OCT1223-B82350:YES": 0.14,
-  "KXBTC15M-26OCT122215-15:YES": 0.6,
-  "KXBTCD-26OCT1223-T82099.99:YES": 0.84,
-  "KXBTCD-26OCT1223-T82199.99:YES": 0.73,
-  "KXBTCD-26OCT1223-T82299.99:YES": 0.61,
-  "KXBTCD-26OCT1317-T83999.99:NO": 0.88
+  "KXBTCD-26OCT1223-T82199.99:YES": 0.74
  },
- "last_run": 1791857114.2232802,
+ "last_run": 1791857415.0553389,
  "last_vote": {
   "approved": true,
   "ask": 0.6,
@@ -898,11 +897,14 @@
    "edge": 0.050632397253093,
    "entry": 0.6,
    "event": "KXBTC15M-26OCT122215",
+   "exit_px": 0.73,
+   "exit_reason": "take profit",
+   "exit_t": 1791857413.7313523,
    "fair": 0.670632397253093,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT122215-15:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $82,349.50",
-   "last_bid": null,
+   "last_bid": 0.73,
    "opened": 1791857112.4993644,
    "reasons": [
     "spread 1\u00a2, volume 227,610",
@@ -936,7 +938,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1223-T82199.99:YES",
    "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,200 or above",
-   "last_bid": null,
+   "last_bid": 0.74,
    "opened": 1791857112.4993644,
    "reasons": [
     "spread 1\u00a2, volume 2,182",
