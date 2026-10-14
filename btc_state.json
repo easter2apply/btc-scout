@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.31694921251026087,
-  "move": 0.005426379642004875,
+  "long": 0.317167018121715,
+  "move": 0.006474650121045089,
   "quotes": {
-   "Bitstamp": 84000.33,
-   "Coinbase": 84000.385,
-   "Kraken": 83996.9
+   "Bitstamp": 83858.29,
+   "Coinbase": 83834.735,
+   "Kraken": 83870.2
   },
-  "short": 0.2605215981598514,
-  "spot": 84000.33,
-  "t": 1791965412.865157,
-  "vol": 0.29011058789592425
+  "short": 0.29829850081933684,
+  "spot": 83858.29,
+  "t": 1791965715.3931494,
+  "vol": 0.3078773400035184
  },
  "btc_hist": [
-  [
-   1791877214,
-   83917.2
-  ],
   [
    1791877514,
    83751.12
@@ -1212,6 +1208,10 @@
   [
    1791965413,
    84000.33
+  ],
+  [
+   1791965715,
+   83858.29
   ]
  ],
  "chat_id": "7590441188",
@@ -1240,17 +1240,13 @@
   "2026-10-14": {
    "buys": 10,
    "lines": 0,
-   "news": 1,
-   "rejected": 2,
-   "sl": 3,
+   "news": 2,
+   "rejected": 3,
+   "sl": 4,
    "tp": 4
   }
  },
  "errors": [
-  {
-   "t": 1791889819.5684779,
-   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1791925530.6777692,
    "text": "KXBTC: 207 markets priced, 61 skipped (model and Kalshi too far apart)"
@@ -1326,6 +1322,10 @@
   {
    "t": 1791965420.926165,
    "text": "KXBTC: 254 markets priced, 14 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1791965722.4582624,
+   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -2613,38 +2613,33 @@
  ],
  "last_daily": "2026-10-13",
  "last_px": {
+  "KXBTC-26OCT1405-B83850:YES": 0.16,
   "KXBTC-26OCT1405-B83950:YES": 0.15,
-  "KXBTC-26OCT1405-B84050:YES": 0.12,
-  "KXBTCD-26OCT1405-T83599.99:YES": 0.9,
-  "KXBTCD-26OCT1405-T83699.99:YES": 0.84,
-  "KXBTCD-26OCT1405-T83799.99:YES": 0.74,
-  "KXBTCD-26OCT1405-T83899.99:YES": 0.61,
-  "KXBTCD-26OCT1405-T84199.99:NO": 0.78,
-  "KXBTCD-26OCT1405-T84299.99:NO": 0.87,
-  "KXBTCD-26OCT1405-T84399.99:NO": 0.93,
+  "KXBTCD-26OCT1405-T83599.99:YES": 0.86,
+  "KXBTCD-26OCT1405-T83999.99:NO": 0.73,
+  "KXBTCD-26OCT1417-T81749.99:YES": 0.95,
   "KXBTCD-26OCT1417-T81999.99:YES": 0.94,
   "KXBTCD-26OCT1417-T82249.99:YES": 0.92,
-  "KXBTCD-26OCT1417-T82499.99:YES": 0.89,
+  "KXBTCD-26OCT1417-T82499.99:YES": 0.87,
   "KXBTCD-26OCT1417-T82749.99:YES": 0.81,
-  "KXBTCD-26OCT1417-T82999.99:YES": 0.75,
-  "KXBTCD-26OCT1417-T83249.99:YES": 0.69,
-  "KXBTCD-26OCT1417-T83499.99:YES": 0.65,
-  "KXBTCD-26OCT1417-T83749.99:YES": 0.58,
-  "KXBTCD-26OCT1417-T84249.99:NO": 0.59,
-  "KXBTCD-26OCT1417-T84499.99:NO": 0.7,
-  "KXBTCD-26OCT1417-T84749.99:NO": 0.76,
-  "KXBTCD-26OCT1417-T84999.99:NO": 0.8,
-  "KXBTCD-26OCT1417-T85249.99:NO": 0.84,
-  "KXBTCD-26OCT1417-T85499.99:NO": 0.91,
+  "KXBTCD-26OCT1417-T82999.99:YES": 0.76,
+  "KXBTCD-26OCT1417-T83249.99:YES": 0.7,
+  "KXBTCD-26OCT1417-T83499.99:YES": 0.62,
+  "KXBTCD-26OCT1417-T84249.99:NO": 0.63,
+  "KXBTCD-26OCT1417-T84499.99:NO": 0.71,
+  "KXBTCD-26OCT1417-T84749.99:NO": 0.77,
+  "KXBTCD-26OCT1417-T84999.99:NO": 0.82,
+  "KXBTCD-26OCT1417-T85249.99:NO": 0.86,
+  "KXBTCD-26OCT1417-T85499.99:NO": 0.9,
   "KXBTCD-26OCT1417-T85749.99:NO": 0.94,
   "KXBTCD-26OCT1417-T85999.99:NO": 0.95
  },
- "last_run": 1791965418.0177994,
+ "last_run": 1791965721.3168666,
  "last_vote": {
   "approved": false,
-  "ask": 0.69,
-  "edge": 0.13012837326814577,
-  "label": "Bitcoin price on Oct 14, 2026? \u2014 $83,250 or above",
+  "ask": 0.76,
+  "edge": 0.07705497101927518,
+  "label": "Bitcoin price on Oct 14, 2026? \u2014 $83,000 or above",
   "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-14-2026-at-5pm-edt/kxbtcd-26oct1417",
   "votes": {
@@ -2654,22 +2649,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.54% in 30 min, not fighting this bet"
+    "Bitcoin +0.65% in 30 min, not fighting this bet"
    ],
    "Risk": [
     false,
     "news risk: USD Core CPI m/m (Wed 08:30 AM ET) lands before this closes"
    ],
    "The Quant": [
-    true,
-    "18% expected return on cost"
+    false,
+    "10% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 13h"
    ]
   },
-  "when": 1791965414.6810622
+  "when": 1791965717.5548882
  },
  "learn": {
   "edge": {
@@ -2815,11 +2810,14 @@
    "edge": 0.07859062523120165,
    "entry": 0.61,
    "event": "KXBTCD-26OCT1405",
+   "exit_px": 0.4,
+   "exit_reason": "stop loss",
+   "exit_t": 1791965717.5548882,
    "fair": 0.7085906252312016,
    "fee": 0.02,
    "key": "KXBTCD-26OCT1405-T83899.99:YES",
    "label": "Bitcoin price on Oct 14, 2026? \u2014 $83,900 or above",
-   "last_bid": null,
+   "last_bid": 0.4,
    "opened": 1791965414.6810622,
    "reasons": [
     "spread 1\u00a2, volume 1,214",
@@ -2853,7 +2851,7 @@
    "fee": 0.01,
    "key": "KXBTC-26OCT1405-B84050:YES",
    "label": "Bitcoin price range on Oct 14, 2026? \u2014 $84,000 to 84,099.99",
-   "last_bid": null,
+   "last_bid": 0.12,
    "opened": 1791965414.6810622,
    "reasons": [
     "60% expected return on cost",
@@ -3437,6 +3435,40 @@
    "votes": {
     "Doubt": true,
     "Momentum": true,
+    "Risk": false,
+    "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $85,500 at 5:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792011601.0785103,
+   "contracts": 10,
+   "edge": 0.05044381383336372,
+   "entry": 0.9,
+   "event": "KXBTCD-26OCT1417",
+   "fair": 0.9604438138333637,
+   "fee": 0.01,
+   "key": "KXBTCD-26OCT1417-T85499.99:NO",
+   "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,500 or above",
+   "last_bid": null,
+   "opened": 1791965717.5548882,
+   "reasons": [
+    "closes in 13h",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$85,500 or above",
+   "shadow": true,
+   "side": "NO",
+   "sl": 0.82,
+   "stake": 10.0,
+   "ticker": "KXBTCD-26OCT1417-T85499.99",
+   "tp": 0.96,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-14-2026-at-5pm-edt/kxbtcd-26oct1417",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
     "Risk": false,
     "The Quant": false,
     "Time": true
