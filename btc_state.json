@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3197728909768386,
-  "move": 0.002648104164329812,
+  "long": 0.31975560604546877,
+  "move": 0.006654559441752417,
   "quotes": {
-   "Bitstamp": 82910.85,
-   "Coinbase": 82916.775,
-   "Kraken": 82918.0
+   "Bitstamp": 82840.4,
+   "Coinbase": 82845.47,
+   "Kraken": 82843.3
   },
-  "short": 0.6140946524068818,
-  "spot": 82916.775,
-  "t": 1791985214.4778502,
-  "vol": 0.48957478689083556
+  "short": 0.6164140489587973,
+  "spot": 82843.3,
+  "t": 1791985513.3855853,
+  "vol": 0.4910244023219638
  },
  "btc_hist": [
-  [
-   1791897021,
-   83164.6
-  ],
   [
    1791897316,
    83108.0
@@ -1212,6 +1208,10 @@
   [
    1791985214,
    82916.77
+  ],
+  [
+   1791985513,
+   82843.3
   ]
  ],
  "chat_id": "7590441188",
@@ -1238,11 +1238,11 @@
    "tp": 47
   },
   "2026-10-14": {
-   "buys": 26,
+   "buys": 27,
    "lines": 0,
    "news": 35,
    "rejected": 37,
-   "sl": 17,
+   "sl": 18,
    "tp": 6
   }
  },
@@ -2972,24 +2972,23 @@
  ],
  "last_daily": "2026-10-13",
  "last_px": {
-  "KXBTC-26OCT1410-B82850:YES": 0.11,
-  "KXBTC-26OCT1410-B82950:YES": 0.13,
-  "KXBTCD-26OCT1410-T82399.99:YES": 0.94,
-  "KXBTCD-26OCT1410-T82499.99:YES": 0.9,
-  "KXBTCD-26OCT1410-T82599.99:YES": 0.82,
-  "KXBTCD-26OCT1410-T82699.99:YES": 0.75,
-  "KXBTCD-26OCT1410-T82799.99:YES": 0.63,
-  "KXBTCD-26OCT1410-T82999.99:NO": 0.63,
-  "KXBTCD-26OCT1410-T83099.99:NO": 0.74,
-  "KXBTCD-26OCT1410-T83199.99:NO": 0.82,
-  "KXBTCD-26OCT1410-T83299.99:NO": 0.89,
-  "KXBTCD-26OCT1410-T83399.99:NO": 0.94
+  "KXBTC-26OCT1410-B82750:YES": 0.14,
+  "KXBTC-26OCT1410-B82850:YES": 0.15,
+  "KXBTC-26OCT1410-B82950:YES": 0.14,
+  "KXBTCD-26OCT1410-T82399.99:YES": 0.93,
+  "KXBTCD-26OCT1410-T82499.99:YES": 0.88,
+  "KXBTCD-26OCT1410-T82599.99:YES": 0.8,
+  "KXBTCD-26OCT1410-T82699.99:YES": 0.68,
+  "KXBTCD-26OCT1410-T82799.99:YES": 0.53,
+  "KXBTCD-26OCT1410-T82999.99:NO": 0.77,
+  "KXBTCD-26OCT1410-T83099.99:NO": 0.87,
+  "KXBTCD-26OCT1410-T83199.99:NO": 0.93
  },
- "last_run": 1791985221.805989,
+ "last_run": 1791985517.6391425,
  "last_vote": {
   "approved": true,
-  "ask": 0.75,
-  "edge": 0.08722942169972982,
+  "ask": 0.68,
+  "edge": 0.09952432482302077,
   "label": "Bitcoin price on Oct 14, 2026? \u2014 $82,700 or above",
   "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-14-2026-at-10am-edt/kxbtcd-26oct1410",
@@ -3000,22 +2999,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.26% in 30 min, not fighting this bet"
+    "Bitcoin +0.67% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 41,307"
+    "spread 1\u00a2, volume 77,828"
    ],
    "The Quant": [
     false,
-    "11% expected return on cost"
+    "14% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 20m"
+    "closes in 15m"
    ]
   },
-  "when": 1791985216.5900097
+  "when": 1791985514.7600653
  },
  "learn": {
   "edge": {
@@ -3202,11 +3201,14 @@
    "edge": 0.06653726570535386,
    "entry": 0.07,
    "event": "KXBTC-26OCT1410",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1791985514.7600653,
    "fair": 0.14653726570535386,
    "fee": 0.01,
    "key": "KXBTC-26OCT1410-B82350:YES",
    "label": "Bitcoin price range on Oct 14, 2026? \u2014 $82,300 to 82,399.99",
-   "last_bid": 0.02,
+   "last_bid": 0.01,
    "opened": 1791983714.6064057,
    "reasons": [
     "83% expected return on cost",
@@ -3240,7 +3242,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1410-T82999.99:NO",
    "label": "Bitcoin price on Oct 14, 2026? \u2014 $83,000 or above",
-   "last_bid": 0.61,
+   "last_bid": 0.73,
    "opened": 1791984915.2982469,
    "reasons": [
     "spread 1\u00a2, volume 28,568",
@@ -3259,6 +3261,40 @@
     "Momentum": true,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is BETWEEN $82,800 and $82,900 at 10:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1791986400.5769553,
+   "contracts": 29,
+   "edge": 0.08029476521178296,
+   "entry": 0.15,
+   "event": "KXBTC-26OCT1410",
+   "fair": 0.24029476521178295,
+   "fee": 0.01,
+   "key": "KXBTC-26OCT1410-B82850:YES",
+   "label": "Bitcoin price range on Oct 14, 2026? \u2014 $82,800 to 82,899.99",
+   "last_bid": null,
+   "opened": 1791985514.7600653,
+   "reasons": [
+    "50% expected return on cost",
+    "spread 2\u00a2, volume 1,353",
+    "price +4\u00a2 since last scan"
+   ],
+   "row": "$82,800 to 82,899.99",
+   "side": "YES",
+   "sl": 0.03,
+   "stake": 4.779450310225175,
+   "ticker": "KXBTC-26OCT1410-B82850",
+   "tp": 0.24,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-14-2026-at-10am-edt/kxbtc-26oct1410",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
