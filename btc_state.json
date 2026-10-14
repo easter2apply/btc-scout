@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3167340494993365,
-  "move": 1.5723491243901933e-05,
+  "long": 0.3167271667162272,
+  "move": 3.444734693003326e-05,
   "quotes": {
-   "Bitstamp": 83294.02,
-   "Coinbase": 83300.845,
-   "Kraken": 83303.7
+   "Bitstamp": 83294.63,
+   "Coinbase": 83303.175,
+   "Kraken": 83293.1
   },
-  "short": 0.32290542992666826,
-  "spot": 83300.845,
-  "t": 1791975912.113658,
-  "vol": 0.3198346250708127
+  "short": 0.3225214658384506,
+  "spot": 83294.63,
+  "t": 1791976216.9957821,
+  "vol": 0.3196374462282788
  },
  "btc_hist": [
-  [
-   1791887418,
-   83355.41
-  ],
   [
    1791887712,
    83303.62
@@ -1212,6 +1208,10 @@
   [
    1791975912,
    83300.85
+  ],
+  [
+   1791976217,
+   83294.63
   ]
  ],
  "chat_id": "7590441188",
@@ -1238,7 +1238,7 @@
    "tp": 47
   },
   "2026-10-14": {
-   "buys": 17,
+   "buys": 18,
    "lines": 0,
    "news": 3,
    "rejected": 4,
@@ -2694,30 +2694,33 @@
  ],
  "last_daily": "2026-10-13",
  "last_px": {
-  "KXBTC15M-26OCT140715-15:YES": 0.13,
-  "KXBTCD-26OCT1408-T83499.99:YES": 0.14,
-  "KXBTCD-26OCT1408-T83599.99:YES": 0.06,
-  "KXBTCD-26OCT1417-T81249.99:YES": 0.94,
+  "KXBTCD-26OCT1408-T82999.99:NO": 0.05,
+  "KXBTCD-26OCT1408-T83099.99:NO": 0.11,
+  "KXBTCD-26OCT1408-T83399.99:YES": 0.25,
+  "KXBTCD-26OCT1408-T83499.99:YES": 0.11,
+  "KXBTCD-26OCT1408-T83599.99:YES": 0.05,
+  "KXBTCD-26OCT1417-T81249.99:YES": 0.95,
   "KXBTCD-26OCT1417-T81499.99:YES": 0.94,
   "KXBTCD-26OCT1417-T81749.99:YES": 0.92,
   "KXBTCD-26OCT1417-T81999.99:YES": 0.87,
   "KXBTCD-26OCT1417-T82249.99:YES": 0.84,
-  "KXBTCD-26OCT1417-T82499.99:YES": 0.78,
+  "KXBTCD-26OCT1417-T82499.99:YES": 0.79,
   "KXBTCD-26OCT1417-T82749.99:YES": 0.7,
   "KXBTCD-26OCT1417-T82999.99:YES": 0.61,
-  "KXBTCD-26OCT1417-T83749.99:NO": 0.67,
+  "KXBTCD-26OCT1417-T83499.99:NO": 0.58,
+  "KXBTCD-26OCT1417-T83749.99:NO": 0.66,
   "KXBTCD-26OCT1417-T83999.99:NO": 0.73,
-  "KXBTCD-26OCT1417-T84249.99:NO": 0.81,
+  "KXBTCD-26OCT1417-T84249.99:NO": 0.8,
   "KXBTCD-26OCT1417-T84499.99:NO": 0.85,
   "KXBTCD-26OCT1417-T84749.99:NO": 0.89,
   "KXBTCD-26OCT1417-T84999.99:NO": 0.92,
   "KXBTCD-26OCT1417-T85249.99:NO": 0.94
  },
- "last_run": 1791975916.5278661,
+ "last_run": 1791976221.7637296,
  "last_vote": {
   "approved": false,
   "ask": 0.73,
-  "edge": 0.08465577402522607,
+  "edge": 0.08756088026193411,
   "label": "Bitcoin price on Oct 14, 2026? \u2014 $84,000 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-14-2026-at-5pm-edt/kxbtcd-26oct1417",
@@ -2736,14 +2739,14 @@
    ],
    "The Quant": [
     false,
-    "11% expected return on cost"
+    "12% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 10h"
    ]
   },
-  "when": 1791975913.6310828
+  "when": 1791976218.6055324
  },
  "learn": {
   "edge": {
@@ -2889,10 +2892,43 @@
     "The Quant": true,
     "Time": true
    }
+  },
+  {
+   "bet": "Bitcoin is UNDER $83,100 at 8:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1791979201.0712795,
+   "contracts": 25,
+   "edge": 0.054014075261294196,
+   "entry": 0.11,
+   "event": "KXBTCD-26OCT1408",
+   "fair": 0.1740140752612942,
+   "fee": 0.01,
+   "key": "KXBTCD-26OCT1408-T83099.99:NO",
+   "label": "Bitcoin price on Oct 14, 2026? \u2014 $83,100 or above",
+   "last_bid": null,
+   "opened": 1791976218.6055324,
+   "reasons": [
+    "45% expected return on cost",
+    "spread 1\u00a2, volume 1,331",
+    "Bitcoin +0.00% in 30 min, not fighting this bet"
+   ],
+   "row": "$83,100 or above",
+   "side": "NO",
+   "sl": 0.03,
+   "stake": 3.0689815489371703,
+   "ticker": "KXBTCD-26OCT1408-T83099.99",
+   "tp": 0.17,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-14-2026-at-8am-edt/kxbtcd-26oct1408",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
   }
  ],
  "recent": {
-  "KXBTC-26OCT1401-B83650:NO": 1791954313.7087808,
   "KXBTC-26OCT1403-B83350:NO": 1791961513.8042073,
   "KXBTC-26OCT1405-B83350:YES": 1791968716.756279,
   "KXBTC-26OCT1405-B84050:YES": 1791968716.756279,
