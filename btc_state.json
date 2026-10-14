@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3235764637982902,
-  "move": 0.0009835582318957758,
+  "long": 0.3229015219701843,
+  "move": 0.0009755569867431202,
   "quotes": {
-   "Bitstamp": 81635.05,
-   "Coinbase": 81610.185,
-   "Kraken": 81646.3
+   "Bitstamp": 81451.32,
+   "Coinbase": 81467.255,
+   "Kraken": 81460.2
   },
-  "short": 0.4650034105811445,
-  "spot": 81635.05,
-  "t": 1792004422.6164784,
-  "vol": 0.40058076574912
+  "short": 0.465042228934588,
+  "spot": 81460.2,
+  "t": 1792004712.8139849,
+  "vol": 0.4003309053664925
  },
  "btc_hist": [
-  [
-   1791915615,
-   83085.99
-  ],
   [
    1791915914,
    83027.54
@@ -1212,13 +1208,17 @@
   [
    1792004423,
    81635.05
+  ],
+  [
+   1792004713,
+   81460.2
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
   "right": 110,
-  "total": 207
+  "total": 208
  },
  "days": {
   "2026-10-12": {
@@ -3121,11 +3121,22 @@
    "t": 1792001116.2975967,
    "usd": 1.82,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.12,
+   "right": false,
+   "shadow": false,
+   "t": 1792004714.3102367,
+   "usd": -3.51,
+   "won": false
   }
  ],
  "last_daily": "2026-10-13",
- "last_px": {},
- "last_run": 1792004428.087622,
+ "last_px": {
+  "KXBTCD-26OCT1416-T81099.99:NO": 0.07
+ },
+ "last_run": 1792004717.1013484,
  "last_vote": {
   "approved": true,
   "ask": 0.15,
@@ -3191,7 +3202,8 @@
     0.35,
     0.16,
     0.36,
-    0.1499999999999999
+    0.1499999999999999,
+    -0.12
    ]
   }
  },
@@ -3265,45 +3277,7 @@
   ],
   "fetched": 1791993850.118107
  },
- "open": [
-  {
-   "bet": "Bitcoin is ABOVE $81,800 at 3:00 PM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1792004400.9779027,
-   "contracts": 27,
-   "edge": 0.07399279940441099,
-   "entry": 0.15,
-   "event": "KXBTCD-26OCT1415",
-   "exit_px": 0.03,
-   "exit_reason": "stop loss",
-   "exit_t": 1792003216.2317328,
-   "fair": 0.23399279940441098,
-   "fee": 0.01,
-   "key": "KXBTCD-26OCT1415-T81799.99:YES",
-   "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,800 or above",
-   "last_bid": 0.03,
-   "opened": 1792001115.6838677,
-   "reasons": [
-    "46% expected return on cost",
-    "spread 1\u00a2, volume 1,577",
-    "Bitcoin -0.28% in 30 min, not fighting this bet"
-   ],
-   "row": "$81,800 or above",
-   "side": "YES",
-   "sl": 0.04,
-   "stake": 4.404333297881606,
-   "ticker": "KXBTCD-26OCT1415-T81799.99",
-   "tp": 0.23,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-14-2026-at-3pm-edt/kxbtcd-26oct1415",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  }
- ],
+ "open": [],
  "recent": {
   "KXBTC-26OCT1409-B82650:YES": 1791983115.5042236,
   "KXBTC-26OCT1409-B82750:YES": 1791983115.5042236,
@@ -3316,7 +3290,6 @@
   "KXBTC-26OCT1410-B82850:YES": 1791986714.51116,
   "KXBTC-26OCT1413-B81850:NO": 1791997358.8286278,
   "KXBTC-26OCT1414-B81650:NO": 1792001115.6838677,
-  "KXBTC15M-26OCT140900-00:YES": 1791982827.0877244,
   "KXBTC15M-26OCT140930-30:NO": 1791984621.3157237,
   "KXBTC15M-26OCT141015-15:NO": 1791987317.7124867,
   "KXBTC15M-26OCT141030-30:NO": 1791988219.4018872,
@@ -3354,34 +3327,35 @@
   "KXBTCD-26OCT1411-T82499.99:NO": 1791990317.4989076,
   "KXBTCD-26OCT1413-T81699.99:NO": 1791997358.8286278,
   "KXBTCD-26OCT1414-T81599.99:NO": 1792001115.6838677,
-  "KXBTCD-26OCT1414-T81699.99:NO": 1792001115.6838677
+  "KXBTCD-26OCT1414-T81699.99:NO": 1792001115.6838677,
+  "KXBTCD-26OCT1415-T81799.99:YES": 1792004714.172291
  },
  "record": {
-  "dollars": 55.05,
-  "losses": 78,
-  "pnl": 7.989,
+  "dollars": 51.54,
+  "losses": 79,
+  "pnl": 7.869,
   "wins": 94
  },
  "scoreboard": {
   "Doubt": {
    "right": 110,
-   "total": 207
+   "total": 208
   },
   "Momentum": {
    "right": 99,
-   "total": 180
+   "total": 181
   },
   "Risk": {
    "right": 115,
-   "total": 207
+   "total": 208
   },
   "The Quant": {
    "right": 67,
-   "total": 207
+   "total": 208
   },
   "Time": {
    "right": 113,
-   "total": 207
+   "total": 208
   }
  },
  "shadow": [
