@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3154617069538916,
-  "move": -0.0013140174570982488,
+  "long": 0.3155619826556232,
+  "move": -0.0009899344353124784,
   "quotes": {
-   "Bitstamp": 81221.58,
-   "Coinbase": 81211.89,
-   "Kraken": 81220.8
+   "Bitstamp": 81117.7,
+   "Coinbase": 81110.505,
+   "Kraken": 81124.4
   },
-  "short": 0.6783861671245223,
-  "spot": 81220.8,
-  "t": 1792052119.9983556,
-  "vol": 0.529019791832103
+  "short": 0.4560827450095645,
+  "spot": 81117.7,
+  "t": 1792052418.3717387,
+  "vol": 0.39216758866140844
  },
  "btc_hist": [
-  [
-   1791963613,
-   83363.23
-  ],
   [
    1791963914,
    83353.29
@@ -1212,6 +1208,10 @@
   [
    1792052120,
    81220.8
+  ],
+  [
+   1792052418,
+   81117.7
   ]
  ],
  "chat_id": "7590441188",
@@ -1255,10 +1255,6 @@
   }
  },
  "errors": [
-  {
-   "t": 1792033520.5697243,
-   "text": "KXBTC: 207 markets priced, 61 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792036827.2761672,
    "text": "KXBTC: 263 markets priced, 5 skipped (model and Kalshi too far apart)"
@@ -1334,6 +1330,10 @@
   {
    "t": 1792052123.8409626,
    "text": "KXBTCD: 69 markets priced, 11 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792052421.5857916,
+   "text": "KXBTCD: 68 markets priced, 12 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -3541,14 +3541,15 @@
  "last_daily": "2026-10-14",
  "last_px": {
   "KXBTCD-26OCT1517-T79999.99:YES": 0.78,
-  "KXBTCD-26OCT1517-T81499.99:YES": 0.35
+  "KXBTCD-26OCT1517-T80249.99:YES": 0.75,
+  "KXBTCD-26OCT1517-T82249.99:NO": 0.83
  },
- "last_run": 1792052123.8409247,
+ "last_run": 1792052421.58576,
  "last_vote": {
   "approved": false,
-  "ask": 0.35,
-  "edge": 0.1032592289344288,
-  "label": "Bitcoin price on Oct 15, 2026? \u2014 $81,500 or above",
+  "ask": 0.78,
+  "edge": 0.06912909167887384,
+  "label": "Bitcoin price on Oct 15, 2026? \u2014 $80,000 or above",
   "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-15-2026-at-5pm-edt/kxbtcd-26oct1517",
   "votes": {
@@ -3558,22 +3559,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.48% in 30 min, not fighting this bet"
+    "Bitcoin -0.10% in 30 min, not fighting this bet"
    ],
    "Risk": [
     false,
     "news risk: USD Core PPI m/m (Thu 08:30 AM ET) lands before this closes"
    ],
    "The Quant": [
-    true,
-    "28% expected return on cost"
+    false,
+    "9% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 13h"
    ]
   },
-  "when": 1792051222.655901
+  "when": 1792052419.6015146
  },
  "learn": {
   "edge": {
