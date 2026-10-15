@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3152199640375104,
-  "move": 0.0004271024137876278,
+  "long": 0.31522121708227535,
+  "move": -0.00012223081589191054,
   "quotes": {
-   "Bitstamp": 81166.15,
-   "Coinbase": 81161.265,
-   "Kraken": 81163.3
+   "Bitstamp": 81107.46,
+   "Coinbase": 81100.005,
+   "Kraken": 81105.7
   },
-  "short": 0.3813781162016292,
-  "spot": 81163.3,
-  "t": 1792058418.4550655,
-  "vol": 0.3498663267916139
+  "short": 0.3812055786873139,
+  "spot": 81105.7,
+  "t": 1792058712.8161073,
+  "vol": 0.3497728612408064
  },
  "btc_hist": [
-  [
-   1791969911,
-   83203.3
-  ],
   [
    1791970216,
    83174.1
@@ -1212,6 +1208,10 @@
   [
    1792058418,
    81163.3
+  ],
+  [
+   1792058713,
+   81105.7
   ]
  ],
  "chat_id": "7590441188",
@@ -1255,10 +1255,6 @@
   }
  },
  "errors": [
-  {
-   "t": 1792049716.2919211,
-   "text": "KXBTCD: 73 markets priced, 7 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792050018.908949,
    "text": "KXBTCD: 73 markets priced, 7 skipped (model and Kalshi too far apart)"
@@ -1334,6 +1330,10 @@
   {
    "t": 1792055120.442104,
    "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792058717.3928957,
+   "text": "KXBTC: 212 markets priced, 56 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -3540,26 +3540,27 @@
  ],
  "last_daily": "2026-10-14",
  "last_px": {
+  "KXBTCD-26OCT1517-T78999.99:YES": 0.95,
   "KXBTCD-26OCT1517-T79249.99:YES": 0.94,
-  "KXBTCD-26OCT1517-T79499.99:YES": 0.91,
+  "KXBTCD-26OCT1517-T79499.99:YES": 0.9,
   "KXBTCD-26OCT1517-T79749.99:YES": 0.89,
-  "KXBTCD-26OCT1517-T79999.99:YES": 0.84,
-  "KXBTCD-26OCT1517-T80249.99:YES": 0.8,
-  "KXBTCD-26OCT1517-T80499.99:YES": 0.73,
-  "KXBTCD-26OCT1517-T81499.99:NO": 0.59,
-  "KXBTCD-26OCT1517-T81749.99:NO": 0.68,
-  "KXBTCD-26OCT1517-T81999.99:NO": 0.74,
-  "KXBTCD-26OCT1517-T82249.99:NO": 0.8,
-  "KXBTCD-26OCT1517-T82499.99:NO": 0.86,
-  "KXBTCD-26OCT1517-T82749.99:NO": 0.89,
+  "KXBTCD-26OCT1517-T79999.99:YES": 0.83,
+  "KXBTCD-26OCT1517-T80249.99:YES": 0.78,
+  "KXBTCD-26OCT1517-T80499.99:YES": 0.72,
+  "KXBTCD-26OCT1517-T81499.99:NO": 0.62,
+  "KXBTCD-26OCT1517-T81749.99:NO": 0.69,
+  "KXBTCD-26OCT1517-T81999.99:NO": 0.76,
+  "KXBTCD-26OCT1517-T82249.99:NO": 0.82,
+  "KXBTCD-26OCT1517-T82499.99:NO": 0.87,
+  "KXBTCD-26OCT1517-T82749.99:NO": 0.9,
   "KXBTCD-26OCT1517-T82999.99:NO": 0.93
  },
- "last_run": 1792058423.231689,
+ "last_run": 1792058717.3928566,
  "last_vote": {
   "approved": false,
-  "ask": 0.74,
-  "edge": 0.08811950064056275,
-  "label": "Bitcoin price on Oct 15, 2026? \u2014 $82,000 or above",
+  "ask": 0.69,
+  "edge": 0.08405017770275382,
+  "label": "Bitcoin price on Oct 15, 2026? \u2014 $81,750 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-15-2026-at-5pm-edt/kxbtcd-26oct1517",
   "votes": {
@@ -3569,7 +3570,7 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.04% in 30 min, not fighting this bet"
+    "Bitcoin -0.01% in 30 min, not fighting this bet"
    ],
    "Risk": [
     false,
@@ -3584,7 +3585,7 @@
     "closes in 11h"
    ]
   },
-  "when": 1792058420.1868632
+  "when": 1792058714.24977
  },
  "learn": {
   "edge": {
