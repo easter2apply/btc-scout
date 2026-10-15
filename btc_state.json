@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3332434578674385,
-  "move": 0.0021787136572797294,
+  "long": 0.3332375689648167,
+  "move": 0.0010386293254636136,
   "quotes": {
-   "Bitstamp": 82372.04,
-   "Coinbase": 82364.865,
-   "Kraken": 82372.1
+   "Bitstamp": 82310.12,
+   "Coinbase": 82297.685,
+   "Kraken": 82295.2
   },
-  "short": 0.3024271851190571,
-  "spot": 82372.04,
-  "t": 1792102514.4274547,
-  "vol": 0.31820858293773574
+  "short": 0.30094383718885653,
+  "spot": 82297.685,
+  "t": 1792102815.0409122,
+  "vol": 0.31750155158009385
  },
  "btc_hist": [
-  [
-   1792014614,
-   81764.3
-  ],
   [
    1792014913,
    81640.85
@@ -1212,6 +1208,10 @@
   [
    1792102514,
    82372.04
+  ],
+  [
+   1792102815,
+   82297.68
   ]
  ],
  "chat_id": "7590441188",
@@ -1248,8 +1248,8 @@
   "2026-10-15": {
    "buys": 62,
    "lines": 0,
-   "news": 27,
-   "rejected": 27,
+   "news": 28,
+   "rejected": 28,
    "sl": 30,
    "tp": 24
   }
@@ -4313,22 +4313,28 @@
  ],
  "last_daily": "2026-10-14",
  "last_px": {
+  "KXBTC-26OCT1519-B82250:NO": 0.73,
+  "KXBTC-26OCT1519-B82350:NO": 0.73,
+  "KXBTC15M-26OCT151830-30:YES": 0.17,
+  "KXBTCD-26OCT1519-T82099.99:NO": 0.09,
+  "KXBTCD-26OCT1519-T82199.99:NO": 0.23,
+  "KXBTCD-26OCT1519-T82399.99:YES": 0.22,
+  "KXBTCD-26OCT1519-T82499.99:YES": 0.08,
   "KXBTCD-26OCT1617-T80499.99:YES": 0.9,
   "KXBTCD-26OCT1617-T80999.99:YES": 0.84,
-  "KXBTCD-26OCT1617-T81499.99:YES": 0.74,
+  "KXBTCD-26OCT1617-T82499.99:NO": 0.53,
   "KXBTCD-26OCT1617-T82999.99:NO": 0.66,
-  "KXBTCD-26OCT1617-T83499.99:NO": 0.78,
-  "KXBTCD-26OCT1617-T83999.99:NO": 0.87,
-  "KXBTCD-26OCT1617-T84499.99:NO": 0.92
+  "KXBTCD-26OCT1617-T83499.99:NO": 0.79,
+  "KXBTCD-26OCT1617-T83999.99:NO": 0.88
  },
- "last_run": 1792102515.686611,
+ "last_run": 1792102817.0043306,
  "last_vote": {
-  "approved": true,
-  "ask": 0.16,
-  "edge": 0.09278292476871035,
-  "label": "Bitcoin price on Oct 15, 2026? \u2014 $82,300 or above",
-  "side": "YES",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-15-2026-at-6pm-edt/kxbtcd-26oct1518",
+  "approved": false,
+  "ask": 0.66,
+  "edge": 0.07402032349135658,
+  "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
+  "side": "NO",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-16-2026-at-5pm-edt/kxbtcd-26oct1617",
   "votes": {
    "Doubt": [
     true,
@@ -4336,22 +4342,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.01% in 30 min, not fighting this bet"
+    "Bitcoin +0.10% in 30 min, not fighting this bet"
    ],
    "Risk": [
-    true,
-    "spread 1\u00a2, volume 108,045"
+    false,
+    "news risk: USD Fed Chairman Warsh Speaks (Thu 11:30 PM ET) lands before this closes"
    ],
    "The Quant": [
-    true,
-    "55% expected return on cost"
+    false,
+    "11% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 23h"
    ]
   },
-  "when": 1792101013.6144087
+  "when": 1792102817.0040662
  },
  "learn": {
   "edge": {
@@ -4478,7 +4484,7 @@
     "title": "Fed Chairman Warsh Speaks"
    }
   ],
-  "fetched": 1792080915.9026875
+  "fetched": 1792102815.2685368
  },
  "open": [],
  "recent": {
@@ -4556,7 +4562,43 @@
    "total": 349
   }
  },
- "shadow": [],
+ "shadow": [
+  {
+   "bet": "Bitcoin is UNDER $83,000 at 5:00 PM ET tomorrow",
+   "cat": "Bitcoin",
+   "close_ts": 1792184401.0107143,
+   "contracts": 14,
+   "edge": 0.07402032349135658,
+   "entry": 0.66,
+   "event": "KXBTCD-26OCT1617",
+   "fair": 0.7540203234913566,
+   "fee": 0.02,
+   "key": "KXBTCD-26OCT1617-T82999.99:NO",
+   "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
+   "last_bid": null,
+   "opened": 1792102817.0040662,
+   "reasons": [
+    "Bitcoin +0.10% in 30 min, not fighting this bet",
+    "closes in 23h",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$83,000 or above",
+   "shadow": true,
+   "side": "NO",
+   "sl": 0.55,
+   "stake": 10.0,
+   "ticker": "KXBTCD-26OCT1617-T82999.99",
+   "tp": 0.75,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-16-2026-at-5pm-edt/kxbtcd-26oct1617",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": false,
+    "The Quant": false,
+    "Time": true
+   }
+  }
+ ],
  "sports_on": false,
  "welcomed": true
 }
