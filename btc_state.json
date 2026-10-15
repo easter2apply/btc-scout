@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3154729036396436,
-  "move": 0.0006583822695092056,
+  "long": 0.31558912203275435,
+  "move": -0.001030852433203333,
   "quotes": {
-   "Bitstamp": 81181.94,
-   "Coinbase": 81178.125,
-   "Kraken": 81175.5
+   "Bitstamp": 81130.68,
+   "Coinbase": 81129.525,
+   "Kraken": 81136.0
   },
-  "short": 0.4338122478734577,
-  "spot": 81178.125,
-  "t": 1792053614.0029728,
-  "vol": 0.3792863162149738
+  "short": 0.4318659434111597,
+  "spot": 81130.68,
+  "t": 1792053912.5322883,
+  "vol": 0.3782226110532101
  },
  "btc_hist": [
-  [
-   1791965112,
-   83682.21
-  ],
   [
    1791965413,
    84000.33
@@ -1212,6 +1208,10 @@
   [
    1792053614,
    81178.12
+  ],
+  [
+   1792053913,
+   81130.68
   ]
  ],
  "chat_id": "7590441188",
@@ -1255,10 +1255,6 @@
   }
  },
  "errors": [
-  {
-   "t": 1792048218.7860248,
-   "text": "KXBTCD: 74 markets priced, 6 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792048260.1629355,
    "text": "KXBTCD: 74 markets priced, 6 skipped (model and Kalshi too far apart)"
@@ -1333,6 +1329,10 @@
   },
   {
    "t": 1792053617.8078864,
+   "text": "KXBTCD: 68 markets priced, 12 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792053916.3482904,
    "text": "KXBTCD: 68 markets priced, 12 skipped (model and Kalshi too far apart)"
   }
  ],
@@ -3544,11 +3544,11 @@
   "KXBTCD-26OCT1517-T80249.99:YES": 0.75,
   "KXBTCD-26OCT1517-T82249.99:NO": 0.83
  },
- "last_run": 1792053617.8078532,
+ "last_run": 1792053916.348255,
  "last_vote": {
   "approved": false,
   "ask": 0.78,
-  "edge": 0.08873979217235896,
+  "edge": 0.08204932304537028,
   "label": "Bitcoin price on Oct 15, 2026? \u2014 $80,000 or above",
   "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-15-2026-at-5pm-edt/kxbtcd-26oct1517",
@@ -3559,7 +3559,7 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.07% in 30 min, not fighting this bet"
+    "Bitcoin -0.10% in 30 min, not fighting this bet"
    ],
    "Risk": [
     false,
@@ -3567,14 +3567,14 @@
    ],
    "The Quant": [
     false,
-    "11% expected return on cost"
+    "10% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 12h"
    ]
   },
-  "when": 1792053615.4238079
+  "when": 1792053913.95563
  },
  "learn": {
   "edge": {
@@ -3694,7 +3694,6 @@
  "recent": {
   "KXBTC-26OCT1423-B80650:YES": 1792034116.2215822,
   "KXBTC-26OCT1423-B81350:YES": 1792034116.2215822,
-  "KXBTC15M-26OCT142245-45:YES": 1792032313.6365523,
   "KXBTC15M-26OCT142330-30:NO": 1792035024.1616755,
   "KXBTCD-26OCT1423-T81199.99:NO": 1792034116.2215822,
   "KXBTCD-26OCT1423-T81399.99:NO": 1792034116.2215822,
