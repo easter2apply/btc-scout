@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3305906182789265,
-  "move": -0.00044351090846550534,
+  "long": 0.3305652211212171,
+  "move": -0.0012787264152955835,
   "quotes": {
-   "Bitstamp": 81914.05,
-   "Coinbase": 81907.565,
-   "Kraken": 81920.3
+   "Bitstamp": 81949.27,
+   "Coinbase": 81953.165,
+   "Kraken": 81946.8
   },
-  "short": 0.3001442238039256,
-  "spot": 81914.05,
-  "t": 1792131313.1674266,
-  "vol": 0.31573462906126076
+  "short": 0.2979999353981487,
+  "spot": 81949.27,
+  "t": 1792131540.7460742,
+  "vol": 0.3147040887184499
  },
  "btc_hist": [
-  [
-   1792043413,
-   80686.99
-  ],
   [
    1792043713,
    80462.53
@@ -1212,6 +1208,10 @@
   [
    1792131313,
    81914.05
+  ],
+  [
+   1792131541,
+   81949.27
   ]
  ],
  "chat_id": "7590441188",
@@ -1263,10 +1263,6 @@
   }
  },
  "errors": [
-  {
-   "t": 1792073423.8846054,
-   "text": "KXBTCD: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792098331.196456,
    "text": "KXBTC: 235 markets priced, 3 skipped (model and Kalshi too far apart)"
@@ -1342,6 +1338,10 @@
   {
    "t": 1792131314.8299727,
    "text": "KXBTC: 235 markets priced, 3 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792131543.0539496,
+   "text": "KXBTC: 236 markets priced, 2 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4359,12 +4359,12 @@
  "last_px": {
   "KXBTCD-26OCT1617-T79999.99:YES": 0.93,
   "KXBTCD-26OCT1617-T80499.99:YES": 0.88,
-  "KXBTCD-26OCT1617-T82499.99:NO": 0.68,
+  "KXBTCD-26OCT1617-T80999.99:YES": 0.82,
+  "KXBTCD-26OCT1617-T82499.99:NO": 0.67,
   "KXBTCD-26OCT1617-T82999.99:NO": 0.81,
-  "KXBTCD-26OCT1617-T83499.99:NO": 0.89,
-  "KXBTCD-26OCT1617-T83999.99:NO": 0.94
+  "KXBTCD-26OCT1617-T83499.99:NO": 0.9
  },
- "last_run": 1792131314.8299334,
+ "last_run": 1792131543.0539112,
  "last_vote": {
   "approved": true,
   "ask": 0.63,
@@ -4540,7 +4540,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1617-T82999.99:NO",
    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
-   "last_bid": 0.81,
+   "last_bid": 0.8,
    "opened": 1792125018.8180587,
    "reasons": [
     "spread 1\u00a2, volume 89,547",
