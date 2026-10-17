@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3218804667117319,
-  "move": 0.000721987198105456,
+  "long": 0.3218819906755034,
+  "move": -3.234363053694622e-05,
   "quotes": {
    "Bitstamp": 81327.98,
-   "Coinbase": 81318.285,
-   "Kraken": 81323.1
+   "Coinbase": 81311.135,
+   "Kraken": 81320.1
   },
-  "short": 0.15063673643661024,
-  "spot": 81323.1,
-  "t": 1792206311.6256423,
-  "vol": 0.2512951066125594
+  "short": 0.14894897585839903,
+  "spot": 81320.1,
+  "t": 1792206612.8840072,
+  "vol": 0.2507925570371764
  },
  "btc_hist": [
-  [
-   1792118416,
-   82086.32
-  ],
   [
    1792118712,
    82087.8
@@ -1212,6 +1208,10 @@
   [
    1792206312,
    81323.1
+  ],
+  [
+   1792206613,
+   81320.1
   ]
  ],
  "chat_id": "7590441188",
@@ -1254,7 +1254,7 @@
    "tp": 25
   },
   "2026-10-16": {
-   "buys": 60,
+   "buys": 61,
    "lines": 0,
    "news": 0,
    "rejected": 3,
@@ -4778,50 +4778,49 @@
  ],
  "last_daily": "2026-10-16",
  "last_px": {
-  "KXBTC-26OCT1700-B81250:NO": 0.71,
-  "KXBTC-26OCT1700-B81350:NO": 0.64,
-  "KXBTC15M-26OCT162315-15:YES": 0.12,
+  "KXBTC-26OCT1700-B81150:YES": 0.09,
+  "KXBTC-26OCT1700-B81250:NO": 0.7,
+  "KXBTC-26OCT1700-B81350:NO": 0.61,
   "KXBTCD-26OCT1700-T81099.99:NO": 0.05,
-  "KXBTCD-26OCT1700-T81199.99:NO": 0.15,
-  "KXBTCD-26OCT1700-T81399.99:YES": 0.23,
-  "KXBTCD-26OCT1700-T81499.99:YES": 0.08,
+  "KXBTCD-26OCT1700-T81199.99:NO": 0.12,
+  "KXBTCD-26OCT1700-T81399.99:YES": 0.2,
+  "KXBTCD-26OCT1700-T81499.99:YES": 0.05,
   "KXBTCD-26OCT1717-T80249.99:NO": 0.05,
   "KXBTCD-26OCT1717-T80499.99:NO": 0.1,
-  "KXBTCD-26OCT1717-T80749.99:NO": 0.17,
   "KXBTCD-26OCT1717-T80999.99:NO": 0.28,
   "KXBTCD-26OCT1717-T82249.99:YES": 0.08
  },
- "last_run": 1792206314.3604934,
+ "last_run": 1792206615.0968406,
  "last_vote": {
-  "approved": false,
-  "ask": 0.64,
-  "edge": 0.09663833094235065,
-  "label": "Bitcoin price range on Oct 17, 2026? \u2014 $81,300 to 81,399.99",
+  "approved": true,
+  "ask": 0.12,
+  "edge": 0.09042299067244487,
+  "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,200 or above",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-17-2026-at-12am-edt/kxbtc-26oct1700",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-17-2026-at-12am-edt/kxbtcd-26oct1700",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u22123\u00a2 since last scan"
+    true,
+    "Bitcoin -0.00% in 30 min, not fighting this bet"
    ],
    "Risk": [
-    false,
-    "spread 1\u00a2, volume 20"
+    true,
+    "spread 1\u00a2, volume 939"
    ],
    "The Quant": [
-    false,
-    "15% expected return on cost"
+    true,
+    "70% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 55m"
+    "closes in 50m"
    ]
   },
-  "when": 1792206313.1946535
+  "when": 1792206614.6987293
  },
  "learn": {
   "edge": {
@@ -4995,6 +4994,40 @@
    "ticker": "KXBTCD-26OCT1717-T80499.99",
    "tp": 0.22,
    "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-17-2026-at-5pm-edt/kxbtcd-26oct1717",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $81,200 at 12:00 AM ET tomorrow",
+   "cat": "Bitcoin",
+   "close_ts": 1792209601.0980952,
+   "contracts": 39,
+   "edge": 0.09042299067244487,
+   "entry": 0.12,
+   "event": "KXBTCD-26OCT1700",
+   "fair": 0.22042299067244486,
+   "fee": 0.01,
+   "key": "KXBTCD-26OCT1700-T81199.99:NO",
+   "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,200 or above",
+   "last_bid": null,
+   "opened": 1792206614.6987293,
+   "reasons": [
+    "70% expected return on cost",
+    "spread 1\u00a2, volume 939",
+    "Bitcoin -0.00% in 30 min, not fighting this bet"
+   ],
+   "row": "$81,200 or above",
+   "side": "NO",
+   "sl": 0.01,
+   "stake": 5.196723601864647,
+   "ticker": "KXBTCD-26OCT1700-T81199.99",
+   "tp": 0.22,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-17-2026-at-12am-edt/kxbtcd-26oct1700",
    "votes": {
     "Doubt": true,
     "Momentum": true,
