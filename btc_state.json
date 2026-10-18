@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3239141745486777,
-  "move": -0.006769070459108795,
+  "long": 0.32370639236371296,
+  "move": -0.005515574162468839,
   "quotes": {
-   "Bitstamp": 81315.32,
-   "Coinbase": 81342.915,
-   "Kraken": 81315.4
+   "Bitstamp": 81347.25,
+   "Coinbase": 81339.355,
+   "Kraken": 81345.3
   },
-  "short": 0.2533262300214417,
-  "spot": 81315.4,
-  "t": 1792330813.0205193,
-  "vol": 0.2907701594820449
+  "short": 0.2568468772944187,
+  "spot": 81345.3,
+  "t": 1792331113.3298194,
+  "vol": 0.2921952659036627
  },
  "btc_hist": [
-  [
-   1792242613,
-   81375.51
-  ],
   [
    1792242913,
    81385.29
@@ -1212,13 +1208,17 @@
   [
    1792330813,
    81315.4
+  ],
+  [
+   1792331113,
+   81345.3
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 253,
-  "total": 554
+  "right": 254,
+  "total": 555
  },
  "days": {
   "2026-10-12": {
@@ -1275,7 +1275,7 @@
    "news": 0,
    "rejected": 1,
    "sl": 18,
-   "tp": 21
+   "tp": 22
   }
  },
  "errors": [
@@ -1361,15 +1361,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.15,
-   "right": false,
-   "shadow": false,
-   "t": 1791979515.3373883,
-   "usd": -3.06,
-   "won": false
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.07,
@@ -4792,24 +4783,29 @@
    "t": 1792329316.1676905,
    "usd": 4.55,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.12,
+   "right": true,
+   "shadow": false,
+   "t": 1792331116.2600677,
+   "usd": 1.21,
+   "won": true
   }
  ],
  "last_daily": "2026-10-17",
  "last_px": {
-  "KXBTC-26OCT1810-B81250:YES": 0.23,
-  "KXBTC-26OCT1810-B81350:YES": 0.25,
-  "KXBTCD-26OCT1810-T81199.99:NO": 0.13,
-  "KXBTCD-26OCT1810-T81299.99:NO": 0.32,
-  "KXBTCD-26OCT1810-T81399.99:NO": 0.59,
-  "KXBTCD-26OCT1810-T81499.99:NO": 0.8,
-  "KXBTCD-26OCT1810-T81599.99:NO": 0.91,
-  "KXBTCD-26OCT1817-T81499.99:NO": 0.58
+  "KXBTC-26OCT1810-B81350:YES": 0.35,
+  "KXBTCD-26OCT1810-T81399.99:NO": 0.63,
+  "KXBTCD-26OCT1810-T81499.99:NO": 0.87,
+  "KXBTCD-26OCT1810-T81599.99:NO": 0.94
  },
- "last_run": 1792330815.9906456,
+ "last_run": 1792331116.2603226,
  "last_vote": {
   "approved": true,
-  "ask": 0.59,
-  "edge": 0.16232872728525063,
+  "ask": 0.63,
+  "edge": 0.06401413136487168,
   "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,400 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-18-2026-at-10am-edt/kxbtcd-26oct1810",
@@ -4820,22 +4816,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.68% in 30 min, not fighting this bet"
+    "Bitcoin -0.55% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 41,683"
+    "spread 1\u00a2, volume 67,147"
    ],
    "The Quant": [
-    true,
-    "27% expected return on cost"
+    false,
+    "10% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 20m"
+    "closes in 15m"
    ]
   },
-  "when": 1792330814.6515021
+  "when": 1792331114.914526
  },
  "learn": {
   "edge": {
@@ -4926,7 +4922,8 @@
   "window": {
    "Bitcoin": [
     -0.18999999999999995,
-    0.37
+    0.37,
+    0.12
    ]
   }
  },
@@ -5084,7 +5081,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1810-T81399.99:NO",
    "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,400 or above",
-   "last_bid": 0.66,
+   "last_bid": 0.65,
    "opened": 1792330217.6248474,
    "reasons": [
     "41% expected return on cost",
@@ -5118,7 +5115,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1817-T81499.99:NO",
    "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,500 or above",
-   "last_bid": 0.59,
+   "last_bid": 0.57,
    "opened": 1792330217.6248474,
    "reasons": [
     "19% expected return on cost",
@@ -5148,11 +5145,14 @@
    "edge": 0.10771479012701694,
    "entry": 0.16,
    "event": "KXBTC-26OCT1810",
+   "exit_px": 0.34,
+   "exit_reason": "take profit",
+   "exit_t": 1792331114.914526,
    "fair": 0.27771479012701694,
    "fee": 0.01,
    "key": "KXBTC-26OCT1810-B81350:YES",
    "label": "Bitcoin price range on Oct 18, 2026? \u2014 $81,300 to 81,399.99",
-   "last_bid": 0.23,
+   "last_bid": 0.34,
    "opened": 1792330217.6248474,
    "reasons": [
     "63% expected return on cost",
@@ -5173,40 +5173,6 @@
     "The Quant": true,
     "Time": true
    }
-  },
-  {
-   "bet": "Bitcoin is UNDER $81,431 at 9:45 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1792331100.2501802,
-   "contracts": 11,
-   "edge": 0.08687650508666157,
-   "entry": 0.88,
-   "event": "KXBTC15M-26OCT180945",
-   "fair": 0.9768765050866616,
-   "fee": 0.01,
-   "key": "KXBTC15M-26OCT180945-45:NO",
-   "label": "BTC price up in next 15 mins? \u2014 Target Price: $81,431.25",
-   "last_bid": 0.941,
-   "opened": 1792330515.1520603,
-   "reasons": [
-    "spread 1\u00a2, volume 193,075",
-    "Bitcoin -0.72% in 30 min, not fighting this bet",
-    "closes in 10m"
-   ],
-   "row": "Target Price: $81,431.25",
-   "side": "NO",
-   "sl": 0.75,
-   "stake": 10.0,
-   "ticker": "KXBTC15M-26OCT180945-45",
-   "tp": 0.98,
-   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-81-431-25-target/kxbtc15m-26oct180945",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": false,
-    "Time": true
-   }
   }
  ],
  "recent": {
@@ -5219,11 +5185,11 @@
   "KXBTC-26OCT1808-B81950:NO": 1792325112.3625243,
   "KXBTC-26OCT1809-B81850:NO": 1792328715.6427119,
   "KXBTC-26OCT1809-B81950:NO": 1792328715.6427119,
-  "KXBTC15M-26OCT180345-45:YES": 1792309513.3502777,
   "KXBTC15M-26OCT180400-00:YES": 1792310419.7613778,
   "KXBTC15M-26OCT180515-15:YES": 1792314913.198985,
   "KXBTC15M-26OCT180600-00:YES": 1792317619.0475824,
   "KXBTC15M-26OCT180915-15:NO": 1792329315.9660933,
+  "KXBTC15M-26OCT180945-45:NO": 1792331114.914526,
   "KXBTCD-26OCT1804-T81499.99:NO": 1792310712.7911305,
   "KXBTCD-26OCT1804-T81799.99:YES": 1792310712.7911305,
   "KXBTCD-26OCT1805-T81499.99:NO": 1792314913.198985,
@@ -5237,31 +5203,31 @@
   "KXBTCD-26OCT1809-T82099.99:YES": 1792328715.6427119
  },
  "record": {
-  "dollars": -151.87,
+  "dollars": -150.66,
   "losses": 249,
-  "pnl": 8.733,
-  "wins": 218
+  "pnl": 8.853,
+  "wins": 219
  },
  "scoreboard": {
   "Doubt": {
-   "right": 268,
-   "total": 554
+   "right": 269,
+   "total": 555
   },
   "Momentum": {
-   "right": 232,
-   "total": 483
+   "right": 233,
+   "total": 484
   },
   "Risk": {
-   "right": 257,
-   "total": 554
+   "right": 258,
+   "total": 555
   },
   "The Quant": {
    "right": 166,
-   "total": 554
+   "total": 555
   },
   "Time": {
-   "right": 270,
-   "total": 554
+   "right": 271,
+   "total": 555
   }
  },
  "shadow": [],
