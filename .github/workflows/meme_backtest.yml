@@ -1,0 +1,27 @@
+name: Meme Backtest
+on:
+  push:
+    branches: [meme-lab]
+    paths: [meme_backtest.py, .github/workflows/meme_backtest.yml]
+permissions:
+  contents: write
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python meme_backtest.py
+      - name: Save
+        run: |
+          git config user.name "meme-lab"
+          git config user.email "meme-lab@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            cp meme_backtest.json /tmp/mb.json
+            git fetch -q origin meme-lab && git reset -q --hard origin/meme-lab && cp /tmp/mb.json meme_backtest.json
+            git add meme_backtest.json && git commit -qm "Meme Backtest output" && git push -q origin HEAD:meme-lab && exit 0
+            sleep 5
+          done
