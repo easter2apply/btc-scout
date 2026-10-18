@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3213406889602941,
-  "move": 0.0008193915809109331,
+  "long": 0.3213502736557332,
+  "move": -0.00033746629472664047,
   "quotes": {
-   "Bitstamp": 81611.76,
-   "Coinbase": 81600.975,
-   "Kraken": 81611.5
+   "Bitstamp": 81598.16,
+   "Coinbase": 81600.965,
+   "Kraken": 81607.3
   },
-  "short": 0.18027853779603878,
-  "spot": 81611.5,
-  "t": 1792306214.4326363,
-  "vol": 0.2605380870154633
+  "short": 0.18195474910424672,
+  "spot": 81600.965,
+  "t": 1792306510.6815805,
+  "vol": 0.2611259553359298
  },
  "btc_hist": [
-  [
-   1792218312,
-   81461.85
-  ],
   [
    1792218615,
    81501.03
@@ -1212,6 +1208,10 @@
   [
    1792306214,
    81611.5
+  ],
+  [
+   1792306511,
+   81600.96
   ]
  ],
  "chat_id": "7590441188",
@@ -1274,7 +1274,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 1,
-   "sl": 8,
+   "sl": 9,
    "tp": 6
   }
  },
@@ -4793,13 +4793,8 @@
   }
  ],
  "last_daily": "2026-10-17",
- "last_px": {
-  "KXBTC-26OCT1803-B81550:NO": 0.56,
-  "KXBTC-26OCT1803-B81750:YES": 0.05,
-  "KXBTC15M-26OCT180300-00:YES": 0.18,
-  "KXBTCD-26OCT1803-T81699.99:YES": 0.05
- },
- "last_run": 1792306216.7567499,
+ "last_px": {},
+ "last_run": 1792306512.9274838,
  "last_vote": {
   "approved": true,
   "ask": 0.18,
@@ -5104,7 +5099,7 @@
    "fee": 0.02,
    "key": "KXBTC15M-26OCT180300-00:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $81,644.06",
-   "last_bid": null,
+   "last_bid": 0.073,
    "opened": 1792306216.0284133,
    "reasons": [
     "60% expected return on cost",
@@ -5134,11 +5129,14 @@
    "edge": 0.06177044167332462,
    "entry": 0.05,
    "event": "KXBTCD-26OCT1803",
+   "exit_px": 0.0,
+   "exit_reason": "stop loss",
+   "exit_t": 1792306511.964227,
    "fair": 0.12177044167332463,
    "fee": 0.01,
    "key": "KXBTCD-26OCT1803-T81699.99:YES",
    "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,700 or above",
-   "last_bid": null,
+   "last_bid": 0.0,
    "opened": 1792306216.0284133,
    "reasons": [
     "103% expected return on cost",
