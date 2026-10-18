@@ -162,10 +162,11 @@ def safety_evm(net, addr):
     r = (j.get("result") or {}).get(addr.lower())
     if not r:
         return None
-    holders = [{"pct": f(h.get("percent")) * 100, "insider": False} for h in r.get("holders") or []
+    holders = [{"pct": f(h.get("percent")) * 100, "insider": False} for h in r.get("holders") or [] if f(h.get("percent")) < 0.99
                if not h.get("is_locked") and str(h.get("is_contract")) != "1"
                and h.get("address", "").lower() not in ("0x000000000000000000000000000000000000dead", "0x0000000000000000000000000000000000000000")]
-    lp_locked = sum(f(h.get("percent")) for h in r.get("lp_holders") or [] if str(h.get("is_locked")) == "1"
+    lp = r.get("lp_holders") or []
+    lp_locked = None if not lp else sum(f(h.get("percent")) for h in lp if str(h.get("is_locked")) == "1"
                     or h.get("address", "").lower().endswith("dead") or h.get("address", "").lower() == "0x0000000000000000000000000000000000000000") * 100
     danger = []
     if r.get("is_honeypot") == "1": danger.append("honeypot (you can't sell)")
@@ -175,7 +176,7 @@ def safety_evm(net, addr):
     if r.get("transfer_pausable") == "1": danger.append("trading can be paused")
     if r.get("is_open_source") == "0": danger.append("code not public")
     return {"holders": holders, "honeypot": r.get("is_honeypot") == "1", "sell_tax": f(r.get("sell_tax")) * 100,
-            "mintable": r.get("is_mintable") == "1", "freezable": False, "lp_locked": min(lp_locked, 100.0),
+            "mintable": r.get("is_mintable") == "1", "freezable": False, "lp_locked": None if lp_locked is None else min(lp_locked, 100.0),
             "danger": danger, "warn": [], "holder_count": r.get("holder_count")}
 
 
@@ -191,11 +192,12 @@ def vote(c, s, w):
         if s["sell_tax"] > 10: bad.append(f"sell tax {s['sell_tax']:.0f}%")
         if s["mintable"]: bad.append("dev can print more coins")
         if s["freezable"]: bad.append("dev can freeze your coins")
-        if s["lp_locked"] < 50: bad.append(f"only {s['lp_locked']:.0f}% of the liquidity is locked (rug risk)")
+        if s["lp_locked"] is not None and s["lp_locked"] < 50:
+            bad.append(f"only {s['lp_locked']:.0f}% of the liquidity is locked (rug risk)")
         bad += [d for d in s["danger"] if d not in bad][:3]
         if c["liq"] < 75000: bad.append(f"thin liquidity ({money(c['liq'])})")
         v["The Inspector"] = (not bad, "; ".join(bad) if bad else
-                              f"sellable, no mint/freeze, {s['lp_locked']:.0f}% liquidity locked, {money(c['liq'])} liquidity")
+                              f"sellable, no mint/freeze, " + ("liquidity lock unknown (newer pool type)" if s["lp_locked"] is None else f"{s['lp_locked']:.0f}% liquidity locked") + f", {money(c['liq'])} liquidity")
     # The Whale Watcher
     if s is None:
         v["The Whale Watcher"] = (False, "no holder data")

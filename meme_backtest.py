@@ -137,7 +137,7 @@ def main():
             if s:
                 hs = sorted([h["pct"] for h in s["holders"]], reverse=True)
                 safe = (not s["honeypot"] and s["sell_tax"] <= 10 and not s["mintable"] and not s["freezable"]
-                        and s["lp_locked"] >= 50 and sum(hs[:10]) <= 30)
+                        and (s["lp_locked"] is None or s["lp_locked"] >= 50) and sum(hs[:10]) <= 30)
                 if safe:
                     B += tr
         if k % 25 == 0:

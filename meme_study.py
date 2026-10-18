@@ -31,17 +31,26 @@ def pct(xs, p):
 
 
 def pools(net):
-    out = []
-    for page in range(1, PAGES + 1):
-        j = M.get(f"{M.GT}/networks/{net}/pools", {"page": page, "sort": "h24_volume_usd_desc", "include": "base_token"}, gt=True) or {}
+    """Most-traded pools + trending pools (24h and 6h) for one network."""
+    out, raw = [], []
+    calls = [("pools", {"page": p, "sort": "h24_volume_usd_desc", "include": "base_token"}) for p in range(1, PAGES + 1)]
+    calls += [("trending_pools", {"page": p, "duration": d, "include": "base_token"}) for d in ("24h", "6h") for p in range(1, 4)]
+    for path, params in calls:
+        j = M.get(f"{M.GT}/networks/{net}/{path}", params, gt=True)
+        if j is None and "sort" in params:
+            params = {k: v for k, v in params.items() if k != "sort"}
+            j = M.get(f"{M.GT}/networks/{net}/{path}", params, gt=True)
+        j = j or {}
+        print(net, path, params.get("page"), params.get("duration", ""), len(j.get("data", [])), flush=True)
         toks = {t["id"]: t["attributes"] for t in j.get("included", []) if t.get("type") == "token"}
         for p in j.get("data", []):
             a = p["attributes"]
             tid = ((p.get("relationships") or {}).get("base_token") or {}).get("data", {}).get("id", "")
-            r = M.pool_row(net, a, toks.get(tid, {}), tid)
-            if (r["symbol"] or "").upper() in SKIP or r["fdv"] > 2e9 or r["liq"] < 20000:
-                continue
-            out.append(r)
+            raw.append(M.pool_row(net, a, toks.get(tid, {}), tid))
+    for r in raw:
+        if (r["symbol"] or "").upper() in SKIP or r["fdv"] > 2e9 or r["liq"] < 20000:
+            continue
+        out.append(r)
     return out
 
 
