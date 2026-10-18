@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.323644752996451,
-  "move": -0.0026394776602289838,
+  "long": 0.3245046211551939,
+  "move": -0.0025327241587782545,
   "quotes": {
-   "Bitstamp": 81141.23,
-   "Coinbase": 81214.055,
-   "Kraken": 81132.5
+   "Bitstamp": 81131.48,
+   "Coinbase": 81055.515,
+   "Kraken": 81100.0
   },
-  "short": 0.3079085922110717,
-  "spot": 81141.23,
-  "t": 1792333815.594129,
-  "vol": 0.31587468029230975
+  "short": 0.325387537234236,
+  "spot": 81100.0,
+  "t": 1792334110.8723803,
+  "vol": 0.32494637906771423
  },
  "btc_hist": [
-  [
-   1792245620,
-   81384.1
-  ],
   [
    1792245912,
    81393.9
@@ -1212,6 +1208,10 @@
   [
    1792333816,
    81141.23
+  ],
+  [
+   1792334111,
+   81100.0
   ]
  ],
  "chat_id": "7590441188",
@@ -1270,12 +1270,12 @@
    "tp": 31
   },
   "2026-10-18": {
-   "buys": 56,
+   "buys": 58,
    "lines": 0,
    "news": 0,
    "rejected": 1,
    "sl": 21,
-   "tp": 24
+   "tp": 26
   }
  },
  "errors": [
@@ -4804,28 +4804,24 @@
  ],
  "last_daily": "2026-10-17",
  "last_px": {
-  "KXBTC-26OCT1811-B81050:YES": 0.17,
-  "KXBTC-26OCT1811-B81150:YES": 0.21,
-  "KXBTC-26OCT1811-B81450:NO": 0.92,
-  "KXBTCD-26OCT1811-T80999.99:NO": 0.11,
-  "KXBTCD-26OCT1811-T81099.99:NO": 0.24,
-  "KXBTCD-26OCT1811-T81199.99:NO": 0.45,
-  "KXBTCD-26OCT1811-T81299.99:NO": 0.64,
-  "KXBTCD-26OCT1811-T81399.99:NO": 0.8,
-  "KXBTCD-26OCT1811-T81499.99:NO": 0.93,
-  "KXBTCD-26OCT1817-T80499.99:NO": 0.1,
-  "KXBTCD-26OCT1817-T80749.99:NO": 0.17,
-  "KXBTCD-26OCT1817-T80999.99:NO": 0.32,
-  "KXBTCD-26OCT1817-T81249.99:NO": 0.5,
-  "KXBTCD-26OCT1817-T81499.99:NO": 0.68
+  "KXBTC-26OCT1811-B81050:YES": 0.19,
+  "KXBTC-26OCT1811-B81150:YES": 0.18,
+  "KXBTC15M-26OCT181045-45:NO": 0.83,
+  "KXBTCD-26OCT1811-T80699.99:YES": 0.95,
+  "KXBTCD-26OCT1811-T80799.99:YES": 0.89,
+  "KXBTCD-26OCT1811-T80899.99:YES": 0.78,
+  "KXBTCD-26OCT1811-T80999.99:YES": 0.62,
+  "KXBTCD-26OCT1811-T81099.99:YES": 0.44,
+  "KXBTCD-26OCT1811-T81299.99:NO": 0.87,
+  "KXBTCD-26OCT1811-T81399.99:NO": 0.93
  },
- "last_run": 1792333817.7826629,
+ "last_run": 1792334112.981928,
  "last_vote": {
   "approved": true,
-  "ask": 0.45,
-  "edge": 0.1861960311976086,
-  "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,200 or above",
-  "side": "NO",
+  "ask": 0.62,
+  "edge": 0.12052293354502754,
+  "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,000 or above",
+  "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-18-2026-at-11am-edt/kxbtcd-26oct1811",
   "votes": {
    "Doubt": [
@@ -4834,22 +4830,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.26% in 30 min, not fighting this bet"
+    "Bitcoin -0.25% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 93,276"
+    "spread 1\u00a2, volume 70,449"
    ],
    "The Quant": [
     true,
-    "40% expected return on cost"
+    "19% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 30m"
+    "closes in 25m"
    ]
   },
-  "when": 1792333816.973572
+  "when": 1792334112.1700006
  },
  "learn": {
   "edge": {
@@ -5101,11 +5097,14 @@
    "edge": 0.1861960311976086,
    "entry": 0.45,
    "event": "KXBTCD-26OCT1811",
+   "exit_px": 0.7,
+   "exit_reason": "take profit",
+   "exit_t": 1792334112.1700006,
    "fair": 0.6561960311976086,
    "fee": 0.02,
    "key": "KXBTCD-26OCT1811-T81199.99:NO",
    "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,200 or above",
-   "last_bid": null,
+   "last_bid": 0.7,
    "opened": 1792333816.973572,
    "reasons": [
     "40% expected return on cost",
@@ -5135,11 +5134,14 @@
    "edge": 0.06397441132961103,
    "entry": 0.5,
    "event": "KXBTCD-26OCT1817",
+   "exit_px": 0.59,
+   "exit_reason": "take profit",
+   "exit_t": 1792334112.1700006,
    "fair": 0.583974411329611,
    "fee": 0.02,
    "key": "KXBTCD-26OCT1817-T81249.99:NO",
    "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,250 or above",
-   "last_bid": null,
+   "last_bid": 0.59,
    "opened": 1792333816.973572,
    "reasons": [
     "spread 1\u00a2, volume 106,392",
@@ -5158,6 +5160,74 @@
     "Momentum": true,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $81,000 at 11:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792335600.9230776,
+   "contracts": 15,
+   "edge": 0.12052293354502754,
+   "entry": 0.62,
+   "event": "KXBTCD-26OCT1811",
+   "fair": 0.7605229335450275,
+   "fee": 0.02,
+   "key": "KXBTCD-26OCT1811-T80999.99:YES",
+   "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,000 or above",
+   "last_bid": null,
+   "opened": 1792334112.1700006,
+   "reasons": [
+    "19% expected return on cost",
+    "spread 1\u00a2, volume 70,449",
+    "Bitcoin -0.25% in 30 min, not fighting this bet"
+   ],
+   "row": "$81,000 or above",
+   "side": "YES",
+   "sl": 0.47,
+   "stake": 10.0,
+   "ticker": "KXBTCD-26OCT1811-T80999.99",
+   "tp": 0.76,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-18-2026-at-11am-edt/kxbtcd-26oct1811",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is BETWEEN $81,100 and $81,200 at 11:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792335600.5671027,
+   "contracts": 18,
+   "edge": 0.06049145504531618,
+   "entry": 0.18,
+   "event": "KXBTC-26OCT1811",
+   "fair": 0.2604914550453162,
+   "fee": 0.02,
+   "key": "KXBTC-26OCT1811-B81150:YES",
+   "label": "Bitcoin price range on Oct 18, 2026? \u2014 $81,100 to 81,199.99",
+   "last_bid": null,
+   "opened": 1792334112.1700006,
+   "reasons": [
+    "30% expected return on cost",
+    "spread 1\u00a2, volume 1,283",
+    "closes in 25m"
+   ],
+   "row": "$81,100 to 81,199.99",
+   "side": "YES",
+   "sl": 0.09,
+   "stake": 3.7807159403322617,
+   "ticker": "KXBTC-26OCT1811-B81150",
+   "tp": 0.26,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-18-2026-at-11am-edt/kxbtc-26oct1811",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
