@@ -25,6 +25,10 @@ jobs:
         run: |
           git config user.name "meme-lab"
           git config user.email "meme-lab@users.noreply.github.com"
-          git checkout meme_scout.py
-          git add meme_state.json meme_test.html
-          git commit -qm "Meme Scout test output" && git push -q origin HEAD:meme-lab
+          cp meme_state.json /tmp/st.json; cp meme_test.html /tmp/mt.html
+          for i in 1 2 3 4 5; do
+            git fetch -q origin meme-lab && git reset -q --hard origin/meme-lab
+            cp /tmp/st.json meme_state.json; cp /tmp/mt.html meme_test.html
+            git add meme_state.json meme_test.html && git commit -qm "Meme Scout test output" && git push -q origin HEAD:meme-lab && exit 0
+            sleep 7
+          done
