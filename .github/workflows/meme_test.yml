@@ -1,0 +1,30 @@
+name: Meme Scout test
+on:
+  push:
+    branches: [meme-lab]
+    paths: [meme_scout.py, .github/workflows/meme_test.yml]
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run twice
+        run: |
+          sed -i 's/^ALERTS = True/ALERTS = False/' meme_scout.py
+          python meme_scout.py
+          sleep 30
+          python meme_scout.py
+          cp site/meme.html meme_test.html
+      - name: Save
+        run: |
+          git config user.name "meme-lab"
+          git config user.email "meme-lab@users.noreply.github.com"
+          git checkout meme_scout.py
+          git add meme_state.json meme_test.html
+          git commit -qm "Meme Scout test output" && git push -q origin HEAD:meme-lab
