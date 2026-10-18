@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32504816201173886,
-  "move": 0.0009951404120962515,
+  "long": 0.3250434238824552,
+  "move": -0.000110808180392441,
   "quotes": {
-   "Bitstamp": 80790.0,
-   "Coinbase": 80797.215,
-   "Kraken": 80771.0
+   "Bitstamp": 80743.79,
+   "Coinbase": 80743.195,
+   "Kraken": 80745.0
   },
-  "short": 0.2116005367125452,
-  "spot": 80790.0,
-  "t": 1792355710.7858415,
-  "vol": 0.2742545302855058
+  "short": 0.21307277195730376,
+  "spot": 80743.79,
+  "t": 1792356012.7747512,
+  "vol": 0.27482106320185745
  },
  "btc_hist": [
-  [
-   1792268114,
-   81512.87
-  ],
   [
    1792268414,
    81508.31
@@ -1212,6 +1208,10 @@
   [
    1792355711,
    80790.0
+  ],
+  [
+   1792356013,
+   80743.79
   ]
  ],
  "chat_id": "7590441188",
@@ -1279,10 +1279,6 @@
   }
  },
  "errors": [
-  {
-   "t": 1792310717.8731904,
-   "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792314019.7360578,
    "text": "KXBTC: 265 markets priced, 3 skipped (model and Kalshi too far apart)"
@@ -1358,6 +1354,10 @@
   {
    "t": 1792350915.407532,
    "text": "KXBTC: 258 markets priced, 10 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792356014.8550622,
+   "text": "KXBTC: 79 markets priced, 1 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4850,12 +4850,11 @@
  ],
  "last_daily": "2026-10-17",
  "last_px": {
-  "KXBTC-26OCT1817-B80875:YES": 0.47,
-  "KXBTCD-26OCT1817-T80499.99:YES": 0.94,
-  "KXBTCD-26OCT1817-T80749.99:YES": 0.59,
-  "KXBTCD-26OCT1817-T80999.99:NO": 0.89
+  "KXBTC-26OCT1817-B81125:NO": 0.92,
+  "KXBTCD-26OCT1817-T80749.99:NO": 0.47,
+  "KXBTCD-26OCT1817-T80999.99:NO": 0.94
  },
- "last_run": 1792355713.0558422,
+ "last_run": 1792356014.8550253,
  "last_vote": {
   "approved": true,
   "ask": 0.47,
@@ -5212,7 +5211,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT1817-B80875:YES",
    "label": "Bitcoin price range on Oct 18, 2026? \u2014 $80,750 to 80,999.99",
-   "last_bid": null,
+   "last_bid": 0.43,
    "opened": 1792355712.0950954,
    "reasons": [
     "17% expected return on cost",
