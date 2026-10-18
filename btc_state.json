@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32372020859891704,
-  "move": -0.0030858708287192504,
+  "long": 0.32353038228885506,
+  "move": -0.0012030461768199885,
   "quotes": {
-   "Bitstamp": 81253.59,
-   "Coinbase": 81219.95,
-   "Kraken": 81261.8
+   "Bitstamp": 81312.55,
+   "Coinbase": 81304.995,
+   "Kraken": 81313.0
   },
-  "short": 0.30163506849054433,
-  "spot": 81253.59,
-  "t": 1792333213.3725445,
-  "vol": 0.3128725683074674
+  "short": 0.30434721523288727,
+  "spot": 81312.55,
+  "t": 1792333511.1562386,
+  "vol": 0.314085287528711
  },
  "btc_hist": [
-  [
-   1792245014,
-   81385.23
-  ],
   [
    1792245311,
    81403.9
@@ -1212,6 +1208,10 @@
   [
    1792333213,
    81253.59
+  ],
+  [
+   1792333511,
+   81312.55
   ]
  ],
  "chat_id": "7590441188",
@@ -1274,8 +1274,8 @@
    "lines": 0,
    "news": 0,
    "rejected": 1,
-   "sl": 20,
-   "tp": 23
+   "sl": 21,
+   "tp": 24
   }
  },
  "errors": [
@@ -4802,10 +4802,9 @@
  ],
  "last_daily": "2026-10-17",
  "last_px": {
-  "KXBTC15M-26OCT181030-30:YES": 0.71,
-  "KXBTCD-26OCT1811-T81399.99:NO": 0.75
+  "KXBTCD-26OCT1811-T81399.99:NO": 0.66
  },
- "last_run": 1792333216.0424886,
+ "last_run": 1792333513.4648414,
  "last_vote": {
   "approved": true,
   "ask": 0.71,
@@ -5049,11 +5048,14 @@
    "edge": 0.11938307256904059,
    "entry": 0.64,
    "event": "KXBTCD-26OCT1811",
+   "exit_px": 0.45,
+   "exit_reason": "stop loss",
+   "exit_t": 1792333512.790617,
    "fair": 0.7793830725690406,
    "fee": 0.02,
    "key": "KXBTCD-26OCT1811-T81299.99:NO",
    "label": "Bitcoin price on Oct 18, 2026? \u2014 $81,300 or above",
-   "last_bid": 0.52,
+   "last_bid": 0.45,
    "opened": 1792332917.0767689,
    "reasons": [
     "18% expected return on cost",
@@ -5083,11 +5085,14 @@
    "edge": 0.10923123347964815,
    "entry": 0.71,
    "event": "KXBTC15M-26OCT181030",
+   "exit_px": 0.986,
+   "exit_reason": "take profit",
+   "exit_t": 1792333512.790617,
    "fair": 0.8392312334796481,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT181030-30:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $81,166.07",
-   "last_bid": null,
+   "last_bid": 0.986,
    "opened": 1792333215.475401,
    "reasons": [
     "spread 1\u00a2, volume 527,431",
