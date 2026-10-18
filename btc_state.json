@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32097853374445723,
-  "move": 0.0009784926937368432,
+  "long": 0.3210008765121721,
+  "move": 0.0006489820092268062,
   "quotes": {
-   "Bitstamp": 81547.27,
-   "Coinbase": 81558.385,
-   "Kraken": 81558.4
+   "Bitstamp": 81509.37,
+   "Coinbase": 81512.095,
+   "Kraken": 81516.1
   },
-  "short": 0.26543420523144656,
-  "spot": 81558.385,
-  "t": 1792286414.5117586,
-  "vol": 0.2945187060541243
+  "short": 0.27069451148923107,
+  "spot": 81512.095,
+  "t": 1792286711.3906705,
+  "vol": 0.29691503942371816
  },
  "btc_hist": [
-  [
-   1792198214,
-   81373.1
-  ],
   [
    1792198513,
    81448.9
@@ -1212,6 +1208,10 @@
   [
    1792286415,
    81558.38
+  ],
+  [
+   1792286711,
+   81512.1
   ]
  ],
  "chat_id": "7590441188",
@@ -1262,7 +1262,7 @@
    "tp": 19
   },
   "2026-10-17": {
-   "buys": 80,
+   "buys": 81,
    "lines": 0,
    "news": 0,
    "rejected": 1,
@@ -4788,26 +4788,26 @@
  ],
  "last_daily": "2026-10-17",
  "last_px": {
-  "KXBTC-26OCT1722-B81450:NO": 0.74,
-  "KXBTC-26OCT1722-B81550:NO": 0.68,
-  "KXBTCD-26OCT1722-T81399.99:NO": 0.13,
-  "KXBTCD-26OCT1722-T81599.99:YES": 0.33,
-  "KXBTCD-26OCT1722-T81699.99:YES": 0.13,
-  "KXBTCD-26OCT1722-T81799.99:YES": 0.05,
+  "KXBTC-26OCT1722-B81450:NO": 0.69,
+  "KXBTC-26OCT1722-B81550:NO": 0.65,
+  "KXBTCD-26OCT1722-T81399.99:NO": 0.15,
+  "KXBTCD-26OCT1722-T81599.99:YES": 0.19,
+  "KXBTCD-26OCT1722-T81699.99:YES": 0.06,
+  "KXBTCD-26OCT1817-T80249.99:NO": 0.06,
   "KXBTCD-26OCT1817-T80499.99:NO": 0.09,
   "KXBTCD-26OCT1817-T80749.99:NO": 0.14,
-  "KXBTCD-26OCT1817-T80999.99:NO": 0.22,
-  "KXBTCD-26OCT1817-T81999.99:YES": 0.26,
+  "KXBTCD-26OCT1817-T80999.99:NO": 0.23,
+  "KXBTCD-26OCT1817-T81249.99:NO": 0.34,
   "KXBTCD-26OCT1817-T82249.99:YES": 0.16,
   "KXBTCD-26OCT1817-T82499.99:YES": 0.09,
   "KXBTCD-26OCT1817-T82749.99:YES": 0.06
  },
- "last_run": 1792286416.803845,
+ "last_run": 1792286713.3073568,
  "last_vote": {
   "approved": true,
-  "ask": 0.64,
-  "edge": 0.10549334203086248,
-  "label": "Bitcoin price range on Oct 17, 2026? \u2014 $81,400 to 81,499.99",
+  "ask": 0.65,
+  "edge": 0.07878747958164524,
+  "label": "Bitcoin price range on Oct 17, 2026? \u2014 $81,500 to 81,599.99",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-17-2026-at-10pm-edt/kxbtc-26oct1722",
   "votes": {
@@ -4817,22 +4817,22 @@
    ],
    "Momentum": [
     false,
-    "price \u22122\u00a2 since last scan"
+    "price \u22123\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 2\u00a2, volume 777"
+    "spread 3\u00a2, volume 704"
    ],
    "The Quant": [
-    true,
-    "16% expected return on cost"
+    false,
+    "12% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 45m"
+    "closes in 35m"
    ]
   },
-  "when": 1792286115.1422017
+  "when": 1792286712.8429332
  },
  "learn": {
   "edge": {
@@ -5040,7 +5040,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT1722-B81450:NO",
    "label": "Bitcoin price range on Oct 17, 2026? \u2014 $81,400 to 81,499.99",
-   "last_bid": 0.73,
+   "last_bid": 0.66,
    "opened": 1792285815.4039154,
    "reasons": [
     "spread 1\u00a2, volume 69",
@@ -5059,6 +5059,40 @@
     "Momentum": false,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $81,400 at 10:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792288800.9484332,
+   "contracts": 27,
+   "edge": 0.0732620444257283,
+   "entry": 0.15,
+   "event": "KXBTCD-26OCT1722",
+   "fair": 0.2332620444257283,
+   "fee": 0.01,
+   "key": "KXBTCD-26OCT1722-T81399.99:NO",
+   "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,400 or above",
+   "last_bid": null,
+   "opened": 1792286712.8429332,
+   "reasons": [
+    "46% expected return on cost",
+    "spread 1\u00a2, volume 56,950",
+    "Bitcoin +0.06% in 30 min, not fighting this bet"
+   ],
+   "row": "$81,400 or above",
+   "side": "NO",
+   "sl": 0.04,
+   "stake": 4.360835977721922,
+   "ticker": "KXBTCD-26OCT1722-T81399.99",
+   "tp": 0.23,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-17-2026-at-10pm-edt/kxbtcd-26oct1722",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
