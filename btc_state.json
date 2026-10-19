@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3281413272404988,
-  "move": 0.0004353906529930285,
+  "long": 0.3281498650358421,
+  "move": -0.0013185197524470116,
   "quotes": {
-   "Bitstamp": 82763.18,
-   "Coinbase": 82753.46,
-   "Kraken": 82740.3
+   "Bitstamp": 82676.16,
+   "Coinbase": 82662.415,
+   "Kraken": 82669.5
   },
-  "short": 0.3106004053669679,
-  "spot": 82753.46,
-  "t": 1792400713.2265751,
-  "vol": 0.31949126940910366
+  "short": 0.3097497316457787,
+  "spot": 82669.5,
+  "t": 1792401016.4778037,
+  "vol": 0.3190824581340012
  },
  "btc_hist": [
-  [
-   1792312813,
-   81647.23
-  ],
   [
    1792313114,
    81617.2
@@ -1212,6 +1208,10 @@
   [
    1792400713,
    82753.46
+  ],
+  [
+   1792401016,
+   82669.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1283,7 +1283,7 @@
    "news": 0,
    "rejected": 3,
    "sl": 10,
-   "tp": 10
+   "tp": 11
   }
  },
  "errors": [
@@ -4894,23 +4894,24 @@
  ],
  "last_daily": "2026-10-18",
  "last_px": {
-  "KXBTCD-26OCT1917-T81249.99:YES": 0.92,
   "KXBTCD-26OCT1917-T81499.99:YES": 0.88,
-  "KXBTCD-26OCT1917-T81749.99:YES": 0.83,
-  "KXBTCD-26OCT1917-T81999.99:YES": 0.78,
-  "KXBTCD-26OCT1917-T82249.99:YES": 0.69,
-  "KXBTCD-26OCT1917-T83249.99:NO": 0.7,
-  "KXBTCD-26OCT1917-T83499.99:NO": 0.78,
+  "KXBTCD-26OCT1917-T81749.99:YES": 0.82,
+  "KXBTCD-26OCT1917-T81999.99:YES": 0.76,
+  "KXBTCD-26OCT1917-T82249.99:YES": 0.67,
+  "KXBTCD-26OCT1917-T82999.99:NO": 0.63,
+  "KXBTCD-26OCT1917-T83249.99:NO": 0.72,
+  "KXBTCD-26OCT1917-T83499.99:NO": 0.79,
   "KXBTCD-26OCT1917-T83749.99:NO": 0.85,
+  "KXBTCD-26OCT1917-T83999.99:NO": 0.9,
   "KXBTCD-26OCT1917-T84249.99:NO": 0.92
  },
- "last_run": 1792400715.729193,
+ "last_run": 1792401019.3144653,
  "last_vote": {
   "approved": true,
-  "ask": 0.83,
-  "edge": 0.05045937637589349,
-  "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,750 or above",
-  "side": "YES",
+  "ask": 0.85,
+  "edge": 0.04475549781953648,
+  "label": "Bitcoin price on Oct 19, 2026? \u2014 $83,750 or above",
+  "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-19-2026-at-5pm-edt/kxbtcd-26oct1917",
   "votes": {
    "Doubt": [
@@ -4919,22 +4920,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.04% in 30 min, not fighting this bet"
+    "Bitcoin -0.13% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 59,994"
+    "spread 1\u00a2, volume 9,164"
    ],
    "The Quant": [
     false,
-    "6% expected return on cost"
+    "5% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 12h"
    ]
   },
-  "when": 1792400714.4800448
+  "when": 1792401017.9257855
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5311,11 +5312,14 @@
    "edge": 0.04316923021037523,
    "entry": 0.12,
    "event": "KXBTCD-26OCT1906",
+   "exit_px": 0.18,
+   "exit_reason": "take profit",
+   "exit_t": 1792401017.9257855,
    "fair": 0.17316923021037522,
    "fee": 0.01,
    "key": "KXBTCD-26OCT1906-T82499.99:NO",
    "label": "Bitcoin price on Oct 19, 2026? \u2014 $82,500 or above",
-   "last_bid": 0.11,
+   "last_bid": 0.18,
    "opened": 1792400424.6901474,
    "reasons": [
     "33% expected return on cost",
@@ -5339,9 +5343,6 @@
   }
  ],
  "recent": {
-  "KXBTC-26OCT1823-B82350:NO": 1792379114.5658405,
-  "KXBTC-26OCT1823-B82450:NO": 1792379114.5658405,
-  "KXBTC-26OCT1823-B82650:YES": 1792379114.5658405,
   "KXBTC-26OCT1900-B82450:NO": 1792382714.116358,
   "KXBTC-26OCT1900-B82550:NO": 1792382714.116358,
   "KXBTC-26OCT1901-B82450:NO": 1792386312.6935833,
@@ -5352,10 +5353,6 @@
   "KXBTC-26OCT1904-B82750:NO": 1792397113.049904,
   "KXBTC-26OCT1904-B82950:YES": 1792397113.049904,
   "KXBTC15M-26OCT190330-30:NO": 1792395018.2878277,
-  "KXBTCD-26OCT1823-T82299.99:NO": 1792379114.5658405,
-  "KXBTCD-26OCT1823-T82399.99:YES": 1792379114.5658405,
-  "KXBTCD-26OCT1823-T82499.99:YES": 1792379114.5658405,
-  "KXBTCD-26OCT1823-T82599.99:YES": 1792379114.5658405,
   "KXBTCD-26OCT1900-T82299.99:NO": 1792382714.116358,
   "KXBTCD-26OCT1900-T82399.99:NO": 1792382714.116358,
   "KXBTCD-26OCT1900-T82599.99:YES": 1792382714.116358,
