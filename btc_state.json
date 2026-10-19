@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32851007668713667,
-  "move": -0.0016114952846152386,
+  "long": 0.32855724224043603,
+  "move": -0.000672901925604652,
   "quotes": {
-   "Bitstamp": 82498.87,
-   "Coinbase": 82500.315,
-   "Kraken": 82479.4
+   "Bitstamp": 82476.23,
+   "Coinbase": 82466.985,
+   "Kraken": 82463.4
   },
-  "short": 0.35081644523132877,
-  "spot": 82498.87,
-  "t": 1792380313.122546,
-  "vol": 0.33984632463051173
+  "short": 0.35088793295867327,
+  "spot": 82466.985,
+  "t": 1792380616.956437,
+  "vol": 0.33990601857326014
  },
  "btc_hist": [
-  [
-   1792292419,
-   81735.87
-  ],
   [
    1792292711,
    81708.95
@@ -1212,6 +1208,10 @@
   [
    1792380313,
    82498.87
+  ],
+  [
+   1792380617,
+   82466.99
   ]
  ],
  "chat_id": "7590441188",
@@ -1270,7 +1270,7 @@
    "tp": 31
   },
   "2026-10-18": {
-   "buys": 108,
+   "buys": 109,
    "lines": 0,
    "news": 0,
    "rejected": 6,
@@ -4872,22 +4872,22 @@
  ],
  "last_daily": "2026-10-18",
  "last_px": {
-  "KXBTC-26OCT1900-B82450:NO": 0.72,
+  "KXBTC-26OCT1900-B82450:NO": 0.67,
   "KXBTC-26OCT1900-B82550:NO": 0.72,
-  "KXBTCD-26OCT1900-T82299.99:NO": 0.1,
-  "KXBTCD-26OCT1900-T82499.99:YES": 0.45,
-  "KXBTCD-26OCT1900-T82599.99:YES": 0.2,
-  "KXBTCD-26OCT1900-T82699.99:YES": 0.09,
-  "KXBTCD-26OCT1917-T81249.99:YES": 0.85,
-  "KXBTCD-26OCT1917-T83749.99:NO": 0.85
+  "KXBTCD-26OCT1900-T82299.99:NO": 0.09,
+  "KXBTCD-26OCT1900-T82399.99:NO": 0.24,
+  "KXBTCD-26OCT1900-T82599.99:YES": 0.17,
+  "KXBTCD-26OCT1917-T83499.99:NO": 0.8,
+  "KXBTCD-26OCT1917-T83749.99:NO": 0.85,
+  "KXBTCD-26OCT1917-T83999.99:NO": 0.89
  },
- "last_run": 1792380315.2898977,
+ "last_run": 1792380619.3872237,
  "last_vote": {
   "approved": true,
-  "ask": 0.2,
-  "edge": 0.06184999399468534,
-  "label": "Bitcoin price on Oct 19, 2026? \u2014 $82,600 or above",
-  "side": "YES",
+  "ask": 0.24,
+  "edge": 0.07868560516874414,
+  "label": "Bitcoin price on Oct 19, 2026? \u2014 $82,400 or above",
+  "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-19-2026-at-12am-edt/kxbtcd-26oct1900",
   "votes": {
    "Doubt": [
@@ -4896,22 +4896,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.16% in 30 min, not fighting this bet"
+    "Bitcoin -0.07% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 57,669"
+    "spread 1\u00a2, volume 47,171"
    ],
    "The Quant": [
     true,
-    "28% expected return on cost"
+    "30% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 35m"
+    "closes in 30m"
    ]
   },
-  "when": 1792380314.714318
+  "when": 1792380618.625517
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5170,7 +5170,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT1900-T82599.99:YES",
    "label": "Bitcoin price on Oct 19, 2026? \u2014 $82,600 or above",
-   "last_bid": null,
+   "last_bid": 0.16,
    "opened": 1792380314.714318,
    "reasons": [
     "28% expected return on cost",
@@ -5189,6 +5189,40 @@
     "Momentum": true,
     "Risk": true,
     "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is NOT between $82,400 and $82,500 at 12:00 AM ET tomorrow",
+   "cat": "Bitcoin",
+   "close_ts": 1792382400.5988228,
+   "contracts": 14,
+   "edge": 0.06581664389052112,
+   "entry": 0.67,
+   "event": "KXBTC-26OCT1900",
+   "fair": 0.7558166438905212,
+   "fee": 0.02,
+   "key": "KXBTC-26OCT1900-B82450:NO",
+   "label": "Bitcoin price range on Oct 19, 2026? \u2014 $82,400 to 82,499.99",
+   "last_bid": null,
+   "opened": 1792380618.625517,
+   "reasons": [
+    "spread 1\u00a2, volume 531",
+    "closes in 30m",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$82,400 to 82,499.99",
+   "side": "NO",
+   "sl": 0.57,
+   "stake": 10.0,
+   "ticker": "KXBTC-26OCT1900-B82450",
+   "tp": 0.76,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-19-2026-at-12am-edt/kxbtc-26oct1900",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": false,
     "Time": true
    }
   }
