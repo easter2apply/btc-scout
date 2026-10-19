@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3283730108813097,
-  "move": 0.0014682877974512287,
+  "long": 0.32838294112798294,
+  "move": 0.0008091898868762826,
   "quotes": {
-   "Bitstamp": 82926.16,
-   "Coinbase": 82932.665,
-   "Kraken": 82915.7
+   "Bitstamp": 82891.4,
+   "Coinbase": 82883.985,
+   "Kraken": 82878.6
   },
-  "short": 0.3155413624431759,
-  "spot": 82926.16,
-  "t": 1792403413.131331,
-  "vol": 0.3220211062087021
+  "short": 0.31542406969505715,
+  "spot": 82883.985,
+  "t": 1792403713.4661858,
+  "vol": 0.32196870947877576
  },
  "btc_hist": [
-  [
-   1792315512,
-   81808.02
-  ],
   [
    1792315814,
    81940.9
@@ -1212,6 +1208,10 @@
   [
    1792403413,
    82926.16
+  ],
+  [
+   1792403713,
+   82883.99
   ]
  ],
  "chat_id": "7590441188",
@@ -1282,8 +1282,8 @@
    "lines": 0,
    "news": 0,
    "rejected": 3,
-   "sl": 10,
-   "tp": 11
+   "sl": 11,
+   "tp": 12
   }
  },
  "errors": [
@@ -4892,53 +4892,48 @@
  ],
  "last_daily": "2026-10-18",
  "last_px": {
-  "KXBTC-26OCT1906-B82950:NO": 0.47,
-  "KXBTC-26OCT1906-B83050:YES": 0.12,
-  "KXBTC-26OCT1917-B83125:YES": 0.1,
-  "KXBTCD-26OCT1906-T82899.99:NO": 0.34,
-  "KXBTCD-26OCT1906-T82999.99:YES": 0.14,
   "KXBTCD-26OCT1917-T81499.99:YES": 0.91,
   "KXBTCD-26OCT1917-T81749.99:YES": 0.87,
-  "KXBTCD-26OCT1917-T81999.99:YES": 0.83,
-  "KXBTCD-26OCT1917-T82249.99:YES": 0.76,
-  "KXBTCD-26OCT1917-T82499.99:YES": 0.67,
-  "KXBTCD-26OCT1917-T83249.99:NO": 0.63,
-  "KXBTCD-26OCT1917-T83499.99:NO": 0.73,
-  "KXBTCD-26OCT1917-T83749.99:NO": 0.8,
+  "KXBTCD-26OCT1917-T81999.99:YES": 0.82,
+  "KXBTCD-26OCT1917-T82249.99:YES": 0.75,
+  "KXBTCD-26OCT1917-T83249.99:NO": 0.65,
+  "KXBTCD-26OCT1917-T83499.99:NO": 0.74,
+  "KXBTCD-26OCT1917-T83749.99:NO": 0.81,
   "KXBTCD-26OCT1917-T83999.99:NO": 0.86,
-  "KXBTCD-26OCT1917-T84249.99:NO": 0.9
+  "KXBTCD-26OCT1917-T84249.99:NO": 0.9,
+  "KXBTCD-26OCT1917-T84499.99:NO": 0.93
  },
- "last_run": 1792403415.0597105,
+ "last_run": 1792403716.4046843,
  "last_vote": {
   "approved": true,
-  "ask": 0.47,
-  "edge": 0.10010690926387801,
-  "label": "Bitcoin price range on Oct 19, 2026? \u2014 $82,900 to 82,999.99",
+  "ask": 0.86,
+  "edge": 0.04387339851908079,
+  "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,000 or above",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-19-2026-at-6am-edt/kxbtc-26oct1906",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-19-2026-at-5pm-edt/kxbtcd-26oct1917",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u221214\u00a2 since last scan"
+    true,
+    "Bitcoin +0.08% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 2\u00a2, volume 305"
+    "spread 1\u00a2, volume 21,363"
    ],
    "The Quant": [
-    true,
-    "20% expected return on cost"
+    false,
+    "5% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 11h"
    ]
   },
-  "when": 1792403414.2885945
+  "when": 1792403715.1437323
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5280,11 +5275,14 @@
    "edge": 0.10010690926387801,
    "entry": 0.47,
    "event": "KXBTC-26OCT1906",
+   "exit_px": 0.65,
+   "exit_reason": "take profit",
+   "exit_t": 1792403715.1437323,
    "fair": 0.590106909263878,
    "fee": 0.02,
    "key": "KXBTC-26OCT1906-B82950:NO",
    "label": "Bitcoin price range on Oct 19, 2026? \u2014 $82,900 to 82,999.99",
-   "last_bid": null,
+   "last_bid": 0.65,
    "opened": 1792403414.2885945,
    "reasons": [
     "20% expected return on cost",
@@ -5314,11 +5312,14 @@
    "edge": 0.05780627557983715,
    "entry": 0.14,
    "event": "KXBTCD-26OCT1906",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1792403715.1437323,
    "fair": 0.20780627557983716,
    "fee": 0.01,
    "key": "KXBTCD-26OCT1906-T82999.99:YES",
    "label": "Bitcoin price on Oct 19, 2026? \u2014 $83,000 or above",
-   "last_bid": null,
+   "last_bid": 0.01,
    "opened": 1792403414.2885945,
    "reasons": [
     "39% expected return on cost",
