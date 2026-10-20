@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3199968405523434,
-  "move": -0.0011332687759345594,
+  "long": 0.31999203580095553,
+  "move": 0.0003315795078986383,
   "quotes": {
-   "Bitstamp": 81990.75,
-   "Coinbase": 82009.325,
-   "Kraken": 82007.0
+   "Bitstamp": 81988.71,
+   "Coinbase": 81988.04,
+   "Kraken": 81988.5
   },
-  "short": 0.30341689891263246,
-  "spot": 82007.0,
-  "t": 1792472113.3826494,
-  "vol": 0.3118170878169127
+  "short": 0.3040855099614439,
+  "spot": 81988.5,
+  "t": 1792472418.0297859,
+  "vol": 0.3121401130458495
  },
  "btc_hist": [
-  [
-   1792380313,
-   82498.87
-  ],
   [
    1792380617,
    82466.99
@@ -1212,6 +1208,10 @@
   [
    1792472113,
    82007.0
+  ],
+  [
+   1792472418,
+   81988.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1289,16 +1289,12 @@
    "buys": 2,
    "lines": 0,
    "news": 0,
-   "rejected": 0,
+   "rejected": 1,
    "sl": 2,
    "tp": 0
   }
  },
  "errors": [
-  {
-   "t": 1792407917.6107306,
-   "text": "KXBTC: 221 markets priced, 47 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792407993.4849527,
    "text": "KXBTC: 238 markets priced, 30 skipped (model and Kalshi too far apart)"
@@ -1374,6 +1370,10 @@
   {
    "t": 1792469119.2027748,
    "text": "KXBTC: 211 markets priced, 57 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792472420.8733788,
+   "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4942,6 +4942,8 @@
  ],
  "last_daily": "2026-10-19",
  "last_px": {
+  "KXBTC-26OCT2002-B81950:NO": 0.73,
+  "KXBTC-26OCT2002-B82050:NO": 0.76,
   "KXBTCD-26OCT2017-T80749.99:YES": 0.87,
   "KXBTCD-26OCT2017-T80999.99:YES": 0.82,
   "KXBTCD-26OCT2017-T82499.99:NO": 0.65,
@@ -4949,37 +4951,37 @@
   "KXBTCD-26OCT2017-T82999.99:NO": 0.82,
   "KXBTCD-26OCT2017-T83249.99:NO": 0.87
  },
- "last_run": 1792472115.9476316,
+ "last_run": 1792472420.873358,
  "last_vote": {
-  "approved": true,
-  "ask": 0.42,
-  "edge": 0.12007449107804642,
+  "approved": false,
+  "ask": 0.73,
+  "edge": 0.06253199338338024,
   "label": "Bitcoin price range on Oct 20, 2026? \u2014 $81,900 to 81,999.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-20-2026-at-1am-edt/kxbtc-26oct2001",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-20-2026-at-2am-edt/kxbtc-26oct2002",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u221212\u00a2 since last scan"
+    null,
+    "first look at this market"
    ],
    "Risk": [
-    true,
-    "spread 1\u00a2, volume 355"
+    false,
+    "spread 8\u00a2, volume 0"
    ],
    "The Quant": [
-    true,
-    "27% expected return on cost"
+    false,
+    "8% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 60m"
    ]
   },
-  "when": 1792471815.9982674
+  "when": 1792472420.0426574
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5347,7 +5349,42 @@
    "total": 733
   }
  },
- "shadow": [],
+ "shadow": [
+  {
+   "bet": "Bitcoin is NOT between $81,900 and $82,000 at 2:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792476000.6226404,
+   "contracts": 13,
+   "edge": 0.06253199338338024,
+   "entry": 0.73,
+   "event": "KXBTC-26OCT2002",
+   "fair": 0.8125319933833802,
+   "fee": 0.02,
+   "key": "KXBTC-26OCT2002-B81950:NO",
+   "label": "Bitcoin price range on Oct 20, 2026? \u2014 $81,900 to 81,999.99",
+   "last_bid": null,
+   "opened": 1792472420.0426574,
+   "reasons": [
+    "closes in 60m",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$81,900 to 81,999.99",
+   "shadow": true,
+   "side": "NO",
+   "sl": 0.64,
+   "stake": 10.0,
+   "ticker": "KXBTC-26OCT2002-B81950",
+   "tp": 0.81,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-20-2026-at-2am-edt/kxbtc-26oct2002",
+   "votes": {
+    "Doubt": true,
+    "Momentum": null,
+    "Risk": false,
+    "The Quant": false,
+    "Time": true
+   }
+  }
+ ],
  "sports_on": false,
  "welcomed": true
 }
