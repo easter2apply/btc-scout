@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3304466320265409,
-  "move": -0.00010532803879548247,
+  "long": 0.3304357953858144,
+  "move": 0.0004758842941727792,
   "quotes": {
-   "Bitstamp": 82665.28,
-   "Coinbase": 82661.445,
-   "Kraken": 82659.2
+   "Bitstamp": 82723.16,
+   "Coinbase": 82712.895,
+   "Kraken": 82716.5
   },
-  "short": 0.23861984960241675,
-  "spot": 82661.445,
-  "t": 1792554312.8246548,
-  "vol": 0.28821381754000286
+  "short": 0.23889022565074142,
+  "spot": 82716.5,
+  "t": 1792554614.1716366,
+  "vol": 0.28831957511043016
  },
  "btc_hist": [
-  [
-   1792466113,
-   81804.9
-  ],
   [
    1792466414,
    81774.6
@@ -1212,6 +1208,10 @@
   [
    1792554313,
    82661.45
+  ],
+  [
+   1792554614,
+   82716.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1286,7 +1286,7 @@
    "tp": 51
   },
   "2026-10-20": {
-   "buys": 60,
+   "buys": 61,
    "lines": 0,
    "news": 0,
    "rejected": 1,
@@ -4962,26 +4962,27 @@
  ],
  "last_daily": "2026-10-20",
  "last_px": {
-  "KXBTC-26OCT2100-B82550:YES": 0.15,
-  "KXBTC-26OCT2100-B82650:NO": 0.51,
-  "KXBTCD-26OCT2100-T82599.99:NO": 0.17,
+  "KXBTC-26OCT2100-B82750:NO": 0.45,
+  "KXBTC-26OCT2100-B82850:YES": 0.07,
+  "KXBTC15M-26OCT210000-00:NO": 0.2,
   "KXBTCD-26OCT2100-T82799.99:YES": 0.05,
   "KXBTCD-26OCT2117-T81249.99:YES": 0.9,
   "KXBTCD-26OCT2117-T81499.99:YES": 0.86,
   "KXBTCD-26OCT2117-T81749.99:YES": 0.8,
-  "KXBTCD-26OCT2117-T81999.99:YES": 0.73,
-  "KXBTCD-26OCT2117-T83249.99:NO": 0.71,
-  "KXBTCD-26OCT2117-T83499.99:NO": 0.77,
-  "KXBTCD-26OCT2117-T83749.99:NO": 0.83,
+  "KXBTCD-26OCT2117-T81999.99:YES": 0.75,
+  "KXBTCD-26OCT2117-T82249.99:YES": 0.67,
+  "KXBTCD-26OCT2117-T83249.99:NO": 0.69,
+  "KXBTCD-26OCT2117-T83499.99:NO": 0.76,
+  "KXBTCD-26OCT2117-T83749.99:NO": 0.82,
   "KXBTCD-26OCT2117-T83999.99:NO": 0.87,
   "KXBTCD-26OCT2117-T84249.99:NO": 0.9
  },
- "last_run": 1792554314.6395605,
+ "last_run": 1792554615.8681312,
  "last_vote": {
   "approved": true,
-  "ask": 0.56,
-  "edge": 0.10002428611600479,
-  "label": "Bitcoin price range on Oct 21, 2026? \u2014 $82,600 to 82,699.99",
+  "ask": 0.45,
+  "edge": 0.10314993148826064,
+  "label": "Bitcoin price range on Oct 21, 2026? \u2014 $82,700 to 82,799.99",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-21-2026-at-12am-edt/kxbtc-26oct2100",
   "votes": {
@@ -4995,18 +4996,18 @@
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 1,774"
+    "spread 1\u00a2, volume 2,614"
    ],
    "The Quant": [
     true,
-    "17% expected return on cost"
+    "22% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 20m"
+    "closes in 10m"
    ]
   },
-  "when": 1792554016.6045008
+  "when": 1792554615.663013
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5198,7 +5199,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT2100-B82650:NO",
    "label": "Bitcoin price range on Oct 21, 2026? \u2014 $82,600 to 82,699.99",
-   "last_bid": 0.47,
+   "last_bid": 0.62,
    "opened": 1792554016.6045008,
    "reasons": [
     "17% expected return on cost",
@@ -5215,6 +5216,40 @@
    "votes": {
     "Doubt": true,
     "Momentum": null,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $82,800 at 12:00 AM ET tomorrow",
+   "cat": "Bitcoin",
+   "close_ts": 1792555200.910675,
+   "contracts": 86,
+   "edge": 0.09719273535326312,
+   "entry": 0.05,
+   "event": "KXBTCD-26OCT2100",
+   "fair": 0.1571927353532631,
+   "fee": 0.01,
+   "key": "KXBTCD-26OCT2100-T82799.99:YES",
+   "label": "Bitcoin price on Oct 21, 2026? \u2014 $82,800 or above",
+   "last_bid": null,
+   "opened": 1792554615.663013,
+   "reasons": [
+    "162% expected return on cost",
+    "spread 1\u00a2, volume 96,452",
+    "Bitcoin +0.05% in 30 min, not fighting this bet"
+   ],
+   "row": "$82,800 or above",
+   "side": "YES",
+   "sl": 0.01,
+   "stake": 5.169826348577826,
+   "ticker": "KXBTCD-26OCT2100-T82799.99",
+   "tp": 0.16,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-21-2026-at-12am-edt/kxbtcd-26oct2100",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
     "Risk": true,
     "The Quant": true,
     "Time": true
