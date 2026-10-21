@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3264841377649354,
-  "move": 0.0009673003353178888,
+  "long": 0.32621139107149316,
+  "move": -0.0007308665901584188,
   "quotes": {
-   "Bitstamp": 82690.09,
-   "Coinbase": 82694.645,
-   "Kraken": 82690.6
+   "Bitstamp": 82708.5,
+   "Coinbase": 82699.755,
+   "Kraken": 82707.6
   },
-  "short": 0.2482472809616029,
-  "spot": 82690.6,
-  "t": 1792566021.3024535,
-  "vol": 0.290016038105604
+  "short": 0.24605159622443953,
+  "spot": 82707.6,
+  "t": 1792566314.836889,
+  "vol": 0.288924955368512
  },
  "btc_hist": [
-  [
-   1792478114,
-   81719.91
-  ],
   [
    1792478413,
    81745.52
@@ -1212,13 +1208,17 @@
   [
    1792566021,
    82690.6
+  ],
+  [
+   1792566315,
+   82707.6
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 361,
-  "total": 798
+  "right": 362,
+  "total": 799
  },
  "days": {
   "2026-10-12": {
@@ -1304,10 +1304,6 @@
  },
  "errors": [
   {
-   "t": 1792537220.8355346,
-   "text": "KXBTC: 264 markets priced, 4 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1792537515.3615372,
    "text": "KXBTC: 244 markets priced, 24 skipped (model and Kalshi too far apart)"
   },
@@ -1382,18 +1378,13 @@
   {
    "t": 1792563915.038549,
    "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792566318.515113,
+   "text": "KXBTC: 229 markets priced, 39 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.17,
-   "right": false,
-   "shadow": false,
-   "t": 1792195515.323737,
-   "usd": -3.23,
-   "won": false
-  },
   {
    "cat": "Bitcoin",
    "pnl": 0.18,
@@ -4966,25 +4957,40 @@
    "t": 1792562637.9897976,
    "usd": 4.14,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.51,
+   "right": true,
+   "shadow": false,
+   "t": 1792566316.5595741,
+   "usd": 8.82,
+   "won": true
   }
  ],
  "last_daily": "2026-10-20",
  "last_px": {
+  "KXBTC-26OCT2104-B82650:NO": 0.75,
+  "KXBTC-26OCT2104-B82750:NO": 0.74,
+  "KXBTCD-26OCT2104-T82499.99:NO": 0.1,
+  "KXBTCD-26OCT2104-T82599.99:NO": 0.24,
+  "KXBTCD-26OCT2104-T82899.99:YES": 0.11,
+  "KXBTCD-26OCT2104-T82999.99:YES": 0.05,
   "KXBTCD-26OCT2117-T80999.99:YES": 0.93,
   "KXBTCD-26OCT2117-T81249.99:YES": 0.9,
-  "KXBTCD-26OCT2117-T81499.99:YES": 0.85,
-  "KXBTCD-26OCT2117-T81749.99:YES": 0.8,
+  "KXBTCD-26OCT2117-T81499.99:YES": 0.86,
+  "KXBTCD-26OCT2117-T81749.99:YES": 0.81,
   "KXBTCD-26OCT2117-T81999.99:YES": 0.74,
-  "KXBTCD-26OCT2117-T82249.99:YES": 0.66,
-  "KXBTCD-26OCT2117-T82999.99:NO": 0.62,
-  "KXBTCD-26OCT2117-T83249.99:NO": 0.7,
-  "KXBTCD-26OCT2117-T83499.99:NO": 0.77,
-  "KXBTCD-26OCT2117-T83749.99:NO": 0.83,
-  "KXBTCD-26OCT2117-T83999.99:NO": 0.87,
+  "KXBTCD-26OCT2117-T82249.99:YES": 0.67,
+  "KXBTCD-26OCT2117-T82999.99:NO": 0.6,
+  "KXBTCD-26OCT2117-T83249.99:NO": 0.68,
+  "KXBTCD-26OCT2117-T83499.99:NO": 0.76,
+  "KXBTCD-26OCT2117-T83749.99:NO": 0.81,
+  "KXBTCD-26OCT2117-T83999.99:NO": 0.86,
   "KXBTCD-26OCT2117-T84249.99:NO": 0.91,
   "KXBTCD-26OCT2117-T84499.99:NO": 0.94
  },
- "last_run": 1792566022.983808,
+ "last_run": 1792566316.5597885,
  "last_vote": {
   "approved": true,
   "ask": 0.49,
@@ -5019,7 +5025,7 @@
  "last_weekly": "2026-10-18",
  "learn": {
   "edge": {
-   "Bitcoin": 0.09
+   "Bitcoin": 0.08
   },
   "log": [
    {
@@ -5145,25 +5151,14 @@
    {
     "t": 1792530317.2051775,
     "text": "\ud83e\udde0 Learned: Bitcoin signals were losing (\u22128\u00a2 avg over the last 15), so the minimum edge for Bitcoin is now 9\u00a2 (was 8\u00a2)."
+   },
+   {
+    "t": 1792566316.5596213,
+    "text": "\ud83e\udde0 Learned: Bitcoin signals were winning comfortably (+5\u00a2 avg over the last 15), so the minimum edge for Bitcoin is now 8\u00a2 (was 9\u00a2)."
    }
   ],
   "window": {
-   "Bitcoin": [
-    -0.11000000000000001,
-    -0.16,
-    -0.13,
-    -0.15,
-    0.13,
-    0.20999999999999996,
-    -0.39,
-    0.62,
-    0.36,
-    0.22699999999999998,
-    -0.17999999999999997,
-    -0.38000000000000006,
-    -0.05,
-    0.25
-   ]
+   "Bitcoin": []
   }
  },
  "news": {
@@ -5196,74 +5191,40 @@
   ],
   "fetched": 1792560313.4749188
  },
- "open": [
-  {
-   "bet": "Bitcoin is NOT between $82,700 and $82,800 at 3:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1792566000.5788484,
-   "contracts": 18,
-   "edge": 0.09065762972765724,
-   "entry": 0.49,
-   "event": "KXBTC-26OCT2103",
-   "fair": 0.6006576297276572,
-   "fee": 0.02,
-   "key": "KXBTC-26OCT2103-B82750:NO",
-   "label": "Bitcoin price range on Oct 21, 2026? \u2014 $82,700 to 82,799.99",
-   "last_bid": 0.43,
-   "opened": 1792565415.9926984,
-   "reasons": [
-    "18% expected return on cost",
-    "spread 2\u00a2, volume 1,953",
-    "closes in 10m"
-   ],
-   "row": "$82,700 to 82,799.99",
-   "side": "NO",
-   "sl": 0.35,
-   "stake": 9.250778543638493,
-   "ticker": "KXBTC-26OCT2103-B82750",
-   "tp": 0.6,
-   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-21-2026-at-3am-edt/kxbtc-26oct2103",
-   "votes": {
-    "Doubt": true,
-    "Momentum": false,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  }
- ],
+ "open": [],
  "recent": {
   "KXBTC-26OCT2023-B82750:NO": 1792551913.4131243,
   "KXBTC-26OCT2100-B82650:NO": 1792555515.16924,
   "KXBTC-26OCT2102-B82750:NO": 1792562637.8578324,
+  "KXBTC-26OCT2103-B82750:NO": 1792566316.394845,
   "KXBTCD-26OCT2100-T82799.99:YES": 1792555515.16924
  },
  "record": {
-  "dollars": -284.86,
+  "dollars": -276.04,
   "losses": 380,
-  "pnl": 7.17,
-  "wins": 324
+  "pnl": 7.68,
+  "wins": 325
  },
  "scoreboard": {
   "Doubt": {
-   "right": 379,
-   "total": 798
+   "right": 380,
+   "total": 799
   },
   "Momentum": {
    "right": 325,
-   "total": 691
+   "total": 692
   },
   "Risk": {
-   "right": 366,
-   "total": 798
+   "right": 367,
+   "total": 799
   },
   "The Quant": {
-   "right": 234,
-   "total": 798
+   "right": 235,
+   "total": 799
   },
   "Time": {
-   "right": 381,
-   "total": 798
+   "right": 382,
+   "total": 799
   }
  },
  "shadow": [],
