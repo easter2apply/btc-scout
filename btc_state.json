@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3277297813140998,
-  "move": -0.001586558081160816,
+  "long": 0.3276803559743723,
+  "move": -0.0010597023504098635,
   "quotes": {
-   "Bitstamp": 81109.48,
-   "Coinbase": 81103.045,
-   "Kraken": 81114.4
+   "Bitstamp": 81167.16,
+   "Coinbase": 81163.515,
+   "Kraken": 81169.9
   },
-  "short": 0.3683286820175685,
-  "spot": 81109.48,
-  "t": 1792702514.1185606,
-  "vol": 0.3486207305633063
+  "short": 0.3608822951077841,
+  "spot": 81167.16,
+  "t": 1792702821.3532872,
+  "vol": 0.34468133588414174
  },
  "btc_hist": [
-  [
-   1792605621,
-   84621.6
-  ],
   [
    1792605915,
    84667.1
@@ -1212,6 +1208,10 @@
   [
    1792702514,
    81109.48
+  ],
+  [
+   1792702821,
+   81167.16
   ]
  ],
  "chat_id": "7590441188",
@@ -1312,10 +1312,6 @@
  },
  "errors": [
   {
-   "t": 1792655713.3808627,
-   "text": "KXBTCD: 72 markets priced, 8 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1792655713.380867,
    "text": "KXBTC: skipped (HTTP Error 503: Service Unavailable)"
   },
@@ -1390,6 +1386,10 @@
   {
    "t": 1792667117.3230867,
    "text": "KXBTC: 211 markets priced, 57 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792702823.6105294,
+   "text": "KXBTC: 236 markets priced, 2 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4975,8 +4975,14 @@
   }
  ],
  "last_daily": "2026-10-21",
- "last_px": {},
- "last_run": 1792702517.0451746,
+ "last_px": {
+  "KXBTC-26OCT2218-B81150:NO": 0.78,
+  "KXBTCD-26OCT2317-T79499.99:YES": 0.87,
+  "KXBTCD-26OCT2317-T81999.99:NO": 0.72,
+  "KXBTCD-26OCT2317-T82499.99:NO": 0.82,
+  "KXBTCD-26OCT2317-T82999.99:NO": 0.88
+ },
+ "last_run": 1792702823.6104891,
  "last_vote": {
   "approved": true,
   "ask": 0.14,
