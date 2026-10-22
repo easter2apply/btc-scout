@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32699144374198813,
-  "move": -0.002949369023040438,
+  "long": 0.3267846290865596,
+  "move": -0.0016166932111202348,
   "quotes": {
-   "Bitstamp": 81885.05,
-   "Coinbase": 81907.345,
-   "Kraken": 81886.9
+   "Bitstamp": 81912.37,
+   "Coinbase": 81904.535,
+   "Kraken": 81906.5
   },
-  "short": 0.23299664463351402,
-  "spot": 81886.9,
-  "t": 1792658714.253432,
-  "vol": 0.28391093734738876
+  "short": 0.23519734573297796,
+  "spot": 81906.5,
+  "t": 1792659014.4612296,
+  "vol": 0.28469807274293085
  },
  "btc_hist": [
-  [
-   1792568415,
-   82927.3
-  ],
   [
    1792568715,
    83041.92
@@ -1212,6 +1208,10 @@
   [
    1792658714,
    81886.9
+  ],
+  [
+   1792659014,
+   81906.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1302,19 +1302,15 @@
    "tp": 21
   },
   "2026-10-22": {
-   "buys": 2,
+   "buys": 3,
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 0,
+   "sl": 1,
    "tp": 1
   }
  },
  "errors": [
-  {
-   "t": 1792653917.1851165,
-   "text": "KXBTCD: 75 markets priced, 5 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792654216.4167728,
    "text": "KXBTCD: 75 markets priced, 5 skipped (model and Kalshi too far apart)"
@@ -1389,6 +1385,10 @@
   },
   {
    "t": 1792658716.094025,
+   "text": "KXBTCD: 68 markets priced, 12 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792659017.979574,
    "text": "KXBTCD: 68 markets priced, 12 skipped (model and Kalshi too far apart)"
   }
  ],
@@ -4984,11 +4984,11 @@
   "KXBTCD-26OCT2217-T83749.99:NO": 0.89,
   "KXBTCD-26OCT2217-T83999.99:NO": 0.9
  },
- "last_run": 1792658716.0939934,
+ "last_run": 1792659015.903444,
  "last_vote": {
   "approved": true,
   "ask": 0.73,
-  "edge": 0.17741094924969927,
+  "edge": 0.17476460255076567,
   "label": "Bitcoin price on Oct 22, 2026? \u2014 $83,000 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-22-2026-at-5pm-edt/kxbtcd-26oct2217",
@@ -4999,7 +4999,7 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.29% in 30 min, not fighting this bet"
+    "Bitcoin -0.16% in 30 min, not fighting this bet"
    ],
    "Risk": [
     false,
@@ -5007,14 +5007,14 @@
    ],
    "The Quant": [
     true,
-    "24% expected return on cost"
+    "23% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 12h"
    ]
   },
-  "when": 1792658715.773014
+  "when": 1792659015.571063
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5246,11 +5246,14 @@
    "edge": 0.09974723373663454,
    "entry": 0.5,
    "event": "KXBTCD-26OCT2217",
+   "exit_px": 0.35,
+   "exit_reason": "stop loss",
+   "exit_t": 1792659015.571063,
    "fair": 0.6197472337366345,
    "fee": 0.02,
    "key": "KXBTCD-26OCT2217-T82499.99:NO",
    "label": "Bitcoin price on Oct 22, 2026? \u2014 $82,500 or above",
-   "last_bid": 0.45,
+   "last_bid": 0.35,
    "opened": 1792653013.505258,
    "reasons": [
     "19% expected return on cost",
@@ -5268,6 +5271,40 @@
     "Doubt": true,
     "Momentum": true,
     "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $83,000 at 5:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792702800.895267,
+   "contracts": 13,
+   "edge": 0.17476460255076567,
+   "entry": 0.73,
+   "event": "KXBTCD-26OCT2217",
+   "fair": 0.9247646025507656,
+   "fee": 0.02,
+   "key": "KXBTCD-26OCT2217-T82999.99:NO",
+   "label": "Bitcoin price on Oct 22, 2026? \u2014 $83,000 or above",
+   "last_bid": null,
+   "opened": 1792659015.571063,
+   "reasons": [
+    "23% expected return on cost",
+    "Bitcoin -0.16% in 30 min, not fighting this bet",
+    "closes in 12h"
+   ],
+   "row": "$83,000 or above",
+   "side": "NO",
+   "sl": 0.58,
+   "stake": 10.0,
+   "ticker": "KXBTCD-26OCT2217-T82999.99",
+   "tp": 0.92,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-22-2026-at-5pm-edt/kxbtcd-26oct2217",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": false,
     "The Quant": true,
     "Time": true
    }
