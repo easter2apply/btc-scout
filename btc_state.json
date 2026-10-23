@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32630257832087434,
-  "move": 0.0027799155591727853,
+  "long": 0.3261958758782306,
+  "move": 0.00013911595253190967,
   "quotes": {
-   "Bitstamp": 81460.84,
-   "Coinbase": 81502.585,
-   "Kraken": 81480.0
+   "Bitstamp": 81381.43,
+   "Coinbase": 81413.735,
+   "Kraken": 81394.5
   },
-  "short": 0.24554809844856718,
-  "spot": 81480.0,
-  "t": 1792720213.679395,
-  "vol": 0.2887622216206247
+  "short": 0.25111175920209633,
+  "spot": 81394.5,
+  "t": 1792720514.1407955,
+  "vol": 0.29108492321789675
  },
  "btc_hist": [
-  [
-   1792623911,
-   84302.41
-  ],
   [
    1792624216,
    84254.36
@@ -1212,6 +1208,10 @@
   [
    1792720214,
    81480.0
+  ],
+  [
+   1792720514,
+   81394.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1307,7 +1307,7 @@
    "news": 0,
    "rejected": 0,
    "sl": 19,
-   "tp": 18
+   "tp": 19
   }
  },
  "errors": [
@@ -4976,50 +4976,46 @@
  ],
  "last_daily": "2026-10-22",
  "last_px": {
-  "KXBTC-26OCT2222-B81450:YES": 0.31,
-  "KXBTC-26OCT2222-B81650:NO": 0.88,
-  "KXBTC15M-26OCT222200-00:YES": 0.85,
-  "KXBTCD-26OCT2222-T81499.99:NO": 0.48,
-  "KXBTCD-26OCT2222-T81599.99:NO": 0.81,
-  "KXBTCD-26OCT2317-T79999.99:YES": 0.9,
-  "KXBTCD-26OCT2317-T80499.99:YES": 0.83,
-  "KXBTCD-26OCT2317-T81499.99:NO": 0.47,
-  "KXBTCD-26OCT2317-T81999.99:NO": 0.64,
-  "KXBTCD-26OCT2317-T82499.99:NO": 0.78,
-  "KXBTCD-26OCT2317-T82999.99:NO": 0.86,
-  "KXBTCD-26OCT2317-T83499.99:NO": 0.93
+  "KXBTC-26OCT2317-B81250:YES": 0.19,
+  "KXBTCD-26OCT2317-T79999.99:YES": 0.89,
+  "KXBTCD-26OCT2317-T80499.99:YES": 0.79,
+  "KXBTCD-26OCT2317-T81499.99:NO": 0.51,
+  "KXBTCD-26OCT2317-T81999.99:NO": 0.67,
+  "KXBTCD-26OCT2317-T82499.99:NO": 0.8,
+  "KXBTCD-26OCT2317-T82999.99:NO": 0.89,
+  "KXBTCD-26OCT2317-T83499.99:NO": 0.94
  },
- "last_run": 1792720215.5157762,
+ "last_run": 1792720516.6653554,
  "last_vote": {
   "approved": true,
-  "ask": 0.31,
-  "edge": 0.1096884529572152,
-  "label": "Bitcoin price range on Oct 22, 2026? \u2014 $81,400 to 81,499.99",
-  "side": "YES",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-22-2026-at-10pm-edt/kxbtc-26oct2222",
+  "ask": 0.67,
+  "edge": 0.07082308123288507,
+  "label": "Bitcoin price on Oct 23, 2026? \u2014 $82,000 or above",
+  "side": "NO",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-23-2026-at-5pm-edt/kxbtcd-26oct2317",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    null,
-    "first look at this market"
+    true,
+    "Bitcoin +0.01% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 2\u00a2, volume 851"
+    "spread 1\u00a2, volume 51,887"
    ],
    "The Quant": [
-    true,
-    "33% expected return on cost"
+    false,
+    "10% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 19h"
    ]
   },
-  "when": 1792720215.104858
+  "when": 1792720515.9382188
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5230,7 +5226,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT2317-T81999.99:NO",
    "label": "Bitcoin price on Oct 23, 2026? \u2014 $82,000 or above",
-   "last_bid": 0.63,
+   "last_bid": 0.66,
    "opened": 1792709114.2225482,
    "reasons": [
     "spread 1\u00a2, volume 39,018",
@@ -5301,7 +5297,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT2222-B81450:YES",
    "label": "Bitcoin price range on Oct 22, 2026? \u2014 $81,400 to 81,499.99",
-   "last_bid": null,
+   "last_bid": 0.4,
    "opened": 1792720215.104858,
    "reasons": [
     "33% expected return on cost",
@@ -5331,11 +5327,14 @@
    "edge": 0.10318431517283146,
    "entry": 0.48,
    "event": "KXBTCD-26OCT2222",
+   "exit_px": 0.96,
+   "exit_reason": "take profit",
+   "exit_t": 1792720515.9382188,
    "fair": 0.6031843151728314,
    "fee": 0.02,
    "key": "KXBTCD-26OCT2222-T81499.99:NO",
    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,500 or above",
-   "last_bid": null,
+   "last_bid": 0.96,
    "opened": 1792720215.104858,
    "reasons": [
     "21% expected return on cost",
