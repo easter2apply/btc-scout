@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3071948182345459,
-  "move": -0.0010987980719512347,
+  "long": 0.3071589085494382,
+  "move": -0.0009980141290163447,
   "quotes": {
-   "Bitstamp": 80657.26,
-   "Coinbase": 80657.995,
-   "Kraken": 80658.1
+   "Bitstamp": 80643.11,
+   "Coinbase": 80642.165,
+   "Kraken": 80654.2
   },
-  "short": 0.2065203410376177,
-  "spot": 80657.995,
-  "t": 1792820715.543236,
-  "vol": 0.2617434885650927
+  "short": 0.20653574386517554,
+  "spot": 80643.11,
+  "t": 1792821012.706929,
+  "vol": 0.261728493476755
  },
  "btc_hist": [
-  [
-   1792732514,
-   81723.96
-  ],
   [
    1792732814,
    81725.9
@@ -1212,6 +1208,10 @@
   [
    1792820716,
    80657.99
+  ],
+  [
+   1792821013,
+   80643.11
   ]
  ],
  "chat_id": "7590441188",
@@ -1318,7 +1318,7 @@
    "tp": 43
   },
   "2026-10-24": {
-   "buys": 13,
+   "buys": 14,
    "lines": 0,
    "news": 0,
    "rejected": 1,
@@ -4991,16 +4991,17 @@
  "last_daily": "2026-10-23",
  "last_px": {
   "KXBTC-26OCT2402-B80550:YES": 0.14,
-  "KXBTC-26OCT2402-B80650:NO": 0.38,
-  "KXBTCD-26OCT2402-T80599.99:NO": 0.13,
-  "KXBTCD-26OCT2402-T80699.99:YES": 0.22,
-  "KXBTCD-26OCT2417-T81499.99:YES": 0.09
+  "KXBTC-26OCT2402-B80650:NO": 0.27,
+  "KXBTC-26OCT2402-B80750:YES": 0.13,
+  "KXBTC15M-26OCT240200-00:NO": 0.5,
+  "KXBTCD-26OCT2402-T80599.99:NO": 0.12,
+  "KXBTCD-26OCT2402-T80699.99:YES": 0.15
  },
- "last_run": 1792820719.4515402,
+ "last_run": 1792821014.894752,
  "last_vote": {
   "approved": true,
-  "ask": 0.38,
-  "edge": 0.16322241730952883,
+  "ask": 0.27,
+  "edge": 0.19331807861789344,
   "label": "Bitcoin price range on Oct 24, 2026? \u2014 $80,600 to 80,699.99",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-24-2026-at-2am-edt/kxbtc-26oct2402",
@@ -5011,22 +5012,22 @@
    ],
    "Momentum": [
     false,
-    "price \u22129\u00a2 since last scan"
+    "price \u221211\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 2,516"
+    "spread 2\u00a2, volume 2,516"
    ],
    "The Quant": [
     true,
-    "41% expected return on cost"
+    "67% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 15m"
+    "closes in 10m"
    ]
   },
-  "when": 1792820717.842983
+  "when": 1792821013.9283934
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5292,7 +5293,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26OCT2417-T81499.99:YES",
    "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,500 or above",
-   "last_bid": 0.08,
+   "last_bid": 0.09,
    "opened": 1792817115.5456676,
    "reasons": [
     "52% expected return on cost",
@@ -5474,7 +5475,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26OCT2402-T80599.99:NO",
    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,600 or above",
-   "last_bid": null,
+   "last_bid": 0.14,
    "opened": 1792820717.842983,
    "reasons": [
     "80% expected return on cost",
@@ -5488,6 +5489,40 @@
    "ticker": "KXBTCD-26OCT2402-T80599.99",
    "tp": 0.25,
    "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-24-2026-at-2am-edt/kxbtcd-26oct2402",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is BETWEEN $80,500 and $80,600 at 2:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792821600.5631654,
+   "contracts": 29,
+   "edge": 0.07490468708869193,
+   "entry": 0.14,
+   "event": "KXBTC-26OCT2402",
+   "fair": 0.22490468708869193,
+   "fee": 0.01,
+   "key": "KXBTC-26OCT2402-B80550:YES",
+   "label": "Bitcoin price range on Oct 24, 2026? \u2014 $80,500 to 80,599.99",
+   "last_bid": null,
+   "opened": 1792821013.9283934,
+   "reasons": [
+    "50% expected return on cost",
+    "spread 3\u00a2, volume 1,040",
+    "price +0\u00a2 since last scan"
+   ],
+   "row": "$80,500 to 80,599.99",
+   "side": "YES",
+   "sl": 0.03,
+   "stake": 4.406158064040701,
+   "ticker": "KXBTC-26OCT2402-B80550",
+   "tp": 0.22,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-24-2026-at-2am-edt/kxbtc-26oct2402",
    "votes": {
     "Doubt": true,
     "Momentum": true,
