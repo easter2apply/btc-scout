@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.30824054341624946,
-  "move": 0.00040215520542896677,
+  "long": 0.3082388264582552,
+  "move": -8.359484546260898e-05,
   "quotes": {
-   "Bitstamp": 80841.82,
-   "Coinbase": 80851.425,
-   "Kraken": 80847.5
+   "Bitstamp": 80863.48,
+   "Coinbase": 80861.425,
+   "Kraken": 80854.9
   },
-  "short": 0.329025739344985,
-  "spot": 80847.5,
-  "t": 1792809313.3918343,
-  "vol": 0.31880257978650267
+  "short": 0.32714842619412837,
+  "spot": 80861.425,
+  "t": 1792809613.143325,
+  "vol": 0.31783428614425585
  },
  "btc_hist": [
-  [
-   1792721111,
-   81168.55
-  ],
   [
    1792721415,
    81267.22
@@ -1212,6 +1208,10 @@
   [
    1792809313,
    80847.5
+  ],
+  [
+   1792809613,
+   80861.43
   ]
  ],
  "chat_id": "7590441188",
@@ -1315,14 +1315,10 @@
    "news": 0,
    "rejected": 4,
    "sl": 29,
-   "tp": 39
+   "tp": 40
   }
  },
  "errors": [
-  {
-   "t": 1792790117.4019675,
-   "text": "KXBTC: 261 markets priced, 7 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792790414.183064,
    "text": "KXBTC: 263 markets priced, 5 skipped (model and Kalshi too far apart)"
@@ -1398,6 +1394,10 @@
   {
    "t": 1792807514.2940574,
    "text": "KXBTC: 213 markets priced, 55 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792809616.668285,
+   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4984,51 +4984,50 @@
  ],
  "last_daily": "2026-10-23",
  "last_px": {
-  "KXBTC-26OCT2323-B80650:YES": 0.05,
-  "KXBTC-26OCT2323-B80850:NO": 0.52,
-  "KXBTC-26OCT2323-B81050:YES": 0.05,
+  "KXBTC-26OCT2323-B81050:YES": 0.06,
   "KXBTC-26OCT2417-B80625:NO": 0.86,
-  "KXBTC-26OCT2417-B80875:NO": 0.85,
-  "KXBTCD-26OCT2323-T80799.99:NO": 0.28,
-  "KXBTCD-26OCT2323-T80899.99:YES": 0.21,
-  "KXBTCD-26OCT2417-T79999.99:NO": 0.14,
-  "KXBTCD-26OCT2417-T80249.99:NO": 0.21,
-  "KXBTCD-26OCT2417-T80499.99:NO": 0.31,
+  "KXBTC-26OCT2417-B80875:NO": 0.84,
+  "KXBTCD-26OCT2323-T80799.99:NO": 0.18,
+  "KXBTCD-26OCT2323-T80899.99:YES": 0.22,
+  "KXBTCD-26OCT2417-T79749.99:NO": 0.09,
+  "KXBTCD-26OCT2417-T79999.99:NO": 0.13,
+  "KXBTCD-26OCT2417-T80249.99:NO": 0.2,
+  "KXBTCD-26OCT2417-T80499.99:NO": 0.3,
   "KXBTCD-26OCT2417-T81499.99:YES": 0.18,
   "KXBTCD-26OCT2417-T81749.99:YES": 0.11,
   "KXBTCD-26OCT2417-T81999.99:YES": 0.06
  },
- "last_run": 1792809315.7790425,
+ "last_run": 1792809615.755522,
  "last_vote": {
   "approved": true,
-  "ask": 0.52,
-  "edge": 0.16993095711898334,
-  "label": "Bitcoin price range on Oct 23, 2026? \u2014 $80,800 to 80,899.99",
-  "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-23-2026-at-11pm-edt/kxbtc-26oct2323",
+  "ask": 0.22,
+  "edge": 0.13293447971527494,
+  "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,900 or above",
+  "side": "YES",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-23-2026-at-11pm-edt/kxbtcd-26oct2323",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u221210\u00a2 since last scan"
+    true,
+    "Bitcoin -0.01% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 445"
+    "spread 1\u00a2, volume 101,150"
    ],
    "The Quant": [
     true,
-    "31% expected return on cost"
+    "55% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 25m"
+    "closes in 20m"
    ]
   },
-  "when": 1792809314.6250446
+  "when": 1792809614.619515
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5389,11 +5388,14 @@
    "edge": 0.07806697516701279,
    "entry": 0.67,
    "event": "KXBTC-26OCT2323",
+   "exit_px": 0.84,
+   "exit_reason": "take profit",
+   "exit_t": 1792809614.619515,
    "fair": 0.7680669751670128,
    "fee": 0.02,
    "key": "KXBTC-26OCT2323-B80750:NO",
    "label": "Bitcoin price range on Oct 23, 2026? \u2014 $80,700 to 80,799.99",
-   "last_bid": 0.76,
+   "last_bid": 0.84,
    "opened": 1792808414.8875618,
    "reasons": [
     "spread 2\u00a2, volume 54",
