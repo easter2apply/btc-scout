@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.30654485324777203,
-  "move": 0.0008716160086474911,
+  "long": 0.3065512825221075,
+  "move": 0.0005230449688253813,
   "quotes": {
-   "Bitstamp": 80523.23,
-   "Coinbase": 80524.045,
-   "Kraken": 80521.4
+   "Bitstamp": 80556.17,
+   "Coinbase": 80562.11,
+   "Kraken": 80565.5
   },
-  "short": 0.18927861908210497,
-  "spot": 80523.23,
-  "t": 1792839313.1302152,
-  "vol": 0.25475099871671425
+  "short": 0.18922616552173097,
+  "spot": 80562.11,
+  "t": 1792839616.8014226,
+  "vol": 0.254735382832859
  },
  "btc_hist": [
-  [
-   1792751419,
-   81613.96
-  ],
   [
    1792751711,
    81589.9
@@ -1212,6 +1208,10 @@
   [
    1792839313,
    80523.23
+  ],
+  [
+   1792839617,
+   80562.11
   ]
  ],
  "chat_id": "7590441188",
@@ -1321,16 +1321,12 @@
    "buys": 34,
    "lines": 0,
    "news": 0,
-   "rejected": 1,
+   "rejected": 2,
    "sl": 22,
    "tp": 9
   }
  },
  "errors": [
-  {
-   "t": 1792809917.7123635,
-   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1792810214.5615475,
    "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
@@ -1406,6 +1402,10 @@
   {
    "t": 1792836315.7418969,
    "text": "KXBTC: 212 markets priced, 56 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1792839618.815429,
+   "text": "KXBTC: 265 markets priced, 3 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4991,38 +4991,40 @@
   }
  ],
  "last_daily": "2026-10-23",
- "last_px": {},
- "last_run": 1792839315.11956,
+ "last_px": {
+  "KXBTC-26OCT2408-B80550:NO": 0.66
+ },
+ "last_run": 1792839618.815397,
  "last_vote": {
-  "approved": true,
-  "ask": 0.39,
-  "edge": 0.08385177587569927,
+  "approved": false,
+  "ask": 0.66,
+  "edge": 0.08347499495242462,
   "label": "Bitcoin price range on Oct 24, 2026? \u2014 $80,500 to 80,599.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-24-2026-at-7am-edt/kxbtc-26oct2407",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-24-2026-at-8am-edt/kxbtc-26oct2408",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u22125\u00a2 since last scan"
+    null,
+    "first look at this market"
    ],
    "Risk": [
-    true,
-    "spread 4\u00a2, volume 3,524"
+    false,
+    "spread 7\u00a2, volume 0"
    ],
    "The Quant": [
-    true,
-    "20% expected return on cost"
+    false,
+    "12% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 60m"
    ]
   },
-  "when": 1792839014.845707
+  "when": 1792839618.1080694
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5282,7 +5284,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26OCT2417-T81499.99:YES",
    "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,500 or above",
-   "last_bid": 0.04,
+   "last_bid": 0.05,
    "opened": 1792817115.5456676,
    "reasons": [
     "52% expected return on cost",
@@ -5437,7 +5439,42 @@
    "total": 1004
   }
  },
- "shadow": [],
+ "shadow": [
+  {
+   "bet": "Bitcoin is NOT between $80,500 and $80,600 at 8:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792843200.5298233,
+   "contracts": 14,
+   "edge": 0.08347499495242462,
+   "entry": 0.66,
+   "event": "KXBTC-26OCT2408",
+   "fair": 0.7634749949524247,
+   "fee": 0.02,
+   "key": "KXBTC-26OCT2408-B80550:NO",
+   "label": "Bitcoin price range on Oct 24, 2026? \u2014 $80,500 to 80,599.99",
+   "last_bid": null,
+   "opened": 1792839618.1080694,
+   "reasons": [
+    "closes in 60m",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$80,500 to 80,599.99",
+   "shadow": true,
+   "side": "NO",
+   "sl": 0.53,
+   "stake": 10.0,
+   "ticker": "KXBTC-26OCT2408-B80550",
+   "tp": 0.76,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-24-2026-at-8am-edt/kxbtc-26oct2408",
+   "votes": {
+    "Doubt": true,
+    "Momentum": null,
+    "Risk": false,
+    "The Quant": false,
+    "Time": true
+   }
+  }
+ ],
  "sports_on": false,
  "welcomed": true
 }
