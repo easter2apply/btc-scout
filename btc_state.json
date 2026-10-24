@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.310618470581945,
-  "move": 0.0032313189609405324,
+  "long": 0.3103916491171908,
+  "move": 0.002757718149326127,
   "quotes": {
-   "Bitstamp": 79444.01,
-   "Coinbase": 79457.47,
-   "Kraken": 79449.2
+   "Bitstamp": 79524.88,
+   "Coinbase": 79519.765,
+   "Kraken": 79525.1
   },
-  "short": 0.39110217388772756,
-  "spot": 79449.2,
-  "t": 1792857012.105394,
-  "vol": 0.3531605475462774
+  "short": 0.39457576333767214,
+  "spot": 79524.88,
+  "t": 1792857311.149062,
+  "vol": 0.3549880342034052
  },
  "btc_hist": [
-  [
-   1792769115,
-   81459.11
-  ],
   [
    1792769420,
    81485.96
@@ -1212,6 +1208,10 @@
   [
    1792857012,
    79449.2
+  ],
+  [
+   1792857311,
+   79524.88
   ]
  ],
  "chat_id": "7590441188",
@@ -1322,8 +1322,8 @@
    "lines": 0,
    "news": 0,
    "rejected": 2,
-   "sl": 38,
-   "tp": 24
+   "sl": 39,
+   "tp": 25
   }
  },
  "errors": [
@@ -4996,23 +4996,18 @@
  ],
  "last_daily": "2026-10-23",
  "last_px": {
-  "KXBTC-26OCT2412-B79450:YES": 0.32,
-  "KXBTC-26OCT2417-B79375:YES": 0.14,
-  "KXBTC-26OCT2417-B79625:YES": 0.14,
-  "KXBTC15M-26OCT241200-00:YES": 0.76,
-  "KXBTCD-26OCT2412-T79299.99:YES": 0.89,
-  "KXBTCD-26OCT2412-T79499.99:NO": 0.61,
-  "KXBTCD-26OCT2412-T79599.99:NO": 0.87,
-  "KXBTCD-26OCT2417-T78499.99:YES": 0.9,
+  "KXBTC-26OCT2417-B79375:YES": 0.15,
+  "KXBTC-26OCT2417-B79625:YES": 0.15,
+  "KXBTCD-26OCT2417-T78499.99:YES": 0.91,
   "KXBTCD-26OCT2417-T78749.99:YES": 0.85,
-  "KXBTCD-26OCT2417-T79499.99:NO": 0.5,
-  "KXBTCD-26OCT2417-T79749.99:NO": 0.65,
-  "KXBTCD-26OCT2417-T79999.99:NO": 0.75,
-  "KXBTCD-26OCT2417-T80249.99:NO": 0.84,
-  "KXBTCD-26OCT2417-T80499.99:NO": 0.9,
-  "KXBTCD-26OCT2417-T80749.99:NO": 0.94
+  "KXBTCD-26OCT2417-T78999.99:YES": 0.79,
+  "KXBTCD-26OCT2417-T79499.99:NO": 0.44,
+  "KXBTCD-26OCT2417-T79749.99:NO": 0.61,
+  "KXBTCD-26OCT2417-T79999.99:NO": 0.74,
+  "KXBTCD-26OCT2417-T80249.99:NO": 0.83,
+  "KXBTCD-26OCT2417-T80499.99:NO": 0.9
  },
- "last_run": 1792857015.786291,
+ "last_run": 1792857314.4719472,
  "last_vote": {
   "approved": true,
   "ask": 0.76,
@@ -5559,7 +5554,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26OCT2417-T79749.99:NO",
    "label": "Bitcoin price on Oct 24, 2026? \u2014 $79,750 or above",
-   "last_bid": 0.64,
+   "last_bid": 0.6,
    "opened": 1792855216.1853485,
    "reasons": [
     "17% expected return on cost",
@@ -5589,11 +5584,14 @@
    "edge": 0.11271494546302961,
    "entry": 0.1,
    "event": "KXBTC-26OCT2412",
+   "exit_px": 0.0,
+   "exit_reason": "stop loss",
+   "exit_t": 1792857312.307257,
    "fair": 0.2227149454630296,
    "fee": 0.01,
    "key": "KXBTC-26OCT2412-B79250:YES",
    "label": "Bitcoin price range on Oct 24, 2026? \u2014 $79,200 to 79,299.99",
-   "last_bid": 0.08,
+   "last_bid": 0.0,
    "opened": 1792855216.1853485,
    "reasons": [
     "102% expected return on cost",
@@ -5697,11 +5695,14 @@
    "edge": 0.09083051241602404,
    "entry": 0.76,
    "event": "KXBTC15M-26OCT241200",
+   "exit_px": 0.983,
+   "exit_reason": "take profit",
+   "exit_t": 1792857312.307257,
    "fair": 0.870830512416024,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT241200-00:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $79,336.53",
-   "last_bid": null,
+   "last_bid": 0.983,
    "opened": 1792857013.6768267,
    "reasons": [
     "spread 1\u00a2, volume 620,033",
