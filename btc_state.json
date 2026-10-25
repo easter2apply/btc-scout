@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3113323382067758,
-  "move": -0.00043824941888614966,
+  "long": 0.31132479126858925,
+  "move": 0.00017725240928889718,
   "quotes": {
-   "Bitstamp": 80742.13,
-   "Coinbase": 80746.625,
-   "Kraken": 80738.2
+   "Bitstamp": 80703.05,
+   "Coinbase": 80711.685,
+   "Kraken": 80702.2
   },
-  "short": 0.19386752063363655,
-  "spot": 80742.13,
-  "t": 1792894814.7105196,
-  "vol": 0.25933804230186874
+  "short": 0.19154710332445318,
+  "spot": 80703.05,
+  "t": 1792895112.0744305,
+  "vol": 0.2584699387263627
  },
  "btc_hist": [
-  [
-   1792806913,
-   80843.45
-  ],
   [
    1792807216,
    80824.5
@@ -1212,6 +1208,10 @@
   [
    1792894815,
    80742.13
+  ],
+  [
+   1792895112,
+   80703.05
   ]
  ],
  "chat_id": "7590441188",
@@ -1318,7 +1318,7 @@
    "tp": 43
   },
   "2026-10-24": {
-   "buys": 103,
+   "buys": 104,
    "lines": 0,
    "news": 0,
    "rejected": 4,
@@ -5000,42 +5000,46 @@
  ],
  "last_daily": "2026-10-24",
  "last_px": {
-  "KXBTC-26OCT2423-B80750:NO": 0.61,
+  "KXBTC-26OCT2423-B80550:YES": 0.09,
+  "KXBTC-26OCT2423-B80650:NO": 0.65,
+  "KXBTC-26OCT2423-B80750:NO": 0.66,
   "KXBTCD-26OCT2423-T80599.99:NO": 0.09,
-  "KXBTCD-26OCT2423-T80699.99:NO": 0.34,
-  "KXBTCD-26OCT2423-T80899.99:YES": 0.09
+  "KXBTCD-26OCT2423-T80699.99:NO": 0.39,
+  "KXBTCD-26OCT2517-T80999.99:NO": 0.62,
+  "KXBTCD-26OCT2517-T81249.99:NO": 0.72,
+  "KXBTCD-26OCT2517-T81499.99:NO": 0.8
  },
- "last_run": 1792894816.576582,
+ "last_run": 1792895113.9296458,
  "last_vote": {
   "approved": true,
-  "ask": 0.64,
-  "edge": 0.1080419104001923,
-  "label": "Bitcoin price range on Oct 24, 2026? \u2014 $80,700 to 80,799.99",
+  "ask": 0.09,
+  "edge": 0.11964979854947964,
+  "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,600 or above",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-24-2026-at-11pm-edt/kxbtc-26oct2423",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-24-2026-at-11pm-edt/kxbtcd-26oct2423",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u22124\u00a2 since last scan"
+    true,
+    "Bitcoin +0.02% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 3\u00a2, volume 92"
+    "spread 1\u00a2, volume 46,147"
    ],
    "The Quant": [
     true,
-    "16% expected return on cost"
+    "120% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 55m"
+    "closes in 35m"
    ]
   },
-  "when": 1792893913.3039277
+  "when": 1792895113.7530942
  },
  "last_weekly": "2026-10-18",
  "learn": {
@@ -5255,7 +5259,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT2423-B80750:NO",
    "label": "Bitcoin price range on Oct 24, 2026? \u2014 $80,700 to 80,799.99",
-   "last_bid": 0.59,
+   "last_bid": 0.6,
    "opened": 1792893913.3039277,
    "reasons": [
     "16% expected return on cost",
@@ -5272,6 +5276,40 @@
    "votes": {
     "Doubt": true,
     "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $80,600 at 11:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1792897200.9822652,
+   "contracts": 66,
+   "edge": 0.11964979854947964,
+   "entry": 0.09,
+   "event": "KXBTCD-26OCT2423",
+   "fair": 0.21964979854947964,
+   "fee": 0.01,
+   "key": "KXBTCD-26OCT2423-T80599.99:NO",
+   "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,600 or above",
+   "last_bid": null,
+   "opened": 1792895113.7530942,
+   "reasons": [
+    "120% expected return on cost",
+    "spread 1\u00a2, volume 46,147",
+    "Bitcoin +0.02% in 30 min, not fighting this bet"
+   ],
+   "row": "$80,600 or above",
+   "side": "NO",
+   "sl": 0.01,
+   "stake": 6.6472110305266465,
+   "ticker": "KXBTCD-26OCT2423-T80599.99",
+   "tp": 0.22,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-24-2026-at-11pm-edt/kxbtcd-26oct2423",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
     "Risk": true,
     "The Quant": true,
     "Time": true
