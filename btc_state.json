@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3130494307210786,
-  "move": -0.0012216732362723137,
+  "long": 0.31302239891821776,
+  "move": -0.0015418182468956987,
   "quotes": {
-   "Bitstamp": 80371.3,
-   "Coinbase": 80363.765,
-   "Kraken": 80360.9
+   "Bitstamp": 80357.38,
+   "Coinbase": 80360.525,
+   "Kraken": 80361.1
   },
-  "short": 0.17677398132153882,
-  "spot": 80363.765,
-  "t": 1792961413.2177482,
-  "vol": 0.2542134797242852
+  "short": 0.1701625701941088,
+  "spot": 80360.525,
+  "t": 1792961713.481582,
+  "vol": 0.2519308660323114
  },
  "btc_hist": [
-  [
-   1792873817,
-   80426.7
-  ],
   [
    1792874118,
    80457.3
@@ -1212,6 +1208,10 @@
   [
    1792961413,
    80363.76
+  ],
+  [
+   1792961713,
+   80360.52
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,8 +1330,8 @@
    "lines": 0,
    "news": 0,
    "rejected": 1,
-   "sl": 18,
-   "tp": 16
+   "sl": 19,
+   "tp": 17
   }
  },
  "errors": [
@@ -5009,10 +5009,8 @@
   }
  ],
  "last_daily": "2026-10-24",
- "last_px": {
-  "KXBTC15M-26OCT251700-00:NO": 0.5
- },
- "last_run": 1792961415.289483,
+ "last_px": {},
+ "last_run": 1792961715.3877547,
  "last_vote": {
   "approved": true,
   "ask": 0.5,
@@ -5347,11 +5345,14 @@
    "edge": 0.1111946183857265,
    "entry": 0.08,
    "event": "KXBTCD-26OCT2517",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1792961714.8290854,
    "fair": 0.2011946183857265,
    "fee": 0.01,
    "key": "KXBTCD-26OCT2517-T80249.99:NO",
    "label": "Bitcoin price on Oct 25, 2026? \u2014 $80,250 or above",
-   "last_bid": 0.06,
+   "last_bid": 0.01,
    "opened": 1792958713.539567,
    "reasons": [
     "124% expected return on cost",
@@ -5418,11 +5419,14 @@
    "edge": 0.11980186552053608,
    "entry": 0.5,
    "event": "KXBTC15M-26OCT251700",
+   "exit_px": 0.72,
+   "exit_reason": "take profit",
+   "exit_t": 1792961714.8290854,
    "fair": 0.6398018655205361,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT251700-00:NO",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $80,387.63",
-   "last_bid": null,
+   "last_bid": 0.72,
    "opened": 1792961414.919332,
    "reasons": [
     "23% expected return on cost",
