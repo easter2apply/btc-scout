@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.31564417679737905,
-  "move": -0.006515766316059102,
+  "long": 0.31512588440541756,
+  "move": -0.008217016240229635,
   "quotes": {
-   "Bitstamp": 79527.74,
-   "Coinbase": 79560.695,
-   "Kraken": 79516.4
+   "Bitstamp": 79661.44,
+   "Coinbase": 79621.865,
+   "Kraken": 79657.2
   },
-  "short": 0.4821934957614674,
-  "spot": 79527.74,
-  "t": 1792979414.1856825,
-  "vol": 0.40751798346868046
+  "short": 0.4850351771121082,
+  "spot": 79657.2,
+  "t": 1792979713.0977564,
+  "vol": 0.40900088389786565
  },
  "btc_hist": [
-  [
-   1792891815,
-   80693.17
-  ],
   [
    1792892112,
    80675.8
@@ -1212,6 +1208,10 @@
   [
    1792979414,
    79527.74
+  ],
+  [
+   1792979713,
+   79657.2
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,8 +1330,8 @@
    "lines": 0,
    "news": 0,
    "rejected": 1,
-   "sl": 24,
-   "tp": 17
+   "sl": 25,
+   "tp": 18
   }
  },
  "errors": [
@@ -5010,15 +5010,9 @@
  ],
  "last_daily": "2026-10-25",
  "last_px": {
-  "KXBTC-26OCT2522-B79550:YES": 0.26,
-  "KXBTC-26OCT2617-B79125:YES": 0.05,
-  "KXBTC15M-26OCT252200-00:YES": 0.5,
-  "KXBTCD-26OCT2522-T79399.99:YES": 0.81,
-  "KXBTCD-26OCT2522-T79499.99:YES": 0.55,
-  "KXBTCD-26OCT2522-T79599.99:NO": 0.67,
-  "KXBTCD-26OCT2522-T79699.99:NO": 0.86
+  "KXBTCD-26OCT2617-T77999.99:YES": 0.87
  },
- "last_run": 1792979416.0275986,
+ "last_run": 1792979715.0528064,
  "last_vote": {
   "approved": true,
   "ask": 0.5,
@@ -5361,11 +5355,14 @@
    "edge": 0.11751538497808124,
    "entry": 0.73,
    "event": "KXBTCD-26OCT2522",
+   "exit_px": 0.2,
+   "exit_reason": "stop loss",
+   "exit_t": 1792979714.6249156,
    "fair": 0.8675153849780812,
    "fee": 0.02,
    "key": "KXBTCD-26OCT2522-T79599.99:NO",
    "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,600 or above",
-   "last_bid": 0.66,
+   "last_bid": 0.2,
    "opened": 1792979115.008116,
    "reasons": [
     "16% expected return on cost",
@@ -5395,11 +5392,14 @@
    "edge": 0.12412231644776874,
    "entry": 0.5,
    "event": "KXBTC15M-26OCT252200",
+   "exit_px": 0.957,
+   "exit_reason": "take profit",
+   "exit_t": 1792979714.6249156,
    "fair": 0.6441223164477687,
    "fee": 0.02,
    "key": "KXBTC15M-26OCT252200-00:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $79,488.48",
-   "last_bid": null,
+   "last_bid": 0.957,
    "opened": 1792979415.8583899,
    "reasons": [
     "24% expected return on cost",
