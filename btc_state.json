@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32740006515814885,
-  "move": 0.004057501771422389,
+  "long": 0.32742017115648475,
+  "move": 0.0017901898519157022,
   "quotes": {
-   "Bitstamp": 78104.15,
-   "Coinbase": 78091.775,
-   "Kraken": 78103.7
+   "Bitstamp": 78124.92,
+   "Coinbase": 78121.795,
+   "Kraken": 78127.5
   },
-  "short": 0.6206360397582563,
-  "spot": 78103.7,
-  "t": 1793335214.5209136,
-  "vol": 0.4961753200796932
+  "short": 0.6211513798850751,
+  "spot": 78124.92,
+  "t": 1793335513.7294848,
+  "vol": 0.4965042825662608
  },
  "btc_hist": [
-  [
-   1793246713,
-   79687.01
-  ],
   [
    1793247014,
    79702.82
@@ -1212,13 +1208,17 @@
   [
    1793335215,
    78103.7
+  ],
+  [
+   1793335514,
+   78124.92
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
   "right": 599,
-  "total": 1301
+  "total": 1302
  },
  "days": {
   "2026-10-17": {
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.15,
-   "right": true,
-   "shadow": false,
-   "t": 1792760716.0307224,
-   "usd": 2.99,
-   "won": true
-  },
   {
    "cat": "Bitcoin",
    "pnl": 0.27,
@@ -4904,23 +4895,33 @@
    "t": 1793330115.9382846,
    "usd": 3.72,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.17,
+   "right": false,
+   "shadow": false,
+   "t": 1793335515.7338872,
+   "usd": -5.32,
+   "won": false
   }
  ],
  "last_daily": "2026-10-29",
  "last_px": {
-  "KXBTC-26OCT3017-B77750:YES": 0.11,
-  "KXBTCD-26OCT3017-T74999.99:YES": 0.93,
-  "KXBTCD-26OCT3017-T75499.99:YES": 0.91,
+  "KXBTCD-26OCT3001-T77999.99:NO": 0.16,
+  "KXBTCD-26OCT3001-T78099.99:NO": 0.38,
+  "KXBTCD-26OCT3017-T74999.99:YES": 0.94,
+  "KXBTCD-26OCT3017-T75499.99:YES": 0.92,
   "KXBTCD-26OCT3017-T75999.99:YES": 0.89,
   "KXBTCD-26OCT3017-T77999.99:NO": 0.41,
-  "KXBTCD-26OCT3017-T78499.99:NO": 0.53,
+  "KXBTCD-26OCT3017-T78499.99:NO": 0.54,
   "KXBTCD-26OCT3017-T78999.99:NO": 0.65,
   "KXBTCD-26OCT3017-T79499.99:NO": 0.75,
-  "KXBTCD-26OCT3017-T79999.99:NO": 0.82,
-  "KXBTCD-26OCT3017-T80499.99:NO": 0.88,
+  "KXBTCD-26OCT3017-T79999.99:NO": 0.83,
+  "KXBTCD-26OCT3017-T80499.99:NO": 0.89,
   "KXBTCD-26OCT3017-T80999.99:NO": 0.92
  },
- "last_run": 1793335216.9884698,
+ "last_run": 1793335515.7340786,
  "last_vote": {
   "approved": true,
   "ask": 0.32,
@@ -5129,7 +5130,8 @@
     0.20999999999999996,
     -0.29000000000000004,
     0.43999999999999995,
-    0.28600000000000003
+    0.28600000000000003,
+    -0.17
    ]
   }
  },
@@ -5324,43 +5326,6 @@
     "The Quant": true,
     "Time": true
    }
-  },
-  {
-   "bet": "Bitcoin is ABOVE $78,178 at 12:45 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1793335500.2501812,
-   "contracts": 28,
-   "edge": 0.12976884212062104,
-   "entry": 0.32,
-   "event": "KXBTC15M-26OCT300045",
-   "exit_px": 0.15,
-   "exit_reason": "stop loss",
-   "exit_t": 1793335216.3439236,
-   "fair": 0.46976884212062103,
-   "fee": 0.02,
-   "key": "KXBTC15M-26OCT300045-45:YES",
-   "label": "BTC price up in next 15 mins? \u2014 Target Price: $78,177.82",
-   "last_bid": 0.15,
-   "opened": 1793334913.879146,
-   "reasons": [
-    "38% expected return on cost",
-    "spread 1\u00a2, volume 296,076",
-    "Bitcoin +0.56% in 30 min, not fighting this bet"
-   ],
-   "row": "Target Price: $78,177.82",
-   "side": "YES",
-   "sl": 0.17,
-   "stake": 9.830972887925835,
-   "ticker": "KXBTC15M-26OCT300045-45",
-   "tp": 0.47,
-   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-78-177-82-target/kxbtc15m-26oct300045",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
   }
  ],
  "recent": {
@@ -5371,6 +5336,7 @@
   "KXBTC15M-26OCT292245-45:YES": 1793328314.5894892,
   "KXBTC15M-26OCT292300-00:YES": 1793329222.043704,
   "KXBTC15M-26OCT292315-15:YES": 1793330115.275098,
+  "KXBTC15M-26OCT300045-45:YES": 1793335515.2708092,
   "KXBTCD-26OCT2920-T78299.99:NO": 1793318713.178947,
   "KXBTCD-26OCT2921-T76699.99:YES": 1793322315.922493,
   "KXBTCD-26OCT2921-T76899.99:YES": 1793322315.922493,
@@ -5384,31 +5350,31 @@
   "KXBTCD-26OCT2923-T77199.99:YES": 1793329512.9686537
  },
  "record": {
-  "dollars": -383.67,
-  "losses": 598,
-  "pnl": 12.308,
+  "dollars": -388.99,
+  "losses": 599,
+  "pnl": 12.138,
   "wins": 551
  },
  "scoreboard": {
   "Doubt": {
    "right": 652,
-   "total": 1301
+   "total": 1302
   },
   "Momentum": {
    "right": 551,
-   "total": 1136
+   "total": 1137
   },
   "Risk": {
    "right": 613,
-   "total": 1301
+   "total": 1302
   },
   "The Quant": {
    "right": 430,
-   "total": 1301
+   "total": 1302
   },
   "Time": {
    "right": 655,
-   "total": 1301
+   "total": 1302
   }
  },
  "shadow": [],
