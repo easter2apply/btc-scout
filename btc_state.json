@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.333484639655554,
-  "move": 9.702262311073184e-05,
+  "long": 0.3335081938658178,
+  "move": 0.0009996385802437668,
   "quotes": {
-   "Bitstamp": 77186.14,
-   "Coinbase": 77175.775,
-   "Kraken": 77194.9
+   "Bitstamp": 77243.33,
+   "Coinbase": 77251.135,
+   "Kraken": 77258.1
   },
-  "short": 0.3949197483919165,
-  "spot": 77186.14,
-  "t": 1793405713.9069052,
-  "vol": 0.36549528899571976
+  "short": 0.3925859038686381,
+  "spot": 77251.135,
+  "t": 1793406012.432454,
+  "vol": 0.36424676202541284
  },
  "btc_hist": [
-  [
-   1793315413,
-   78660.07
-  ],
   [
    1793315714,
    78677.13
@@ -1212,6 +1208,10 @@
   [
    1793405714,
    77186.14
+  ],
+  [
+   1793406012,
+   77251.13
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 25
   },
   "2026-10-30": {
-   "buys": 49,
+   "buys": 50,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4910,48 +4910,47 @@
  ],
  "last_daily": "2026-10-29",
  "last_px": {
-  "KXBTC-26OCT3021-B77150:NO": 0.75,
-  "KXBTCD-26OCT3021-T76999.99:NO": 0.15,
+  "KXBTC15M-26OCT302030-30:YES": 0.64,
+  "KXBTCD-26OCT3021-T77099.99:NO": 0.17,
   "KXBTCD-26OCT3117-T75749.99:NO": 0.06,
-  "KXBTCD-26OCT3117-T75999.99:NO": 0.1,
-  "KXBTCD-26OCT3117-T76249.99:NO": 0.14,
-  "KXBTCD-26OCT3117-T76499.99:NO": 0.21,
-  "KXBTCD-26OCT3117-T76749.99:NO": 0.3,
+  "KXBTCD-26OCT3117-T75999.99:NO": 0.09,
+  "KXBTCD-26OCT3117-T76249.99:NO": 0.13,
+  "KXBTCD-26OCT3117-T76749.99:NO": 0.27,
   "KXBTCD-26OCT3117-T78249.99:YES": 0.13,
-  "KXBTCD-26OCT3117-T78499.99:YES": 0.08,
+  "KXBTCD-26OCT3117-T78499.99:YES": 0.09,
   "KXBTCD-26OCT3117-T78749.99:YES": 0.05
  },
- "last_run": 1793405715.6593997,
+ "last_run": 1793406014.1599095,
  "last_vote": {
   "approved": true,
-  "ask": 0.45,
-  "edge": 0.13194687574219807,
-  "label": "Bitcoin price range on Oct 30, 2026? \u2014 $77,100 to 77,199.99",
-  "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-30-2026-at-8pm-edt/kxbtc-26oct3020",
+  "ask": 0.64,
+  "edge": 0.11224552970600533,
+  "label": "BTC price up in next 15 mins? \u2014 Target Price: $77,180.27",
+  "side": "YES",
+  "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-77-180-27-target/kxbtc15m-26oct302030",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    null,
-    "first look at this market"
+    true,
+    "Bitcoin +0.10% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 4\u00a2, volume 1,379"
+    "spread 1\u00a2, volume 738,812"
    ],
    "The Quant": [
     true,
-    "28% expected return on cost"
+    "17% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 10m"
    ]
   },
-  "when": 1793404217.5582712
+  "when": 1793406014.1596444
  },
  "last_weekly": "2026-10-25",
  "learn": {
@@ -5244,7 +5243,42 @@
   ],
   "fetched": 1793385686.6820726
  },
- "open": [],
+ "open": [
+  {
+   "bet": "Bitcoin is ABOVE $77,180 at 8:30 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1793406600.2501693,
+   "contracts": 15,
+   "edge": 0.11224552970600533,
+   "entry": 0.64,
+   "event": "KXBTC15M-26OCT302030",
+   "fair": 0.7722455297060054,
+   "fee": 0.02,
+   "key": "KXBTC15M-26OCT302030-30:YES",
+   "label": "BTC price up in next 15 mins? \u2014 Target Price: $77,180.27",
+   "last_bid": null,
+   "opened": 1793406014.1596444,
+   "reasons": [
+    "17% expected return on cost",
+    "spread 1\u00a2, volume 738,812",
+    "Bitcoin +0.10% in 30 min, not fighting this bet"
+   ],
+   "row": "Target Price: $77,180.27",
+   "side": "YES",
+   "sl": 0.49,
+   "stake": 10.0,
+   "ticker": "KXBTC15M-26OCT302030-30",
+   "tp": 0.77,
+   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-77-180-27-target/kxbtc15m-26oct302030",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  }
+ ],
  "recent": {
   "KXBTC-26OCT3017-B76250:YES": 1793394919.4869478,
   "KXBTC-26OCT3017-B76750:YES": 1793394919.4869478,
