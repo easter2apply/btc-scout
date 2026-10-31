@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.33012868837666753,
-  "move": 0.0008047708225693562,
+  "long": 0.3301171165873031,
+  "move": -0.0006231631653422776,
   "quotes": {
-   "Bitstamp": 77122.63,
-   "Coinbase": 77123.535,
-   "Kraken": 77127.5
+   "Bitstamp": 77152.88,
+   "Coinbase": 77149.005,
+   "Kraken": 77148.3
   },
-  "short": 0.22192957898494517,
-  "spot": 77123.535,
-  "t": 1793427012.4576993,
-  "vol": 0.2812807218045114
+  "short": 0.22124362853383658,
+  "spot": 77149.005,
+  "t": 1793427318.760722,
+  "vol": 0.28100360658782775
  },
  "btc_hist": [
-  [
-   1793336712,
-   78276.26
-  ],
   [
    1793337015,
    78346.13
@@ -1212,6 +1208,10 @@
   [
    1793427012,
    77123.54
+  ],
+  [
+   1793427319,
+   77149.01
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 30
   },
   "2026-10-31": {
-   "buys": 8,
+   "buys": 9,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4908,17 +4908,17 @@
  ],
  "last_daily": "2026-10-30",
  "last_px": {
-  "KXBTC-26OCT3103-B77150:NO": 0.67,
-  "KXBTCD-26OCT3103-T76899.99:NO": 0.06,
-  "KXBTCD-26OCT3103-T76999.99:NO": 0.14,
-  "KXBTCD-26OCT3103-T77099.99:NO": 0.37,
-  "KXBTCD-26OCT3103-T77299.99:YES": 0.12
+  "KXBTC-26OCT3103-B77150:NO": 0.65,
+  "KXBTC-26OCT3103-B77250:NO": 0.76,
+  "KXBTCD-26OCT3103-T76999.99:NO": 0.09,
+  "KXBTCD-26OCT3103-T77099.99:NO": 0.29,
+  "KXBTCD-26OCT3103-T77299.99:YES": 0.14
  },
- "last_run": 1793427014.1611273,
+ "last_run": 1793427320.459718,
  "last_vote": {
   "approved": true,
-  "ask": 0.14,
-  "edge": 0.0775343426766736,
+  "ask": 0.09,
+  "edge": 0.07576310392184325,
   "label": "Bitcoin price on Oct 31, 2026? \u2014 $77,000 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-31-2026-at-3am-edt/kxbtcd-26oct3103",
@@ -4929,22 +4929,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.08% in 30 min, not fighting this bet"
+    "Bitcoin -0.06% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 3,029"
+    "spread 1\u00a2, volume 28,106"
    ],
    "The Quant": [
     true,
-    "52% expected return on cost"
+    "76% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 50m"
+    "closes in 45m"
    ]
   },
-  "when": 1793427014.1608422
+  "when": 1793427320.255935
  },
  "last_weekly": "2026-10-25",
  "learn": {
@@ -5265,7 +5265,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26OCT3103-T76999.99:NO",
    "label": "Bitcoin price on Oct 31, 2026? \u2014 $77,000 or above",
-   "last_bid": null,
+   "last_bid": 0.08,
    "opened": 1793427014.1608422,
    "reasons": [
     "52% expected return on cost",
@@ -5286,6 +5286,40 @@
     "The Quant": true,
     "Time": true
    }
+  },
+  {
+   "bet": "Bitcoin is NOT between $77,100 and $77,200 at 3:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1793430000.556537,
+   "contracts": 14,
+   "edge": 0.07139079537868322,
+   "entry": 0.65,
+   "event": "KXBTC-26OCT3103",
+   "fair": 0.7413907953786832,
+   "fee": 0.02,
+   "key": "KXBTC-26OCT3103-B77150:NO",
+   "label": "Bitcoin price range on Oct 31, 2026? \u2014 $77,100 to 77,199.99",
+   "last_bid": null,
+   "opened": 1793427320.255935,
+   "reasons": [
+    "spread 1\u00a2, volume 760",
+    "closes in 45m",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$77,100 to 77,199.99",
+   "side": "NO",
+   "sl": 0.54,
+   "stake": 10.0,
+   "ticker": "KXBTC-26OCT3103-B77150",
+   "tp": 0.74,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-31-2026-at-3am-edt/kxbtc-26oct3103",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": false,
+    "Time": true
+   }
   }
  ],
  "recent": {
@@ -5298,7 +5332,6 @@
   "KXBTC15M-26OCT302030-30:YES": 1793406616.7645988,
   "KXBTC15M-26OCT302200-00:NO": 1793412020.594494,
   "KXBTC15M-26OCT302245-45:NO": 1793414714.79588,
-  "KXBTCD-26OCT3020-T77099.99:NO": 1793405715.4656317,
   "KXBTCD-26OCT3022-T77199.99:NO": 1793412314.8966715,
   "KXBTCD-26OCT3023-T77199.99:NO": 1793416514.5661995,
   "KXBTCD-26OCT3100-T77099.99:NO": 1793419515.2959557,
