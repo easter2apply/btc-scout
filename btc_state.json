@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.33211851773921036,
-  "move": 0.0007634646249954358,
+  "long": 0.3321038075856704,
+  "move": 0.0013529970984806905,
   "quotes": {
-   "Bitstamp": 77295.27,
-   "Coinbase": 77285.655,
-   "Kraken": 77299.3
+   "Bitstamp": 77250.21,
+   "Coinbase": 77245.955,
+   "Kraken": 77257.7
   },
-  "short": 0.2947480295564272,
-  "spot": 77295.27,
-  "t": 1793415619.7931151,
-  "vol": 0.31398973769272037
+  "short": 0.25020662822860473,
+  "spot": 77250.21,
+  "t": 1793415911.531651,
+  "vol": 0.2940206589871086
  },
  "btc_hist": [
-  [
-   1793325312,
-   76710.79
-  ],
   [
    1793325618,
    76641.84
@@ -1212,13 +1208,17 @@
   [
    1793415620,
    77295.27
+  ],
+  [
+   1793415912,
+   77250.21
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
   "right": 633,
-  "total": 1356
+  "total": 1357
  },
  "days": {
   "2026-10-17": {
@@ -1326,7 +1326,7 @@
    "tp": 25
   },
   "2026-10-30": {
-   "buys": 54,
+   "buys": 55,
    "lines": 0,
    "news": 0,
    "rejected": 1,
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.31,
-   "right": true,
-   "shadow": false,
-   "t": 1792803913.4756098,
-   "usd": -6.27,
-   "won": true
-  },
   {
    "cat": "Bitcoin",
    "pnl": 0.39,
@@ -4906,44 +4897,56 @@
    "t": 1793414714.9598992,
    "usd": -8.08,
    "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "right": false,
+   "shadow": true,
+   "t": 1793415912.9580789,
+   "won": true
   }
  ],
  "last_daily": "2026-10-30",
  "last_px": {
-  "KXBTC-26OCT3100-B77250:NO": 0.75,
-  "KXBTC-26OCT3100-B77350:NO": 0.76
+  "KXBTC-26OCT3100-B77250:NO": 0.68,
+  "KXBTC15M-26OCT302315-15:NO": 0.71,
+  "KXBTCD-26OCT3100-T76999.99:NO": 0.06,
+  "KXBTCD-26OCT3100-T77099.99:NO": 0.14,
+  "KXBTCD-26OCT3100-T77199.99:NO": 0.34,
+  "KXBTCD-26OCT3100-T77399.99:YES": 0.17,
+  "KXBTCD-26OCT3100-T77499.99:YES": 0.07
  },
- "last_run": 1793415621.9126313,
+ "last_run": 1793415912.9583802,
  "last_vote": {
   "approved": true,
-  "ask": 0.08,
-  "edge": 0.09986382241885047,
-  "label": "Bitcoin price on Oct 30, 2026? \u2014 $77,200 or above",
+  "ask": 0.68,
+  "edge": 0.07567033057137008,
+  "label": "Bitcoin price range on Oct 31, 2026? \u2014 $77,200 to 77,299.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-oct-30-2026-at-11pm-edt/kxbtcd-26oct3023",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-31-2026-at-12am-edt/kxbtc-26oct3100",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin +0.07% in 30 min, not fighting this bet"
+    false,
+    "price \u22127\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 136,580"
+    "spread 1\u00a2, volume 1,025"
    ],
    "The Quant": [
-    true,
-    "111% expected return on cost"
+    false,
+    "11% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 55m"
    ]
   },
-  "when": 1793415016.7693038
+  "when": 1793415912.690508
  },
  "last_weekly": "2026-10-25",
  "learn": {
@@ -5278,6 +5281,40 @@
     "The Quant": true,
     "Time": true
    }
+  },
+  {
+   "bet": "Bitcoin is NOT between $77,200 and $77,300 at 12:00 AM ET tomorrow",
+   "cat": "Bitcoin",
+   "close_ts": 1793419200.527777,
+   "contracts": 14,
+   "edge": 0.07567033057137008,
+   "entry": 0.68,
+   "event": "KXBTC-26OCT3100",
+   "fair": 0.7756703305713701,
+   "fee": 0.02,
+   "key": "KXBTC-26OCT3100-B77250:NO",
+   "label": "Bitcoin price range on Oct 31, 2026? \u2014 $77,200 to 77,299.99",
+   "last_bid": null,
+   "opened": 1793415912.690508,
+   "reasons": [
+    "spread 1\u00a2, volume 1,025",
+    "closes in 55m",
+    "edge holds if volatility is \u00b120% or tails are normal"
+   ],
+   "row": "$77,200 to 77,299.99",
+   "side": "NO",
+   "sl": 0.57,
+   "stake": 10.0,
+   "ticker": "KXBTC-26OCT3100-B77250",
+   "tp": 0.78,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-31-2026-at-12am-edt/kxbtc-26oct3100",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": false,
+    "Time": true
+   }
   }
  ],
  "recent": {
@@ -5286,6 +5323,7 @@
   "KXBTC-26OCT3017-B77250:YES": 1793394919.4869478,
   "KXBTC-26OCT3019-B76750:NO": 1793401514.325282,
   "KXBTC-26OCT3020-B77150:NO": 1793405114.8066554,
+  "KXBTC-26OCT3023-B77250:NO": 1793415912.690508,
   "KXBTC15M-26OCT302030-30:YES": 1793406616.7645988,
   "KXBTC15M-26OCT302200-00:NO": 1793412020.594494,
   "KXBTC15M-26OCT302245-45:NO": 1793414714.79588,
@@ -5307,62 +5345,26 @@
  "scoreboard": {
   "Doubt": {
    "right": 687,
-   "total": 1356
+   "total": 1357
   },
   "Momentum": {
    "right": 578,
-   "total": 1188
+   "total": 1189
   },
   "Risk": {
-   "right": 647,
-   "total": 1356
+   "right": 648,
+   "total": 1357
   },
   "The Quant": {
-   "right": 452,
-   "total": 1356
+   "right": 453,
+   "total": 1357
   },
   "Time": {
-   "right": 689,
-   "total": 1356
+   "right": 690,
+   "total": 1357
   }
  },
- "shadow": [
-  {
-   "bet": "Bitcoin is NOT between $77,200 and $77,300 at 11:00 PM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1793415600.5889919,
-   "contracts": 15,
-   "edge": 0.07563474427437629,
-   "entry": 0.46,
-   "event": "KXBTC-26OCT3023",
-   "fair": 0.5556347442743763,
-   "fee": 0.02,
-   "key": "KXBTC-26OCT3023-B77250:NO",
-   "label": "Bitcoin price range on Oct 30, 2026? \u2014 $77,200 to 77,299.99",
-   "last_bid": null,
-   "opened": 1793415016.7693038,
-   "reasons": [
-    "16% expected return on cost",
-    "spread 3\u00a2, volume 3,097",
-    "closes in 10m"
-   ],
-   "row": "$77,200 to 77,299.99",
-   "shadow": true,
-   "side": "NO",
-   "sl": 0.35,
-   "stake": 7.272571564843873,
-   "ticker": "KXBTC-26OCT3023-B77250",
-   "tp": 0.56,
-   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-oct-30-2026-at-11pm-edt/kxbtc-26oct3023",
-   "votes": {
-    "Doubt": false,
-    "Momentum": false,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  }
- ],
+ "shadow": [],
  "sports_on": false,
  "welcomed": true
 }
