@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.33043086938137656,
-  "move": -0.0014317780572882244,
+  "long": 0.33048206914666683,
+  "move": -0.0005244206286463271,
   "quotes": {
-   "Bitstamp": 77040.61,
-   "Coinbase": 77038.175,
-   "Kraken": 77045.6
+   "Bitstamp": 77013.59,
+   "Coinbase": 77008.815,
+   "Kraken": 77020.1
   },
-  "short": 0.23172348660721545,
-  "spot": 77040.61,
-  "t": 1793422214.1830733,
-  "vol": 0.2853772360276277
+  "short": 0.2332955332587129,
+  "spot": 77013.59,
+  "t": 1793422513.8419228,
+  "vol": 0.2860465030951519
  },
  "btc_hist": [
-  [
-   1793331614,
-   77848.0
-  ],
   [
    1793331915,
    77917.0
@@ -1212,6 +1208,10 @@
   [
    1793422214,
    77040.61
+  ],
+  [
+   1793422514,
+   77013.59
   ]
  ],
  "chat_id": "7590441188",
@@ -1331,7 +1331,7 @@
    "news": 0,
    "rejected": 0,
    "sl": 1,
-   "tp": 1
+   "tp": 2
   }
  },
  "errors": [
@@ -4907,13 +4907,8 @@
   }
  ],
  "last_daily": "2026-10-30",
- "last_px": {
-  "KXBTC-26OCT3101-B76950:YES": 0.14,
-  "KXBTC-26OCT3101-B77050:NO": 0.35,
-  "KXBTC15M-26OCT310100-00:NO": 0.39,
-  "KXBTCD-26OCT3101-T76999.99:NO": 0.15
- },
- "last_run": 1793422216.3983362,
+ "last_px": {},
+ "last_run": 1793422515.9880884,
  "last_vote": {
   "approved": true,
   "ask": 0.35,
@@ -5331,7 +5326,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26OCT3101-T76999.99:NO",
    "label": "Bitcoin price on Oct 31, 2026? \u2014 $77,000 or above",
-   "last_bid": null,
+   "last_bid": 0.25,
    "opened": 1793422216.0027716,
    "reasons": [
     "80% expected return on cost",
@@ -5361,11 +5356,14 @@
    "edge": 0.08684084599230203,
    "entry": 0.14,
    "event": "KXBTC-26OCT3101",
+   "exit_px": 0.26,
+   "exit_reason": "take profit",
+   "exit_t": 1793422515.2835207,
    "fair": 0.23684084599230204,
    "fee": 0.01,
    "key": "KXBTC-26OCT3101-B76950:YES",
    "label": "Bitcoin price range on Oct 31, 2026? \u2014 $76,900 to 76,999.99",
-   "last_bid": null,
+   "last_bid": 0.26,
    "opened": 1793422216.0027716,
    "reasons": [
     "58% expected return on cost",
