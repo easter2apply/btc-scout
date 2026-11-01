@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32942003362300665,
-  "move": -0.00018958281091807638,
+  "long": 0.32939804162746095,
+  "move": -0.00022924141066316128,
   "quotes": {
-   "Bitstamp": 77641.55,
-   "Coinbase": 77647.675,
-   "Kraken": 77642.1
+   "Bitstamp": 77590.15,
+   "Coinbase": 77600.015,
+   "Kraken": 77600.4
   },
-  "short": 0.16171001513032635,
-  "spot": 77642.1,
-  "t": 1793501414.6016252,
-  "vol": 0.25948765630144455
+  "short": 0.16652958430170967,
+  "spot": 77600.015,
+  "t": 1793501712.692545,
+  "vol": 0.2609934599522627
  },
  "btc_hist": [
-  [
-   1793413511,
-   77261.2
-  ],
   [
    1793413816,
    77239.99
@@ -1212,6 +1208,10 @@
   [
    1793501415,
    77642.1
+  ],
+  [
+   1793501713,
+   77600.01
   ]
  ],
  "chat_id": "7590441188",
@@ -1331,7 +1331,7 @@
    "news": 0,
    "rejected": 1,
    "sl": 44,
-   "tp": 23
+   "tp": 24
   }
  },
  "errors": [
@@ -4909,13 +4909,8 @@
   }
  ],
  "last_daily": "2026-10-31",
- "last_px": {
-  "KXBTC-26OCT3123-B77550:YES": 0.13,
-  "KXBTC-26OCT3123-B77650:NO": 0.31,
-  "KXBTC15M-26OCT312300-00:NO": 0.087,
-  "KXBTCD-26OCT3123-T77599.99:NO": 0.14
- },
- "last_run": 1793501416.532752,
+ "last_px": {},
+ "last_run": 1793501715.0446942,
  "last_vote": {
   "approved": true,
   "ask": 0.31,
@@ -5333,7 +5328,7 @@
    "fee": 0.02,
    "key": "KXBTC-26OCT3123-B77650:NO",
    "label": "Bitcoin price range on Oct 31, 2026? \u2014 $77,600 to 77,699.99",
-   "last_bid": null,
+   "last_bid": 0.41,
    "opened": 1793501416.183772,
    "reasons": [
     "41% expected return on cost",
@@ -5363,11 +5358,14 @@
    "edge": 0.11526120139801078,
    "entry": 0.14,
    "event": "KXBTCD-26OCT3123",
+   "exit_px": 0.4,
+   "exit_reason": "take profit",
+   "exit_t": 1793501714.1238809,
    "fair": 0.2652612013980108,
    "fee": 0.01,
    "key": "KXBTCD-26OCT3123-T77599.99:NO",
    "label": "Bitcoin price on Oct 31, 2026? \u2014 $77,600 or above",
-   "last_bid": null,
+   "last_bid": 0.4,
    "opened": 1793501416.183772,
    "reasons": [
     "77% expected return on cost",
