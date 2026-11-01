@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3293330826809919,
-  "move": 0.000302267612921181,
+  "long": 0.3293476214809804,
+  "move": 0.0011293885304091145,
   "quotes": {
-   "Bitstamp": 77599.08,
-   "Coinbase": 77603.715,
-   "Kraken": 77598.1
+   "Bitstamp": 77657.09,
+   "Coinbase": 77644.995,
+   "Kraken": 77655.7
   },
-  "short": 0.1603004918738511,
-  "spot": 77599.08,
-  "t": 1793502313.529479,
-  "vol": 0.2589947171692539
+  "short": 0.16181983887618723,
+  "spot": 77655.7,
+  "t": 1793502613.5938432,
+  "vol": 0.2594759295475154
  },
  "btc_hist": [
-  [
-   1793414413,
-   77299.68
-  ],
   [
    1793414713,
    77294.01
@@ -1212,6 +1208,10 @@
   [
    1793502314,
    77599.08
+  ],
+  [
+   1793502614,
+   77655.7
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 30
   },
   "2026-10-31": {
-   "buys": 80,
+   "buys": 81,
    "lines": 0,
    "news": 0,
    "rejected": 1,
@@ -4910,46 +4910,43 @@
  ],
  "last_daily": "2026-10-31",
  "last_px": {
-  "KXBTC-26NOV0100-B77450:YES": 0.11,
-  "KXBTC-26NOV0100-B77550:NO": 0.68,
-  "KXBTC-26NOV0100-B77650:NO": 0.66,
-  "KXBTC15M-26OCT312315-15:NO": 0.5,
-  "KXBTCD-26NOV0100-T77399.99:NO": 0.07,
-  "KXBTCD-26NOV0100-T77499.99:NO": 0.15,
-  "KXBTCD-26NOV0100-T77699.99:YES": 0.19,
-  "KXBTCD-26NOV0100-T77799.99:YES": 0.06
+  "KXBTC-26NOV0100-B77450:YES": 0.05,
+  "KXBTC-26NOV0100-B77650:NO": 0.6,
+  "KXBTCD-26NOV0100-T77499.99:NO": 0.08,
+  "KXBTCD-26NOV0100-T77599.99:NO": 0.28,
+  "KXBTCD-26NOV0100-T77799.99:YES": 0.1
  },
- "last_run": 1793502315.7724733,
+ "last_run": 1793502615.7628603,
  "last_vote": {
   "approved": true,
-  "ask": 0.15,
-  "edge": 0.10644405108824866,
-  "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,500 or above",
+  "ask": 0.6,
+  "edge": 0.11682410475643258,
+  "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,600 to 77,699.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-1-2026-at-12am-edt/kxbtcd-26nov0100",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-1-2026-at-12am-edt/kxbtc-26nov0100",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin +0.03% in 30 min, not fighting this bet"
+    false,
+    "price \u22126\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 7,051"
+    "spread 1\u00a2, volume 665"
    ],
    "The Quant": [
     true,
-    "67% expected return on cost"
+    "19% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 55m"
+    "closes in 50m"
    ]
   },
-  "when": 1793502315.0937731
+  "when": 1793502615.230824
  },
  "last_weekly": "2026-10-25",
  "learn": {
@@ -5339,7 +5336,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26NOV0100-T77499.99:NO",
    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,500 or above",
-   "last_bid": null,
+   "last_bid": 0.07,
    "opened": 1793502315.0937731,
    "reasons": [
     "67% expected return on cost",
@@ -5360,10 +5357,43 @@
     "The Quant": true,
     "Time": true
    }
+  },
+  {
+   "bet": "Bitcoin is NOT between $77,600 and $77,700 at 12:00 AM ET tomorrow",
+   "cat": "Bitcoin",
+   "close_ts": 1793505600.616676,
+   "contracts": 16,
+   "edge": 0.11682410475643258,
+   "entry": 0.6,
+   "event": "KXBTC-26NOV0100",
+   "fair": 0.7368241047564326,
+   "fee": 0.02,
+   "key": "KXBTC-26NOV0100-B77650:NO",
+   "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,600 to 77,699.99",
+   "last_bid": null,
+   "opened": 1793502615.230824,
+   "reasons": [
+    "19% expected return on cost",
+    "spread 1\u00a2, volume 665",
+    "closes in 50m"
+   ],
+   "row": "$77,600 to 77,699.99",
+   "side": "NO",
+   "sl": 0.45,
+   "stake": 10.0,
+   "ticker": "KXBTC-26NOV0100-B77650",
+   "tp": 0.74,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-1-2026-at-12am-edt/kxbtc-26nov0100",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
   }
  ],
  "recent": {
-  "KXBTC-26OCT3117-B77375:NO": 1793480715.4748044,
   "KXBTC-26OCT3118-B77350:NO": 1793484313.214039,
   "KXBTC-26OCT3119-B77450:NO": 1793487913.4488337,
   "KXBTC-26OCT3119-B77550:NO": 1793487913.4488337,
