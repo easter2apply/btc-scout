@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32794025765256035,
-  "move": -0.0006464233701891642,
+  "long": 0.3279255348129137,
+  "move": -0.0005800074414595846,
   "quotes": {
-   "Bitstamp": 77828.19,
-   "Coinbase": 77806.085,
-   "Kraken": 77833.5
+   "Bitstamp": 77859.25,
+   "Coinbase": 77812.785,
+   "Kraken": 77856.8
   },
-  "short": 0.17333892868398607,
-  "spot": 77828.19,
-  "t": 1793534113.4587128,
-  "vol": 0.2622891503537076
+  "short": 0.1733010618904374,
+  "spot": 77856.8,
+  "t": 1793534418.783887,
+  "vol": 0.26226743453456886
  },
  "btc_hist": [
-  [
-   1793446216,
-   77302.97
-  ],
   [
    1793446512,
    77322.26
@@ -1212,13 +1208,17 @@
   [
    1793534113,
    77828.19
+  ],
+  [
+   1793534419,
+   77856.8
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 662,
-  "total": 1470
+  "right": 663,
+  "total": 1471
  },
  "days": {
   "2026-10-19": {
@@ -1326,7 +1326,7 @@
    "tp": 24
   },
   "2026-11-01": {
-   "buys": 33,
+   "buys": 34,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.18,
-   "right": false,
-   "shadow": false,
-   "t": 1792890314.3601418,
-   "usd": -3.2,
-   "won": false
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.1,
@@ -4906,41 +4897,54 @@
    "t": 1793531716.872997,
    "usd": 5.27,
    "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.33,
+   "right": true,
+   "shadow": false,
+   "t": 1793534421.5069573,
+   "usd": 11.78,
+   "won": true
   }
  ],
  "last_daily": "2026-10-31",
- "last_px": {},
- "last_run": 1793534115.6763678,
+ "last_px": {
+  "KXBTC-26NOV0108-B77650:YES": 0.06,
+  "KXBTC-26NOV0108-B77850:NO": 0.58,
+  "KXBTC-26NOV0108-B78050:YES": 0.07
+ },
+ "last_run": 1793534421.5071979,
  "last_vote": {
   "approved": true,
-  "ask": 0.24,
-  "edge": 0.17753913653936002,
-  "label": "BTC price up in next 15 mins? \u2014 Target Price: $77,818.87",
-  "side": "YES",
-  "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-77-818-87-target/kxbtc15m-26nov010700",
+  "ask": 0.58,
+  "edge": 0.16171173661427032,
+  "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,800 to 77,899.99",
+  "side": "NO",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-1-2026-at-8am-est/kxbtc-26nov0108",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin -0.09% in 30 min, not fighting this bet"
+    null,
+    "first look at this market"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 298,231"
+    "spread 4\u00a2, volume 400"
    ],
    "The Quant": [
     true,
-    "68% expected return on cost"
+    "27% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 60m"
    ]
   },
-  "when": 1793533814.1722763
+  "when": 1793534420.5390563
  },
  "last_weekly": "2026-10-25",
  "learn": {
@@ -5122,7 +5126,8 @@
     -0.2,
     -0.22999999999999998,
     -0.18000000000000005,
-    0.19
+    0.19,
+    0.32999999999999996
    ]
   }
  },
@@ -5376,37 +5381,34 @@
    }
   },
   {
-   "bet": "Bitcoin is ABOVE $77,819 at 7:00 AM ET today",
+   "bet": "Bitcoin is NOT between $77,800 and $77,900 at 8:00 AM ET today",
    "cat": "Bitcoin",
-   "close_ts": 1793534400.2501762,
-   "contracts": 38,
-   "edge": 0.17753913653936002,
-   "entry": 0.24,
-   "event": "KXBTC15M-26NOV010700",
-   "exit_px": 0.57,
-   "exit_reason": "take profit",
-   "exit_t": 1793534114.8680093,
-   "fair": 0.43753913653936,
+   "close_ts": 1793538000.6071854,
+   "contracts": 16,
+   "edge": 0.16171173661427032,
+   "entry": 0.58,
+   "event": "KXBTC-26NOV0108",
+   "fair": 0.7617117366142703,
    "fee": 0.02,
-   "key": "KXBTC15M-26NOV010700-00:YES",
-   "label": "BTC price up in next 15 mins? \u2014 Target Price: $77,818.87",
-   "last_bid": 0.57,
-   "opened": 1793533814.1722763,
+   "key": "KXBTC-26NOV0108-B77850:NO",
+   "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,800 to 77,899.99",
+   "last_bid": null,
+   "opened": 1793534420.5390563,
    "reasons": [
-    "68% expected return on cost",
-    "spread 1\u00a2, volume 298,231",
-    "Bitcoin -0.09% in 30 min, not fighting this bet"
+    "27% expected return on cost",
+    "spread 4\u00a2, volume 400",
+    "closes in 60m"
    ],
-   "row": "Target Price: $77,818.87",
-   "side": "YES",
-   "sl": 0.09,
+   "row": "$77,800 to 77,899.99",
+   "side": "NO",
+   "sl": 0.43,
    "stake": 10.0,
-   "ticker": "KXBTC15M-26NOV010700-00",
-   "tp": 0.44,
-   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-77-818-87-target/kxbtc15m-26nov010700",
+   "ticker": "KXBTC-26NOV0108-B77850",
+   "tp": 0.76,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-1-2026-at-8am-est/kxbtc-26nov0108",
    "votes": {
     "Doubt": true,
-    "Momentum": true,
+    "Momentum": null,
     "Risk": true,
     "The Quant": true,
     "Time": true
@@ -5427,6 +5429,7 @@
   "KXBTC15M-26NOV010200-00:NO": 1793516420.9697514,
   "KXBTC15M-26NOV010230-30:YES": 1793518217.9445562,
   "KXBTC15M-26NOV010315-15:NO": 1793520915.1000333,
+  "KXBTC15M-26NOV010700-00:YES": 1793534420.5390563,
   "KXBTCD-26NOV0101EST-T77599.99:NO": 1793513714.769094,
   "KXBTCD-26NOV0101EST-T77699.99:NO": 1793513714.769094,
   "KXBTCD-26NOV0101EST-T77799.99:YES": 1793513714.769094,
@@ -5440,31 +5443,31 @@
   "KXBTCD-26NOV0106-T77899.99:NO": 1793531716.6993546
  },
  "record": {
-  "dollars": -500.28,
+  "dollars": -488.5,
   "losses": 703,
-  "pnl": 9.511,
-  "wins": 614
+  "pnl": 9.841,
+  "wins": 615
  },
  "scoreboard": {
   "Doubt": {
-   "right": 716,
-   "total": 1470
+   "right": 717,
+   "total": 1471
   },
   "Momentum": {
-   "right": 605,
-   "total": 1283
+   "right": 606,
+   "total": 1284
   },
   "Risk": {
-   "right": 677,
-   "total": 1470
+   "right": 678,
+   "total": 1471
   },
   "The Quant": {
-   "right": 482,
-   "total": 1470
+   "right": 483,
+   "total": 1471
   },
   "Time": {
-   "right": 719,
-   "total": 1470
+   "right": 720,
+   "total": 1471
   }
  },
  "shadow": [],
