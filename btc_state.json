@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32784737287181687,
-  "move": 0.0011661685940342892,
+  "long": 0.3278400357882109,
+  "move": 0.0006676105179799219,
   "quotes": {
-   "Bitstamp": 77768.2,
-   "Coinbase": 77768.365,
-   "Kraken": 77769.2
+   "Bitstamp": 77771.38,
+   "Coinbase": 77749.315,
+   "Kraken": 77762.5
   },
-  "short": 0.1783848515718533,
-  "spot": 77768.365,
-  "t": 1793537412.3093436,
-  "vol": 0.2639176530371398
+  "short": 0.17857981731522848,
+  "spot": 77762.5,
+  "t": 1793537712.8372965,
+  "vol": 0.2639790145238403
  },
  "btc_hist": [
-  [
-   1793449213,
-   77448.62
-  ],
   [
    1793449511,
    77468.06
@@ -1212,6 +1208,10 @@
   [
    1793537412,
    77768.37
+  ],
+  [
+   1793537713,
+   77762.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 18,
+   "sl": 20,
    "tp": 15
   }
  },
@@ -4909,13 +4909,8 @@
   }
  ],
  "last_daily": "2026-10-31",
- "last_px": {
-  "KXBTC-26NOV0108-B77650:YES": 0.09,
-  "KXBTC-26NOV0108-B77750:NO": 0.37,
-  "KXBTC15M-26NOV010800-00:YES": 0.36,
-  "KXBTCD-26NOV0108-T77699.99:NO": 0.05
- },
- "last_run": 1793537413.858746,
+ "last_px": {},
+ "last_run": 1793537714.9136176,
  "last_vote": {
   "approved": true,
   "ask": 0.05,
@@ -5304,11 +5299,14 @@
    "edge": 0.10822613279283605,
    "entry": 0.05,
    "event": "KXBTCD-26NOV0108",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1793537714.209719,
    "fair": 0.16822613279283605,
    "fee": 0.01,
    "key": "KXBTCD-26NOV0108-T77699.99:NO",
    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,700 or above",
-   "last_bid": null,
+   "last_bid": 0.01,
    "opened": 1793537413.5909922,
    "reasons": [
     "180% expected return on cost",
@@ -5338,11 +5336,14 @@
    "edge": 0.09798711835033748,
    "entry": 0.37,
    "event": "KXBTC-26NOV0108",
+   "exit_px": 0.14,
+   "exit_reason": "stop loss",
+   "exit_t": 1793537714.209719,
    "fair": 0.4879871183503375,
    "fee": 0.02,
    "key": "KXBTC-26NOV0108-B77750:NO",
    "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,700 to 77,799.99",
-   "last_bid": null,
+   "last_bid": 0.14,
    "opened": 1793537413.5909922,
    "reasons": [
     "25% expected return on cost",
