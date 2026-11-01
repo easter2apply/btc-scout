@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32784439022503326,
-  "move": -0.0024969949157742644,
+  "long": 0.3278469985790045,
+  "move": -0.002178337820044285,
   "quotes": {
-   "Bitstamp": 77847.99,
-   "Coinbase": 77822.965,
-   "Kraken": 77839.9
+   "Bitstamp": 77860.23,
+   "Coinbase": 77847.425,
+   "Kraken": 77864.2
   },
-  "short": 0.16478313935783062,
-  "spot": 77839.9,
-  "t": 1793556312.2035148,
-  "vol": 0.25945657364831415
+  "short": 0.1638705234637751,
+  "spot": 77860.23,
+  "t": 1793556612.5673325,
+  "vol": 0.25916905962860753
  },
  "btc_hist": [
-  [
-   1793468113,
-   77441.65
-  ],
   [
    1793468416,
    77467.54
@@ -1212,6 +1208,10 @@
   [
    1793556312,
    77839.9
+  ],
+  [
+   1793556613,
+   77860.23
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 24
   },
   "2026-11-01": {
-   "buys": 49,
+   "buys": 50,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4910,41 +4910,42 @@
  ],
  "last_daily": "2026-10-31",
  "last_px": {
-  "KXBTC-26NOV0114-B77850:NO": 0.64,
-  "KXBTCD-26NOV0114-T77699.99:NO": 0.1,
-  "KXBTCD-26NOV0114-T77799.99:NO": 0.31
+  "KXBTC-26NOV0114-B77850:NO": 0.58,
+  "KXBTCD-26NOV0114-T77699.99:NO": 0.07,
+  "KXBTCD-26NOV0114-T77799.99:NO": 0.24,
+  "KXBTCD-26NOV0114-T77999.99:YES": 0.12
  },
- "last_run": 1793556314.541076,
+ "last_run": 1793556614.0013301,
  "last_vote": {
   "approved": true,
-  "ask": 0.17,
-  "edge": 0.1475928665819484,
-  "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,900 or above",
+  "ask": 0.58,
+  "edge": 0.13776516987240442,
+  "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,800 to 77,899.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-1-2026-at-1pm-est/kxbtcd-26nov0113",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-1-2026-at-2pm-est/kxbtc-26nov0114",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin -0.08% in 30 min, not fighting this bet"
+    false,
+    "price \u22126\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 124,465"
+    "spread 1\u00a2, volume 865"
    ],
    "The Quant": [
     true,
-    "82% expected return on cost"
+    "23% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 50m"
    ]
   },
-  "when": 1793555416.0254118
+  "when": 1793556614.001041
  },
  "last_weekly": "2026-10-25",
  "learn": {
@@ -5221,10 +5222,43 @@
   ],
   "fetched": 1793538313.1603653
  },
- "open": [],
+ "open": [
+  {
+   "bet": "Bitcoin is NOT between $77,800 and $77,900 at 2:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1793559600.534133,
+   "contracts": 16,
+   "edge": 0.13776516987240442,
+   "entry": 0.58,
+   "event": "KXBTC-26NOV0114",
+   "fair": 0.7377651698724044,
+   "fee": 0.02,
+   "key": "KXBTC-26NOV0114-B77850:NO",
+   "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,800 to 77,899.99",
+   "last_bid": null,
+   "opened": 1793556614.001041,
+   "reasons": [
+    "23% expected return on cost",
+    "spread 1\u00a2, volume 865",
+    "closes in 50m"
+   ],
+   "row": "$77,800 to 77,899.99",
+   "side": "NO",
+   "sl": 0.43,
+   "stake": 10.0,
+   "ticker": "KXBTC-26NOV0114-B77850",
+   "tp": 0.74,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-1-2026-at-2pm-est/kxbtc-26nov0114",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  }
+ ],
  "recent": {
-  "KXBTC-26NOV0107-B77750:NO": 1793534714.9878306,
-  "KXBTC-26NOV0107-B77850:NO": 1793534714.9878306,
   "KXBTC-26NOV0108-B77750:NO": 1793538315.157433,
   "KXBTC-26NOV0108-B77850:NO": 1793538315.157433,
   "KXBTC-26NOV0109-B77750:YES": 1793541913.565228,
@@ -5234,8 +5268,6 @@
   "KXBTC-26NOV0112-B77950:NO": 1793552714.0595794,
   "KXBTC-26NOV0113-B77850:YES": 1793556313.8644357,
   "KXBTC-26NOV0113-B78050:NO": 1793556313.8644357,
-  "KXBTCD-26NOV0107-T77799.99:NO": 1793534714.9878306,
-  "KXBTCD-26NOV0107-T77899.99:YES": 1793534714.9878306,
   "KXBTCD-26NOV0108-T77699.99:NO": 1793538315.157433,
   "KXBTCD-26NOV0108-T77799.99:NO": 1793538315.157433,
   "KXBTCD-26NOV0109-T77799.99:NO": 1793541913.565228,
