@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3279968247276542,
-  "move": 0.0003271895972256633,
+  "long": 0.3279772436254179,
+  "move": -0.000327831912106058,
   "quotes": {
-   "Bitstamp": 77640.46,
-   "Coinbase": 77632.625,
-   "Kraken": 77636.0
+   "Bitstamp": 77647.23,
+   "Coinbase": 77636.295,
+   "Kraken": 77647.3
   },
-  "short": 0.16257200781242434,
-  "spot": 77636.0,
-  "t": 1793562613.0368912,
-  "vol": 0.2588547611650078
+  "short": 0.15494901974980604,
+  "spot": 77647.23,
+  "t": 1793562912.795218,
+  "vol": 0.25649392883414657
  },
  "btc_hist": [
-  [
-   1793474415,
-   77490.85
-  ],
   [
    1793474712,
    77435.6
@@ -1212,6 +1208,10 @@
   [
    1793562613,
    77636.0
+  ],
+  [
+   1793562913,
+   77647.23
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 30,
+   "sl": 31,
    "tp": 21
   }
  },
@@ -4909,14 +4909,8 @@
   }
  ],
  "last_daily": "2026-10-31",
- "last_px": {
-  "KXBTC-26NOV0115-B77550:YES": 0.19,
-  "KXBTC-26NOV0115-B77650:NO": 0.34,
-  "KXBTC-26NOV0115-B77750:YES": 0.1,
-  "KXBTCD-26NOV0115-T77599.99:NO": 0.18,
-  "KXBTCD-26NOV0115-T77699.99:YES": 0.12
- },
- "last_run": 1793562614.9670396,
+ "last_px": {},
+ "last_run": 1793562915.4002616,
  "last_vote": {
   "approved": true,
   "ask": 0.34,
@@ -5315,7 +5309,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26NOV0115-T77599.99:NO",
    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,600 or above",
-   "last_bid": 0.18,
+   "last_bid": 0.06,
    "opened": 1793562016.2344258,
    "reasons": [
     "63% expected return on cost",
@@ -5345,11 +5339,14 @@
    "edge": 0.11185910969805153,
    "entry": 0.34,
    "event": "KXBTC-26NOV0115",
+   "exit_px": 0.1,
+   "exit_reason": "stop loss",
+   "exit_t": 1793562914.5532203,
    "fair": 0.47185910969805156,
    "fee": 0.02,
    "key": "KXBTC-26NOV0115-B77650:NO",
    "label": "Bitcoin price range on Nov 1, 2026? \u2014 $77,600 to 77,699.99",
-   "last_bid": null,
+   "last_bid": 0.1,
    "opened": 1793562614.558854,
    "reasons": [
     "31% expected return on cost",
