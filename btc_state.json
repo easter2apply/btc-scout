@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32533142298149453,
-  "move": -0.0007354979626197355,
+  "long": 0.3253492470334548,
+  "move": 0.0009464159014567208,
   "quotes": {
-   "Bitstamp": 76729.55,
-   "Coinbase": 76739.515,
-   "Kraken": 76726.5
+   "Bitstamp": 76722.86,
+   "Coinbase": 76705.55,
+   "Kraken": 76713.5
   },
-  "short": 0.40817822576507723,
-  "spot": 76729.55,
-  "t": 1793656513.1850731,
-  "vol": 0.3690867098446451
+  "short": 0.40630165936809765,
+  "spot": 76713.5,
+  "t": 1793656823.107994,
+  "vol": 0.36805785615206316
  },
  "btc_hist": [
-  [
-   1793567713,
-   77784.6
-  ],
   [
    1793568013,
    77734.78
@@ -1212,6 +1208,10 @@
   [
    1793656513,
    76729.55
+  ],
+  [
+   1793656823,
+   76713.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1793552718.2792766,
-   "text": "KXBTC: 251 markets priced, 17 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1793555115.3893254,
    "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
   },
@@ -1414,6 +1410,10 @@
   {
    "t": 1793632521.547481,
    "text": "Telegram: send failed (<urlopen error [Errno 104] Connection reset by peer>)"
+  },
+  {
+   "t": 1793656826.536924,
+   "text": "KXBTCD: 260 markets priced, 8 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4909,8 +4909,34 @@
   }
  ],
  "last_daily": "2026-11-01",
- "last_px": {},
- "last_run": 1793656515.4443862,
+ "last_px": {
+  "KXBTC-26NOV0218-B76850:NO": 0.83,
+  "KXBTCD-26NOV0218-T76699.99:YES": 0.47,
+  "KXBTCD-26NOV0218-T76999.99:YES": 0.09,
+  "KXBTCD-26NOV0317-T73999.99:YES": 0.93,
+  "KXBTCD-26NOV0317-T74249.99:YES": 0.91,
+  "KXBTCD-26NOV0317-T74499.99:YES": 0.9,
+  "KXBTCD-26NOV0317-T74749.99:YES": 0.86,
+  "KXBTCD-26NOV0317-T74999.99:YES": 0.83,
+  "KXBTCD-26NOV0317-T75249.99:YES": 0.79,
+  "KXBTCD-26NOV0317-T75499.99:YES": 0.75,
+  "KXBTCD-26NOV0317-T75749.99:YES": 0.7,
+  "KXBTCD-26NOV0317-T75999.99:YES": 0.66,
+  "KXBTCD-26NOV0317-T76249.99:YES": 0.61,
+  "KXBTCD-26NOV0317-T77249.99:NO": 0.63,
+  "KXBTCD-26NOV0317-T77499.99:NO": 0.68,
+  "KXBTCD-26NOV0317-T77749.99:NO": 0.72,
+  "KXBTCD-26NOV0317-T77999.99:NO": 0.77,
+  "KXBTCD-26NOV0317-T78249.99:NO": 0.8,
+  "KXBTCD-26NOV0317-T78499.99:NO": 0.84,
+  "KXBTCD-26NOV0317-T78749.99:NO": 0.87,
+  "KXBTCD-26NOV0317-T78999.99:NO": 0.9,
+  "KXBTCD-26NOV0317-T79249.99:NO": 0.92,
+  "KXBTCD-26NOV0317-T79499.99:NO": 0.93,
+  "KXBTCD-26NOV0317-T79749.99:NO": 0.94,
+  "KXBTCD-26NOV0317-T79999.99:NO": 0.95
+ },
+ "last_run": 1793656826.5368924,
  "last_vote": {
   "approved": true,
   "ask": 0.58,
