@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.32488358196896405,
-  "move": 0.0023692894571774037,
+  "long": 0.3248553455135442,
+  "move": 0.0014397660057381412,
   "quotes": {
-   "Bitstamp": 76847.53,
-   "Coinbase": 76825.165,
-   "Kraken": 76830.5
+   "Bitstamp": 76781.92,
+   "Coinbase": 76775.995,
+   "Kraken": 76774.9
   },
-  "short": 0.4568872523813293,
-  "spot": 76830.5,
-  "t": 1793650212.8152637,
-  "vol": 0.3964185308619825
+  "short": 0.4564561405622112,
+  "spot": 76775.995,
+  "t": 1793650516.7050939,
+  "vol": 0.39615855649327664
  },
  "btc_hist": [
-  [
-   1793561712,
-   77649.32
-  ],
   [
    1793562014,
    77661.1
@@ -1212,13 +1208,17 @@
   [
    1793650213,
    76830.5
+  ],
+  [
+   1793650517,
+   76775.99
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 697,
-  "total": 1544
+  "right": 698,
+  "total": 1545
  },
  "days": {
   "2026-10-20": {
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.15,
-   "right": true,
-   "shadow": false,
-   "t": 1793048714.2925863,
-   "usd": 1.69,
-   "won": true
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.17,
@@ -4906,13 +4897,20 @@
    "t": 1793649914.7761452,
    "usd": -7.56,
    "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.13,
+   "right": true,
+   "shadow": false,
+   "t": 1793650519.4253917,
+   "usd": 1.76,
+   "won": true
   }
  ],
  "last_daily": "2026-11-01",
- "last_px": {
-  "KXBTCD-26NOV0216-T77099.99:NO": 0.83
- },
- "last_run": 1793650215.5158477,
+ "last_px": {},
+ "last_run": 1793650519.4255874,
  "last_vote": {
   "approved": true,
   "ask": 0.58,
@@ -5123,7 +5121,8 @@
     -0.19999999999999996,
     0.373,
     -0.454,
-    -0.39999999999999997
+    -0.39999999999999997,
+    0.13
    ]
   }
  },
@@ -5412,43 +5411,6 @@
     "The Quant": false,
     "Time": true
    }
-  },
-  {
-   "bet": "Bitcoin is UNDER $76,916 at 3:15 PM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1793650500.2501965,
-   "contracts": 16,
-   "edge": 0.10995084374513177,
-   "entry": 0.58,
-   "event": "KXBTC15M-26NOV021515",
-   "exit_px": 0.71,
-   "exit_reason": "take profit",
-   "exit_t": 1793650214.3146944,
-   "fair": 0.7099508437451317,
-   "fee": 0.02,
-   "key": "KXBTC15M-26NOV021515-15:NO",
-   "label": "BTC price up in next 15 mins? \u2014 Target Price: $76,915.87",
-   "last_bid": 0.71,
-   "opened": 1793649913.9244404,
-   "reasons": [
-    "18% expected return on cost",
-    "spread 1\u00a2, volume 213,681",
-    "Bitcoin +0.23% in 30 min, not fighting this bet"
-   ],
-   "row": "Target Price: $76,915.87",
-   "side": "NO",
-   "sl": 0.43,
-   "stake": 10.0,
-   "ticker": "KXBTC15M-26NOV021515-15",
-   "tp": 0.71,
-   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-76-915-87-target/kxbtc15m-26nov021515",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
   }
  ],
  "recent": {
@@ -5460,6 +5422,7 @@
   "KXBTC15M-26NOV021200-00:NO": 1793638824.46989,
   "KXBTC15M-26NOV021445-45:NO": 1793648718.0338175,
   "KXBTC15M-26NOV021500-00:NO": 1793649622.828146,
+  "KXBTC15M-26NOV021515-15:NO": 1793650518.3926847,
   "KXBTCD-26NOV0209-T77999.99:NO": 1793628919.611506,
   "KXBTCD-26NOV0209-T78099.99:NO": 1793628919.611506,
   "KXBTCD-26NOV0210-T77499.99:YES": 1793631914.8976874,
@@ -5473,31 +5436,31 @@
   "KXBTCD-26NOV0215-T76599.99:NO": 1793649913.9244404
  },
  "record": {
-  "dollars": -399.41,
+  "dollars": -397.65,
   "losses": 742,
-  "pnl": 11.98,
-  "wins": 649
+  "pnl": 12.11,
+  "wins": 650
  },
  "scoreboard": {
   "Doubt": {
-   "right": 751,
-   "total": 1544
+   "right": 752,
+   "total": 1545
   },
   "Momentum": {
-   "right": 638,
-   "total": 1348
+   "right": 639,
+   "total": 1349
   },
   "Risk": {
-   "right": 709,
-   "total": 1544
+   "right": 710,
+   "total": 1545
   },
   "The Quant": {
-   "right": 515,
-   "total": 1544
+   "right": 516,
+   "total": 1545
   },
   "Time": {
-   "right": 754,
-   "total": 1544
+   "right": 755,
+   "total": 1545
   }
  },
  "shadow": [],
