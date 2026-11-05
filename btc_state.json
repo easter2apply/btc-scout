@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.37935072875071596,
-  "move": -0.004817903591389228,
+  "long": 0.37926598986890336,
+  "move": -0.003953335979785866,
   "quotes": {
-   "Bitstamp": 75559.98,
-   "Coinbase": 75567.145,
-   "Kraken": 75550.2
+   "Bitstamp": 75614.88,
+   "Coinbase": 75582.14,
+   "Kraken": 75621.4
   },
-  "short": 0.5100124526793911,
-  "spot": 75559.98,
-  "t": 1793919012.475639,
-  "vol": 0.4494550463014891
+  "short": 0.5053539827526837,
+  "spot": 75614.88,
+  "t": 1793919312.2689614,
+  "vol": 0.44678033694156627
  },
  "btc_hist": [
-  [
-   1793829913,
-   80214.43
-  ],
   [
    1793830213,
    80345.9
@@ -1212,6 +1208,10 @@
   [
    1793919012,
    75559.98
+  ],
+  [
+   1793919312,
+   75614.88
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 2,
    "rejected": 2,
-   "sl": 13,
+   "sl": 14,
    "tp": 19
   }
  },
@@ -4970,35 +4970,31 @@
  ],
  "last_daily": "2026-11-04",
  "last_px": {
-  "KXBTC-26NOV0518-B75550:YES": 0.29,
   "KXBTC-26NOV0617-B75250:YES": 0.1,
-  "KXBTC-26NOV0617-B75750:YES": 0.1,
-  "KXBTC15M-26NOV051800-00:NO": 0.78,
-  "KXBTCD-26NOV0518-T75599.99:NO": 0.5,
-  "KXBTCD-26NOV0518-T75699.99:NO": 0.78,
-  "KXBTCD-26NOV0518-T75799.99:NO": 0.92,
+  "KXBTC-26NOV0617-B75750:YES": 0.11,
   "KXBTCD-26NOV0617-T71999.99:YES": 0.94,
   "KXBTCD-26NOV0617-T72499.99:YES": 0.92,
-  "KXBTCD-26NOV0617-T72999.99:YES": 0.89,
+  "KXBTCD-26NOV0617-T72999.99:YES": 0.88,
   "KXBTCD-26NOV0617-T73499.99:YES": 0.84,
-  "KXBTCD-26NOV0617-T73999.99:YES": 0.78,
+  "KXBTCD-26NOV0617-T73999.99:YES": 0.79,
   "KXBTCD-26NOV0617-T74499.99:YES": 0.71,
+  "KXBTCD-26NOV0617-T74999.99:YES": 0.63,
   "KXBTCD-26NOV0617-T75999.99:NO": 0.57,
-  "KXBTCD-26NOV0617-T76499.99:NO": 0.65,
+  "KXBTCD-26NOV0617-T76499.99:NO": 0.66,
   "KXBTCD-26NOV0617-T76999.99:NO": 0.74,
   "KXBTCD-26NOV0617-T77499.99:NO": 0.82,
-  "KXBTCD-26NOV0617-T77999.99:NO": 0.87,
+  "KXBTCD-26NOV0617-T77999.99:NO": 0.88,
   "KXBTCD-26NOV0617-T78499.99:NO": 0.91,
   "KXBTCD-26NOV0617-T78999.99:NO": 0.94
  },
- "last_run": 1793919014.0818446,
+ "last_run": 1793919314.72584,
  "last_vote": {
-  "approved": true,
-  "ask": 0.5,
-  "edge": 0.12091128022147336,
-  "label": "Bitcoin price on Nov 5, 2026? \u2014 $75,600 or above",
+  "approved": false,
+  "ask": 0.74,
+  "edge": 0.08022842013826749,
+  "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-5-2026-at-6pm-est/kxbtcd-26nov0518",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-6-2026-at-5pm-est/kxbtcd-26nov0617",
   "votes": {
    "Doubt": [
     true,
@@ -5006,22 +5002,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.48% in 30 min, not fighting this bet"
+    "Bitcoin -0.40% in 30 min, not fighting this bet"
    ],
    "Risk": [
-    true,
-    "spread 1\u00a2, volume 82,092"
+    false,
+    "news risk: USD Average Hourly Earnings m/m (Fri 08:30 AM ET) lands before this closes"
    ],
    "The Quant": [
-    true,
-    "23% expected return on cost"
+    false,
+    "11% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 23h"
    ]
   },
-  "when": 1793919013.8059397
+  "when": 1793919313.988446
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5314,11 +5310,14 @@
    "edge": 0.12091128022147336,
    "entry": 0.5,
    "event": "KXBTCD-26NOV0518",
+   "exit_px": 0.3,
+   "exit_reason": "stop loss",
+   "exit_t": 1793919313.988446,
    "fair": 0.6409112802214734,
    "fee": 0.02,
    "key": "KXBTCD-26NOV0518-T75599.99:NO",
    "label": "Bitcoin price on Nov 5, 2026? \u2014 $75,600 or above",
-   "last_bid": null,
+   "last_bid": 0.3,
    "opened": 1793919013.8059397,
    "reasons": [
     "23% expected return on cost",
@@ -5352,7 +5351,7 @@
    "fee": 0.02,
    "key": "KXBTC15M-26NOV051800-00:NO",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $75,723.21",
-   "last_bid": null,
+   "last_bid": 0.76,
    "opened": 1793919013.8059397,
    "reasons": [
     "spread 1\u00a2, volume 1,016,152",
