@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.37942527570454326,
-  "move": -0.0017620557149877758,
+  "long": 0.37942612596336694,
+  "move": -0.0010519359258854832,
   "quotes": {
-   "Bitstamp": 75793.49,
-   "Coinbase": 75782.175,
-   "Kraken": 75791.8
+   "Bitstamp": 75784.04,
+   "Coinbase": 75785.305,
+   "Kraken": 75794.8
   },
-  "short": 0.2710411583789723,
-  "spot": 75791.8,
-  "t": 1794006914.8092191,
-  "vol": 0.32971718895053365
+  "short": 0.26882416377296187,
+  "spot": 75785.305,
+  "t": 1794007212.5303588,
+  "vol": 0.32880892330637945
  },
  "btc_hist": [
-  [
-   1793916915,
-   75969.34
-  ],
   [
    1793917217,
    75984.38
@@ -1212,6 +1208,10 @@
   [
    1794006915,
    75791.8
+  ],
+  [
+   1794007213,
+   75785.3
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 26
   },
   "2026-11-06": {
-   "buys": 30,
+   "buys": 31,
    "lines": 0,
    "news": 25,
    "rejected": 25,
@@ -4922,28 +4922,30 @@
  ],
  "last_daily": "2026-11-05",
  "last_px": {
-  "KXBTC-26NOV0619-B75750:NO": 0.72,
-  "KXBTC-26NOV0619-B75850:NO": 0.74,
+  "KXBTC-26NOV0619-B75750:NO": 0.67,
+  "KXBTC-26NOV0619-B75850:NO": 0.71,
   "KXBTC-26NOV0717-B75625:NO": 0.86,
   "KXBTC-26NOV0717-B75875:NO": 0.85,
-  "KXBTCD-26NOV0619-T75599.99:NO": 0.09,
-  "KXBTCD-26NOV0619-T75699.99:NO": 0.25,
-  "KXBTCD-26NOV0619-T75899.99:YES": 0.22,
-  "KXBTCD-26NOV0619-T75999.99:YES": 0.08,
+  "KXBTC-26NOV0717-B76125:NO": 0.87,
+  "KXBTC15M-26NOV061830-30:NO": 0.51,
+  "KXBTCD-26NOV0619-T75599.99:NO": 0.07,
+  "KXBTCD-26NOV0619-T75699.99:NO": 0.19,
+  "KXBTCD-26NOV0619-T75899.99:YES": 0.16,
+  "KXBTCD-26NOV0619-T75999.99:YES": 0.06,
   "KXBTCD-26NOV0717-T74749.99:NO": 0.07,
   "KXBTCD-26NOV0717-T74999.99:NO": 0.11,
   "KXBTCD-26NOV0717-T75249.99:NO": 0.19,
-  "KXBTCD-26NOV0717-T75499.99:NO": 0.32,
+  "KXBTCD-26NOV0717-T75499.99:NO": 0.31,
   "KXBTCD-26NOV0717-T76249.99:YES": 0.25,
   "KXBTCD-26NOV0717-T76499.99:YES": 0.15,
   "KXBTCD-26NOV0717-T76749.99:YES": 0.09,
   "KXBTCD-26NOV0717-T76999.99:YES": 0.05
  },
- "last_run": 1794006916.5488968,
+ "last_run": 1794007214.0148575,
  "last_vote": {
   "approved": true,
   "ask": 0.11,
-  "edge": 0.09618200108870678,
+  "edge": 0.09694414034236454,
   "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-7-2026-at-5pm-est/kxbtcd-26nov0717",
@@ -4954,7 +4956,7 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.18% in 30 min, not fighting this bet"
+    "Bitcoin -0.11% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
@@ -4962,14 +4964,14 @@
    ],
    "The Quant": [
     true,
-    "80% expected return on cost"
+    "81% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 23h"
    ]
   },
-  "when": 1794006916.387835
+  "when": 1794007213.866542
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5281,6 +5283,40 @@
    "ticker": "KXBTCD-26NOV0717-T74749.99",
    "tp": 0.15,
    "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-7-2026-at-5pm-est/kxbtcd-26nov0717",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $75,700 at 7:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794009600.9462092,
+   "contracts": 28,
+   "edge": 0.09429182995258929,
+   "entry": 0.19,
+   "event": "KXBTCD-26NOV0619",
+   "fair": 0.3042918299525893,
+   "fee": 0.02,
+   "key": "KXBTCD-26NOV0619-T75699.99:NO",
+   "label": "Bitcoin price on Nov 6, 2026? \u2014 $75,700 or above",
+   "last_bid": null,
+   "opened": 1794007213.866542,
+   "reasons": [
+    "45% expected return on cost",
+    "spread 1\u00a2, volume 24,481",
+    "Bitcoin -0.11% in 30 min, not fighting this bet"
+   ],
+   "row": "$75,700 or above",
+   "side": "NO",
+   "sl": 0.05,
+   "stake": 5.967837338771475,
+   "ticker": "KXBTCD-26NOV0619-T75699.99",
+   "tp": 0.3,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-6-2026-at-7pm-est/kxbtcd-26nov0619",
    "votes": {
     "Doubt": true,
     "Momentum": true,
