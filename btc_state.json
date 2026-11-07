@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3790582511762901,
-  "move": 0.0010488744127330474,
+  "long": 0.37908603002212277,
+  "move": 0.0005854542662906415,
   "quotes": {
-   "Bitstamp": 75999.65,
-   "Coinbase": 75996.045,
-   "Kraken": 75998.7
+   "Bitstamp": 75992.0,
+   "Coinbase": 75987.005,
+   "Kraken": 75989.7
   },
-  "short": 0.1775688453130914,
-  "spot": 75998.7,
-  "t": 1794020712.220306,
-  "vol": 0.29598636168804465
+  "short": 0.17710776436444425,
+  "spot": 75989.7,
+  "t": 1794021013.0038984,
+  "vol": 0.29586599868530455
  },
  "btc_hist": [
-  [
-   1793930714,
-   75991.98
-  ],
   [
    1793931015,
    75982.9
@@ -1212,6 +1208,10 @@
   [
    1794020712,
    75998.7
+  ],
+  [
+   1794021013,
+   75989.7
   ]
  ],
  "chat_id": "7590441188",
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1793970922.0781562,
-   "text": "Telegram: send failed (<urlopen error [Errno 104] Connection reset by peer>)"
-  },
-  {
    "t": 1794002721.316804,
    "text": "KXBTC: 256 markets priced, 12 skipped (model and Kalshi too far apart)"
   },
@@ -1414,6 +1410,10 @@
   {
    "t": 1794020718.4557407,
    "text": "KXBTC: 176 markets priced, 92 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1794021015.1939087,
+   "text": "KXBTC: 250 markets priced, 18 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4922,15 +4922,14 @@
  ],
  "last_daily": "2026-11-06",
  "last_px": {
-  "KXBTC-26NOV0623-B75950:NO": 0.64,
-  "KXBTC-26NOV0623-B76050:NO": 0.66,
-  "KXBTC-26NOV0623-B76150:YES": 0.11,
+  "KXBTC-26NOV0623-B75950:NO": 0.61,
+  "KXBTC-26NOV0623-B76050:NO": 0.67,
+  "KXBTC-26NOV0623-B76150:YES": 0.09,
   "KXBTC-26NOV0717-B75875:NO": 0.84,
   "KXBTC-26NOV0717-B76125:NO": 0.83,
-  "KXBTC-26NOV0717-B76375:NO": 0.86,
   "KXBTCD-26NOV0623-T75799.99:NO": 0.05,
-  "KXBTCD-26NOV0623-T75899.99:NO": 0.19,
-  "KXBTCD-26NOV0623-T76099.99:YES": 0.15,
+  "KXBTCD-26NOV0623-T75899.99:NO": 0.17,
+  "KXBTCD-26NOV0623-T76099.99:YES": 0.12,
   "KXBTCD-26NOV0717-T74999.99:NO": 0.06,
   "KXBTCD-26NOV0717-T75249.99:NO": 0.11,
   "KXBTCD-26NOV0717-T75499.99:NO": 0.2,
@@ -4939,11 +4938,11 @@
   "KXBTCD-26NOV0717-T76749.99:YES": 0.1,
   "KXBTCD-26NOV0717-T76999.99:YES": 0.05
  },
- "last_run": 1794020714.2331152,
+ "last_run": 1794021015.1938763,
  "last_vote": {
   "approved": true,
-  "ask": 0.64,
-  "edge": 0.1248194041095383,
+  "ask": 0.61,
+  "edge": 0.14138995523291145,
   "label": "Bitcoin price range on Nov 6, 2026? \u2014 $75,900 to 75,999.99",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-6-2026-at-11pm-est/kxbtc-26nov0623",
@@ -4953,8 +4952,8 @@
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    null,
-    "first look at this market"
+    false,
+    "price \u22123\u00a2 since last scan"
    ],
    "Risk": [
     true,
@@ -4962,14 +4961,14 @@
    ],
    "The Quant": [
     true,
-    "19% expected return on cost"
+    "22% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 55m"
+    "closes in 50m"
    ]
   },
-  "when": 1794020713.370782
+  "when": 1794021014.672279
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5333,7 +5332,7 @@
    "fee": 0.02,
    "key": "KXBTC-26NOV0623-B75950:NO",
    "label": "Bitcoin price range on Nov 6, 2026? \u2014 $75,900 to 75,999.99",
-   "last_bid": null,
+   "last_bid": 0.6,
    "opened": 1794020713.370782,
    "reasons": [
     "19% expected return on cost",
@@ -5357,7 +5356,6 @@
   }
  ],
  "recent": {
-  "KXBTC-26NOV0616-B75750:NO": 1793999114.2294505,
   "KXBTC-26NOV0617-B75250:YES": 1794002714.5656054,
   "KXBTC-26NOV0617-B75750:YES": 1794002714.5656054,
   "KXBTC-26NOV0617-B76250:YES": 1794002714.5656054,
@@ -5369,7 +5367,6 @@
   "KXBTC-26NOV0622-B75950:NO": 1794020713.370782,
   "KXBTC-26NOV0622-B76050:YES": 1794020713.370782,
   "KXBTC15M-26NOV061615-15:NO": 1793999716.6213138,
-  "KXBTCD-26NOV0616-T75499.99:NO": 1793999114.2294505,
   "KXBTCD-26NOV0617-T72499.99:YES": 1794002714.5656054,
   "KXBTCD-26NOV0617-T72999.99:YES": 1794002714.5656054,
   "KXBTCD-26NOV0617-T74999.99:YES": 1794002714.5656054,
