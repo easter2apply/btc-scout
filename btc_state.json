@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3792479338350994,
-  "move": -0.00037279421311708916,
+  "long": 0.37924062571893014,
+  "move": -0.00017840318223882878,
   "quotes": {
-   "Bitstamp": 75921.81,
-   "Coinbase": 75905.545,
-   "Kraken": 75908.6
+   "Bitstamp": 75943.06,
+   "Coinbase": 75938.285,
+   "Kraken": 75943.3
   },
-  "short": 0.17429180960692311,
-  "spot": 75908.6,
-  "t": 1794020113.0077896,
-  "vol": 0.29513270762001953
+  "short": 0.17528762769991393,
+  "spot": 75943.06,
+  "t": 1794020418.5552156,
+  "vol": 0.29542275184923494
  },
  "btc_hist": [
-  [
-   1793930113,
-   76115.85
-  ],
   [
    1793930418,
    76002.2
@@ -1212,6 +1208,10 @@
   [
    1794020113,
    75908.6
+  ],
+  [
+   1794020419,
+   75943.06
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 26
   },
   "2026-11-06": {
-   "buys": 43,
+   "buys": 44,
    "lines": 0,
    "news": 25,
    "rejected": 26,
@@ -4922,26 +4922,29 @@
  ],
  "last_daily": "2026-11-06",
  "last_px": {
-  "KXBTC-26NOV0717-B75625:NO": 0.85,
   "KXBTC-26NOV0717-B75875:NO": 0.83,
   "KXBTC-26NOV0717-B76125:NO": 0.83,
-  "KXBTC-26NOV0717-B76375:NO": 0.87,
-  "KXBTCD-26NOV0717-T74999.99:NO": 0.07,
+  "KXBTCD-26NOV0623-T75799.99:NO": 0.05,
+  "KXBTCD-26NOV0623-T75899.99:NO": 0.3,
+  "KXBTCD-26NOV0623-T75999.99:YES": 0.26,
+  "KXBTCD-26NOV0623-T76099.99:YES": 0.05,
+  "KXBTCD-26NOV0717-T74999.99:NO": 0.06,
   "KXBTCD-26NOV0717-T75249.99:NO": 0.12,
-  "KXBTCD-26NOV0717-T75499.99:NO": 0.22,
-  "KXBTCD-26NOV0717-T76249.99:YES": 0.29,
+  "KXBTCD-26NOV0717-T75499.99:NO": 0.21,
+  "KXBTCD-26NOV0717-T75749.99:NO": 0.36,
+  "KXBTCD-26NOV0717-T76249.99:YES": 0.3,
   "KXBTCD-26NOV0717-T76499.99:YES": 0.17,
   "KXBTCD-26NOV0717-T76749.99:YES": 0.09,
   "KXBTCD-26NOV0717-T76999.99:YES": 0.05
  },
- "last_run": 1794020114.8205154,
+ "last_run": 1794020421.0436172,
  "last_vote": {
   "approved": true,
-  "ask": 0.14,
-  "edge": 0.1669764003148177,
-  "label": "Bitcoin price on Nov 6, 2026? \u2014 $76,000 or above",
-  "side": "YES",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-6-2026-at-10pm-est/kxbtcd-26nov0622",
+  "ask": 0.05,
+  "edge": 0.16286918539194611,
+  "label": "Bitcoin price on Nov 6, 2026? \u2014 $75,800 or above",
+  "side": "NO",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-6-2026-at-11pm-est/kxbtcd-26nov0623",
   "votes": {
    "Doubt": [
     true,
@@ -4949,22 +4952,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.02% in 30 min, not fighting this bet"
+    "Bitcoin -0.02% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 118,744"
+    "spread 1\u00a2, volume 699"
    ],
    "The Quant": [
     true,
-    "111% expected return on cost"
+    "271% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 60m"
    ]
   },
-  "when": 1794019820.9890206
+  "when": 1794020420.0754972
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5421,6 +5424,40 @@
    "votes": {
     "Doubt": true,
     "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $75,800 at 11:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794024000.9356942,
+   "contracts": 144,
+   "edge": 0.16286918539194611,
+   "entry": 0.05,
+   "event": "KXBTCD-26NOV0623",
+   "fair": 0.2228691853919461,
+   "fee": 0.01,
+   "key": "KXBTCD-26NOV0623-T75799.99:NO",
+   "label": "Bitcoin price on Nov 6, 2026? \u2014 $75,800 or above",
+   "last_bid": null,
+   "opened": 1794020420.0754972,
+   "reasons": [
+    "271% expected return on cost",
+    "spread 1\u00a2, volume 699",
+    "Bitcoin -0.02% in 30 min, not fighting this bet"
+   ],
+   "row": "$75,800 or above",
+   "side": "NO",
+   "sl": 0.01,
+   "stake": 8.663254542124795,
+   "ticker": "KXBTCD-26NOV0623-T75799.99",
+   "tp": 0.22,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-6-2026-at-11pm-est/kxbtcd-26nov0623",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
     "Risk": true,
     "The Quant": true,
     "Time": true
