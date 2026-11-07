@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.375317404318819,
-  "move": 0.0011912060568743943,
+  "long": 0.3752819071693772,
+  "move": 0.0007494560208278767,
   "quotes": {
-   "Bitstamp": 75851.1,
-   "Coinbase": 75854.125,
-   "Kraken": 75856.4
+   "Bitstamp": 75838.15,
+   "Coinbase": 75834.575,
+   "Kraken": 75838.6
   },
-  "short": 0.12134745374448318,
-  "spot": 75854.125,
-  "t": 1794059412.5681198,
-  "vol": 0.2789160792379003
+  "short": 0.12014808937602935,
+  "spot": 75838.15,
+  "t": 1794059711.6849747,
+  "vol": 0.2786324399898506
  },
  "btc_hist": [
-  [
-   1793969115,
-   76099.99
-  ],
   [
    1793969415,
    75940.9
@@ -1212,6 +1208,10 @@
   [
    1794059413,
    75854.12
+  ],
+  [
+   1794059712,
+   75838.15
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 23,
+   "sl": 25,
    "tp": 9
   }
  },
@@ -4922,16 +4922,12 @@
  ],
  "last_daily": "2026-11-06",
  "last_px": {
-  "KXBTC-26NOV0709-B75750:YES": 0.09,
-  "KXBTC-26NOV0709-B75950:YES": 0.07,
   "KXBTC-26NOV0717-B75875:NO": 0.73,
-  "KXBTCD-26NOV0709-T75799.99:NO": 0.1,
-  "KXBTCD-26NOV0709-T75899.99:YES": 0.07,
   "KXBTCD-26NOV0717-T75249.99:NO": 0.09,
-  "KXBTCD-26NOV0717-T75499.99:NO": 0.19,
-  "KXBTCD-26NOV0717-T76499.99:YES": 0.08
+  "KXBTCD-26NOV0717-T75499.99:NO": 0.2,
+  "KXBTCD-26NOV0717-T76249.99:YES": 0.17
  },
- "last_run": 1794059414.9558842,
+ "last_run": 1794059714.0319374,
  "last_vote": {
   "approved": true,
   "ask": 0.07,
@@ -5396,11 +5392,14 @@
    "edge": 0.11461659966018709,
    "entry": 0.08,
    "event": "KXBTCD-26NOV0709",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1794059713.093424,
    "fair": 0.20461659966018708,
    "fee": 0.01,
    "key": "KXBTCD-26NOV0709-T75899.99:YES",
    "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,900 or above",
-   "last_bid": 0.06,
+   "last_bid": 0.01,
    "opened": 1794057614.5306668,
    "reasons": [
     "127% expected return on cost",
@@ -5430,11 +5429,14 @@
    "edge": 0.11218147212178077,
    "entry": 0.07,
    "event": "KXBTC-26NOV0709",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1794059713.093424,
    "fair": 0.19218147212178077,
    "fee": 0.01,
    "key": "KXBTC-26NOV0709-B75950:YES",
    "label": "Bitcoin price range on Nov 7, 2026? \u2014 $75,900 to 75,999.99",
-   "last_bid": 0.07,
+   "last_bid": 0.01,
    "opened": 1794059114.3557618,
    "reasons": [
     "140% expected return on cost",
