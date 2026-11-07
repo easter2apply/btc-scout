@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.37527333196199636,
-  "move": 0.00025164267479516056,
+  "long": 0.37528712129697506,
+  "move": -0.0001243083533365441,
   "quotes": {
-   "Bitstamp": 75748.97,
-   "Coinbase": 75741.705,
-   "Kraken": 75743.0
+   "Bitstamp": 75781.84,
+   "Coinbase": 75780.335,
+   "Kraken": 75769.4
   },
-  "short": 0.12008973405713494,
-  "spot": 75743.0,
-  "t": 1794057315.5493767,
-  "vol": 0.2786140860650912
+  "short": 0.12208575171805237,
+  "spot": 75780.335,
+  "t": 1794057613.027932,
+  "vol": 0.27905676320771405
  },
  "btc_hist": [
-  [
-   1793967015,
-   76010.43
-  ],
   [
    1793967313,
    76015.46
@@ -1212,6 +1208,10 @@
   [
    1794057316,
    75743.0
+  ],
+  [
+   1794057613,
+   75780.34
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 12
   },
   "2026-11-07": {
-   "buys": 38,
+   "buys": 39,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4922,23 +4922,23 @@
  ],
  "last_daily": "2026-11-06",
  "last_px": {
-  "KXBTC-26NOV0709-B75550:YES": 0.05,
+  "KXBTC-26NOV0709-B75650:YES": 0.11,
   "KXBTC-26NOV0709-B75750:NO": 0.57,
-  "KXBTC-26NOV0709-B75950:YES": 0.06,
-  "KXBTC-26NOV0717-B75875:NO": 0.77,
-  "KXBTCD-26NOV0709-T75599.99:NO": 0.08,
-  "KXBTCD-26NOV0709-T75699.99:NO": 0.29,
-  "KXBTCD-26NOV0709-T75799.99:YES": 0.28,
-  "KXBTCD-26NOV0709-T75899.99:YES": 0.07,
+  "KXBTC-26NOV0709-B75850:NO": 0.67,
+  "KXBTC-26NOV0709-B75950:YES": 0.07,
+  "KXBTC15M-26NOV070830-30:NO": 0.22,
+  "KXBTCD-26NOV0709-T75699.99:NO": 0.15,
+  "KXBTCD-26NOV0709-T75899.99:YES": 0.08,
   "KXBTCD-26NOV0717-T75249.99:NO": 0.13,
-  "KXBTCD-26NOV0717-T76249.99:YES": 0.14,
-  "KXBTCD-26NOV0717-T76499.99:YES": 0.06
+  "KXBTCD-26NOV0717-T75499.99:NO": 0.25,
+  "KXBTCD-26NOV0717-T76249.99:YES": 0.15,
+  "KXBTCD-26NOV0717-T76499.99:YES": 0.07
  },
- "last_run": 1794057317.389199,
+ "last_run": 1794057615.204046,
  "last_vote": {
   "approved": true,
   "ask": 0.57,
-  "edge": 0.14529297592347037,
+  "edge": 0.13850842086708895,
   "label": "Bitcoin price range on Nov 7, 2026? \u2014 $75,700 to 75,799.99",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-7-2026-at-9am-est/kxbtc-26nov0709",
@@ -4948,8 +4948,8 @@
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u22122\u00a2 since last scan"
+    true,
+    "price +0\u00a2 since last scan"
    ],
    "Risk": [
     true,
@@ -4957,14 +4957,14 @@
    ],
    "The Quant": [
     true,
-    "25% expected return on cost"
+    "23% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 45m"
+    "closes in 40m"
    ]
   },
-  "when": 1794057316.7700477
+  "when": 1794057614.5306668
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5366,7 +5366,7 @@
    "fee": 0.02,
    "key": "KXBTC-26NOV0709-B75750:NO",
    "label": "Bitcoin price range on Nov 7, 2026? \u2014 $75,700 to 75,799.99",
-   "last_bid": null,
+   "last_bid": 0.52,
    "opened": 1794057316.7700477,
    "reasons": [
     "25% expected return on cost",
@@ -5383,6 +5383,40 @@
    "votes": {
     "Doubt": true,
     "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $75,900 at 9:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794060000.9361608,
+   "contracts": 69,
+   "edge": 0.11461659966018709,
+   "entry": 0.08,
+   "event": "KXBTCD-26NOV0709",
+   "fair": 0.20461659966018708,
+   "fee": 0.01,
+   "key": "KXBTCD-26NOV0709-T75899.99:YES",
+   "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,900 or above",
+   "last_bid": null,
+   "opened": 1794057614.5306668,
+   "reasons": [
+    "127% expected return on cost",
+    "spread 1\u00a2, volume 23,373",
+    "Bitcoin -0.01% in 30 min, not fighting this bet"
+   ],
+   "row": "$75,900 or above",
+   "side": "YES",
+   "sl": 0.01,
+   "stake": 6.2976153659443455,
+   "ticker": "KXBTCD-26NOV0709-T75899.99",
+   "tp": 0.2,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-7-2026-at-9am-est/kxbtcd-26nov0709",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
     "Risk": true,
     "The Quant": true,
     "Time": true
