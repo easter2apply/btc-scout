@@ -1,22 +1,18 @@
 {
  "btc": {
   "long": 0.37155275143554134,
-  "move": 0.0005230456859224297,
+  "move": 0.00022126112242859541,
   "quotes": {
-   "Bitstamp": 75823.18,
-   "Coinbase": 75810.735,
-   "Kraken": 75821.3
+   "Bitstamp": 75823.19,
+   "Coinbase": 75801.185,
+   "Kraken": 75813.3
   },
-  "short": 0.11164689878391972,
-  "spot": 75821.3,
-  "t": 1794125414.1834826,
-  "vol": 0.27433235054162675
+  "short": 0.11069575137398702,
+  "spot": 75813.3,
+  "t": 1794125712.270273,
+  "vol": 0.2741395597789315
  },
  "btc_hist": [
-  [
-   1794036912,
-   75923.15
-  ],
   [
    1794037215,
    75928.8
@@ -1212,6 +1208,10 @@
   [
    1794125414,
    75821.3
+  ],
+  [
+   1794125712,
+   75813.3
   ]
  ],
  "chat_id": "7590441188",
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1794115217.124274,
-   "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1794115515.990944,
    "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
   },
@@ -1414,6 +1410,10 @@
   {
    "t": 1794125416.0848043,
    "text": "KXBTC: 249 markets priced, 19 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1794125713.9689517,
+   "text": "KXBTC: 256 markets priced, 12 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4923,16 +4923,16 @@
  "last_daily": "2026-11-07",
  "last_px": {
   "KXBTC-26NOV0804-B75650:YES": 0.07,
-  "KXBTC-26NOV0804-B75750:NO": 0.66,
-  "KXBTC-26NOV0804-B75850:NO": 0.61,
+  "KXBTC-26NOV0804-B75750:NO": 0.64,
+  "KXBTC-26NOV0804-B75850:NO": 0.62,
   "KXBTCD-26NOV0804-T75699.99:NO": 0.09,
-  "KXBTCD-26NOV0804-T75899.99:YES": 0.23
+  "KXBTCD-26NOV0804-T75899.99:YES": 0.19
  },
- "last_run": 1794125416.0847728,
+ "last_run": 1794125713.9689147,
  "last_vote": {
   "approved": true,
   "ask": 0.09,
-  "edge": 0.12247086360524971,
+  "edge": 0.12557319214047333,
   "label": "Bitcoin price on Nov 8, 2026? \u2014 $75,700 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-8-2026-at-4am-est/kxbtcd-26nov0804",
@@ -4943,22 +4943,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.05% in 30 min, not fighting this bet"
+    "Bitcoin +0.02% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 2,538"
+    "spread 1\u00a2, volume 15,909"
    ],
    "The Quant": [
     true,
-    "122% expected return on cost"
+    "126% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 50m"
+    "closes in 45m"
    ]
   },
-  "when": 1794125415.6721418
+  "when": 1794125713.6744478
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5143,102 +5143,32 @@
  "news": {
   "events": [
    {
-    "cur": "AUD",
-    "t": 1793676600.0,
-    "title": "Cash Rate"
-   },
-   {
-    "cur": "AUD",
-    "t": 1793676600.0,
-    "title": "RBA Monetary Policy Statement"
-   },
-   {
-    "cur": "AUD",
-    "t": 1793676600.0,
-    "title": "RBA Rate Statement"
-   },
-   {
-    "cur": "AUD",
-    "t": 1793680200.0,
-    "title": "RBA Press Conference"
+    "cur": "USD",
+    "t": 1794317400.0,
+    "title": "Core CPI m/m"
    },
    {
     "cur": "USD",
-    "t": 1793718960.0,
-    "title": "Congressional Elections"
-   },
-   {
-    "cur": "NZD",
-    "t": 1793742300.0,
-    "title": "Employment Change q/q"
-   },
-   {
-    "cur": "NZD",
-    "t": 1793742300.0,
-    "title": "Unemployment Rate"
+    "t": 1794317400.0,
+    "title": "CPI m/m"
    },
    {
     "cur": "GBP",
-    "t": 1793880000.0,
-    "title": "BOE Monetary Policy Report"
-   },
-   {
-    "cur": "GBP",
-    "t": 1793880000.0,
-    "title": "Monetary Policy Summary"
-   },
-   {
-    "cur": "GBP",
-    "t": 1793880000.0,
-    "title": "MPC Official Bank Rate Votes"
-   },
-   {
-    "cur": "GBP",
-    "t": 1793880000.0,
-    "title": "Official Bank Rate"
-   },
-   {
-    "cur": "GBP",
-    "t": 1793881800.0,
-    "title": "BOE Gov Bailey Speaks"
-   },
-   {
-    "cur": "CAD",
-    "t": 1793971800.0,
-    "title": "Employment Change"
-   },
-   {
-    "cur": "CAD",
-    "t": 1793971800.0,
-    "title": "Unemployment Rate"
+    "t": 1794466800.0,
+    "title": "GDP m/m"
    },
    {
     "cur": "USD",
-    "t": 1793971800.0,
-    "title": "Average Hourly Earnings m/m"
+    "t": 1794576600.0,
+    "title": "Core PPI m/m"
    },
    {
     "cur": "USD",
-    "t": 1793971800.0,
-    "title": "Non-Farm Employment Change"
-   },
-   {
-    "cur": "USD",
-    "t": 1793971800.0,
-    "title": "Unemployment Rate"
-   },
-   {
-    "cur": "JPY",
-    "t": 1793980800.0,
-    "title": "BOJ Gov Ueda Speaks"
-   },
-   {
-    "cur": "NZD",
-    "t": 1794001500.0,
-    "title": "Parliamentary Elections"
+    "t": 1794576600.0,
+    "title": "PPI m/m"
    }
   ],
-  "fetched": 1794103814.6468616
+  "fetched": 1794125712.3670866
  },
  "open": [
   {
@@ -5253,7 +5183,7 @@
    "fee": 0.02,
    "key": "KXBTC-26NOV0804-B75850:NO",
    "label": "Bitcoin price range on Nov 8, 2026? \u2014 $75,800 to 75,899.99",
-   "last_bid": 0.61,
+   "last_bid": 0.59,
    "opened": 1794125113.0735688,
    "reasons": [
     "31% expected return on cost",
