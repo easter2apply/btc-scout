@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.37099923305480825,
-  "move": 3.949121103463682e-06,
+  "long": 0.37099981941037286,
+  "move": -0.0004671206428231711,
   "quotes": {
-   "Bitstamp": 75936.0,
-   "Coinbase": 75963.435,
-   "Kraken": 75931.6
+   "Bitstamp": 75931.84,
+   "Coinbase": 75927.095,
+   "Kraken": 75933.5
   },
-  "short": 0.12731922042580993,
-  "spot": 75936.0,
-  "t": 1794155415.4173293,
-  "vol": 0.27735411914832986
+  "short": 0.12756980813807484,
+  "spot": 75931.84,
+  "t": 1794155713.0734444,
+  "vol": 0.2774120779192161
  },
  "btc_hist": [
-  [
-   1794067218,
-   75658.03
-  ],
   [
    1794067513,
    75665.4
@@ -1212,6 +1208,10 @@
   [
    1794155415,
    75936.0
+  ],
+  [
+   1794155713,
+   75931.84
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,11 +1326,11 @@
    "tp": 27
   },
   "2026-11-08": {
-   "buys": 62,
+   "buys": 64,
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 38,
+   "sl": 40,
    "tp": 13
   }
  },
@@ -4922,18 +4922,19 @@
  ],
  "last_daily": "2026-11-07",
  "last_px": {
+  "KXBTC-26NOV0812-B75750:YES": 0.05,
   "KXBTC-26NOV0812-B75950:NO": 0.47,
-  "KXBTCD-26NOV0812-T75799.99:NO": 0.06,
+  "KXBTC-26NOV0812-B76050:YES": 0.13,
+  "KXBTC15M-26NOV081145-45:YES": 0.17,
+  "KXBTCD-26NOV0812-T75799.99:NO": 0.05,
   "KXBTCD-26NOV0812-T75899.99:NO": 0.33,
-  "KXBTCD-26NOV0812-T75999.99:YES": 0.18,
-  "KXBTCD-26NOV0817-T75499.99:NO": 0.12,
-  "KXBTCD-26NOV0817-T75749.99:NO": 0.28
+  "KXBTCD-26NOV0812-T75999.99:YES": 0.15
  },
- "last_run": 1794155417.1450555,
+ "last_run": 1794155715.1141667,
  "last_vote": {
   "approved": true,
   "ask": 0.47,
-  "edge": 0.1912829855210614,
+  "edge": 0.16643021036290975,
   "label": "Bitcoin price range on Nov 8, 2026? \u2014 $75,900 to 75,999.99",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-8-2026-at-12pm-est/kxbtc-26nov0812",
@@ -4943,23 +4944,23 @@
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u22125\u00a2 since last scan"
+    true,
+    "price +0\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 2,423"
+    "spread 1\u00a2, volume 4,363"
    ],
    "The Quant": [
     true,
-    "39% expected return on cost"
+    "34% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 30m"
+    "closes in 25m"
    ]
   },
-  "when": 1794155416.768226
+  "when": 1794155714.7311435
  },
  "last_weekly": "2026-11-01",
  "learn": {
@@ -5173,11 +5174,14 @@
    "edge": 0.12604348093149068,
    "entry": 0.62,
    "event": "KXBTC-26NOV0812",
+   "exit_px": 0.45,
+   "exit_reason": "stop loss",
+   "exit_t": 1794155714.7311435,
    "fair": 0.7660434809314907,
    "fee": 0.02,
    "key": "KXBTC-26NOV0812-B75950:NO",
    "label": "Bitcoin price range on Nov 8, 2026? \u2014 $75,900 to 75,999.99",
-   "last_bid": 0.48,
+   "last_bid": 0.45,
    "opened": 1794153913.835819,
    "reasons": [
     "20% expected return on cost",
@@ -5207,11 +5211,14 @@
    "edge": 0.10557527531156387,
    "entry": 0.13,
    "event": "KXBTCD-26NOV0812",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1794155714.7311435,
    "fair": 0.24557527531156387,
    "fee": 0.01,
    "key": "KXBTCD-26NOV0812-T76099.99:YES",
    "label": "Bitcoin price on Nov 8, 2026? \u2014 $76,100 or above",
-   "last_bid": 0.02,
+   "last_bid": 0.01,
    "opened": 1794153913.835819,
    "reasons": [
     "75% expected return on cost",
@@ -5224,6 +5231,74 @@
    "stake": 6.138097401835108,
    "ticker": "KXBTCD-26NOV0812-T76099.99",
    "tp": 0.25,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-8-2026-at-12pm-est/kxbtcd-26nov0812",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $75,964 at 11:45 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794156300.2502024,
+   "contracts": 48,
+   "edge": 0.14348815189529265,
+   "entry": 0.17,
+   "event": "KXBTC15M-26NOV081145",
+   "fair": 0.3234881518952927,
+   "fee": 0.01,
+   "key": "KXBTC15M-26NOV081145-45:YES",
+   "label": "BTC price up in next 15 mins? \u2014 Target Price: $75,963.52",
+   "last_bid": null,
+   "opened": 1794155714.7311435,
+   "reasons": [
+    "80% expected return on cost",
+    "spread 1\u00a2, volume 386,949",
+    "Bitcoin -0.05% in 30 min, not fighting this bet"
+   ],
+   "row": "Target Price: $75,963.52",
+   "side": "YES",
+   "sl": 0.02,
+   "stake": 8.749277554591016,
+   "ticker": "KXBTC15M-26NOV081145-45",
+   "tp": 0.32,
+   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-75-963-52-target/kxbtc15m-26nov081145",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $76,000 at 12:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794157201.0130494,
+   "contracts": 41,
+   "edge": 0.11048807618443555,
+   "entry": 0.15,
+   "event": "KXBTCD-26NOV0812",
+   "fair": 0.27048807618443554,
+   "fee": 0.01,
+   "key": "KXBTCD-26NOV0812-T75999.99:YES",
+   "label": "Bitcoin price on Nov 8, 2026? \u2014 $76,000 or above",
+   "last_bid": null,
+   "opened": 1794155714.7311435,
+   "reasons": [
+    "69% expected return on cost",
+    "spread 1\u00a2, volume 74,810",
+    "Bitcoin -0.05% in 30 min, not fighting this bet"
+   ],
+   "row": "$76,000 or above",
+   "side": "YES",
+   "sl": 0.01,
+   "stake": 6.576671201454497,
+   "ticker": "KXBTCD-26NOV0812-T75999.99",
+   "tp": 0.27,
    "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-8-2026-at-12pm-est/kxbtcd-26nov0812",
    "votes": {
     "Doubt": true,
