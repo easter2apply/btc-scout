@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3709169408099995,
-  "move": -2.2942553954630185e-05,
+  "long": 0.3709165783967531,
+  "move": -9.096243396500281e-05,
   "quotes": {
-   "Bitstamp": 75837.16,
-   "Coinbase": 75832.235,
-   "Kraken": 75843.5
+   "Bitstamp": 75847.18,
+   "Coinbase": 75850.245,
+   "Kraken": 75857.1
   },
-  "short": 0.0893393277526892,
-  "spot": 75837.16,
-  "t": 1794142212.6100876,
-  "vol": 0.2697785132874291
+  "short": 0.08872660057197837,
+  "spot": 75850.245,
+  "t": 1794142510.778648,
+  "vol": 0.2696771382399833
  },
  "btc_hist": [
-  [
-   1794053713,
-   75906.99
-  ],
   [
    1794054013,
    75909.53
@@ -1212,6 +1208,10 @@
   [
    1794142213,
    75837.16
+  ],
+  [
+   1794142511,
+   75850.24
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 29,
+   "sl": 31,
    "tp": 8
   }
  },
@@ -4921,12 +4921,8 @@
   }
  ],
  "last_daily": "2026-11-07",
- "last_px": {
-  "KXBTC-26NOV0808-B75750:YES": 0.09,
-  "KXBTC15M-26NOV080800-00:NO": 0.33,
-  "KXBTCD-26NOV0808-T75799.99:NO": 0.07
- },
- "last_run": 1794142214.7890625,
+ "last_px": {},
+ "last_run": 1794142512.7137752,
  "last_vote": {
   "approved": true,
   "ask": 0.07,
@@ -5207,11 +5203,14 @@
    "edge": 0.16528801068151922,
    "entry": 0.12,
    "event": "KXBTCD-26NOV0808",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1794142512.197498,
    "fair": 0.2952880106815192,
    "fee": 0.01,
    "key": "KXBTCD-26NOV0808-T75799.99:NO",
    "label": "Bitcoin price on Nov 8, 2026? \u2014 $75,800 or above",
-   "last_bid": 0.06,
+   "last_bid": 0.01,
    "opened": 1794141617.1196933,
    "reasons": [
     "127% expected return on cost",
@@ -5241,11 +5240,14 @@
    "edge": 0.13819373397249338,
    "entry": 0.16,
    "event": "KXBTC-26NOV0808",
+   "exit_px": 0.0,
+   "exit_reason": "stop loss",
+   "exit_t": 1794142512.197498,
    "fair": 0.3081937339724934,
    "fee": 0.01,
    "key": "KXBTC-26NOV0808-B75750:YES",
    "label": "Bitcoin price range on Nov 8, 2026? \u2014 $75,700 to 75,799.99",
-   "last_bid": 0.07,
+   "last_bid": 0.0,
    "opened": 1794141915.256045,
    "reasons": [
     "81% expected return on cost",
