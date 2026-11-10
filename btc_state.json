@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3925491399303787,
-  "move": -0.00011194656167201611,
+  "long": 0.3926201470799317,
+  "move": 0.000353580163281908,
   "quotes": {
-   "Bitstamp": 74598.38,
-   "Coinbase": 74581.21,
-   "Kraken": 74625.8
+   "Bitstamp": 74657.17,
+   "Coinbase": 74662.935,
+   "Kraken": 74644.7
   },
-  "short": 0.313709462738431,
-  "spot": 74598.38,
-  "t": 1794286215.5411336,
-  "vol": 0.3553227084438279
+  "short": 0.3167182349011445,
+  "spot": 74657.17,
+  "t": 1794286513.2106338,
+  "vol": 0.35669386048260193
  },
  "btc_hist": [
-  [
-   1794196511,
-   74847.34
-  ],
   [
    1794196820,
    74785.3
@@ -1212,6 +1208,10 @@
   [
    1794286216,
    74598.38
+  ],
+  [
+   1794286513,
+   74657.17
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 8,
+   "sl": 10,
    "tp": 5
   }
  },
@@ -4964,26 +4964,22 @@
  ],
  "last_daily": "2026-11-09",
  "last_px": {
-  "KXBTC-26NOV1000-B74550:YES": 0.27,
-  "KXBTC-26NOV1000-B74650:NO": 0.48,
-  "KXBTC15M-26NOV100000-00:YES": 0.32,
-  "KXBTCD-26NOV1000-T74599.99:NO": 0.31,
-  "KXBTCD-26NOV1000-T74699.99:NO": 0.82,
   "KXBTCD-26NOV1017-T72749.99:YES": 0.92,
   "KXBTCD-26NOV1017-T72999.99:YES": 0.89,
   "KXBTCD-26NOV1017-T73249.99:YES": 0.85,
-  "KXBTCD-26NOV1017-T73499.99:YES": 0.81,
-  "KXBTCD-26NOV1017-T73749.99:YES": 0.76,
-  "KXBTCD-26NOV1017-T73999.99:YES": 0.69,
-  "KXBTCD-26NOV1017-T74999.99:NO": 0.62,
-  "KXBTCD-26NOV1017-T75249.99:NO": 0.69,
-  "KXBTCD-26NOV1017-T75499.99:NO": 0.76,
+  "KXBTCD-26NOV1017-T73499.99:YES": 0.82,
+  "KXBTCD-26NOV1017-T73749.99:YES": 0.77,
+  "KXBTCD-26NOV1017-T73999.99:YES": 0.7,
+  "KXBTCD-26NOV1017-T74249.99:YES": 0.63,
+  "KXBTCD-26NOV1017-T74999.99:NO": 0.61,
+  "KXBTCD-26NOV1017-T75249.99:NO": 0.68,
+  "KXBTCD-26NOV1017-T75499.99:NO": 0.75,
   "KXBTCD-26NOV1017-T75749.99:NO": 0.82,
-  "KXBTCD-26NOV1017-T75999.99:NO": 0.86,
-  "KXBTCD-26NOV1017-T76249.99:NO": 0.9,
+  "KXBTCD-26NOV1017-T75999.99:NO": 0.85,
+  "KXBTCD-26NOV1017-T76249.99:NO": 0.89,
   "KXBTCD-26NOV1017-T76499.99:NO": 0.92
  },
- "last_run": 1794286216.9803612,
+ "last_run": 1794286514.8909292,
  "last_vote": {
   "approved": true,
   "ask": 0.31,
@@ -5230,11 +5226,14 @@
    "edge": 0.17789052364973887,
    "entry": 0.31,
    "event": "KXBTCD-26NOV1000",
+   "exit_px": 0.08,
+   "exit_reason": "stop loss",
+   "exit_t": 1794286514.5455148,
    "fair": 0.5078905236497389,
    "fee": 0.02,
    "key": "KXBTCD-26NOV1000-T74599.99:NO",
    "label": "Bitcoin price on Nov 10, 2026? \u2014 $74,600 or above",
-   "last_bid": null,
+   "last_bid": 0.08,
    "opened": 1794286216.980038,
    "reasons": [
     "54% expected return on cost",
@@ -5264,11 +5263,14 @@
    "edge": 0.1459456317531588,
    "entry": 0.48,
    "event": "KXBTC-26NOV1000",
+   "exit_px": 0.24,
+   "exit_reason": "stop loss",
+   "exit_t": 1794286514.5455148,
    "fair": 0.6459456317531588,
    "fee": 0.02,
    "key": "KXBTC-26NOV1000-B74650:NO",
    "label": "Bitcoin price range on Nov 10, 2026? \u2014 $74,600 to 74,699.99",
-   "last_bid": null,
+   "last_bid": 0.24,
    "opened": 1794286216.980038,
    "reasons": [
     "29% expected return on cost",
