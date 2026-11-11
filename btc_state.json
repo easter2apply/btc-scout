@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.40688022870583546,
-  "move": -0.00036984497184566756,
+  "long": 0.4069332350596116,
+  "move": -0.002357073437442292,
   "quotes": {
-   "Bitstamp": 73630.42,
-   "Coinbase": 73631.095,
-   "Kraken": 73630.2
+   "Bitstamp": 73566.63,
+   "Coinbase": 73579.475,
+   "Kraken": 73571.2
   },
-  "short": 0.3315071709937632,
-  "spot": 73630.42,
-  "t": 1794355815.1351373,
-  "vol": 0.3711121966009748
+  "short": 0.3320698324407186,
+  "spot": 73571.2,
+  "t": 1794356115.0722227,
+  "vol": 0.37139267050743474
  },
  "btc_hist": [
-  [
-   1794267017,
-   75197.1
-  ],
   [
    1794267315,
    75103.7
@@ -1212,13 +1208,17 @@
   [
    1794355815,
    73630.42
+  ],
+  [
+   1794356115,
+   73571.2
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 885,
-  "total": 2039
+  "right": 886,
+  "total": 2040
  },
  "days": {
   "2026-10-28": {
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.15,
-   "right": false,
-   "shadow": false,
-   "t": 1793826313.8758774,
-   "usd": 5.46,
-   "won": false
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.13,
@@ -4916,22 +4907,31 @@
    "shadow": true,
    "t": 1794348318.5325055,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.23,
+   "right": true,
+   "shadow": false,
+   "t": 1794356116.8525343,
+   "usd": -4.75,
+   "won": true
   }
  ],
  "last_daily": "2026-11-09",
  "last_px": {
-  "KXBTC-26NOV1020-B73750:NO": 0.8,
-  "KXBTCD-26NOV1020-T73399.99:NO": 0.11,
-  "KXBTCD-26NOV1020-T73799.99:YES": 0.17,
-  "KXBTCD-26NOV1020-T73899.99:YES": 0.08,
-  "KXBTCD-26NOV1117-T72249.99:YES": 0.85,
-  "KXBTCD-26NOV1117-T74249.99:NO": 0.68,
-  "KXBTCD-26NOV1117-T74499.99:NO": 0.74,
-  "KXBTCD-26NOV1117-T74749.99:NO": 0.8,
-  "KXBTCD-26NOV1117-T74999.99:NO": 0.84,
-  "KXBTCD-26NOV1117-T75249.99:NO": 0.87
+  "KXBTCD-26NOV1020-T73299.99:NO": 0.07,
+  "KXBTCD-26NOV1020-T73399.99:NO": 0.16,
+  "KXBTCD-26NOV1020-T73799.99:YES": 0.1,
+  "KXBTCD-26NOV1117-T72249.99:YES": 0.84,
+  "KXBTCD-26NOV1117-T73999.99:NO": 0.62,
+  "KXBTCD-26NOV1117-T74249.99:NO": 0.69,
+  "KXBTCD-26NOV1117-T74499.99:NO": 0.76,
+  "KXBTCD-26NOV1117-T74749.99:NO": 0.81,
+  "KXBTCD-26NOV1117-T74999.99:NO": 0.85,
+  "KXBTCD-26NOV1117-T75249.99:NO": 0.88
  },
- "last_run": 1794355817.2783573,
+ "last_run": 1794356116.8527405,
  "last_vote": {
   "approved": true,
   "ask": 0.49,
@@ -5143,7 +5143,8 @@
     0.16000000000000003,
     -0.15,
     0.27,
-    -0.16999999999999998
+    -0.16999999999999998,
+    -0.22999999999999998
    ]
   }
  },
@@ -5177,47 +5178,10 @@
   ],
   "fetched": 1794343214.2890964
  },
- "open": [
-  {
-   "bet": "Bitcoin is NOT between $73,600 and $73,700 at 7:00 PM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794355200.5996528,
-   "contracts": 19,
-   "edge": 0.10083773109296758,
-   "entry": 0.49,
-   "event": "KXBTC-26NOV1019",
-   "exit_px": 0.26,
-   "exit_reason": "stop loss",
-   "exit_t": 1794354915.7864234,
-   "fair": 0.6108377310929676,
-   "fee": 0.02,
-   "key": "KXBTC-26NOV1019-B73650:NO",
-   "label": "Bitcoin price range on Nov 10, 2026? \u2014 $73,600 to 73,699.99",
-   "last_bid": 0.26,
-   "opened": 1794354615.9696417,
-   "reasons": [
-    "20% expected return on cost",
-    "spread 1\u00a2, volume 2,208",
-    "closes in 10m"
-   ],
-   "row": "$73,600 to 73,699.99",
-   "side": "NO",
-   "sl": 0.34,
-   "stake": 10.0,
-   "ticker": "KXBTC-26NOV1019-B73650",
-   "tp": 0.61,
-   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-10-2026-at-7pm-est/kxbtc-26nov1019",
-   "votes": {
-    "Doubt": true,
-    "Momentum": false,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  }
- ],
+ "open": [],
  "recent": {
   "KXBTC-26NOV1017-B73875:NO": 1794348316.8509536,
+  "KXBTC-26NOV1019-B73650:NO": 1794356116.6928349,
   "KXBTCD-26NOV1015-T73199.99:NO": 1794341116.088482,
   "KXBTCD-26NOV1017-T73249.99:YES": 1794348316.8509536,
   "KXBTCD-26NOV1017-T73749.99:YES": 1794348316.8509536,
@@ -5228,31 +5192,31 @@
   "KXBTCD-26NOV1017-T75499.99:NO": 1794348316.8509536
  },
  "record": {
-  "dollars": -815.24,
+  "dollars": -819.99,
   "losses": 996,
-  "pnl": 3.612,
-  "wins": 816
+  "pnl": 3.382,
+  "wins": 817
  },
  "scoreboard": {
   "Doubt": {
-   "right": 971,
-   "total": 2039
+   "right": 972,
+   "total": 2040
   },
   "Momentum": {
    "right": 827,
-   "total": 1778
+   "total": 1779
   },
   "Risk": {
-   "right": 901,
-   "total": 2039
+   "right": 902,
+   "total": 2040
   },
   "The Quant": {
-   "right": 690,
-   "total": 2039
+   "right": 691,
+   "total": 2040
   },
   "Time": {
-   "right": 974,
-   "total": 2039
+   "right": 975,
+   "total": 2040
   }
  },
  "shadow": [],
