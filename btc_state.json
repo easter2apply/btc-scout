@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.4070808106302629,
-  "move": -0.00027208334003625545,
+  "long": 0.4069402365780869,
+  "move": -0.0017438195668428857,
   "quotes": {
-   "Bitstamp": 71490.62,
-   "Coinbase": 71486.175,
-   "Kraken": 71480.1
+   "Bitstamp": 71506.72,
+   "Coinbase": 71447.095,
+   "Kraken": 71504.0
   },
-  "short": 0.6100482603413512,
-  "spot": 71486.175,
-  "t": 1794514814.434164,
-  "vol": 0.5185912004309854
+  "short": 0.6096066000485914,
+  "spot": 71504.0,
+  "t": 1794515113.675928,
+  "vol": 0.5182762598118076
  },
  "btc_hist": [
-  [
-   1794423622,
-   74418.35
-  ],
   [
    1794423913,
    74280.2
@@ -1212,6 +1208,10 @@
   [
    1794514814,
    71486.18
+  ],
+  [
+   1794515114,
+   71504.0
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 8
   },
   "2026-11-12": {
-   "buys": 21,
+   "buys": 22,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4920,46 +4920,48 @@
  ],
  "last_daily": "2026-11-11",
  "last_px": {
-  "KXBTCD-26NOV1216-T71199.99:NO": 0.09,
-  "KXBTCD-26NOV1216-T71299.99:NO": 0.17,
-  "KXBTCD-26NOV1216-T71599.99:YES": 0.28,
-  "KXBTCD-26NOV1216-T71699.99:YES": 0.13,
-  "KXBTCD-26NOV1216-T71799.99:YES": 0.07,
-  "KXBTCD-26NOV1217-T70999.99:NO": 0.09,
-  "KXBTCD-26NOV1217-T71249.99:NO": 0.22,
+  "KXBTC-26NOV1216-B71350:NO": 0.82,
+  "KXBTC-26NOV1216-B71450:NO": 0.77,
+  "KXBTC-26NOV1216-B71550:NO": 0.79,
+  "KXBTC-26NOV1217-B71375:NO": 0.71,
+  "KXBTCD-26NOV1216-T71499.99:YES": 0.44,
+  "KXBTCD-26NOV1216-T71599.99:YES": 0.23,
+  "KXBTCD-26NOV1216-T71699.99:YES": 0.1,
+  "KXBTCD-26NOV1216-T71799.99:YES": 0.05,
+  "KXBTCD-26NOV1217-T71749.99:YES": 0.2,
   "KXBTCD-26NOV1217-T71999.99:YES": 0.07
  },
- "last_run": 1794514816.3543422,
+ "last_run": 1794515116.204061,
  "last_vote": {
   "approved": true,
-  "ask": 0.61,
-  "edge": 0.11252505146496329,
-  "label": "Bitcoin price range on Nov 12, 2026? \u2014 $71,500 to 71,599.99",
-  "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-12-2026-at-3pm-est/kxbtc-26nov1215",
+  "ask": 0.1,
+  "edge": 0.0944862842212351,
+  "label": "Bitcoin price on Nov 12, 2026? \u2014 $71,700 or above",
+  "side": "YES",
+  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-12-2026-at-4pm-est/kxbtcd-26nov1216",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "price \u221212\u00a2 since last scan"
+    true,
+    "Bitcoin -0.17% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 4\u00a2, volume 1,294"
+    "spread 1\u00a2, volume 58,830"
    ],
    "The Quant": [
     true,
-    "18% expected return on cost"
+    "86% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 35m"
    ]
   },
-  "when": 1794513017.9568806
+  "when": 1794515115.502634
  },
  "last_weekly": "2026-11-08",
  "learn": {
@@ -5270,6 +5272,40 @@
    "ticker": "KXBTCD-26NOV1217-T72999.99",
    "tp": 0.88,
    "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-12-2026-at-5pm-est/kxbtcd-26nov1217",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $71,700 at 4:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794517201.072552,
+   "contracts": 48,
+   "edge": 0.0944862842212351,
+   "entry": 0.1,
+   "event": "KXBTCD-26NOV1216",
+   "fair": 0.2044862842212351,
+   "fee": 0.01,
+   "key": "KXBTCD-26NOV1216-T71699.99:YES",
+   "label": "Bitcoin price on Nov 12, 2026? \u2014 $71,700 or above",
+   "last_bid": null,
+   "opened": 1794515115.502634,
+   "reasons": [
+    "86% expected return on cost",
+    "spread 1\u00a2, volume 58,830",
+    "Bitcoin -0.17% in 30 min, not fighting this bet"
+   ],
+   "row": "$71,700 or above",
+   "side": "YES",
+   "sl": 0.01,
+   "stake": 5.308218214676129,
+   "ticker": "KXBTCD-26NOV1216-T71699.99",
+   "tp": 0.2,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-12-2026-at-4pm-est/kxbtcd-26nov1216",
    "votes": {
     "Doubt": true,
     "Momentum": true,
