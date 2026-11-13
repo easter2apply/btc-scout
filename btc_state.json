@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.3929551832981559,
-  "move": -0.0003701431602758376,
+  "long": 0.3929765310673407,
+  "move": -0.0011251918650385662,
   "quotes": {
-   "Bitstamp": 68785.23,
-   "Coinbase": 68787.335,
-   "Kraken": 68786.7
+   "Bitstamp": 68872.77,
+   "Coinbase": 68850.865,
+   "Kraken": 68874.3
   },
-  "short": 0.7062490704627012,
-  "spot": 68786.7,
-  "t": 1794595216.7012599,
-  "vol": 0.5714899498724001
+  "short": 0.7060780093561224,
+  "spot": 68872.77,
+  "t": 1794595814.698064,
+  "vol": 0.5713915948218109
  },
  "btc_hist": [
-  [
-   1794506423,
-   71835.93
-  ],
   [
    1794506713,
    71824.57
@@ -1212,6 +1208,10 @@
   [
    1794595217,
    68786.7
+  ],
+  [
+   1794595815,
+   68872.77
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 26
   },
   "2026-11-13": {
-   "buys": 30,
+   "buys": 31,
    "lines": 0,
    "news": 19,
    "rejected": 19,
@@ -4926,48 +4926,48 @@
  ],
  "last_daily": "2026-11-12",
  "last_px": {
-  "KXBTC-26NOV1314-B68750:NO": 0.73,
-  "KXBTC-26NOV1314-B68850:NO": 0.75,
-  "KXBTC-26NOV1317-B68750:NO": 0.59,
-  "KXBTCD-26NOV1314-T68599.99:NO": 0.09,
-  "KXBTCD-26NOV1314-T68699.99:NO": 0.26,
-  "KXBTCD-26NOV1314-T68899.99:YES": 0.2,
-  "KXBTCD-26NOV1314-T68999.99:YES": 0.07,
-  "KXBTCD-26NOV1317-T67999.99:NO": 0.06,
-  "KXBTCD-26NOV1317-T68499.99:NO": 0.23,
+  "KXBTC-26NOV1314-B68850:NO": 0.58,
+  "KXBTC-26NOV1314-B69050:YES": 0.06,
+  "KXBTC-26NOV1317-B68750:NO": 0.57,
+  "KXBTC-26NOV1317-B69750:YES": 0.06,
+  "KXBTC15M-26NOV131400-00:NO": 0.16,
+  "KXBTCD-26NOV1314-T68799.99:NO": 0.2,
+  "KXBTCD-26NOV1314-T68999.99:YES": 0.1,
+  "KXBTCD-26NOV1317-T67999.99:NO": 0.05,
+  "KXBTCD-26NOV1317-T68499.99:NO": 0.2,
   "KXBTCD-26NOV1317-T69499.99:YES": 0.08
  },
- "last_run": 1794595221.6664283,
+ "last_run": 1794595818.8746824,
  "last_vote": {
   "approved": true,
-  "ask": 0.59,
-  "edge": 0.08664348854177807,
-  "label": "BTC price up in next 15 mins? \u2014 Target Price: $68,618.98",
-  "side": "YES",
-  "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-68-618-98-target/kxbtc15m-26nov131145",
+  "ask": 0.58,
+  "edge": 0.10365848527202805,
+  "label": "Bitcoin price range on Nov 13, 2026? \u2014 $68,800 to 68,899.99",
+  "side": "NO",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-13-2026-at-2pm-est/kxbtc-26nov1314",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin +0.16% in 30 min, not fighting this bet"
+    false,
+    "price \u221217\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 254,558"
+    "spread 3\u00a2, volume 2,663"
    ],
    "The Quant": [
-    false,
-    "14% expected return on cost"
+    true,
+    "17% expected return on cost"
    ],
    "Time": [
     true,
     "closes in 10m"
    ]
   },
-  "when": 1794587715.2127678
+  "when": 1794595816.2084792
  },
  "last_weekly": "2026-11-08",
  "learn": {
@@ -5318,6 +5318,40 @@
     "Momentum": true,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is NOT between $68,800 and $68,900 at 2:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794596400.5666802,
+   "contracts": 16,
+   "edge": 0.10365848527202805,
+   "entry": 0.58,
+   "event": "KXBTC-26NOV1314",
+   "fair": 0.703658485272028,
+   "fee": 0.02,
+   "key": "KXBTC-26NOV1314-B68850:NO",
+   "label": "Bitcoin price range on Nov 13, 2026? \u2014 $68,800 to 68,899.99",
+   "last_bid": null,
+   "opened": 1794595816.2084792,
+   "reasons": [
+    "17% expected return on cost",
+    "spread 3\u00a2, volume 2,663",
+    "closes in 10m"
+   ],
+   "row": "$68,800 to 68,899.99",
+   "side": "NO",
+   "sl": 0.43,
+   "stake": 10.0,
+   "ticker": "KXBTC-26NOV1314-B68850",
+   "tp": 0.7,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-13-2026-at-2pm-est/kxbtc-26nov1314",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
