@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.501426150907209,
-  "move": 0.0013282355265271661,
+  "long": 0.5012424899394797,
+  "move": 0.0006825687285354487,
   "quotes": {
-   "Bitstamp": 65263.65,
-   "Coinbase": 65268.015,
-   "Kraken": 65265.5
+   "Bitstamp": 65261.09,
+   "Coinbase": 65237.735,
+   "Kraken": 65269.7
   },
-  "short": 0.45475655580592145,
-  "spot": 65265.5,
-  "t": 1794866115.1620436,
-  "vol": 0.4786604798090622
+  "short": 0.4565540668130606,
+  "spot": 65261.09,
+  "t": 1794866422.3607926,
+  "vol": 0.47941925787575224
  },
  "btc_hist": [
-  [
-   1794774912,
-   65031.86
-  ],
   [
    1794775216,
    65041.01
@@ -1212,13 +1208,17 @@
   [
    1794866115,
    65265.5
+  ],
+  [
+   1794866422,
+   65261.09
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 1036,
-  "total": 2289
+  "right": 1037,
+  "total": 2290
  },
  "days": {
   "2026-11-03": {
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.3,
-   "right": false,
-   "shadow": false,
-   "t": 1794118514.7549014,
-   "usd": -8.0,
-   "won": false
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.21,
@@ -4914,11 +4905,26 @@
    "t": 1794859816.790603,
    "usd": -4.55,
    "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.25,
+   "right": true,
+   "shadow": false,
+   "t": 1794866423.8972323,
+   "usd": -3.78,
+   "won": true
   }
  ],
  "last_daily": "2026-11-15",
- "last_px": {},
- "last_run": 1794866118.1413856,
+ "last_px": {
+  "KXBTCD-26NOV1717-T63749.99:YES": 0.82,
+  "KXBTCD-26NOV1717-T65999.99:NO": 0.68,
+  "KXBTCD-26NOV1717-T66249.99:NO": 0.74,
+  "KXBTCD-26NOV1717-T66749.99:NO": 0.82,
+  "KXBTCD-26NOV1717-T66999.99:NO": 0.86
+ },
+ "last_run": 1794866425.4005597,
  "last_vote": {
   "approved": true,
   "ask": 0.69,
@@ -5129,7 +5135,8 @@
     0.21999999999999997,
     0.30000000000000004,
     -0.37,
-    -0.12
+    -0.12,
+    -0.24999999999999994
    ]
   }
  },
@@ -5203,47 +5210,10 @@
   ],
   "fetched": 1794865825.616359
  },
- "open": [
-  {
-   "bet": "Bitcoin is ABOVE $65,266 at 5:00 PM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794866400.2501357,
-   "contracts": 14,
-   "edge": 0.08244587440365748,
-   "entry": 0.69,
-   "event": "KXBTC15M-26NOV161700",
-   "exit_px": 0.44,
-   "exit_reason": "stop loss",
-   "exit_t": 1794866116.4367843,
-   "fair": 0.7924458744036574,
-   "fee": 0.02,
-   "key": "KXBTC15M-26NOV161700-00:YES",
-   "label": "BTC price up in next 15 mins? \u2014 Target Price: $65,265.74",
-   "last_bid": 0.44,
-   "opened": 1794865826.7867787,
-   "reasons": [
-    "spread 1\u00a2, volume 1,498,703",
-    "Bitcoin +0.48% in 30 min, not fighting this bet",
-    "closes in 10m"
-   ],
-   "row": "Target Price: $65,265.74",
-   "side": "YES",
-   "sl": 0.57,
-   "stake": 10.0,
-   "ticker": "KXBTC15M-26NOV161700-00",
-   "tp": 0.79,
-   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-65-265-74-target/kxbtc15m-26nov161700",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": false,
-    "Time": true
-   }
-  }
- ],
+ "open": [],
  "recent": {
   "KXBTC15M-26NOV161115-15:NO": 1794845717.3580656,
+  "KXBTC15M-26NOV161700-00:YES": 1794866423.6805024,
   "KXBTCD-26NOV1611-T64199.99:YES": 1794845117.1928768,
   "KXBTCD-26NOV1611-T64299.99:YES": 1794845117.1928768,
   "KXBTCD-26NOV1611-T64599.99:NO": 1794845117.1928768,
@@ -5252,31 +5222,31 @@
   "KXBTCD-26NOV1615-T64699.99:NO": 1794859816.594506
  },
  "record": {
-  "dollars": -811.25,
+  "dollars": -815.03,
   "losses": 1078,
-  "pnl": 12.234,
-  "wins": 958
+  "pnl": 11.984,
+  "wins": 959
  },
  "scoreboard": {
   "Doubt": {
-   "right": 1130,
-   "total": 2289
+   "right": 1131,
+   "total": 2290
   },
   "Momentum": {
-   "right": 962,
-   "total": 2008
+   "right": 963,
+   "total": 2009
   },
   "Risk": {
-   "right": 1053,
-   "total": 2289
+   "right": 1054,
+   "total": 2290
   },
   "The Quant": {
    "right": 801,
-   "total": 2289
+   "total": 2290
   },
   "Time": {
-   "right": 1133,
-   "total": 2289
+   "right": 1134,
+   "total": 2290
   }
  },
  "shadow": [
