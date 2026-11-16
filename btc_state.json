@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.4977671479325369,
-  "move": 0.013865798111942773,
+  "long": 0.4969521068201969,
+  "move": -0.0026452203525135776,
   "quotes": {
-   "Bitstamp": 65026.73,
-   "Coinbase": 65102.65,
-   "Kraken": 65023.8
+   "Bitstamp": 64761.36,
+   "Coinbase": 64771.385,
+   "Kraken": 64777.2
   },
-  "short": 0.6972270847987231,
-  "spot": 65026.73,
-  "t": 1794841221.4010985,
-  "vol": 0.6057630482861339
+  "short": 0.6986927776710603,
+  "spot": 64771.385,
+  "t": 1794841514.3926227,
+  "vol": 0.6062726259871603
  },
  "btc_hist": [
-  [
-   1794751219,
-   65365.29
-  ],
   [
    1794751514,
    65230.5
@@ -1212,13 +1208,17 @@
   [
    1794841221,
    65026.73
+  ],
+  [
+   1794841514,
+   64771.39
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 1030,
-  "total": 2278
+  "right": 1031,
+  "total": 2282
  },
  "days": {
   "2026-11-03": {
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1794780020.255635,
-   "text": "KXBTC: 73 markets priced, 7 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1794783919.5562162,
    "text": "KXBTC: 263 markets priced, 5 skipped (model and Kalshi too far apart)"
   },
@@ -1414,45 +1410,13 @@
   {
    "t": 1794840023.5437996,
    "text": "KXBTCD: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1794841520.5646374,
+   "text": "Telegram: send failed (<urlopen error [Errno 104] Connection reset by peer>)"
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.071,
-   "right": false,
-   "shadow": false,
-   "t": 1794114020.418166,
-   "usd": -7.37,
-   "won": false
-  },
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.11,
-   "right": false,
-   "shadow": false,
-   "t": 1794114314.771566,
-   "usd": -8.64,
-   "won": false
-  },
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.2,
-   "right": false,
-   "shadow": false,
-   "t": 1794114314.9762142,
-   "usd": 2.88,
-   "won": false
-  },
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.43,
-   "right": true,
-   "shadow": false,
-   "t": 1794114315.1390471,
-   "usd": 7.38,
-   "won": true
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.17,
@@ -4914,42 +4878,87 @@
    "t": 1794841223.837915,
    "usd": -8.36,
    "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.26,
+   "right": false,
+   "shadow": false,
+   "t": 1794841515.9168792,
+   "usd": -3.36,
+   "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.43,
+   "right": false,
+   "shadow": false,
+   "t": 1794841516.120819,
+   "usd": -5.4,
+   "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.26,
+   "right": true,
+   "shadow": false,
+   "t": 1794841516.317023,
+   "usd": 3.12,
+   "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.07,
+   "right": false,
+   "shadow": false,
+   "t": 1794841516.5150685,
+   "usd": -6.96,
+   "won": false
   }
  ],
  "last_daily": "2026-11-15",
  "last_px": {
-  "KXBTCD-26NOV1611-T64099.99:YES": 0.93,
-  "KXBTCD-26NOV1611-T64199.99:YES": 0.94,
-  "KXBTCD-26NOV1611-T64299.99:YES": 0.9,
-  "KXBTCD-26NOV1611-T64399.99:YES": 0.87,
-  "KXBTCD-26NOV1611-T64499.99:YES": 0.84,
-  "KXBTCD-26NOV1611-T64599.99:YES": 0.77,
-  "KXBTCD-26NOV1611-T64699.99:YES": 0.71,
-  "KXBTCD-26NOV1611-T64799.99:YES": 0.65,
-  "KXBTCD-26NOV1611-T64899.99:YES": 0.6,
-  "KXBTCD-26NOV1611-T65199.99:NO": 0.62,
-  "KXBTCD-26NOV1611-T65299.99:NO": 0.68,
-  "KXBTCD-26NOV1611-T65399.99:NO": 0.74,
-  "KXBTCD-26NOV1611-T65499.99:NO": 0.79,
-  "KXBTCD-26NOV1611-T65599.99:NO": 0.84,
-  "KXBTCD-26NOV1611-T65699.99:NO": 0.88,
-  "KXBTCD-26NOV1611-T65799.99:NO": 0.92,
-  "KXBTCD-26NOV1617-T63749.99:YES": 0.88,
-  "KXBTCD-26NOV1617-T63999.99:YES": 0.83,
-  "KXBTCD-26NOV1617-T65249.99:NO": 0.56,
-  "KXBTCD-26NOV1617-T65499.99:NO": 0.65,
-  "KXBTCD-26NOV1617-T65749.99:NO": 0.74,
-  "KXBTCD-26NOV1617-T65999.99:NO": 0.81,
-  "KXBTCD-26NOV1617-T66249.99:NO": 0.86,
-  "KXBTCD-26NOV1617-T66499.99:NO": 0.87
+  "KXBTC-26NOV1611-B64650:YES": 0.08,
+  "KXBTC-26NOV1611-B64750:YES": 0.08,
+  "KXBTC-26NOV1611-B64850:YES": 0.08,
+  "KXBTC15M-26NOV161015-15:NO": 0.902,
+  "KXBTCD-26NOV1611-T63699.99:YES": 0.95,
+  "KXBTCD-26NOV1611-T63799.99:YES": 0.94,
+  "KXBTCD-26NOV1611-T63899.99:YES": 0.92,
+  "KXBTCD-26NOV1611-T63999.99:YES": 0.9,
+  "KXBTCD-26NOV1611-T64099.99:YES": 0.86,
+  "KXBTCD-26NOV1611-T64199.99:YES": 0.84,
+  "KXBTCD-26NOV1611-T64299.99:YES": 0.79,
+  "KXBTCD-26NOV1611-T64399.99:YES": 0.73,
+  "KXBTCD-26NOV1611-T64499.99:YES": 0.67,
+  "KXBTCD-26NOV1611-T64599.99:YES": 0.62,
+  "KXBTCD-26NOV1611-T64699.99:YES": 0.55,
+  "KXBTCD-26NOV1611-T64899.99:NO": 0.59,
+  "KXBTCD-26NOV1611-T64999.99:NO": 0.65,
+  "KXBTCD-26NOV1611-T65099.99:NO": 0.72,
+  "KXBTCD-26NOV1611-T65199.99:NO": 0.78,
+  "KXBTCD-26NOV1611-T65299.99:NO": 0.82,
+  "KXBTCD-26NOV1611-T65399.99:NO": 0.86,
+  "KXBTCD-26NOV1611-T65499.99:NO": 0.89,
+  "KXBTCD-26NOV1611-T65599.99:NO": 0.92,
+  "KXBTCD-26NOV1611-T65699.99:NO": 0.94,
+  "KXBTCD-26NOV1611-T65799.99:NO": 0.95,
+  "KXBTCD-26NOV1617-T63499.99:YES": 0.88,
+  "KXBTCD-26NOV1617-T64999.99:NO": 0.57,
+  "KXBTCD-26NOV1617-T65249.99:NO": 0.64,
+  "KXBTCD-26NOV1617-T65499.99:NO": 0.72,
+  "KXBTCD-26NOV1617-T65749.99:NO": 0.81,
+  "KXBTCD-26NOV1617-T65999.99:NO": 0.86,
+  "KXBTCD-26NOV1617-T66249.99:NO": 0.9,
+  "KXBTCD-26NOV1617-T66499.99:NO": 0.92
  },
- "last_run": 1794841225.3294158,
+ "last_run": 1794841518.8318746,
  "last_vote": {
   "approved": true,
-  "ask": 0.74,
-  "edge": 0.10176687346247006,
-  "label": "Bitcoin price on Nov 16, 2026? \u2014 $65,400 or above",
-  "side": "NO",
+  "ask": 0.73,
+  "edge": 0.11979702189649523,
+  "label": "Bitcoin price on Nov 16, 2026? \u2014 $64,400 or above",
+  "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-16-2026-at-11am-est/kxbtcd-26nov1611",
   "votes": {
    "Doubt": [
@@ -4957,23 +4966,23 @@
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "Bitcoin +1.39% in 30 min, moving against this bet"
+    true,
+    "Bitcoin -0.26% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 1,999"
+    "spread 1\u00a2, volume 3,342"
    ],
    "The Quant": [
-    false,
-    "13% expected return on cost"
+    true,
+    "16% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 60m"
+    "closes in 55m"
    ]
   },
-  "when": 1794841223.0317514
+  "when": 1794841515.718
  },
  "last_weekly": "2026-11-15",
  "learn": {
@@ -5143,7 +5152,12 @@
    }
   ],
   "window": {
-   "Bitcoin": []
+   "Bitcoin": [
+    -0.26,
+    -0.43,
+    0.26,
+    -0.07
+   ]
   }
  },
  "news": {
@@ -5218,148 +5232,6 @@
  },
  "open": [
   {
-   "bet": "Bitcoin is UNDER $64,400 at 10:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794841201.2699313,
-   "contracts": 12,
-   "edge": 0.09873528988322845,
-   "entry": 0.79,
-   "event": "KXBTCD-26NOV1610",
-   "exit_px": 0.53,
-   "exit_reason": "stop loss",
-   "exit_t": 1794838517.860913,
-   "fair": 0.9087352898832285,
-   "fee": 0.02,
-   "key": "KXBTCD-26NOV1610-T64399.99:NO",
-   "label": "Bitcoin price on Nov 16, 2026? \u2014 $64,400 or above",
-   "last_bid": 0.53,
-   "opened": 1794837916.6064672,
-   "reasons": [
-    "spread 1\u00a2, volume 1,703",
-    "Bitcoin -0.47% in 30 min, not fighting this bet",
-    "closes in 55m"
-   ],
-   "row": "$64,400 or above",
-   "side": "NO",
-   "sl": 0.64,
-   "stake": 10.0,
-   "ticker": "KXBTCD-26NOV1610-T64399.99",
-   "tp": 0.91,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-16-2026-at-10am-est/kxbtcd-26nov1610",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": false,
-    "Time": true
-   }
-  },
-  {
-   "bet": "Bitcoin is UNDER $64,700 at 10:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794841200.9526591,
-   "contracts": 12,
-   "edge": 0.13648779337924347,
-   "entry": 0.76,
-   "event": "KXBTCD-26NOV1610",
-   "exit_px": 0.33,
-   "exit_reason": "stop loss",
-   "exit_t": 1794839715.549686,
-   "fair": 0.9164877933792435,
-   "fee": 0.02,
-   "key": "KXBTCD-26NOV1610-T64699.99:NO",
-   "label": "Bitcoin price on Nov 16, 2026? \u2014 $64,700 or above",
-   "last_bid": 0.33,
-   "opened": 1794838517.860913,
-   "reasons": [
-    "17% expected return on cost",
-    "spread 1\u00a2, volume 6,433",
-    "Bitcoin -0.27% in 30 min, not fighting this bet"
-   ],
-   "row": "$64,700 or above",
-   "side": "NO",
-   "sl": 0.61,
-   "stake": 10.0,
-   "ticker": "KXBTCD-26NOV1610-T64699.99",
-   "tp": 0.92,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-16-2026-at-10am-est/kxbtcd-26nov1610",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  },
-  {
-   "bet": "Bitcoin is UNDER $65,400 at 10:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794841201.081299,
-   "contracts": 13,
-   "edge": 0.17658997414351854,
-   "entry": 0.74,
-   "event": "KXBTCD-26NOV1610",
-   "fair": 0.9365899741435185,
-   "fee": 0.02,
-   "key": "KXBTCD-26NOV1610-T65399.99:NO",
-   "label": "Bitcoin price on Nov 16, 2026? \u2014 $65,400 or above",
-   "last_bid": 0.88,
-   "opened": 1794839715.549686,
-   "reasons": [
-    "23% expected return on cost",
-    "spread 1\u00a2, volume 975",
-    "closes in 25m"
-   ],
-   "row": "$65,400 or above",
-   "side": "NO",
-   "sl": 0.59,
-   "stake": 10.0,
-   "ticker": "KXBTCD-26NOV1610-T65399.99",
-   "tp": 0.94,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-16-2026-at-10am-est/kxbtcd-26nov1610",
-   "votes": {
-    "Doubt": true,
-    "Momentum": false,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  },
-  {
-   "bet": "Bitcoin is BETWEEN $65,000 and $65,100 at 10:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794841200.551845,
-   "contracts": 87,
-   "edge": 0.1290245958455834,
-   "entry": 0.07,
-   "event": "KXBTC-26NOV1610",
-   "fair": 0.20902459584558342,
-   "fee": 0.01,
-   "key": "KXBTC-26NOV1610-B65050:YES",
-   "label": "Bitcoin price range on Nov 16, 2026? \u2014 $65,000 to 65,099.99",
-   "last_bid": 0.13,
-   "opened": 1794839715.549686,
-   "reasons": [
-    "161% expected return on cost",
-    "spread 1\u00a2, volume 795",
-    "closes in 25m"
-   ],
-   "row": "$65,000 to 65,099.99",
-   "side": "YES",
-   "sl": 0.01,
-   "stake": 7.01220629595562,
-   "ticker": "KXBTC-26NOV1610-B65050",
-   "tp": 0.21,
-   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-16-2026-at-10am-est/kxbtc-26nov1610",
-   "votes": {
-    "Doubt": true,
-    "Momentum": null,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  },
-  {
    "bet": "Bitcoin is UNDER $65,400 at 11:00 AM ET today",
    "cat": "Bitcoin",
    "close_ts": 1794844800.9024284,
@@ -5371,7 +5243,7 @@
    "fee": 0.02,
    "key": "KXBTCD-26NOV1611-T65399.99:NO",
    "label": "Bitcoin price on Nov 16, 2026? \u2014 $65,400 or above",
-   "last_bid": null,
+   "last_bid": 0.85,
    "opened": 1794841223.0317514,
    "reasons": [
     "spread 1\u00a2, volume 1,999",
@@ -5395,37 +5267,41 @@
   }
  ],
  "recent": {
+  "KXBTC-26NOV1610-B65050:YES": 1794841515.718,
   "KXBTC15M-26NOV160845-45:YES": 1794836716.6230223,
   "KXBTC15M-26NOV161000-00:YES": 1794841223.0317514,
   "KXBTCD-26NOV1608-T64299.99:NO": 1794834317.2454937,
-  "KXBTCD-26NOV1609-T64099.99:YES": 1794837916.6064672
+  "KXBTCD-26NOV1609-T64099.99:YES": 1794837916.6064672,
+  "KXBTCD-26NOV1610-T64399.99:NO": 1794841515.718,
+  "KXBTCD-26NOV1610-T64699.99:NO": 1794841515.718,
+  "KXBTCD-26NOV1610-T65399.99:NO": 1794841515.718
  },
  "record": {
-  "dollars": -795.65,
-  "losses": 1073,
-  "pnl": 12.594,
-  "wins": 952
+  "dollars": -808.25,
+  "losses": 1076,
+  "pnl": 12.094,
+  "wins": 953
  },
  "scoreboard": {
   "Doubt": {
-   "right": 1124,
-   "total": 2278
+   "right": 1125,
+   "total": 2282
   },
   "Momentum": {
    "right": 959,
-   "total": 1998
+   "total": 2001
   },
   "Risk": {
-   "right": 1047,
-   "total": 2278
+   "right": 1048,
+   "total": 2282
   },
   "The Quant": {
-   "right": 797,
-   "total": 2278
+   "right": 799,
+   "total": 2282
   },
   "Time": {
-   "right": 1127,
-   "total": 2278
+   "right": 1128,
+   "total": 2282
   }
  },
  "shadow": [
