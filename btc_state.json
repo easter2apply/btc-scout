@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.5044745353436451,
-  "move": -0.0026927072563132093,
+  "long": 0.5044934465817555,
+  "move": -0.002760909489113117,
   "quotes": {
-   "Bitstamp": 64768.4,
-   "Coinbase": 64776.225,
-   "Kraken": 64774.2
+   "Bitstamp": 64742.94,
+   "Coinbase": 64741.885,
+   "Kraken": 64750.1
   },
-  "short": 0.4207305034844978,
-  "spot": 64774.2,
-  "t": 1794894916.2009645,
-  "vol": 0.46449365623897687
+  "short": 0.4127538743287641,
+  "spot": 64742.94,
+  "t": 1794895220.7612815,
+  "vol": 0.46091181283264143
  },
  "btc_hist": [
-  [
-   1794804313,
-   64804.53
-  ],
   [
    1794804613,
    64796.4
@@ -1212,13 +1208,17 @@
   [
    1794894916,
    64774.2
+  ],
+  [
+   1794895221,
+   64742.94
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
   "right": 1045,
-  "total": 2306
+  "total": 2307
  },
  "days": {
   "2026-11-04": {
@@ -1417,15 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.07,
-   "right": false,
-   "shadow": false,
-   "t": 1794128715.6062121,
-   "usd": -6.0,
-   "won": false
-  },
   {
    "cat": "Bitcoin",
    "pnl": 0.28,
@@ -4894,21 +4885,30 @@
    "t": 1794891922.3403826,
    "usd": -4.64,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.223,
+   "right": false,
+   "shadow": false,
+   "t": 1794895222.621911,
+   "usd": -5.1,
+   "won": false
   }
  ],
  "last_daily": "2026-11-16",
  "last_px": {
   "KXBTCD-26NOV1717-T63249.99:YES": 0.88,
   "KXBTCD-26NOV1717-T63499.99:YES": 0.84,
+  "KXBTCD-26NOV1717-T64999.99:NO": 0.56,
   "KXBTCD-26NOV1717-T65249.99:NO": 0.64,
-  "KXBTCD-26NOV1717-T65499.99:NO": 0.71,
+  "KXBTCD-26NOV1717-T65499.99:NO": 0.7,
   "KXBTCD-26NOV1717-T65749.99:NO": 0.77,
   "KXBTCD-26NOV1717-T65999.99:NO": 0.82,
   "KXBTCD-26NOV1717-T66249.99:NO": 0.86,
-  "KXBTCD-26NOV1717-T66499.99:NO": 0.9,
-  "KXBTCD-26NOV1717-T66749.99:NO": 0.92
+  "KXBTCD-26NOV1717-T66499.99:NO": 0.9
  },
- "last_run": 1794894917.4609184,
+ "last_run": 1794895222.622088,
  "last_vote": {
   "approved": true,
   "ask": 0.12,
@@ -5111,7 +5111,8 @@
    "Bitcoin": [
     -0.37,
     0.48,
-    -0.26999999999999996
+    -0.26999999999999996,
+    -0.223
    ]
   }
  },
@@ -5222,77 +5223,41 @@
     "The Quant": true,
     "Time": true
    }
-  },
-  {
-   "bet": "Bitcoin is ABOVE $64,842 at 1:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1794895200.2501993,
-   "contracts": 21,
-   "edge": 0.0946795929455629,
-   "entry": 0.32,
-   "event": "KXBTC15M-26NOV170100",
-   "exit_px": 0.097,
-   "exit_reason": "stop loss",
-   "exit_t": 1794894917.2170222,
-   "fair": 0.4346795929455629,
-   "fee": 0.02,
-   "key": "KXBTC15M-26NOV170100-00:YES",
-   "label": "BTC price up in next 15 mins? \u2014 Target Price: $64,841.54",
-   "last_bid": 0.097,
-   "opened": 1794894616.5810583,
-   "reasons": [
-    "28% expected return on cost",
-    "spread 1\u00a2, volume 1,019,644",
-    "Bitcoin +0.03% in 30 min, not fighting this bet"
-   ],
-   "row": "Target Price: $64,841.54",
-   "side": "YES",
-   "sl": 0.18,
-   "stake": 7.172696435269916,
-   "ticker": "KXBTC15M-26NOV170100-00",
-   "tp": 0.43,
-   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-64-841-54-target/kxbtc15m-26nov170100",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
   }
  ],
  "recent": {
   "KXBTC-26NOV1700-B64950:NO": 1794891922.1565738,
   "KXBTC15M-26NOV162245-45:YES": 1794887116.8622997,
+  "KXBTC15M-26NOV170100-00:YES": 1794895222.2933934,
   "KXBTCD-26NOV1619-T64899.99:YES": 1794873915.099406,
   "KXBTCD-26NOV1621-T64799.99:YES": 1794881114.5402524
  },
  "record": {
-  "dollars": -798.73,
-  "losses": 1080,
-  "pnl": 12.704,
+  "dollars": -803.83,
+  "losses": 1081,
+  "pnl": 12.481,
   "wins": 963
  },
  "scoreboard": {
   "Doubt": {
    "right": 1141,
-   "total": 2306
+   "total": 2307
   },
   "Momentum": {
    "right": 969,
-   "total": 2024
+   "total": 2025
   },
   "Risk": {
    "right": 1062,
-   "total": 2306
+   "total": 2307
   },
   "The Quant": {
    "right": 807,
-   "total": 2306
+   "total": 2307
   },
   "Time": {
    "right": 1144,
-   "total": 2306
+   "total": 2307
   }
  },
  "shadow": [],
