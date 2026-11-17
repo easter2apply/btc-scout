@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.5034330380254749,
-  "move": 0.008657453072808297,
+  "long": 0.5051581428508413,
+  "move": 0.008860302893998195,
   "quotes": {
-   "Bitstamp": 64964.22,
-   "Coinbase": 64986.555,
-   "Kraken": 64964.4
+   "Bitstamp": 65023.75,
+   "Coinbase": 64995.68,
+   "Kraken": 65013.1
   },
-  "short": 0.4844480446320146,
-  "spot": 64964.4,
-  "t": 1794886216.3271413,
-  "vol": 0.494031745803517
+  "short": 0.4672333316469234,
+  "spot": 65013.1,
+  "t": 1794886513.7399445,
+  "vol": 0.4865653786956049
  },
  "btc_hist": [
-  [
-   1794795319,
-   64925.0
-  ],
   [
    1794795615,
    65020.61
@@ -1212,6 +1208,10 @@
   [
    1794886216,
    64964.4
+  ],
+  [
+   1794886514,
+   65013.1
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 15
   },
   "2026-11-16": {
-   "buys": 20,
+   "buys": 21,
    "lines": 0,
    "news": 8,
    "rejected": 8,
@@ -4898,26 +4898,23 @@
  ],
  "last_daily": "2026-11-16",
  "last_px": {
-  "KXBTCD-26NOV1623-T64599.99:YES": 0.92,
-  "KXBTCD-26NOV1623-T64699.99:YES": 0.84,
-  "KXBTCD-26NOV1623-T64799.99:YES": 0.72,
-  "KXBTCD-26NOV1623-T64899.99:YES": 0.54,
-  "KXBTCD-26NOV1623-T64999.99:YES": 0.37,
-  "KXBTCD-26NOV1717-T62999.99:YES": 0.9,
-  "KXBTCD-26NOV1717-T65499.99:NO": 0.64,
-  "KXBTCD-26NOV1717-T65749.99:NO": 0.71,
+  "KXBTC15M-26NOV162245-45:YES": 0.52,
+  "KXBTCD-26NOV1623-T64799.99:YES": 0.82,
+  "KXBTCD-26NOV1623-T64899.99:YES": 0.67,
+  "KXBTCD-26NOV1623-T64999.99:YES": 0.47,
+  "KXBTCD-26NOV1717-T62999.99:YES": 0.91,
+  "KXBTCD-26NOV1717-T63249.99:YES": 0.89,
   "KXBTCD-26NOV1717-T65999.99:NO": 0.76,
-  "KXBTCD-26NOV1717-T66249.99:NO": 0.81,
-  "KXBTCD-26NOV1717-T66499.99:NO": 0.86
+  "KXBTCD-26NOV1717-T66249.99:NO": 0.81
  },
- "last_run": 1794886217.6568012,
+ "last_run": 1794886515.2150228,
  "last_vote": {
   "approved": true,
   "ask": 0.52,
-  "edge": 0.1294879848730717,
-  "label": "Bitcoin price on Nov 16, 2026? \u2014 $64,800 or above",
+  "edge": 0.08867762323537111,
+  "label": "BTC price up in next 15 mins? \u2014 Target Price: $64,979.06",
   "side": "YES",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-16-2026-at-9pm-est/kxbtcd-26nov1621",
+  "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-64-979-06-target/kxbtc15m-26nov162245",
   "votes": {
    "Doubt": [
     true,
@@ -4925,22 +4922,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.17% in 30 min, not fighting this bet"
+    "Bitcoin +0.89% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 67,742"
+    "spread 1\u00a2, volume 318,114"
    ],
    "The Quant": [
     true,
-    "24% expected return on cost"
+    "16% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 15m"
+    "closes in 10m"
    ]
   },
-  "when": 1794879915.5856378
+  "when": 1794886515.214745
  },
  "last_weekly": "2026-11-15",
  "learn": {
@@ -5185,7 +5182,42 @@
   ],
   "fetched": 1794865825.616359
  },
- "open": [],
+ "open": [
+  {
+   "bet": "Bitcoin is ABOVE $64,979 at 10:45 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794887100.250181,
+   "contracts": 17,
+   "edge": 0.08867762323537111,
+   "entry": 0.52,
+   "event": "KXBTC15M-26NOV162245",
+   "fair": 0.6286776232353711,
+   "fee": 0.02,
+   "key": "KXBTC15M-26NOV162245-45:YES",
+   "label": "BTC price up in next 15 mins? \u2014 Target Price: $64,979.06",
+   "last_bid": null,
+   "opened": 1794886515.214745,
+   "reasons": [
+    "16% expected return on cost",
+    "spread 1\u00a2, volume 318,114",
+    "Bitcoin +0.89% in 30 min, not fighting this bet"
+   ],
+   "row": "Target Price: $64,979.06",
+   "side": "YES",
+   "sl": 0.39,
+   "stake": 9.638872090801206,
+   "ticker": "KXBTC15M-26NOV162245-45",
+   "tp": 0.63,
+   "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-64-979-06-target/kxbtc15m-26nov162245",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  }
+ ],
  "recent": {
   "KXBTC-26NOV1618-B65350:NO": 1794870314.922201,
   "KXBTC15M-26NOV161700-00:YES": 1794866423.6805024,
