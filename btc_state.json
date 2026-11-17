@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.5141940722708792,
-  "move": -0.001073488473644968,
+  "long": 0.5142071576737822,
+  "move": -0.0007825300633993448,
   "quotes": {
-   "Bitstamp": 63728.44,
-   "Coinbase": 63707.245,
-   "Kraken": 63723.1
+   "Bitstamp": 63696.74,
+   "Coinbase": 63662.255,
+   "Kraken": 63692.0
   },
-  "short": 0.8972197631709299,
-  "spot": 63723.1,
-  "t": 1794944715.853624,
-  "vol": 0.7312314433142935
+  "short": 0.8984165891904455,
+  "spot": 63692.0,
+  "t": 1794945015.5869985,
+  "vol": 0.7319704122215405
  },
  "btc_hist": [
-  [
-   1794855313,
-   65042.01
-  ],
   [
    1794855622,
    64944.6
@@ -1212,6 +1208,10 @@
   [
    1794944716,
    63723.1
+  ],
+  [
+   1794945016,
+   63692.0
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 6
   },
   "2026-11-17": {
-   "buys": 20,
+   "buys": 21,
    "lines": 0,
    "news": 3,
    "rejected": 3,
@@ -4896,45 +4896,46 @@
  ],
  "last_daily": "2026-11-16",
  "last_px": {
-  "KXBTC-26NOV1715-B63650:NO": 0.71,
-  "KXBTC-26NOV1715-B63750:NO": 0.69,
+  "KXBTC-26NOV1715-B63650:NO": 0.61,
+  "KXBTC-26NOV1715-B63750:NO": 0.66,
+  "KXBTC-26NOV1715-B63850:YES": 0.1,
   "KXBTCD-26NOV1715-T63599.99:NO": 0.15,
-  "KXBTCD-26NOV1715-T63799.99:YES": 0.26,
-  "KXBTCD-26NOV1715-T63899.99:YES": 0.08,
-  "KXBTCD-26NOV1717-T64249.99:YES": 0.12,
-  "KXBTCD-26NOV1717-T64499.99:YES": 0.07
+  "KXBTCD-26NOV1715-T63799.99:YES": 0.12,
+  "KXBTCD-26NOV1717-T63249.99:NO": 0.18,
+  "KXBTCD-26NOV1717-T63499.99:NO": 0.32,
+  "KXBTCD-26NOV1717-T64249.99:YES": 0.13
  },
- "last_run": 1794944720.2065496,
+ "last_run": 1794945018.052845,
  "last_vote": {
   "approved": true,
-  "ask": 0.15,
-  "edge": 0.10001806084958624,
-  "label": "Bitcoin price on Nov 17, 2026? \u2014 $63,600 or above",
+  "ask": 0.61,
+  "edge": 0.12443801552377522,
+  "label": "Bitcoin price range on Nov 17, 2026? \u2014 $63,600 to 63,699.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-17-2026-at-3pm-est/kxbtcd-26nov1715",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-17-2026-at-3pm-est/kxbtc-26nov1715",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin -0.11% in 30 min, not fighting this bet"
+    false,
+    "price \u221210\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 32,239"
+    "spread 1\u00a2, volume 1,279"
    ],
    "The Quant": [
     true,
-    "63% expected return on cost"
+    "20% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 15m"
+    "closes in 10m"
    ]
   },
-  "when": 1794944719.6211638
+  "when": 1794945017.3767493
  },
  "last_weekly": "2026-11-15",
  "learn": {
@@ -5198,7 +5199,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26NOV1715-T63499.99:NO",
    "label": "Bitcoin price on Nov 17, 2026? \u2014 $63,500 or above",
-   "last_bid": 0.03,
+   "last_bid": 0.02,
    "opened": 1794943514.9306445,
    "reasons": [
     "68% expected return on cost",
@@ -5215,6 +5216,40 @@
    "votes": {
     "Doubt": true,
     "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is NOT between $63,600 and $63,700 at 3:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1794945600.6164184,
+   "contracts": 15,
+   "edge": 0.12443801552377522,
+   "entry": 0.61,
+   "event": "KXBTC-26NOV1715",
+   "fair": 0.7544380155237752,
+   "fee": 0.02,
+   "key": "KXBTC-26NOV1715-B63650:NO",
+   "label": "Bitcoin price range on Nov 17, 2026? \u2014 $63,600 to 63,699.99",
+   "last_bid": null,
+   "opened": 1794945017.3767493,
+   "reasons": [
+    "20% expected return on cost",
+    "spread 1\u00a2, volume 1,279",
+    "closes in 10m"
+   ],
+   "row": "$63,600 to 63,699.99",
+   "side": "NO",
+   "sl": 0.46,
+   "stake": 10.0,
+   "ticker": "KXBTC-26NOV1715-B63650",
+   "tp": 0.75,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-17-2026-at-3pm-est/kxbtc-26nov1715",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
     "Risk": true,
     "The Quant": true,
     "Time": true
