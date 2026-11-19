@@ -1,22 +1,18 @@
 {
  "btc": {
   "long": 0.5131190970421542,
-  "move": -0.002283513739215426,
+  "move": 0.00011374819472664832,
   "quotes": {
-   "Bitstamp": 62535.06,
-   "Coinbase": 62527.415,
-   "Kraken": 62540.8
+   "Bitstamp": 62513.74,
+   "Coinbase": 62543.195,
+   "Kraken": 62518.5
   },
-  "short": 0.6127997358035716,
-  "spot": 62535.06,
-  "t": 1795057219.2634265,
-  "vol": 0.5651613592374671
+  "short": 0.6139625293243608,
+  "spot": 62518.5,
+  "t": 1795057513.2051444,
+  "vol": 0.565792009118069
  },
  "btc_hist": [
-  [
-   1794968416,
-   64338.75
-  ],
   [
    1794968714,
    64412.51
@@ -1212,6 +1208,10 @@
   [
    1795057219,
    62535.06
+  ],
+  [
+   1795057513,
+   62518.5
   ]
  ],
  "chat_id": "7590441188",
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1794880216.8146973,
-   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1794880831.27848,
    "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
   },
@@ -1414,6 +1410,10 @@
   {
    "t": 1795043118.108629,
    "text": "KXBTC: 256 markets priced, 12 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1795057514.3918812,
+   "text": "KXBTC: 265 markets priced, 3 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
@@ -4884,16 +4884,18 @@
  ],
  "last_daily": "2026-11-18",
  "last_px": {
+  "KXBTC15M-26NOV182215-15:NO": 0.5,
+  "KXBTCD-26NOV1823-T62299.99:NO": 0.18,
   "KXBTCD-26NOV1917-T59499.99:YES": 0.94,
   "KXBTCD-26NOV1917-T59999.99:YES": 0.92,
   "KXBTCD-26NOV1917-T60249.99:YES": 0.9,
   "KXBTCD-26NOV1917-T60499.99:YES": 0.88,
   "KXBTCD-26NOV1917-T60749.99:YES": 0.86,
   "KXBTCD-26NOV1917-T60999.99:YES": 0.82,
-  "KXBTCD-26NOV1917-T61249.99:YES": 0.78,
-  "KXBTCD-26NOV1917-T61499.99:YES": 0.74,
-  "KXBTCD-26NOV1917-T62999.99:NO": 0.6,
-  "KXBTCD-26NOV1917-T63249.99:NO": 0.66,
+  "KXBTCD-26NOV1917-T61249.99:YES": 0.79,
+  "KXBTCD-26NOV1917-T62749.99:NO": 0.54,
+  "KXBTCD-26NOV1917-T62999.99:NO": 0.59,
+  "KXBTCD-26NOV1917-T63249.99:NO": 0.65,
   "KXBTCD-26NOV1917-T63499.99:NO": 0.71,
   "KXBTCD-26NOV1917-T63749.99:NO": 0.76,
   "KXBTCD-26NOV1917-T63999.99:NO": 0.8,
@@ -4901,7 +4903,7 @@
   "KXBTCD-26NOV1917-T64499.99:NO": 0.87,
   "KXBTCD-26NOV1917-T64749.99:NO": 0.9
  },
- "last_run": 1795057220.5368922,
+ "last_run": 1795057514.3918467,
  "last_vote": {
   "approved": true,
   "ask": 0.73,
