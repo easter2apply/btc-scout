@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.5146224564148167,
-  "move": -0.0008333725685836235,
+  "long": 0.5147186328840465,
+  "move": 0.0002587047399627007,
   "quotes": {
-   "Bitstamp": 63003.93,
-   "Coinbase": 63012.11,
-   "Kraken": 63013.4
+   "Bitstamp": 63220.2,
+   "Coinbase": 63134.585,
+   "Kraken": 63231.6
   },
-  "short": 0.5205934562400025,
-  "spot": 63012.11,
-  "t": 1795106115.9778128,
-  "vol": 0.5176165662564962
+  "short": 0.5196505479731678,
+  "spot": 63220.2,
+  "t": 1795106430.1340015,
+  "vol": 0.5171904692890402
  },
  "btc_hist": [
-  [
-   1795017625,
-   63010.0
-  ],
   [
    1795017931,
    63031.5
@@ -1212,6 +1208,10 @@
   [
    1795106116,
    63012.11
+  ],
+  [
+   1795106430,
+   63220.2
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 13
   },
   "2026-11-19": {
-   "buys": 12,
+   "buys": 13,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4884,26 +4884,26 @@
  ],
  "last_daily": "2026-11-18",
  "last_px": {
-  "KXBTC-26NOV1912-B63050:YES": 0.18,
-  "KXBTCD-26NOV1912-T62899.99:YES": 0.69,
-  "KXBTCD-26NOV1912-T63099.99:NO": 0.63,
-  "KXBTCD-26NOV1912-T63199.99:NO": 0.78,
-  "KXBTCD-26NOV1912-T63299.99:NO": 0.89,
-  "KXBTCD-26NOV1917-T61499.99:YES": 0.94,
-  "KXBTCD-26NOV1917-T61749.99:YES": 0.92,
-  "KXBTCD-26NOV1917-T61999.99:YES": 0.88,
-  "KXBTCD-26NOV1917-T62249.99:YES": 0.84,
-  "KXBTCD-26NOV1917-T63249.99:NO": 0.61,
-  "KXBTCD-26NOV1917-T63499.99:NO": 0.73,
-  "KXBTCD-26NOV1917-T63749.99:NO": 0.83
+  "KXBTCD-26NOV1912-T62899.99:YES": 0.88,
+  "KXBTCD-26NOV1912-T62999.99:YES": 0.76,
+  "KXBTCD-26NOV1912-T63099.99:YES": 0.56,
+  "KXBTCD-26NOV1912-T63199.99:YES": 0.35,
+  "KXBTCD-26NOV1912-T63299.99:YES": 0.18,
+  "KXBTCD-26NOV1912-T63399.99:YES": 0.09,
+  "KXBTCD-26NOV1917-T61499.99:YES": 0.95,
+  "KXBTCD-26NOV1917-T61999.99:YES": 0.91,
+  "KXBTCD-26NOV1917-T62249.99:YES": 0.86,
+  "KXBTCD-26NOV1917-T62499.99:YES": 0.81,
+  "KXBTCD-26NOV1917-T62749.99:YES": 0.71,
+  "KXBTCD-26NOV1917-T62999.99:YES": 0.59
  },
- "last_run": 1795106117.9038196,
+ "last_run": 1795106431.6517818,
  "last_vote": {
   "approved": true,
-  "ask": 0.65,
-  "edge": 0.09505528079820859,
-  "label": "Bitcoin price on Nov 19, 2026? \u2014 $63,200 or above",
-  "side": "NO",
+  "ask": 0.56,
+  "edge": 0.19899165312387915,
+  "label": "Bitcoin price on Nov 19, 2026? \u2014 $63,100 or above",
+  "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-19-2026-at-12pm-est/kxbtcd-26nov1912",
   "votes": {
    "Doubt": [
@@ -4911,23 +4911,23 @@
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    false,
-    "Bitcoin +0.48% in 30 min, moving against this bet"
+    true,
+    "Bitcoin +0.03% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 17,969"
+    "spread 1\u00a2, volume 76,072"
    ],
    "The Quant": [
-    false,
-    "14% expected return on cost"
+    true,
+    "34% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 40m"
+    "closes in 19m"
    ]
   },
-  "when": 1795105216.083664
+  "when": 1795106431.5189734
  },
  "last_weekly": "2026-11-15",
  "learn": {
@@ -5207,6 +5207,40 @@
     "Momentum": false,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $63,100 at 12:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1795107600.9286194,
+   "contracts": 17,
+   "edge": 0.19899165312387915,
+   "entry": 0.56,
+   "event": "KXBTCD-26NOV1912",
+   "fair": 0.7789916531238792,
+   "fee": 0.02,
+   "key": "KXBTCD-26NOV1912-T63099.99:YES",
+   "label": "Bitcoin price on Nov 19, 2026? \u2014 $63,100 or above",
+   "last_bid": null,
+   "opened": 1795106431.5189734,
+   "reasons": [
+    "34% expected return on cost",
+    "spread 1\u00a2, volume 76,072",
+    "Bitcoin +0.03% in 30 min, not fighting this bet"
+   ],
+   "row": "$63,100 or above",
+   "side": "YES",
+   "sl": 0.41,
+   "stake": 10.0,
+   "ticker": "KXBTCD-26NOV1912-T63099.99",
+   "tp": 0.78,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-19-2026-at-12pm-est/kxbtcd-26nov1912",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
