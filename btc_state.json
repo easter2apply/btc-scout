@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.5385154299205885,
+  "long": 0.538490502728623,
   "move": -0.002175987379478217,
   "quotes": {
-   "Bitstamp": 58381.2,
-   "Coinbase": 58387.435,
-   "Kraken": 58386.3
+   "Bitstamp": 58497.65,
+   "Coinbase": 58473.985,
+   "Kraken": 58501.2
   },
   "short": 1.085713822422733,
-  "spot": 58386.3,
-  "t": 1795206018.0389695,
-  "vol": 0.8569636434710454
+  "spot": 58497.65,
+  "t": 1795206281.819886,
+  "vol": 0.8569558115004258
  },
  "btc_hist": [
-  [
-   1795116913,
-   62566.27
-  ],
   [
    1795117215,
    62495.68
@@ -1212,6 +1208,10 @@
   [
    1795206018,
    58386.3
+  ],
+  [
+   1795206282,
+   58497.65
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 8,
+   "sl": 9,
    "tp": 17
   }
  },
@@ -4914,14 +4914,17 @@
  ],
  "last_daily": "2026-11-19",
  "last_px": {
-  "KXBTC-26NOV2017-B58250:YES": 0.28,
-  "KXBTC-26NOV2017-B59250:NO": 0.87,
-  "KXBTC15M-26NOV201530-30:NO": 0.39,
-  "KXBTCD-26NOV2017-T57499.99:YES": 0.89,
-  "KXBTCD-26NOV2017-T57999.99:YES": 0.72,
-  "KXBTCD-26NOV2017-T58999.99:NO": 0.8
+  "KXBTC-26NOV2017-B58250:YES": 0.25,
+  "KXBTC-26NOV2017-B58750:YES": 0.27,
+  "KXBTCD-26NOV2016-T58099.99:YES": 0.84,
+  "KXBTCD-26NOV2016-T58199.99:YES": 0.77,
+  "KXBTCD-26NOV2016-T58299.99:YES": 0.68,
+  "KXBTCD-26NOV2016-T58399.99:YES": 0.57,
+  "KXBTCD-26NOV2017-T57499.99:YES": 0.9,
+  "KXBTCD-26NOV2017-T57999.99:YES": 0.75,
+  "KXBTCD-26NOV2017-T58999.99:NO": 0.78
  },
- "last_run": 1795206019.8341026,
+ "last_run": 1795206283.8960876,
  "last_vote": {
   "approved": true,
   "ask": 0.39,
@@ -5398,11 +5401,14 @@
    "edge": 0.08628362171422967,
    "entry": 0.39,
    "event": "KXBTC15M-26NOV201530",
+   "exit_px": 0.22,
+   "exit_reason": "stop loss",
+   "exit_t": 1795206283.0101023,
    "fair": 0.4962836217142297,
    "fee": 0.02,
    "key": "KXBTC15M-26NOV201530-30:NO",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $58,384.40",
-   "last_bid": null,
+   "last_bid": 0.22,
    "opened": 1795206019.231922,
    "reasons": [
     "21% expected return on cost",
