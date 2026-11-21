@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.60038251410314,
-  "move": 0.00012742511314156602,
+  "long": 0.6003836587958805,
+  "move": -0.0019403865254097319,
   "quotes": {
-   "Bitstamp": 57913.0,
-   "Coinbase": 57933.185,
-   "Kraken": 57908.3
+   "Bitstamp": 57820.43,
+   "Coinbase": 57847.785,
+   "Kraken": 57820.1
   },
-  "short": 0.9562655447942882,
-  "spot": 57913.0,
-  "t": 1795258516.0099626,
-  "vol": 0.7984055847129089
+  "short": 0.9561068141905648,
+  "spot": 57820.43,
+  "t": 1795258823.0552459,
+  "vol": 0.7983109600559043
  },
  "btc_hist": [
-  [
-   1795169718,
-   61734.2
-  ],
   [
    1795170017,
    61605.6
@@ -1212,6 +1208,10 @@
   [
    1795258516,
    57913.0
+  ],
+  [
+   1795258823,
+   57820.43
   ]
  ],
  "chat_id": "7590441188",
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1795082421.8468213,
-   "text": "KXBTCD: 259 markets priced, 9 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1795082421.8468244,
    "text": "KXBTC: 263 markets priced, 5 skipped (model and Kalshi too far apart)"
   },
@@ -1413,6 +1409,10 @@
   },
   {
    "t": 1795244719.3248568,
+   "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1795258825.8976617,
    "text": "KXBTC: 266 markets priced, 2 skipped (model and Kalshi too far apart)"
   }
  ],
@@ -4931,8 +4931,16 @@
   }
  ],
  "last_daily": "2026-11-20",
- "last_px": {},
- "last_run": 1795258517.834696,
+ "last_px": {
+  "KXBTCD-26NOV2107-T57299.99:NO": 0.06,
+  "KXBTCD-26NOV2107-T57399.99:NO": 0.09,
+  "KXBTCD-26NOV2107-T57499.99:NO": 0.16,
+  "KXBTCD-26NOV2107-T57599.99:NO": 0.24,
+  "KXBTCD-26NOV2107-T58199.99:YES": 0.13,
+  "KXBTCD-26NOV2107-T58299.99:YES": 0.08,
+  "KXBTCD-26NOV2107-T58399.99:YES": 0.05
+ },
+ "last_run": 1795258825.897628,
  "last_vote": {
   "approved": true,
   "ask": 0.2,
