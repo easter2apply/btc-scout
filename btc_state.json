@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6396231135813147,
-  "move": 0.0007250433694612202,
+  "long": 0.6395222913942639,
+  "move": 0.0014199949582274218,
   "quotes": {
-   "Bitstamp": 60805.89,
-   "Coinbase": 60794.155,
-   "Kraken": 60812.9
+   "Bitstamp": 60849.81,
+   "Coinbase": 60863.645,
+   "Kraken": 60861.8
   },
-  "short": 0.7197919396498075,
-  "spot": 60805.89,
-  "t": 1795363221.1494741,
-  "vol": 0.6808884504132404
+  "short": 0.7007043326634517,
+  "spot": 60861.8,
+  "t": 1795363514.1195123,
+  "vol": 0.6708111966132881
  },
  "btc_hist": [
-  [
-   1795274418,
-   60137.2
-  ],
   [
    1795274714,
    60054.2
@@ -1212,13 +1208,17 @@
   [
    1795363221,
    60805.89
+  ],
+  [
+   1795363514,
+   60861.8
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 1159,
-  "total": 2513
+  "right": 1160,
+  "total": 2516
  },
  "days": {
   "2026-11-09": {
@@ -1417,33 +1417,6 @@
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.18,
-   "right": true,
-   "shadow": false,
-   "t": 1794553514.723962,
-   "usd": 1.92,
-   "won": true
-  },
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.15,
-   "right": true,
-   "shadow": false,
-   "t": 1794553514.9052253,
-   "usd": 1.54,
-   "won": true
-  },
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.11,
-   "right": true,
-   "shadow": false,
-   "t": 1794557124.51297,
-   "usd": 1.08,
-   "won": true
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.15,
@@ -4928,14 +4901,54 @@
    "t": 1795359916.6069732,
    "usd": -5.12,
    "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.08,
+   "right": false,
+   "shadow": false,
+   "t": 1795363515.363704,
+   "usd": -4.68,
+   "won": false
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.18,
+   "right": true,
+   "shadow": false,
+   "t": 1795363515.49936,
+   "usd": 2.08,
+   "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": -0.12,
+   "right": false,
+   "shadow": false,
+   "t": 1795363515.6404753,
+   "usd": -6.63,
+   "won": false
   }
  ],
  "last_daily": "2026-11-21",
  "last_px": {
-  "KXBTCD-26NOV2217-T60249.99:NO": 0.21,
-  "KXBTCD-26NOV2217-T61749.99:YES": 0.11
+  "KXBTC-26NOV2212-B60850:NO": 0.82,
+  "KXBTC-26NOV2212-B60950:NO": 0.85,
+  "KXBTC15M-26NOV221115-15:NO": 0.28,
+  "KXBTCD-26NOV2212-T60399.99:NO": 0.05,
+  "KXBTCD-26NOV2212-T60499.99:NO": 0.08,
+  "KXBTCD-26NOV2212-T60599.99:NO": 0.14,
+  "KXBTCD-26NOV2212-T60699.99:NO": 0.24,
+  "KXBTCD-26NOV2212-T60999.99:YES": 0.26,
+  "KXBTCD-26NOV2212-T61099.99:YES": 0.15,
+  "KXBTCD-26NOV2212-T61199.99:YES": 0.08,
+  "KXBTCD-26NOV2212-T61299.99:YES": 0.05,
+  "KXBTCD-26NOV2217-T60249.99:NO": 0.18,
+  "KXBTCD-26NOV2217-T60499.99:NO": 0.29,
+  "KXBTCD-26NOV2217-T61749.99:YES": 0.1,
+  "KXBTCD-26NOV2217-T61999.99:YES": 0.07
  },
- "last_run": 1795363223.3317366,
+ "last_run": 1795363515.6406934,
  "last_vote": {
   "approved": true,
   "ask": 0.2,
@@ -5142,7 +5155,10 @@
     0.18999999999999995,
     0.19,
     0.45999999999999996,
-    -0.15
+    -0.15,
+    -0.08,
+    0.18000000000000005,
+    -0.12
    ]
   }
  },
@@ -5176,121 +5192,10 @@
   ],
   "fetched": 1795344023.333354
  },
- "open": [
-  {
-   "bet": "Bitcoin is ABOVE $61,100 at 11:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1795363200.8759048,
-   "contracts": 52,
-   "edge": 0.08623670223517896,
-   "entry": 0.08,
-   "event": "KXBTCD-26NOV2211",
-   "exit_px": 0.0,
-   "exit_reason": "stop loss",
-   "exit_t": 1795362019.6763144,
-   "fair": 0.17623670223517895,
-   "fee": 0.01,
-   "key": "KXBTCD-26NOV2211-T61099.99:YES",
-   "label": "Bitcoin price on Nov 22, 2026? \u2014 $61,100 or above",
-   "last_bid": 0.0,
-   "opened": 1795361420.176571,
-   "reasons": [
-    "96% expected return on cost",
-    "spread 1\u00a2, volume 45,031",
-    "Bitcoin -0.07% in 30 min, not fighting this bet"
-   ],
-   "row": "$61,100 or above",
-   "side": "YES",
-   "sl": 0.01,
-   "stake": 4.73828034259225,
-   "ticker": "KXBTCD-26NOV2211-T61099.99",
-   "tp": 0.18,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-22-2026-at-11am-est/kxbtcd-26nov2211",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  },
-  {
-   "bet": "Bitcoin is NOT between $60,700 and $60,800 at 11:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1795363200.5493402,
-   "contracts": 13,
-   "edge": 0.08044806713490928,
-   "entry": 0.73,
-   "event": "KXBTC-26NOV2211",
-   "exit_px": 0.91,
-   "exit_reason": "take profit",
-   "exit_t": 1795362917.4767663,
-   "fair": 0.8304480671349093,
-   "fee": 0.02,
-   "key": "KXBTC-26NOV2211-B60750:NO",
-   "label": "Bitcoin price range on Nov 22, 2026? \u2014 $60,700 to 60,799.99",
-   "last_bid": 0.91,
-   "opened": 1795361720.4555702,
-   "reasons": [
-    "spread 1\u00a2, volume 813",
-    "closes in 25m",
-    "edge holds if volatility is \u00b120% or tails are normal"
-   ],
-   "row": "$60,700 to 60,799.99",
-   "side": "NO",
-   "sl": 0.61,
-   "stake": 10.0,
-   "ticker": "KXBTC-26NOV2211-B60750",
-   "tp": 0.83,
-   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-22-2026-at-11am-est/kxbtc-26nov2211",
-   "votes": {
-    "Doubt": true,
-    "Momentum": false,
-    "Risk": true,
-    "The Quant": false,
-    "Time": true
-   }
-  },
-  {
-   "bet": "Bitcoin is UNDER $60,600 at 11:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1795363201.1855154,
-   "contracts": 51,
-   "edge": 0.11696954204623135,
-   "entry": 0.12,
-   "event": "KXBTCD-26NOV2211",
-   "exit_px": 0.0,
-   "exit_reason": "stop loss",
-   "exit_t": 1795362917.4767663,
-   "fair": 0.24696954204623134,
-   "fee": 0.01,
-   "key": "KXBTCD-26NOV2211-T60599.99:NO",
-   "label": "Bitcoin price on Nov 22, 2026? \u2014 $60,600 or above",
-   "last_bid": 0.0,
-   "opened": 1795362019.6763144,
-   "reasons": [
-    "90% expected return on cost",
-    "spread 1\u00a2, volume 37,114",
-    "Bitcoin -0.14% in 30 min, not fighting this bet"
-   ],
-   "row": "$60,600 or above",
-   "side": "NO",
-   "sl": 0.01,
-   "stake": 6.722387473921342,
-   "ticker": "KXBTCD-26NOV2211-T60599.99",
-   "tp": 0.25,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-22-2026-at-11am-est/kxbtcd-26nov2211",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  }
- ],
+ "open": [],
  "recent": {
   "KXBTC-26NOV2207-B60850:NO": 1795349123.5042772,
+  "KXBTC-26NOV2211-B60750:NO": 1795363515.2236714,
   "KXBTC15M-26NOV220715-15:YES": 1795349716.1494782,
   "KXBTCD-26NOV2205-T59799.99:YES": 1795341915.834933,
   "KXBTCD-26NOV2205-T60299.99:YES": 1795341915.834933,
@@ -5300,34 +5205,36 @@
   "KXBTCD-26NOV2208-T60699.99:YES": 1795352715.5423887,
   "KXBTCD-26NOV2208-T60799.99:NO": 1795352715.5423887,
   "KXBTCD-26NOV2210-T60799.99:YES": 1795359916.3408072,
-  "KXBTCD-26NOV2210-T60899.99:YES": 1795359916.3408072
+  "KXBTCD-26NOV2210-T60899.99:YES": 1795359916.3408072,
+  "KXBTCD-26NOV2211-T60599.99:NO": 1795363515.2236714,
+  "KXBTCD-26NOV2211-T61099.99:YES": 1795363515.2236714
  },
  "record": {
-  "dollars": -729.5,
-  "losses": 1165,
-  "pnl": 20.188,
-  "wins": 1077
+  "dollars": -738.73,
+  "losses": 1167,
+  "pnl": 20.168,
+  "wins": 1078
  },
  "scoreboard": {
   "Doubt": {
-   "right": 1262,
-   "total": 2513
+   "right": 1263,
+   "total": 2516
   },
   "Momentum": {
    "right": 1077,
-   "total": 2217
+   "total": 2220
   },
   "Risk": {
-   "right": 1177,
-   "total": 2513
+   "right": 1178,
+   "total": 2516
   },
   "The Quant": {
    "right": 892,
-   "total": 2513
+   "total": 2516
   },
   "Time": {
-   "right": 1266,
-   "total": 2513
+   "right": 1267,
+   "total": 2516
   }
  },
  "shadow": [],
