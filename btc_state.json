@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6411809510391276,
-  "move": -0.0007085898929268808,
+  "long": 0.641182459727123,
+  "move": 6.912901239064517e-05,
   "quotes": {
-   "Bitstamp": 60632.45,
-   "Coinbase": 60639.685,
-   "Kraken": 60644.7
+   "Bitstamp": 60626.02,
+   "Coinbase": 60629.745,
+   "Kraken": 60618.9
   },
-  "short": 0.4778383103901986,
-  "spot": 60639.685,
-  "t": 1795376115.0864017,
-  "vol": 0.5654389723268108
+  "short": 0.4633563918338237,
+  "spot": 60626.02,
+  "t": 1795376417.7736053,
+  "vol": 0.5593809491370723
  },
  "btc_hist": [
-  [
-   1795287321,
-   59996.84
-  ],
   [
    1795287621,
    60030.43
@@ -1212,6 +1208,10 @@
   [
    1795376115,
    60639.68
+  ],
+  [
+   1795376418,
+   60626.02
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,11 +1326,11 @@
    "tp": 18
   },
   "2026-11-22": {
-   "buys": 32,
+   "buys": 33,
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 9,
+   "sl": 10,
    "tp": 19
   }
  },
@@ -4950,19 +4950,19 @@
  ],
  "last_daily": "2026-11-21",
  "last_px": {
-  "KXBTC-26NOV2215-B60550:NO": 0.77,
-  "KXBTC-26NOV2215-B60650:NO": 0.65,
-  "KXBTC15M-26NOV221445-45:YES": 0.32,
-  "KXBTCD-26NOV2215-T60499.99:NO": 0.1,
-  "KXBTCD-26NOV2215-T60599.99:NO": 0.35,
-  "KXBTCD-26NOV2215-T60699.99:YES": 0.29,
-  "KXBTCD-26NOV2215-T60799.99:YES": 0.08
+  "KXBTC-26NOV2215-B60450:YES": 0.08,
+  "KXBTC-26NOV2215-B60550:NO": 0.7,
+  "KXBTC-26NOV2215-B60650:NO": 0.62,
+  "KXBTCD-26NOV2215-T60499.99:NO": 0.08,
+  "KXBTCD-26NOV2215-T60599.99:NO": 0.37,
+  "KXBTCD-26NOV2215-T60699.99:YES": 0.22,
+  "KXBTCD-26NOV2215-T60799.99:YES": 0.05
  },
- "last_run": 1795376117.310898,
+ "last_run": 1795376419.5696375,
  "last_vote": {
   "approved": true,
-  "ask": 0.1,
-  "edge": 0.11458264698131314,
+  "ask": 0.08,
+  "edge": 0.12987408181390864,
   "label": "Bitcoin price on Nov 22, 2026? \u2014 $60,500 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-22-2026-at-3pm-est/kxbtcd-26nov2215",
@@ -4973,7 +4973,7 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin -0.07% in 30 min, not fighting this bet"
+    "Bitcoin +0.01% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
@@ -4981,14 +4981,14 @@
    ],
    "The Quant": [
     true,
-    "104% expected return on cost"
+    "144% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 25m"
+    "closes in 20m"
    ]
   },
-  "when": 1795376116.8567114
+  "when": 1795376419.2087815
  },
  "last_weekly": "2026-11-15",
  "learn": {
@@ -5206,11 +5206,14 @@
    "edge": 0.08261885646211879,
    "entry": 0.17,
    "event": "KXBTCD-26NOV2215",
+   "exit_px": 0.03,
+   "exit_reason": "stop loss",
+   "exit_t": 1795376419.2087815,
    "fair": 0.2626188564621188,
    "fee": 0.01,
    "key": "KXBTCD-26NOV2215-T60799.99:YES",
    "label": "Bitcoin price on Nov 22, 2026? \u2014 $60,800 or above",
-   "last_bid": 0.07,
+   "last_bid": 0.03,
    "opened": 1795374916.832394,
    "reasons": [
     "46% expected return on cost",
@@ -5266,6 +5269,40 @@
     "Momentum": false,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is UNDER $60,500 at 3:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1795377600.9712915,
+   "contracts": 79,
+   "edge": 0.12987408181390864,
+   "entry": 0.08,
+   "event": "KXBTCD-26NOV2215",
+   "fair": 0.21987408181390866,
+   "fee": 0.01,
+   "key": "KXBTCD-26NOV2215-T60499.99:NO",
+   "label": "Bitcoin price on Nov 22, 2026? \u2014 $60,500 or above",
+   "last_bid": null,
+   "opened": 1795376419.2087815,
+   "reasons": [
+    "144% expected return on cost",
+    "spread 1\u00a2, volume 46,240",
+    "Bitcoin +0.01% in 30 min, not fighting this bet"
+   ],
+   "row": "$60,500 or above",
+   "side": "NO",
+   "sl": 0.01,
+   "stake": 7.135938561203773,
+   "ticker": "KXBTCD-26NOV2215-T60499.99",
+   "tp": 0.22,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-22-2026-at-3pm-est/kxbtcd-26nov2215",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
