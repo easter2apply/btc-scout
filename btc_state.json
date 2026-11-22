@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6281862387914974,
-  "move": -1.6762244980927932e-07,
+  "long": 0.6285260606782385,
+  "move": -0.0009595267115674044,
   "quotes": {
-   "Bitstamp": 59689.5,
-   "Coinbase": 59695.855,
-   "Kraken": 59692.3
+   "Bitstamp": 59695.15,
+   "Coinbase": 59710.855,
+   "Kraken": 59709.1
   },
-  "short": 0.6805271727602134,
-  "spot": 59692.3,
-  "t": 1795338029.321971,
-  "vol": 0.6548798299963198
+  "short": 0.6808551746875655,
+  "spot": 59709.1,
+  "t": 1795338316.1489327,
+  "vol": 0.6552132392780765
  },
  "btc_hist": [
-  [
-   1795249515,
-   57554.09
-  ],
   [
    1795249820,
    57564.2
@@ -1212,13 +1208,17 @@
   [
    1795338029,
    59692.3
+  ],
+  [
+   1795338316,
+   59709.1
   ]
  ],
  "chat_id": "7590441188",
  "council_intro": true,
  "council_record": {
-  "right": 1148,
-  "total": 2500
+  "right": 1150,
+  "total": 2502
  },
  "days": {
   "2026-11-09": {
@@ -1336,10 +1336,6 @@
  },
  "errors": [
   {
-   "t": 1795190429.0015838,
-   "text": "KXBTCD: 228 markets priced, 10 skipped (model and Kalshi too far apart)"
-  },
-  {
    "t": 1795200926.556663,
    "text": "KXBTCD: 50 markets priced, 20 skipped (model and Kalshi too far apart)"
   },
@@ -1414,27 +1410,13 @@
   {
    "t": 1795338030.6435697,
    "text": "KXBTC: 265 markets priced, 3 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1795338319.725415,
+   "text": "KXBTC: 265 markets priced, 3 skipped (model and Kalshi too far apart)"
   }
  ],
  "history": [
-  {
-   "cat": "Bitcoin",
-   "pnl": -0.07,
-   "right": false,
-   "shadow": false,
-   "t": 1794542725.0348465,
-   "usd": -6.08,
-   "won": false
-  },
-  {
-   "cat": "Bitcoin",
-   "pnl": 0.26,
-   "right": true,
-   "shadow": false,
-   "t": 1794542725.227227,
-   "usd": 3.12,
-   "won": true
-  },
   {
    "cat": "Bitcoin",
    "pnl": -0.34,
@@ -4928,17 +4910,31 @@
    "t": 1795337117.8840942,
    "usd": 2.28,
    "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.2,
+   "right": true,
+   "shadow": false,
+   "t": 1795338317.5606866,
+   "usd": 2.52,
+   "won": true
+  },
+  {
+   "cat": "Bitcoin",
+   "pnl": 0.29,
+   "right": true,
+   "shadow": false,
+   "t": 1795338317.7669811,
+   "usd": 4.32,
+   "won": true
   }
  ],
  "last_daily": "2026-11-21",
  "last_px": {
-  "KXBTCD-26NOV2205-T59299.99:YES": 0.84,
-  "KXBTCD-26NOV2205-T59899.99:NO": 0.69,
-  "KXBTCD-26NOV2205-T59999.99:NO": 0.76,
-  "KXBTCD-26NOV2205-T60099.99:NO": 0.83,
-  "KXBTCD-26NOV2205-T60199.99:NO": 0.88
+  "KXBTC15M-26NOV220415-15:YES": 0.45
  },
- "last_run": 1795338030.6435363,
+ "last_run": 1795338317.7671971,
  "last_vote": {
   "approved": true,
   "ask": 0.58,
@@ -5147,7 +5143,9 @@
     0.33399999999999996,
     0.5800000000000001,
     -0.09000000000000001,
-    0.20999999999999996
+    0.20999999999999996,
+    0.19999999999999996,
+    0.29000000000000004
    ]
   }
  },
@@ -5221,116 +5219,43 @@
   ],
   "fetched": 1795322418.9316094
  },
- "open": [
-  {
-   "bet": "Bitcoin is ABOVE $59,500 at 4:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1795338000.8122451,
-   "contracts": 14,
-   "edge": 0.10359801778262358,
-   "entry": 0.65,
-   "event": "KXBTCD-26NOV2204",
-   "exit_px": 0.85,
-   "exit_reason": "take profit",
-   "exit_t": 1795336520.790161,
-   "fair": 0.7735980177826236,
-   "fee": 0.02,
-   "key": "KXBTCD-26NOV2204-T59499.99:YES",
-   "label": "Bitcoin price on Nov 22, 2026? \u2014 $59,500 or above",
-   "last_bid": 0.85,
-   "opened": 1795335918.432356,
-   "reasons": [
-    "15% expected return on cost",
-    "spread 1\u00a2, volume 29,408",
-    "Bitcoin +0.36% in 30 min, not fighting this bet"
-   ],
-   "row": "$59,500 or above",
-   "side": "YES",
-   "sl": 0.5,
-   "stake": 10.0,
-   "ticker": "KXBTCD-26NOV2204-T59499.99",
-   "tp": 0.77,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-22-2026-at-4am-est/kxbtcd-26nov2204",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  },
-  {
-   "bet": "Bitcoin is ABOVE $59,700 at 4:00 AM ET today",
-   "cat": "Bitcoin",
-   "close_ts": 1795338001.096634,
-   "contracts": 16,
-   "edge": 0.19177710381462978,
-   "entry": 0.58,
-   "event": "KXBTCD-26NOV2204",
-   "exit_px": 0.87,
-   "exit_reason": "take profit",
-   "exit_t": 1795336818.4473286,
-   "fair": 0.7917771038146297,
-   "fee": 0.02,
-   "key": "KXBTCD-26NOV2204-T59699.99:YES",
-   "label": "Bitcoin price on Nov 22, 2026? \u2014 $59,700 or above",
-   "last_bid": 0.87,
-   "opened": 1795336520.790161,
-   "reasons": [
-    "32% expected return on cost",
-    "spread 1\u00a2, volume 42,286",
-    "Bitcoin +1.28% in 30 min, not fighting this bet"
-   ],
-   "row": "$59,700 or above",
-   "side": "YES",
-   "sl": 0.43,
-   "stake": 10.0,
-   "ticker": "KXBTCD-26NOV2204-T59699.99",
-   "tp": 0.79,
-   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-22-2026-at-4am-est/kxbtcd-26nov2204",
-   "votes": {
-    "Doubt": true,
-    "Momentum": true,
-    "Risk": true,
-    "The Quant": true,
-    "Time": true
-   }
-  }
- ],
+ "open": [],
  "recent": {
   "KXBTC15M-26NOV212215-15:NO": 1795317317.2881958,
   "KXBTC15M-26NOV212300-00:YES": 1795320026.5623002,
   "KXBTC15M-26NOV220100-00:YES": 1795327228.6823993,
   "KXBTC15M-26NOV220345-45:YES": 1795337117.38266,
   "KXBTCD-26NOV2201-T58799.99:YES": 1795327516.1525362,
-  "KXBTCD-26NOV2203-T58799.99:NO": 1795334715.824994
+  "KXBTCD-26NOV2203-T58799.99:NO": 1795334715.824994,
+  "KXBTCD-26NOV2204-T59499.99:YES": 1795338317.3835485,
+  "KXBTCD-26NOV2204-T59699.99:YES": 1795338317.3835485
  },
  "record": {
-  "dollars": -842.39,
+  "dollars": -835.55,
   "losses": 1163,
-  "pnl": 16.519,
-  "wins": 1066
+  "pnl": 17.009,
+  "wins": 1068
  },
  "scoreboard": {
   "Doubt": {
-   "right": 1251,
-   "total": 2500
+   "right": 1253,
+   "total": 2502
   },
   "Momentum": {
-   "right": 1069,
-   "total": 2204
+   "right": 1071,
+   "total": 2206
   },
   "Risk": {
-   "right": 1166,
-   "total": 2500
+   "right": 1168,
+   "total": 2502
   },
   "The Quant": {
-   "right": 884,
-   "total": 2500
+   "right": 886,
+   "total": 2502
   },
   "Time": {
-   "right": 1255,
-   "total": 2500
+   "right": 1257,
+   "total": 2502
   }
  },
  "shadow": [],
