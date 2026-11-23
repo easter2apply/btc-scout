@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6758119331501217,
-  "move": -0.007258211618703658,
+  "long": 0.675589757769126,
+  "move": -0.005922294536034101,
   "quotes": {
-   "Bitstamp": 61005.09,
-   "Coinbase": 61049.745,
-   "Kraken": 61006.3
+   "Bitstamp": 61194.09,
+   "Coinbase": 61232.665,
+   "Kraken": 61201.2
   },
-  "short": 1.1755438432341894,
-  "spot": 61006.3,
-  "t": 1795463419.7298045,
-  "vol": 0.9588078786581576
+  "short": 1.1767047996326279,
+  "spot": 61201.2,
+  "t": 1795463716.2259622,
+  "vol": 0.9594414276757621
  },
  "btc_hist": [
-  [
-   1795374616,
-   60606.75
-  ],
   [
    1795374916,
    60644.7
@@ -1212,6 +1208,10 @@
   [
    1795463420,
    61006.3
+  ],
+  [
+   1795463716,
+   61201.2
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 0,
    "rejected": 4,
-   "sl": 30,
+   "sl": 31,
    "tp": 26
   }
  },
@@ -4978,18 +4978,11 @@
  ],
  "last_daily": "2026-11-22",
  "last_px": {
-  "KXBTC-26NOV2315-B60950:NO": 0.76,
-  "KXBTC-26NOV2315-B61050:NO": 0.72,
-  "KXBTC15M-26NOV231500-00:NO": 0.31,
-  "KXBTCD-26NOV2315-T60799.99:NO": 0.06,
-  "KXBTCD-26NOV2315-T60899.99:NO": 0.19,
-  "KXBTCD-26NOV2315-T60999.99:NO": 0.44,
-  "KXBTCD-26NOV2315-T61199.99:YES": 0.13,
-  "KXBTCD-26NOV2315-T61299.99:YES": 0.05,
-  "KXBTCD-26NOV2317-T60249.99:NO": 0.12,
-  "KXBTCD-26NOV2317-T60499.99:NO": 0.2
+  "KXBTC-26NOV2317-B61375:NO": 0.83,
+  "KXBTCD-26NOV2317-T60499.99:NO": 0.13,
+  "KXBTCD-26NOV2317-T60749.99:NO": 0.22
  },
- "last_run": 1795463424.0378368,
+ "last_run": 1795463720.3024244,
  "last_vote": {
   "approved": true,
   "ask": 0.06,
@@ -5717,11 +5710,14 @@
    "edge": 0.13175680053899322,
    "entry": 0.16,
    "event": "KXBTCD-26NOV2315",
+   "exit_px": 0.0,
+   "exit_reason": "stop loss",
+   "exit_t": 1795463717.7832756,
    "fair": 0.30175680053899323,
    "fee": 0.01,
    "key": "KXBTCD-26NOV2315-T60699.99:NO",
    "label": "Bitcoin price on Nov 23, 2026? \u2014 $60,700 or above",
-   "last_bid": 0.02,
+   "last_bid": 0.0,
    "opened": 1795462821.6535728,
    "reasons": [
     "78% expected return on cost",
@@ -5755,7 +5751,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26NOV2317-T60249.99:NO",
    "label": "Bitcoin price on Nov 23, 2026? \u2014 $60,250 or above",
-   "last_bid": 0.11,
+   "last_bid": 0.07,
    "opened": 1795462821.6535728,
    "reasons": [
     "77% expected return on cost",
