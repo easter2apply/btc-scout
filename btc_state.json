@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6834244653398526,
-  "move": 0.010406076211795456,
+  "long": 0.6834208903612516,
+  "move": 0.00301080201825199,
   "quotes": {
-   "Bitstamp": 59916.84,
-   "Coinbase": 59921.705,
-   "Kraken": 59922.2
+   "Bitstamp": 60042.22,
+   "Coinbase": 59956.36,
+   "Kraken": 60018.3
   },
-  "short": 0.8447942837201641,
-  "spot": 59921.705,
-  "t": 1795541717.6300302,
-  "vol": 0.7683574629140165
+  "short": 0.8421079368091742,
+  "spot": 60018.3,
+  "t": 1795542017.9997237,
+  "vol": 0.7668800071129674
  },
  "btc_hist": [
-  [
-   1795452619,
-   62050.0
-  ],
   [
    1795452915,
    62122.63
@@ -1212,6 +1208,10 @@
   [
    1795541718,
    59921.71
+  ],
+  [
+   1795542018,
+   60018.3
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,12 +1326,12 @@
    "tp": 45
   },
   "2026-11-24": {
-   "buys": 38,
+   "buys": 39,
    "lines": 0,
    "news": 0,
    "rejected": 0,
    "sl": 15,
-   "tp": 21
+   "tp": 22
   }
  },
  "errors": [
@@ -4984,15 +4984,20 @@
  ],
  "last_daily": "2026-11-23",
  "last_px": {
-  "KXBTC15M-26NOV241245-45:YES": 0.74,
-  "KXBTCD-26NOV2417-T59499.99:NO": 0.26
+  "KXBTCD-26NOV2413-T59699.99:YES": 0.87,
+  "KXBTCD-26NOV2413-T59799.99:YES": 0.76,
+  "KXBTCD-26NOV2413-T59899.99:YES": 0.59,
+  "KXBTCD-26NOV2413-T59999.99:YES": 0.41,
+  "KXBTCD-26NOV2413-T60099.99:YES": 0.25,
+  "KXBTCD-26NOV2413-T60199.99:YES": 0.13,
+  "KXBTCD-26NOV2413-T60299.99:YES": 0.07
  },
- "last_run": 1795541720.974053,
+ "last_run": 1795542020.7944503,
  "last_vote": {
   "approved": true,
-  "ask": 0.58,
-  "edge": 0.06194634555940827,
-  "label": "Bitcoin price on Nov 24, 2026? \u2014 $59,800 or above",
+  "ask": 0.41,
+  "edge": 0.10317288535348464,
+  "label": "Bitcoin price on Nov 24, 2026? \u2014 $60,000 or above",
   "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-24-2026-at-1pm-est/kxbtcd-26nov2413",
   "votes": {
@@ -5002,22 +5007,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.57% in 30 min, not fighting this bet"
+    "Bitcoin +0.30% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 50,795"
+    "spread 1\u00a2, volume 91,288"
    ],
    "The Quant": [
-    false,
-    "10% expected return on cost"
+    true,
+    "24% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 30m"
+    "closes in 20m"
    ]
   },
-  "when": 1795541423.8945112
+  "when": 1795542019.279589
  },
  "last_weekly": "2026-11-22",
  "learn": {
@@ -5567,11 +5572,14 @@
    "edge": 0.06194634555940827,
    "entry": 0.58,
    "event": "KXBTCD-26NOV2413",
+   "exit_px": 0.79,
+   "exit_reason": "take profit",
+   "exit_t": 1795542019.279589,
    "fair": 0.6619463455594082,
    "fee": 0.02,
    "key": "KXBTCD-26NOV2413-T59799.99:YES",
    "label": "Bitcoin price on Nov 24, 2026? \u2014 $59,800 or above",
-   "last_bid": 0.64,
+   "last_bid": 0.79,
    "opened": 1795541423.8945112,
    "reasons": [
     "spread 1\u00a2, volume 50,795",
@@ -5590,6 +5598,40 @@
     "Momentum": true,
     "Risk": true,
     "The Quant": false,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $60,000 at 1:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1795543200.843901,
+   "contracts": 21,
+   "edge": 0.10317288535348464,
+   "entry": 0.41,
+   "event": "KXBTCD-26NOV2413",
+   "fair": 0.5331728853534846,
+   "fee": 0.02,
+   "key": "KXBTCD-26NOV2413-T59999.99:YES",
+   "label": "Bitcoin price on Nov 24, 2026? \u2014 $60,000 or above",
+   "last_bid": null,
+   "opened": 1795542019.279589,
+   "reasons": [
+    "24% expected return on cost",
+    "spread 1\u00a2, volume 91,288",
+    "Bitcoin +0.30% in 30 min, not fighting this bet"
+   ],
+   "row": "$60,000 or above",
+   "side": "YES",
+   "sl": 0.26,
+   "stake": 9.05025310118286,
+   "ticker": "KXBTCD-26NOV2413-T59999.99",
+   "tp": 0.53,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-24-2026-at-1pm-est/kxbtcd-26nov2413",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
     "Time": true
    }
   }
