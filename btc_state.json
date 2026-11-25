@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6891286510066386,
-  "move": 0.0009418030495482732,
+  "long": 0.6897206901074595,
+  "move": 0.002954385739850185,
   "quotes": {
-   "Bitstamp": 60324.43,
-   "Coinbase": 60275.995,
-   "Kraken": 60311.9
+   "Bitstamp": 60478.8,
+   "Coinbase": 60397.475,
+   "Kraken": 60478.6
   },
-  "short": 0.5326255978148161,
-  "spot": 60311.9,
-  "t": 1795650615.2938478,
-  "vol": 0.6158686244183168
+  "short": 0.5314077399422208,
+  "spot": 60478.6,
+  "t": 1795650915.6613405,
+  "vol": 0.6156739463518044
  },
  "btc_hist": [
-  [
-   1795559115,
-   59915.46
-  ],
   [
    1795559421,
    59925.3
@@ -1212,6 +1208,10 @@
   [
    1795650615,
    60311.9
+  ],
+  [
+   1795650916,
+   60478.6
   ]
  ],
  "chat_id": "7590441188",
@@ -1331,7 +1331,7 @@
    "news": 23,
    "rejected": 27,
    "sl": 9,
-   "tp": 14
+   "tp": 16
   }
  },
  "errors": [
@@ -4959,14 +4959,8 @@
   }
  ],
  "last_daily": "2026-11-24",
- "last_px": {
-  "KXBTC-26NOV2519-B60250:NO": 0.57,
-  "KXBTC-26NOV2519-B60450:YES": 0.09,
-  "KXBTC15M-26NOV251900-00:YES": 0.5,
-  "KXBTCD-26NOV2519-T60299.99:YES": 0.4,
-  "KXBTCD-26NOV2519-T60399.99:YES": 0.08
- },
- "last_run": 1795650616.6780155,
+ "last_px": {},
+ "last_run": 1795650917.3169048,
  "last_vote": {
   "approved": true,
   "ask": 0.08,
@@ -5211,11 +5205,14 @@
    "edge": 0.08446256484827686,
    "entry": 0.11,
    "event": "KXBTCD-26NOV2519",
+   "exit_px": 0.71,
+   "exit_reason": "take profit",
+   "exit_t": 1795650916.978547,
    "fair": 0.20446256484827685,
    "fee": 0.01,
    "key": "KXBTCD-26NOV2519-T60399.99:YES",
    "label": "Bitcoin price on Nov 25, 2026? \u2014 $60,400 or above",
-   "last_bid": 0.09,
+   "last_bid": 0.71,
    "opened": 1795648527.1058939,
    "reasons": [
     "70% expected return on cost",
@@ -5245,11 +5242,14 @@
    "edge": 0.13803810314835055,
    "entry": 0.57,
    "event": "KXBTC-26NOV2519",
+   "exit_px": 0.97,
+   "exit_reason": "take profit",
+   "exit_t": 1795650916.978547,
    "fair": 0.7280381031483505,
    "fee": 0.02,
    "key": "KXBTC-26NOV2519-B60250:NO",
    "label": "Bitcoin price range on Nov 25, 2026? \u2014 $60,200 to 60,299.99",
-   "last_bid": null,
+   "last_bid": 0.97,
    "opened": 1795650616.5272436,
    "reasons": [
     "23% expected return on cost",
