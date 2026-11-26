@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6937083599075583,
-  "move": 0.01372802006238305,
+  "long": 0.6913823087321481,
+  "move": 0.009299892859750525,
   "quotes": {
-   "Bitstamp": 61037.73,
-   "Coinbase": 61031.265,
-   "Kraken": 61003.9
+   "Bitstamp": 60820.22,
+   "Coinbase": 60858.935,
+   "Kraken": 60822.8
   },
-  "short": 0.5780243786528664,
-  "spot": 61031.265,
-  "t": 1795652423.5180187,
-  "vol": 0.6384917661656518
+  "short": 0.5692813091919543,
+  "spot": 60822.8,
+  "t": 1795652714.9822993,
+  "vol": 0.6332814168373728
  },
  "btc_hist": [
-  [
-   1795560915,
-   59931.93
-  ],
   [
    1795561223,
    59872.12
@@ -1212,6 +1208,10 @@
   [
    1795652424,
    61031.26
+  ],
+  [
+   1795652715,
+   60822.8
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,7 +1330,7 @@
    "lines": 0,
    "news": 23,
    "rejected": 27,
-   "sl": 9,
+   "sl": 11,
    "tp": 16
   }
  },
@@ -4960,20 +4960,15 @@
  ],
  "last_daily": "2026-11-24",
  "last_px": {
-  "KXBTC-26NOV2520-B60950:YES": 0.1,
-  "KXBTC-26NOV2520-B61050:YES": 0.1,
-  "KXBTC-26NOV2520-B61150:YES": 0.1,
-  "KXBTC15M-26NOV251930-30:YES": 0.72,
-  "KXBTCD-26NOV2520-T60299.99:YES": 0.94,
-  "KXBTCD-26NOV2520-T60399.99:YES": 0.9,
-  "KXBTCD-26NOV2520-T60499.99:YES": 0.88,
-  "KXBTCD-26NOV2520-T60599.99:YES": 0.84,
-  "KXBTCD-26NOV2520-T60699.99:YES": 0.75,
-  "KXBTCD-26NOV2520-T60799.99:YES": 0.67,
-  "KXBTCD-26NOV2520-T60899.99:YES": 0.57,
-  "KXBTCD-26NOV2520-T60999.99:YES": 0.46
+  "KXBTC-26NOV2520-B60850:YES": 0.13,
+  "KXBTCD-26NOV2520-T60299.99:YES": 0.92,
+  "KXBTCD-26NOV2520-T60399.99:YES": 0.88,
+  "KXBTCD-26NOV2520-T60499.99:YES": 0.82,
+  "KXBTCD-26NOV2520-T60599.99:YES": 0.76,
+  "KXBTCD-26NOV2520-T60699.99:YES": 0.62,
+  "KXBTCD-26NOV2520-T60799.99:YES": 0.49
  },
- "last_run": 1795652425.1189764,
+ "last_run": 1795652716.7035127,
  "last_vote": {
   "approved": true,
   "ask": 0.72,
@@ -5220,11 +5215,14 @@
    "edge": 0.16941589650587788,
    "entry": 0.72,
    "event": "KXBTC15M-26NOV251930",
+   "exit_px": 0.39,
+   "exit_reason": "stop loss",
+   "exit_t": 1795652716.4131203,
    "fair": 0.9094158965058778,
    "fee": 0.02,
    "key": "KXBTC15M-26NOV251930-30:YES",
    "label": "BTC price up in next 15 mins? \u2014 Target Price: $60,841.05",
-   "last_bid": null,
+   "last_bid": 0.39,
    "opened": 1795652425.1186233,
    "reasons": [
     "23% expected return on cost",
@@ -5254,11 +5252,14 @@
    "edge": 0.11538541973525786,
    "entry": 0.67,
    "event": "KXBTCD-26NOV2520",
+   "exit_px": 0.48,
+   "exit_reason": "stop loss",
+   "exit_t": 1795652716.4131203,
    "fair": 0.8053854197352579,
    "fee": 0.02,
    "key": "KXBTCD-26NOV2520-T60799.99:YES",
    "label": "Bitcoin price on Nov 25, 2026? \u2014 $60,800 or above",
-   "last_bid": null,
+   "last_bid": 0.48,
    "opened": 1795652425.1186233,
    "reasons": [
     "17% expected return on cost",
