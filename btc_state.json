@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6895213736814205,
-  "move": 0.0008666181798586692,
+  "long": 0.6895533740441846,
+  "move": 0.0014697328684518673,
   "quotes": {
-   "Bitstamp": 60971.71,
-   "Coinbase": 60968.52,
-   "Kraken": 60967.6
+   "Bitstamp": 60863.84,
+   "Coinbase": 60884.835,
+   "Kraken": 60872.9
   },
-  "short": 0.5012632815521199,
-  "spot": 60968.52,
-  "t": 1795671315.8912642,
-  "vol": 0.6027871109255377
+  "short": 0.5022769253086047,
+  "spot": 60872.9,
+  "t": 1795671622.3201597,
+  "vol": 0.6032271402022562
  },
  "btc_hist": [
-  [
-   1795580416,
-   59274.44
-  ],
   [
    1795580715,
    59197.25
@@ -1212,6 +1208,10 @@
   [
    1795671316,
    60968.52
+  ],
+  [
+   1795671622,
+   60872.9
   ]
  ],
  "chat_id": "7590441188",
@@ -1331,7 +1331,7 @@
    "news": 0,
    "rejected": 0,
    "sl": 1,
-   "tp": 0
+   "tp": 1
   }
  },
  "errors": [
@@ -4960,20 +4960,18 @@
  ],
  "last_daily": "2026-11-25",
  "last_px": {
-  "KXBTC-26NOV2601-B60950:NO": 0.71,
-  "KXBTC-26NOV2601-B61050:NO": 0.77,
-  "KXBTC15M-26NOV260045-45:NO": 0.36,
-  "KXBTCD-26NOV2601-T60799.99:NO": 0.1,
-  "KXBTCD-26NOV2601-T60899.99:NO": 0.3,
-  "KXBTCD-26NOV2601-T61099.99:YES": 0.18,
-  "KXBTCD-26NOV2601-T61199.99:YES": 0.06
+  "KXBTC-26NOV2601-B60850:NO": 0.69,
+  "KXBTC-26NOV2601-B60950:NO": 0.74,
+  "KXBTCD-26NOV2601-T60699.99:NO": 0.07,
+  "KXBTCD-26NOV2601-T60799.99:NO": 0.26,
+  "KXBTCD-26NOV2601-T60999.99:YES": 0.15
  },
- "last_run": 1795671317.3997025,
+ "last_run": 1795671623.7955532,
  "last_vote": {
   "approved": true,
-  "ask": 0.1,
-  "edge": 0.08933481653421359,
-  "label": "Bitcoin price on Nov 26, 2026? \u2014 $60,800 or above",
+  "ask": 0.07,
+  "edge": 0.08872337560306971,
+  "label": "Bitcoin price on Nov 26, 2026? \u2014 $60,700 or above",
   "side": "NO",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-26-2026-at-1am-est/kxbtcd-26nov2601",
   "votes": {
@@ -4983,22 +4981,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.09% in 30 min, not fighting this bet"
+    "Bitcoin +0.15% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 45,691"
+    "spread 1\u00a2, volume 44,352"
    ],
    "The Quant": [
     true,
-    "81% expected return on cost"
+    "111% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 25m"
+    "closes in 20m"
    ]
   },
-  "when": 1795671317.2403598
+  "when": 1795671623.4321148
  },
  "last_weekly": "2026-11-22",
  "learn": {
@@ -5257,11 +5255,14 @@
    "edge": 0.08933481653421359,
    "entry": 0.1,
    "event": "KXBTCD-26NOV2601",
+   "exit_px": 0.23,
+   "exit_reason": "take profit",
+   "exit_t": 1795671623.4321148,
    "fair": 0.1993348165342136,
    "fee": 0.01,
    "key": "KXBTCD-26NOV2601-T60799.99:NO",
    "label": "Bitcoin price on Nov 26, 2026? \u2014 $60,800 or above",
-   "last_bid": null,
+   "last_bid": 0.23,
    "opened": 1795671317.2403598,
    "reasons": [
     "81% expected return on cost",
