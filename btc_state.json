@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6896888337294281,
-  "move": -0.0015501558433296259,
+  "long": 0.6894895020409041,
+  "move": -0.0005066089738634538,
   "quotes": {
-   "Bitstamp": 61565.69,
-   "Coinbase": 61554.145,
-   "Kraken": 61564.0
+   "Bitstamp": 61555.17,
+   "Coinbase": 61549.975,
+   "Kraken": 61552.9
   },
-  "short": 0.4674328627830375,
-  "spot": 61564.0,
-  "t": 1795776015.965521,
-  "vol": 0.5891367280099776
+  "short": 0.4669780115534401,
+  "spot": 61552.9,
+  "t": 1795776316.7827914,
+  "vol": 0.5888396372099193
  },
  "btc_hist": [
-  [
-   1795687225,
-   60855.13
-  ],
   [
    1795687515,
    60813.1
@@ -1212,6 +1208,10 @@
   [
    1795776016,
    61564.0
+  ],
+  [
+   1795776317,
+   61552.9
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,7 +1326,7 @@
    "tp": 23
   },
   "2026-11-27": {
-   "buys": 6,
+   "buys": 7,
    "lines": 0,
    "news": 0,
    "rejected": 0,
@@ -4960,51 +4960,49 @@
  ],
  "last_daily": "2026-11-26",
  "last_px": {
-  "KXBTC-26NOV2706-B61550:NO": 0.67,
-  "KXBTC-26NOV2706-B61650:NO": 0.74,
+  "KXBTC-26NOV2706-B61550:NO": 0.59,
   "KXBTC-26NOV2717-B61250:YES": 0.15,
   "KXBTC-26NOV2717-B61750:YES": 0.16,
-  "KXBTCD-26NOV2706-T61399.99:NO": 0.08,
-  "KXBTCD-26NOV2706-T61499.99:NO": 0.24,
-  "KXBTCD-26NOV2706-T61699.99:YES": 0.15,
-  "KXBTCD-26NOV2706-T61799.99:YES": 0.07,
+  "KXBTCD-26NOV2706-T61399.99:NO": 0.07,
+  "KXBTCD-26NOV2706-T61499.99:NO": 0.25,
+  "KXBTCD-26NOV2706-T61699.99:YES": 0.09,
   "KXBTCD-26NOV2717-T59999.99:YES": 0.88,
   "KXBTCD-26NOV2717-T60499.99:YES": 0.8,
   "KXBTCD-26NOV2717-T61999.99:NO": 0.63,
   "KXBTCD-26NOV2717-T62499.99:NO": 0.77,
   "KXBTCD-26NOV2717-T62999.99:NO": 0.86
  },
- "last_run": 1795776017.0988364,
+ "last_run": 1795776318.1886737,
  "last_vote": {
   "approved": true,
-  "ask": 0.32,
-  "edge": 0.12747362127478254,
-  "label": "BTC price up in next 15 mins? \u2014 Target Price: $61,573.59",
+  "ask": 0.59,
+  "edge": 0.12102797530926614,
+  "label": "Bitcoin price range on Nov 27, 2026? \u2014 $61,500 to 61,599.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc15m/btc-15-min-61-573-59-target/kxbtc15m-26nov270515",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-27-2026-at-6am-est/kxbtc-26nov2706",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    true,
-    "Bitcoin -0.35% in 30 min, not fighting this bet"
+    false,
+    "price \u22128\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 34,702"
+    "spread 3\u00a2, volume 597"
    ],
    "The Quant": [
     true,
-    "37% expected return on cost"
+    "20% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 15m"
    ]
   },
-  "when": 1795773917.8183389
+  "when": 1795776318.1884215
  },
  "last_weekly": "2026-11-22",
  "learn": {
@@ -5221,7 +5219,42 @@
   ],
   "fetched": 1795757419.594826
  },
- "open": [],
+ "open": [
+  {
+   "bet": "Bitcoin is NOT between $61,500 and $61,600 at 6:00 AM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1795777200.5902834,
+   "contracts": 16,
+   "edge": 0.12102797530926614,
+   "entry": 0.59,
+   "event": "KXBTC-26NOV2706",
+   "fair": 0.7310279753092661,
+   "fee": 0.02,
+   "key": "KXBTC-26NOV2706-B61550:NO",
+   "label": "Bitcoin price range on Nov 27, 2026? \u2014 $61,500 to 61,599.99",
+   "last_bid": null,
+   "opened": 1795776318.1884215,
+   "reasons": [
+    "20% expected return on cost",
+    "spread 3\u00a2, volume 597",
+    "closes in 15m"
+   ],
+   "row": "$61,500 to 61,599.99",
+   "side": "NO",
+   "sl": 0.44,
+   "stake": 10.0,
+   "ticker": "KXBTC-26NOV2706-B61550",
+   "tp": 0.73,
+   "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-27-2026-at-6am-est/kxbtc-26nov2706",
+   "votes": {
+    "Doubt": true,
+    "Momentum": false,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  }
+ ],
  "recent": {
   "KXBTC-26NOV2700-B61450:NO": 1795755920.8574276,
   "KXBTC-26NOV2703-B61550:NO": 1795766724.9434001,
