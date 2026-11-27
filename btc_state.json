@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.7063526603482664,
-  "move": 0.00021683707323028045,
+  "long": 0.7063036403389346,
+  "move": -0.0010854829062748594,
   "quotes": {
-   "Bitstamp": 59889.0,
-   "Coinbase": 59882.085,
-   "Kraken": 59886.1
+   "Bitstamp": 59820.0,
+   "Coinbase": 59811.575,
+   "Kraken": 59815.2
   },
-  "short": 0.9723592579813362,
-  "spot": 59886.1,
-  "t": 1795809016.8549209,
-  "vol": 0.8498283966081294
+  "short": 0.9711293165086088,
+  "spot": 59815.2,
+  "t": 1795809316.3555088,
+  "vol": 0.8491045229353418
  },
  "btc_hist": [
-  [
-   1795720220,
-   60444.17
-  ],
   [
    1795720518,
    60458.03
@@ -1212,6 +1208,10 @@
   [
    1795809017,
    59886.1
+  ],
+  [
+   1795809316,
+   59815.2
   ]
  ],
  "chat_id": "7590441188",
@@ -1330,8 +1330,8 @@
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 11,
-   "tp": 7
+   "sl": 13,
+   "tp": 8
   }
  },
  "errors": [
@@ -4960,50 +4960,44 @@
  ],
  "last_daily": "2026-11-26",
  "last_px": {
-  "KXBTC-26NOV2715-B59750:YES": 0.08,
-  "KXBTC-26NOV2715-B59850:NO": 0.56,
-  "KXBTC-26NOV2715-B59950:NO": 0.6,
-  "KXBTC-26NOV2715-B60050:YES": 0.07,
-  "KXBTC-26NOV2717-B59250:YES": 0.12,
-  "KXBTC-26NOV2717-B59750:NO": 0.52,
+  "KXBTC-26NOV2717-B59250:YES": 0.16,
+  "KXBTC-26NOV2717-B59750:NO": 0.5,
   "KXBTC-26NOV2717-B60750:YES": 0.05,
-  "KXBTC15M-26NOV271500-00:YES": 0.15,
-  "KXBTCD-26NOV2715-T59799.99:NO": 0.11,
-  "KXBTCD-26NOV2715-T59999.99:YES": 0.07,
-  "KXBTCD-26NOV2717-T59499.99:NO": 0.13,
-  "KXBTCD-26NOV2717-T60499.99:YES": 0.08
+  "KXBTCD-26NOV2717-T59499.99:NO": 0.19,
+  "KXBTCD-26NOV2717-T59999.99:YES": 0.32,
+  "KXBTCD-26NOV2717-T60499.99:YES": 0.06
  },
- "last_run": 1795809018.7229297,
+ "last_run": 1795809318.9491687,
  "last_vote": {
   "approved": true,
-  "ask": 0.56,
-  "edge": 0.18979180546666843,
-  "label": "Bitcoin price range on Nov 27, 2026? \u2014 $59,800 to 59,899.99",
+  "ask": 0.5,
+  "edge": 0.15656511303861279,
+  "label": "Bitcoin price range on Nov 27, 2026? \u2014 $59,500 to 59,999.99",
   "side": "NO",
-  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-27-2026-at-3pm-est/kxbtc-26nov2715",
+  "url": "https://kalshi.com/markets/kxbtc/btc-price-range-on-nov-27-2026-at-5pm-est/kxbtc-26nov2717",
   "votes": {
    "Doubt": [
     true,
     "edge holds if volatility is \u00b120% or tails are normal"
    ],
    "Momentum": [
-    null,
-    "first look at this market"
+    false,
+    "price \u22122\u00a2 since last scan"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 2,709"
+    "spread 1\u00a2, volume 9,760"
    ],
    "The Quant": [
     true,
-    "33% expected return on cost"
+    "30% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 10m"
+    "closes in 2h"
    ]
   },
-  "when": 1795809018.1147108
+  "when": 1795809317.6465979
  },
  "last_weekly": "2026-11-22",
  "learn": {
@@ -5223,7 +5217,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26NOV2717-T60499.99:YES",
    "label": "Bitcoin price on Nov 27, 2026? \u2014 $60,500 or above",
-   "last_bid": 0.07,
+   "last_bid": 0.05,
    "opened": 1795803018.6854017,
    "reasons": [
     "66% expected return on cost",
@@ -5253,11 +5247,14 @@
    "edge": 0.09286574784228376,
    "entry": 0.64,
    "event": "KXBTC-26NOV2717",
+   "exit_px": 0.49,
+   "exit_reason": "stop loss",
+   "exit_t": 1795809317.6465979,
    "fair": 0.7528657478422838,
    "fee": 0.02,
    "key": "KXBTC-26NOV2717-B59750:NO",
    "label": "Bitcoin price range on Nov 27, 2026? \u2014 $59,500 to 59,999.99",
-   "last_bid": 0.51,
+   "last_bid": 0.49,
    "opened": 1795803620.1642942,
    "reasons": [
     "spread 2\u00a2, volume 7,757",
@@ -5361,11 +5358,14 @@
    "edge": 0.18979180546666843,
    "entry": 0.56,
    "event": "KXBTC-26NOV2715",
+   "exit_px": 0.36,
+   "exit_reason": "stop loss",
+   "exit_t": 1795809317.6465979,
    "fair": 0.7697918054666685,
    "fee": 0.02,
    "key": "KXBTC-26NOV2715-B59850:NO",
    "label": "Bitcoin price range on Nov 27, 2026? \u2014 $59,800 to 59,899.99",
-   "last_bid": null,
+   "last_bid": 0.36,
    "opened": 1795809018.1147108,
    "reasons": [
     "33% expected return on cost",
@@ -5395,11 +5395,14 @@
    "edge": 0.1844011080022292,
    "entry": 0.11,
    "event": "KXBTCD-26NOV2715",
+   "exit_px": 0.34,
+   "exit_reason": "take profit",
+   "exit_t": 1795809317.6465979,
    "fair": 0.3044011080022292,
    "fee": 0.01,
    "key": "KXBTCD-26NOV2715-T59799.99:NO",
    "label": "Bitcoin price on Nov 27, 2026? \u2014 $59,800 or above",
-   "last_bid": null,
+   "last_bid": 0.34,
    "opened": 1795809018.1147108,
    "reasons": [
     "154% expected return on cost",
