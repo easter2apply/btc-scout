@@ -1,22 +1,18 @@
 {
  "btc": {
-  "long": 0.6990606658814239,
-  "move": 0.0008795042169718048,
+  "long": 0.6993096473960329,
+  "move": 0.0007604174666628882,
   "quotes": {
-   "Bitstamp": 59433.59,
-   "Coinbase": 59417.095,
-   "Kraken": 59439.1
+   "Bitstamp": 59448.08,
+   "Coinbase": 59430.315,
+   "Kraken": 59449.9
   },
-  "short": 0.3346574982541519,
-  "spot": 59433.59,
-  "t": 1795891520.8042624,
-  "vol": 0.5480335097967585
+  "short": 0.3325261355821354,
+  "spot": 59448.08,
+  "t": 1795891816.520702,
+  "vol": 0.5475434292302084
  },
  "btc_hist": [
-  [
-   1795802716,
-   59778.51
-  ],
   [
    1795803017,
    59894.74
@@ -1212,6 +1208,10 @@
   [
    1795891521,
    59433.59
+  ],
+  [
+   1795891817,
+   59448.08
   ]
  ],
  "chat_id": "7590441188",
@@ -1326,19 +1326,15 @@
    "tp": 15
   },
   "2026-11-28": {
-   "buys": 43,
+   "buys": 44,
    "lines": 0,
    "news": 0,
    "rejected": 0,
-   "sl": 20,
-   "tp": 17
+   "sl": 21,
+   "tp": 18
   }
  },
  "errors": [
-  {
-   "t": 1795791027.1157267,
-   "text": "KXBTCD: 234 markets priced, 4 skipped (model and Kalshi too far apart)"
-  },
   {
    "t": 1795808726.1261466,
    "text": "KXBTC: 237 markets priced, 1 skipped (model and Kalshi too far apart)"
@@ -1413,6 +1409,10 @@
   },
   {
    "t": 1795891527.4134846,
+   "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
+  },
+  {
+   "t": 1795891821.4898124,
    "text": "KXBTC: 267 markets priced, 1 skipped (model and Kalshi too far apart)"
   }
  ],
@@ -4958,21 +4958,24 @@
  ],
  "last_daily": "2026-11-27",
  "last_px": {
-  "KXBTC-26NOV2814-B59550:YES": 0.13,
-  "KXBTC-26NOV2817-B59375:NO": 0.69,
-  "KXBTC-26NOV2817-B59625:NO": 0.74,
-  "KXBTCD-26NOV2814-T59399.99:NO": 0.35,
-  "KXBTCD-26NOV2814-T59499.99:YES": 0.12,
-  "KXBTCD-26NOV2817-T58999.99:NO": 0.1,
-  "KXBTCD-26NOV2817-T59249.99:NO": 0.27,
+  "KXBTC-26NOV2814-B59350:YES": 0.17,
+  "KXBTC-26NOV2814-B59550:YES": 0.12,
+  "KXBTC-26NOV2817-B59375:NO": 0.67,
+  "KXBTC-26NOV2817-B59625:NO": 0.75,
+  "KXBTC15M-26NOV281400-00:YES": 0.51,
+  "KXBTCD-26NOV2814-T59399.99:NO": 0.25,
+  "KXBTCD-26NOV2814-T59499.99:YES": 0.07,
+  "KXBTCD-26NOV2817-T58999.99:NO": 0.09,
+  "KXBTCD-26NOV2817-T59249.99:NO": 0.26,
+  "KXBTCD-26NOV2817-T59499.99:YES": 0.41,
   "KXBTCD-26NOV2817-T59749.99:YES": 0.16,
   "KXBTCD-26NOV2817-T59999.99:YES": 0.06
  },
- "last_run": 1795891527.4134495,
+ "last_run": 1795891818.9266658,
  "last_vote": {
   "approved": true,
-  "ask": 0.12,
-  "edge": 0.1763181707569903,
+  "ask": 0.07,
+  "edge": 0.23334925290069886,
   "label": "Bitcoin price on Nov 28, 2026? \u2014 $59,500 or above",
   "side": "YES",
   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-28-2026-at-2pm-est/kxbtcd-26nov2814",
@@ -4983,22 +4986,22 @@
    ],
    "Momentum": [
     true,
-    "Bitcoin +0.09% in 30 min, not fighting this bet"
+    "Bitcoin +0.08% in 30 min, not fighting this bet"
    ],
    "Risk": [
     true,
-    "spread 1\u00a2, volume 57,120"
+    "spread 1\u00a2, volume 90,560"
    ],
    "The Quant": [
     true,
-    "136% expected return on cost"
+    "292% expected return on cost"
    ],
    "Time": [
     true,
-    "closes in 15m"
+    "closes in 10m"
    ]
   },
-  "when": 1795891524.539296
+  "when": 1795891817.9598017
  },
  "last_weekly": "2026-11-22",
  "learn": {
@@ -5260,7 +5263,7 @@
    "fee": 0.01,
    "key": "KXBTCD-26NOV2817-T58999.99:NO",
    "label": "Bitcoin price on Nov 28, 2026? \u2014 $59,000 or above",
-   "last_bid": 0.09,
+   "last_bid": 0.08,
    "opened": 1795883427.442318,
    "reasons": [
     "62% expected return on cost",
@@ -5327,11 +5330,14 @@
    "edge": 0.10801689980201924,
    "entry": 0.69,
    "event": "KXBTC-26NOV2814",
+   "exit_px": 0.83,
+   "exit_reason": "take profit",
+   "exit_t": 1795891817.9598017,
    "fair": 0.8180168998020192,
    "fee": 0.02,
    "key": "KXBTC-26NOV2814-B59350:NO",
    "label": "Bitcoin price range on Nov 28, 2026? \u2014 $59,300 to 59,399.99",
-   "last_bid": 0.75,
+   "last_bid": 0.83,
    "opened": 1795890021.8013463,
    "reasons": [
     "15% expected return on cost",
@@ -5365,7 +5371,7 @@
    "fee": 0.02,
    "key": "KXBTC-26NOV2817-B59375:NO",
    "label": "Bitcoin price range on Nov 28, 2026? \u2014 $59,250 to 59,499.99",
-   "last_bid": 0.68,
+   "last_bid": 0.66,
    "opened": 1795890021.8013463,
    "reasons": [
     "spread 1\u00a2, volume 4,778",
@@ -5395,11 +5401,14 @@
    "edge": 0.12568080829312128,
    "entry": 0.05,
    "event": "KXBTCD-26NOV2814",
+   "exit_px": 0.01,
+   "exit_reason": "stop loss",
+   "exit_t": 1795891817.9598017,
    "fair": 0.18568080829312128,
    "fee": 0.01,
    "key": "KXBTCD-26NOV2814-T59299.99:NO",
    "label": "Bitcoin price on Nov 28, 2026? \u2014 $59,300 or above",
-   "last_bid": 0.02,
+   "last_bid": 0.01,
    "opened": 1795891217.5676684,
    "reasons": [
     "209% expected return on cost",
@@ -5412,6 +5421,40 @@
    "stake": 6.685149377293685,
    "ticker": "KXBTCD-26NOV2814-T59299.99",
    "tp": 0.19,
+   "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-28-2026-at-2pm-est/kxbtcd-26nov2814",
+   "votes": {
+    "Doubt": true,
+    "Momentum": true,
+    "Risk": true,
+    "The Quant": true,
+    "Time": true
+   }
+  },
+  {
+   "bet": "Bitcoin is ABOVE $59,500 at 2:00 PM ET today",
+   "cat": "Bitcoin",
+   "close_ts": 1795892400.8944466,
+   "contracts": 124,
+   "edge": 0.23334925290069886,
+   "entry": 0.07,
+   "event": "KXBTCD-26NOV2814",
+   "fair": 0.31334925290069887,
+   "fee": 0.01,
+   "key": "KXBTCD-26NOV2814-T59499.99:YES",
+   "label": "Bitcoin price on Nov 28, 2026? \u2014 $59,500 or above",
+   "last_bid": null,
+   "opened": 1795891817.9598017,
+   "reasons": [
+    "292% expected return on cost",
+    "spread 1\u00a2, volume 90,560",
+    "Bitcoin +0.08% in 30 min, not fighting this bet"
+   ],
+   "row": "$59,500 or above",
+   "side": "YES",
+   "sl": 0.01,
+   "stake": 10.0,
+   "ticker": "KXBTCD-26NOV2814-T59499.99",
+   "tp": 0.31,
    "url": "https://kalshi.com/markets/kxbtcd/btc-price-on-nov-28-2026-at-2pm-est/kxbtcd-26nov2814",
    "votes": {
     "Doubt": true,
